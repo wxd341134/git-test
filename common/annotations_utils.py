@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
-from pages.search_annotations_page import SearchAnnotationsPage
+from pages.annotations_page import SearchAnnotationsPage
 from utils.logger import Logger
 
 logger = Logger().get_logger()

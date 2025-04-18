@@ -1,6 +1,6 @@
 import allure
 import pytest
-from common.search_annotations_utils import SearchAnnotationsUtils
+from common.annotations_utils import SearchAnnotationsUtils
 from test_001.base_test import BaseTest
 from utils.logger import Logger
 
