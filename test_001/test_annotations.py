@@ -12,9 +12,32 @@ logger = Logger().get_logger()
 class TestSearchAnnotations(BaseTest):
     """检索批注测试类"""
 
-    def setup_method(self):
-        """方法级别的初始化"""
-        self.annotations = SearchAnnotationsUtils(self.driver)
+    @pytest.fixture(autouse=True)
+    def setup_teardown(self, driver):
+        """
+        测试用例级别的设置和清理
+        Args:
+            driver: 从基类获取的 WebDriver 实例
+        """
+        logger.info("开始测试前置操作...")
+        try:
+            # 初始化检索批注工具类
+            self.annotations = SearchAnnotationsUtils(driver)
+            logger.info("检索批注工具类初始化完成")
+
+            # 执行测试用例
+            yield
+
+            logger.info("开始测试后置操作...")
+
+        except Exception as e:
+            logger.error(f"测试前置/后置操作失败: {str(e)}")
+            allure.attach(
+                driver.get_screenshot_as_png(),
+                "设置或清理失败截图",
+                allure.attachment_type.PNG
+            )
+            raise
 
     @allure.story("基础批注功能")
     @allure.title("测试添加批注")
