@@ -1,0 +1,34 @@
+INFO     automation:base_test.py:16 开始测试用例执行
+INFO     automation:login_page.py:174 成功打开登录页面
+INFO     automation:login_page.py:118 开始输入用户名: wxdfg
+INFO     automation:login_page.py:125 用户名输入完成
+INFO     automation:login_page.py:130 开始输入密码
+INFO     automation:login_page.py:137 密码输入完成
+INFO     automation:login_page.py:79 ==================================================
+INFO     automation:login_page.py:80 请在弹出窗口中输入验证码
+INFO     automation:login_page.py:81 ==================================================
+INFO     automation:login_page.py:93 验证码已自动填入
+INFO     automation:login_page.py:146 尝试点击登录按钮
+INFO     automation:login_page.py:157 登录按钮点击成功
+INFO     automation:login_page.py:162 登录成功
+INFO     automation:base_test.py:24 登录成功
+INFO     automation:base_page.py:35 点击元素: ('xpath', "//span[@class='ant-dropdown-link user-dropdown-menu ant-dropdown-trigger']")
+INFO     automation:base_page.py:35 点击元素: ('xpath', "//li[contains(text(),'报表统计')]")
+INFO     automation:base_page.py:35 点击元素: ('xpath', "//div[@title='按承办部门']")
+INFO     automation:base_page.py:35 点击元素: ('xpath', "//li[contains(text(),'按承办人')]")
+INFO     automation:base_page.py:35 点击元素: ('xpath', '//body//div//button[1]')
+INFO     automation:base_page.py:35 点击元素: ('xpath', '//body//div//button[3]')
+INFO     automation:usercenter_utils.py:31 报表统计操作完成
+INFO     automation:base_page.py:35 点击元素: ('xpath', "//span[@class='ant-dropdown-link user-dropdown-menu ant-dropdown-trigger']")
+INFO     automation:base_page.py:35 点击元素: ('xpath', "//li[contains(text(),'字体下载')]")
+INFO     automation:base_page.py:35 点击元素: ('xpath', "//div[@class='ant-modal-body']//button[2]")
+INFO     automation:base_page.py:35 点击元素: ('xpath', "//span[@class='ant-modal-close-x']")
+INFO     automation:usercenter_utils.py:51 字体下载操作完成
+INFO     automation:base_page.py:35 点击元素: ('xpath', "//span[@class='ant-dropdown-link user-dropdown-menu ant-dropdown-trigger']")
+INFO     automation:base_page.py:35 点击元素: ('xpath', "//li[contains(text(),'修改密码')]")
+INFO     automation:base_page.py:47 输入文本: wxd341134@, 元素: ('xpath', "//input[@placeholder='请输入原密码']")
+INFO     automation:base_page.py:47 输入文本: wxd341134@, 元素: ('xpath', "//input[@placeholder='请输入新密码']")
+INFO     automation:base_page.py:47 输入文本: wxd341134@, 元素: ('xpath', "//input[@placeholder='请再次输入新密码']")
+INFO     automation:base_page.py:35 点击元素: ('xpath', "//div[@class='ant-modal-footer']//button[2]")
+INFO     automation:usercenter_utils.py:68 密码修改操作完成
+INFO     automation:base_test.py:29 测试用例执行完成

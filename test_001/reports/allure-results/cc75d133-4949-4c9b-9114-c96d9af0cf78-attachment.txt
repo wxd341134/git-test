@@ -1,0 +1,15 @@
+INFO     automation:driver_manager.py:36 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:66 Chrome选项配置完成
+INFO     automation:driver_manager.py:72 ChromeDriver 安装/更新成功
+INFO     automation:driver_manager.py:82 Chrome版本: 134.0.6998.118
+INFO     automation:driver_manager.py:83 ChromeDriver版本: 134.0.6998.165 (fd886e2cb29dd984c13deec032832dee68d8abe3-refs/branch-heads/6998@{#2122})
+INFO     automation:driver_manager.py:88 成功创建Chrome WebDriver实例
+INFO     automation:test_CaseMg.py:27 尝试加载测试数据文件: E:\AutoTest\FgAI\data\case_data.json
+INFO     automation:test_CaseMg.py:56 测试数据加载成功
+INFO     automation:test_CaseMg.py:91 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+INFO     automation:login_page.py:33 开始登录系统，用户名: wxdfg
+INFO     automation:base_page.py:62 截图已添加到Allure报告: login_page
+INFO     automation:login_page.py:42 开始输入用户名...
+INFO     automation:login_page.py:52 开始输入密码...
+INFO     automation:driver_manager.py:115 正在关闭WebDriver实例...
+INFO     automation:driver_manager.py:123 成功关闭WebDriver实例

@@ -1,0 +1,3 @@
+2025-04-14 17:14:08,461 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 17:14:08,461 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 17:14:09,614 - automation - INFO - Chrome WebDriver 创建成功

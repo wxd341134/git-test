@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"测试辅助阅卷流程","0","辅助阅卷测试","test_001","Mon Apr 07 09:44:00 CST 2025","broken","Mon Apr 07 09:44:00 CST 2025","TestAssistedReading","test_AssistedG","",""
+"测试卷宗上传流程","0","卷宗上传流程测试","test_001","Mon Apr 07 09:44:00 CST 2025","broken","Mon Apr 07 09:44:00 CST 2025","TestDossierUpload","test_DossierUp","",""
+"测试个人中心完整流程","0","test_personal_center_workflow","test_001","Mon Apr 07 09:43:52 CST 2025","broken","Mon Apr 07 09:43:52 CST 2025","TestPersonalCenter","test_UserCenter","",""

@@ -1,0 +1,31 @@
+INFO     MessageTest:base_test.py:18 初始化测试类...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     MessageTest:login_page.py:190 成功打开登录页面
+INFO     MessageTest:login_page.py:134 开始输入用户名: wxdfg
+INFO     MessageTest:login_page.py:141 用户名输入完成
+INFO     MessageTest:login_page.py:146 开始输入密码
+INFO     MessageTest:login_page.py:153 密码输入完成
+INFO     MessageTest:login_page.py:95 ==================================================
+INFO     MessageTest:login_page.py:96 请在弹出窗口中输入验证码
+INFO     MessageTest:login_page.py:97 ==================================================
+INFO     MessageTest:login_page.py:109 验证码已自动填入
+INFO     MessageTest:login_page.py:162 尝试点击登录按钮
+INFO     MessageTest:login_page.py:173 登录按钮点击成功
+INFO     MessageTest:login_page.py:178 登录成功
+INFO     MessageTest:base_test.py:26 登录成功
+INFO     MessageTest:test_read_notes.py:23 初始化阅卷笔记模块...
+INFO     MessageTest:read_notes_utils.py:63 开始打开阅卷笔记
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 阅卷笔记按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 阅卷笔记按钮
+INFO     MessageTest:read_notes_utils.py:67 阅卷笔记打开成功
+INFO     MessageTest:test_read_notes.py:28 阅卷笔记页面已打开
+INFO     MessageTest:test_read_notes.py:136 开始测试笔记导出功能...
+INFO     MessageTest:read_notes_utils.py:210 开始导出阅卷笔记
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 导出按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 导出按钮
+INFO     MessageTest:read_notes_utils.py:214 阅卷笔记导出成功
+INFO     MessageTest:test_read_notes.py:142 笔记导出测试完成
+INFO     MessageTest:base_test.py:40 清理测试类...
+INFO     MessageTest:base_test.py:44 浏览器已关闭

@@ -1,0 +1,22 @@
+INFO     root:driver_manager.py:44 开始创建Chrome WebDriver实例...
+INFO     root:driver_manager.py:68 Chrome选项配置完成
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [C:\Users\Administrator\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+INFO     root:driver_manager.py:73 ChromeDriver 安装/更新成功
+INFO     root:driver_manager.py:84 Chrome版本: 134.0.6998.118
+INFO     root:driver_manager.py:85 ChromeDriver版本: 134.0.6998.165
+INFO     root:driver_manager.py:89 成功创建Chrome WebDriver实例
+INFO     automation:test_UserCenter.py:40 开始执行个人中心测试
+INFO     automation:login_page.py:33 开始登录系统，用户名: wxdfg
+INFO     automation:base_page.py:62 截图已添加到Allure报告: login_page
+INFO     automation:login_page.py:42 开始输入用户名...
+INFO     automation:login_page.py:52 开始输入密码...
+INFO     automation:login_page.py:63 请查看浏览器中的验证码图片
+INFO     automation:base_page.py:62 截图已添加到Allure报告: captcha_image
+ERROR    automation:login_page.py:87 未输入验证码，登录失败
+ERROR    automation:test_UserCenter.py:70 个人中心测试流程失败: 未输入验证码
+INFO     automation:test_UserCenter.py:42 个人中心测试执行完成
+INFO     root:driver_manager.py:108 正在关闭WebDriver实例...
+INFO     root:driver_manager.py:116 成功关闭WebDriver实例

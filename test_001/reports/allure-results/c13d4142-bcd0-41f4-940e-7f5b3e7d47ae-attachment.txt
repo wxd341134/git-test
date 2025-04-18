@@ -1,0 +1,79 @@
+INFO     automation:AssistedG2.py:20 初始化测试类...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     automation:AssistedG2.py:46 开始登录系统
+INFO     automation:login_page.py:174 成功打开登录页面
+INFO     automation:login_page.py:118 开始输入用户名: wxdfg
+INFO     automation:login_page.py:125 用户名输入完成
+INFO     automation:login_page.py:130 开始输入密码
+INFO     automation:login_page.py:137 密码输入完成
+INFO     automation:login_page.py:79 ==================================================
+INFO     automation:login_page.py:80 请在弹出窗口中输入验证码
+INFO     automation:login_page.py:81 ==================================================
+INFO     automation:login_page.py:93 验证码已自动填入
+INFO     automation:login_page.py:146 尝试点击登录按钮
+INFO     automation:login_page.py:157 登录按钮点击成功
+INFO     automation:login_page.py:162 登录成功
+INFO     automation:AssistedG2.py:49 登录成功
+INFO     automation:assisted_reading_page.py:93 点击辅助阅卷
+INFO     automation:assisted_reading_page.py:99 成功点击辅助阅卷
+INFO     automation:assisted_reading_page.py:104 点击庭审笔录1
+INFO     automation:assisted_reading_page.py:110 成功点击庭审笔录1
+INFO     automation:assisted_reading_page.py:115 点击设为庭审笔录
+INFO     automation:assisted_reading_page.py:121 成功点击设为庭审笔录
+INFO     automation:assisted_reading_page.py:126 输入原告处理意见1
+INFO     automation:assisted_reading_page.py:133 成功输入原告处理意见1
+INFO     automation:assisted_reading_page.py:135 输入原告处理意见2
+INFO     automation:assisted_reading_page.py:142 成功输入原告处理意见2
+INFO     automation:assisted_reading_page.py:147 点击确定按钮
+INFO     automation:assisted_reading_page.py:153 成功点击确定按钮
+INFO     automation:assisted_reading_page.py:158 点击取消设置庭审笔录
+INFO     automation:assisted_reading_page.py:104 点击庭审笔录1
+INFO     automation:assisted_reading_page.py:110 成功点击庭审笔录1
+INFO     automation:assisted_reading_page.py:184 点击确定取消设置
+INFO     automation:assisted_reading_page.py:530 尝试标准点击确认按钮
+INFO     automation:assisted_reading_page.py:186 成功取消设置庭审笔录
+INFO     automation:assisted_reading_page.py:191 点击下载按钮
+INFO     automation:assisted_reading_page.py:198 选择PDF下载
+INFO     automation:assisted_reading_page.py:204 成功下载笔录PDF
+INFO     automation:AssistedG2.py:84 尝试添加庭审笔录2为证据
+INFO     automation:assisted_reading_page.py:213 添加庭审笔录2为证据
+INFO     automation:assisted_reading_page.py:221 检查当前页面状态
+INFO     automation:assisted_reading_page.py:222 当前页面URL: http://192.168.2.176:86/#/auxiliaryMarking/index?caseCode=00a4571ea2d44d6bab87af27e07221b1
+INFO     automation:assisted_reading_page.py:223 当前页面标题: 法官AI助手 - 辅助阅卷
+INFO     automation:assisted_reading_page.py:230 尝试点击庭审笔录2
+INFO     automation:assisted_reading_page.py:261 成功点击庭审笔录2
+INFO     automation:assisted_reading_page.py:285 点击添加为证据按钮
+INFO     automation:assisted_reading_page.py:296 成功点击添加为证据按钮
+INFO     automation:assisted_reading_page.py:310 选择庭审笔录3
+ERROR    automation:AssistedG2.py:147 辅助阅卷测试失败: Message: element click intercepted: Element <span class="ant-tree-checkbox-inner"></span> is not clickable at point (67, 384). Other element would receive the click: <div tabindex="-1" role="dialog" aria-labelledby="rcDialogTitle0" class="ant-modal-wrap animate__animated animate__fadeInDownBig">...</div>
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E375E9]
+	(No symbol) [0x00007FF6F5E34FA2]
+	(No symbol) [0x00007FF6F5E32051]
+	(No symbol) [0x00007FF6F5E30F76]
+	(No symbol) [0x00007FF6F5E227E4]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+INFO     automation:AssistedG2.py:30 测试类执行完成，进行清理...
+INFO     automation:AssistedG2.py:34 浏览器已关闭

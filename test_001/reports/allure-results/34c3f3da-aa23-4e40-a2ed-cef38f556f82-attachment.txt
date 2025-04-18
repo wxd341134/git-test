@@ -1,0 +1,107 @@
+2025-04-11 13:15:54,838 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 13:15:54,838 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 13:15:54,838 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 13:15:54,838 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 13:15:56,814 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 13:15:56,831 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 13:15:56,831 - automation - INFO - 开始登录系统
+2025-04-11 13:15:59,426 - automation - INFO - 成功打开登录页面
+2025-04-11 13:15:59,426 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 13:15:59,533 - automation - INFO - 用户名输入完成
+2025-04-11 13:15:59,533 - automation - INFO - 开始输入密码
+2025-04-11 13:15:59,649 - automation - INFO - 密码输入完成
+2025-04-11 13:15:59,665 - automation - INFO - ==================================================
+2025-04-11 13:15:59,665 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 13:15:59,665 - automation - INFO - ==================================================
+2025-04-11 13:16:06,001 - automation - INFO - 验证码已自动填入
+2025-04-11 13:16:07,020 - automation - INFO - 尝试点击登录按钮
+2025-04-11 13:16:07,087 - automation - INFO - 登录按钮点击成功
+2025-04-11 13:16:07,087 - automation - INFO - 登录成功
+2025-04-11 13:16:07,087 - automation - INFO - 登录系统完成
+2025-04-11 13:16:07,087 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 13:16:13,400 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 13:16:15,414 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 13:16:15,469 - automation - INFO - 成功点击判决书
+2025-04-11 13:16:17,479 - automation - INFO - 测试缩小文档视图
+2025-04-11 13:16:17,603 - automation - INFO - 成功点击缩小按钮
+2025-04-11 13:16:18,609 - automation - INFO - 测试放大文档视图
+2025-04-11 13:16:18,704 - automation - INFO - 成功点击放大按钮
+2025-04-11 13:16:19,705 - automation - INFO - 测试文档下载功能
+2025-04-11 13:16:19,767 - automation - INFO - 成功点击下载按钮
+2025-04-11 13:16:20,842 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 13:16:22,849 - automation - INFO - 关闭判决书预览弹框
+2025-04-11 13:16:22,922 - automation - INFO - 已点击关闭按钮
+2025-04-11 13:16:36,975 - automation - INFO - 确认判决书预览弹框已完全关闭
+2025-04-11 13:16:36,975 - automation - INFO - 开始选中文本并使用AI智能问答
+2025-04-11 13:16:36,986 - automation - INFO - 找到TinyMCE编辑器区域
+2025-04-11 13:16:37,000 - automation - INFO - 已切换到编辑器iframe
+2025-04-11 13:16:58,964 - automation - WARNING - 搜索方式选择文本失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-11 13:17:00,590 - automation - INFO - 使用三次点击选择了文本
+2025-04-11 13:17:00,595 - automation - WARNING - 切回主文档失败: Message: no such element: element not found
+  (Session info: chrome=134.0.6998.177); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DEF304]
+	(No symbol) [0x00007FF6F5DEDDD3]
+	(No symbol) [0x00007FF6F5DE1869]
+	(No symbol) [0x00007FF6F5DDF632]
+	(No symbol) [0x00007FF6F5DE38FC]
+	(No symbol) [0x00007FF6F5DE39CF]
+	(No symbol) [0x00007FF6F5E296AB]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-11 13:17:00,597 - automation - INFO - 点击AI智能问答按钮
+2025-04-11 13:17:00,680 - automation - INFO - 成功点击AI智能问答按钮
+2025-04-11 13:17:00,680 - automation - INFO - 等待3秒...
+2025-04-11 13:17:03,694 - automation - INFO - 关闭AI智能问答弹框
+2025-04-11 13:17:03,769 - automation - INFO - 成功关闭AI智能问答弹框
+2025-04-11 13:17:04,779 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 13:17:04,889 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_131704.png
+2025-04-11 13:17:04,890 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 13:17:04,890 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 13:17:04,893 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 13:17:04,893 - automation - INFO - 正在关闭浏览器...
+2025-04-11 13:17:07,072 - automation - INFO - 浏览器已关闭
+2025-04-11 13:17:07,073 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 13:17:27,311 - automation - INFO - 已关闭浏览器实例

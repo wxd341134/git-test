@@ -1,0 +1,4 @@
+assert False
+ +  where False = <function AssistedReadUtils.add_court_record3_as_evidence at 0x000001F3BD4204C0>(<pages.assisted_read_page.AssistedReadPage object at 0x000001F3BDC5C640>)
+ +    where <function AssistedReadUtils.add_court_record3_as_evidence at 0x000001F3BD4204C0> = AssistedReadUtils.add_court_record3_as_evidence
+ +    and   <pages.assisted_read_page.AssistedReadPage object at 0x000001F3BDC5C640> = <FgAI.test_001.test_assisted_read.TestAssistedReading object at 0x000001F3BD41A310>.assisted_page

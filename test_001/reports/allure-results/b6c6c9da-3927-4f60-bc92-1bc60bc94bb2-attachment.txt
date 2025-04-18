@@ -1,0 +1,46 @@
+2025-04-10 16:10:19,072 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-10 16:10:19,072 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-10 16:10:19,072 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-10 16:10:19,072 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-10 16:10:21,001 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-10 16:10:21,067 - automation - INFO - 开始阅卷笔记测试
+2025-04-10 16:10:21,067 - automation - INFO - 开始登录系统
+2025-04-10 16:10:24,210 - automation - INFO - 成功打开登录页面
+2025-04-10 16:10:24,210 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-10 16:10:24,341 - automation - INFO - 用户名输入完成
+2025-04-10 16:10:24,341 - automation - INFO - 开始输入密码
+2025-04-10 16:10:24,496 - automation - INFO - 密码输入完成
+2025-04-10 16:10:24,515 - automation - INFO - ==================================================
+2025-04-10 16:10:24,515 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-10 16:10:24,520 - automation - INFO - ==================================================
+2025-04-10 16:10:30,508 - automation - INFO - 验证码已自动填入
+2025-04-10 16:10:31,522 - automation - INFO - 尝试点击登录按钮
+2025-04-10 16:10:31,589 - automation - INFO - 登录按钮点击成功
+2025-04-10 16:10:31,589 - automation - INFO - 登录成功
+2025-04-10 16:10:31,589 - automation - INFO - 登录系统完成
+2025-04-10 16:10:31,589 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-10 16:10:32,292 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-10 16:10:34,305 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-10 16:10:34,342 - automation - INFO - 成功点击判决书
+2025-04-10 16:10:36,349 - automation - INFO - 测试缩小文档视图
+2025-04-10 16:10:36,433 - automation - INFO - 使用标准点击方法成功点击缩小按钮
+2025-04-10 16:10:37,445 - automation - INFO - 测试放大文档视图
+2025-04-10 16:10:37,525 - automation - INFO - 使用标准点击方法成功点击放大按钮
+2025-04-10 16:10:38,537 - automation - INFO - 测试文档下载功能
+2025-04-10 16:10:38,582 - automation - INFO - 使用标准点击方法成功点击下载按钮
+2025-04-10 16:10:39,647 - automation - INFO - 使用标准点击方法成功选择PDF下载选项
+2025-04-10 16:10:41,652 - automation - INFO - 下载前目录中有 6 个文件
+2025-04-10 16:10:51,713 - automation - WARNING - 未检测到新下载的文件，下载可能失败或尚未完成
+2025-04-10 16:10:51,713 - automation - INFO - 关闭文档查看弹框
+2025-04-10 16:10:51,750 - automation - INFO - 成功关闭文档查看弹框
+2025-04-10 16:11:03,801 - automation - INFO - 确认文档查看弹框已关闭
+2025-04-10 16:11:03,801 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-10 16:11:03,915 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250410\test_complete_161103.png
+2025-04-10 16:11:03,916 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-10 16:11:03,916 - automation - INFO - 阅卷笔记测试结束
+2025-04-10 16:11:03,916 - automation - INFO - 正在关闭浏览器...
+2025-04-10 16:11:06,210 - automation - INFO - 浏览器已关闭
+2025-04-10 16:11:06,212 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-10 16:11:06,213 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-10 16:11:06,214 - automation - INFO - 已生成测试报告概要: E:\AutoTest\FgAI\logs\test_summary_20250410_161106.txt
+2025-04-10 16:11:06,214 - automation - WARNING - 关闭浏览器实例时出错: 'DriverManager' object has no attribute 'quit_all_drivers'

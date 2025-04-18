@@ -1,0 +1,22 @@
+2025-03-26 14:00:47,791 - automation - INFO - 开始初始化WebDriver...
+2025-03-26 14:00:47,791 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-26 14:00:47,791 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-26 14:00:48,984 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-26 14:00:48,988 - automation - INFO - WebDriver实例验证成功
+2025-03-26 14:00:48,988 - automation - INFO - 开始执行个人中心测试
+2025-03-26 14:00:51,347 - automation - INFO - 成功打开登录页面
+2025-03-26 14:00:51,347 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-26 14:00:51,465 - automation - INFO - 用户名输入完成
+2025-03-26 14:00:51,465 - automation - INFO - 开始输入密码
+2025-03-26 14:00:51,568 - automation - INFO - 密码输入完成
+2025-03-26 14:00:51,582 - automation - INFO - ==================================================
+2025-03-26 14:00:51,583 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-26 14:00:51,583 - automation - INFO - ==================================================
+2025-03-26 14:00:57,785 - automation - INFO - 验证码已自动填入
+2025-03-26 14:00:58,801 - automation - INFO - 尝试点击登录按钮
+2025-03-26 14:00:58,868 - automation - INFO - 登录按钮点击成功
+2025-03-26 14:00:58,868 - automation - INFO - 等待用户信息元素出现
+2025-03-26 14:01:29,987 - automation - ERROR - 登录超时，未检测到用户信息
+2025-03-26 14:01:30,086 - automation - ERROR - 登录过程失败: 登录超时，未检测到用户信息
+2025-03-26 14:01:30,165 - automation - ERROR - 个人中心测试流程失败: 登录过程失败: 登录超时，未检测到用户信息
+2025-03-26 14:01:30,396 - automation - INFO - 个人中心测试执行完成

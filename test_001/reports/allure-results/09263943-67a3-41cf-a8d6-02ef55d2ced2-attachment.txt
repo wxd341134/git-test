@@ -1,0 +1,83 @@
+2025-04-14 11:18:32,939 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 11:18:32,940 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 11:18:34,383 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 11:18:45,597 - automation - INFO - ========== 开始执行测试方法: test_case_crud ==========
+2025-04-14 11:18:45,598 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 11:18:45,598 - automation - INFO - 测试数据加载成功
+2025-04-14 11:18:45,598 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-04-14 11:18:45,599 - automation - INFO - 开始导航到案例管理页面
+2025-04-14 11:18:55,659 - automation - ERROR - 导航到案例管理页面失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 11:18:56,777 - automation - INFO - 成功导航到案例管理页面
+2025-04-14 11:18:56,778 - automation - INFO - 开始添加案例: (2025)苏0105民初0001号
+2025-04-14 11:19:06,894 - automation - ERROR - 添加案例失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 11:19:06,979 - automation - ERROR - 测试过程中出现错误: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 11:19:07,156 - automation - INFO - ========== 结束执行测试方法: test_case_crud ==========

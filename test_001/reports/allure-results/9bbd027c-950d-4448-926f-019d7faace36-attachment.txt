@@ -1,0 +1,5 @@
+2025-04-14 16:19:10,250 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 16:19:10,251 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 16:19:11,391 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 16:19:20,953 - automation - INFO - 执行测试类前置操作：登录系统
+2025-04-14 16:19:20,953 - automation - ERROR - 登录失败: 'TestAssistedRead' object has no attribute 'login'

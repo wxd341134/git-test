@@ -1,0 +1,8 @@
+2025-04-14 10:58:15,253 - automation - INFO - 开始初始化WebDriver...
+2025-04-14 10:58:15,253 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 10:58:15,253 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 10:58:16,378 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 10:58:16,385 - automation - INFO - WebDriver实例验证成功
+2025-04-14 10:58:16,386 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 10:58:16,386 - automation - INFO - 测试数据加载成功
+2025-04-14 10:58:16,387 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号

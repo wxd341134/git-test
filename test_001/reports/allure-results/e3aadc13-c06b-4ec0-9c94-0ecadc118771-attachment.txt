@@ -1,0 +1,91 @@
+INFO     MessageTest:base_test.py:18 初始化测试类...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     MessageTest:login_page.py:190 成功打开登录页面
+INFO     MessageTest:login_page.py:134 开始输入用户名: wxdfg
+INFO     MessageTest:login_page.py:141 用户名输入完成
+INFO     MessageTest:login_page.py:146 开始输入密码
+INFO     MessageTest:login_page.py:153 密码输入完成
+INFO     MessageTest:login_page.py:95 ==================================================
+INFO     MessageTest:login_page.py:96 请在弹出窗口中输入验证码
+INFO     MessageTest:login_page.py:97 ==================================================
+INFO     MessageTest:login_page.py:109 验证码已自动填入
+INFO     MessageTest:login_page.py:162 尝试点击登录按钮
+INFO     MessageTest:login_page.py:173 登录按钮点击成功
+INFO     MessageTest:login_page.py:178 登录成功
+INFO     MessageTest:base_test.py:26 登录成功
+INFO     MessageTest:test_assisted_read.py:29 ==================================================
+INFO     MessageTest:test_assisted_read.py:30 开始执行辅助阅卷测试类
+INFO     MessageTest:test_assisted_read.py:31 测试开始时间: 2025-04-14 10:28:11
+INFO     MessageTest:test_assisted_read.py:32 执行用户: wxd341134
+INFO     MessageTest:test_assisted_read.py:33 ==================================================
+INFO     MessageTest:test_assisted_read.py:37 辅助阅卷页面对象初始化完成
+INFO     MessageTest:test_assisted_read.py:81 步骤1: 点击辅助阅卷按钮
+INFO     MessageTest:assisted_read_utils.py:49 点击辅助阅卷按钮
+INFO     MessageTest:assisted_read_utils.py:56 成功点击辅助阅卷
+INFO     MessageTest:test_assisted_read.py:175 截图成功: step1_auxiliary_reading_clicked
+INFO     MessageTest:test_assisted_read.py:87 步骤2: 点击庭审笔录1
+INFO     MessageTest:assisted_read_utils.py:66 点击庭审笔录1
+INFO     MessageTest:assisted_read_utils.py:73 成功点击庭审笔录1
+INFO     MessageTest:test_assisted_read.py:175 截图成功: step2_court_record1_clicked
+INFO     MessageTest:test_assisted_read.py:93 步骤3: 设置庭审笔录并输入处理意见
+INFO     MessageTest:assisted_read_utils.py:83 设置为庭审笔录
+INFO     MessageTest:assisted_read_utils.py:90 成功设置为庭审笔录
+INFO     MessageTest:assisted_read_utils.py:100 输入处理意见: 无意见1, 无意见2
+INFO     MessageTest:assisted_read_utils.py:119 成功输入处理意见
+INFO     MessageTest:assisted_read_utils.py:129 确认设置
+INFO     MessageTest:assisted_read_utils.py:136 成功确认设置
+INFO     MessageTest:test_assisted_read.py:175 截图成功: step3_set_court_record_complete
+INFO     MessageTest:test_assisted_read.py:101 步骤4: 取消设置庭审笔录
+INFO     MessageTest:assisted_read_utils.py:146 开始取消设置庭审笔录...
+INFO     MessageTest:assisted_read_utils.py:152 点击庭审笔录1
+INFO     MessageTest:assisted_read_utils.py:161 尝试点击取消设置按钮
+INFO     MessageTest:assisted_read_utils.py:175 点击确认取消按钮
+INFO     MessageTest:assisted_read_utils.py:186 成功取消设置庭审笔录
+INFO     MessageTest:test_assisted_read.py:175 截图成功: step4_cancel_set_record_complete
+INFO     MessageTest:test_assisted_read.py:107 步骤5: 下载笔录PDF
+INFO     MessageTest:assisted_read_utils.py:209 开始下载PDF
+INFO     MessageTest:assisted_read_utils.py:226 PDF下载成功
+INFO     MessageTest:test_assisted_read.py:175 截图成功: step5_pdf_download_complete
+INFO     MessageTest:test_assisted_read.py:113 步骤6: 添加庭审笔录2为证据
+INFO     MessageTest:assisted_read_utils.py:236 添加庭审笔录2为证据
+INFO     MessageTest:assisted_read_utils.py:273 成功添加庭审笔录2为证据
+INFO     MessageTest:test_assisted_read.py:175 截图成功: step6_add_evidence2_complete
+INFO     MessageTest:test_assisted_read.py:119 步骤7: 添加庭审笔录3为证据
+INFO     MessageTest:assisted_read_utils.py:283 添加庭审笔录3为证据
+ERROR    MessageTest:assisted_read_utils.py:323 添加庭审笔录3为证据失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C1FBDF85+26693]
+	(No symbol) [0x00007FF6C1F1EAD0]
+	(No symbol) [0x00007FF6C1DA91CA]
+	(No symbol) [0x00007FF6C1DFF747]
+	(No symbol) [0x00007FF6C1DFF97C]
+	(No symbol) [0x00007FF6C1E533C7]
+	(No symbol) [0x00007FF6C1E2792F]
+	(No symbol) [0x00007FF6C1E500B8]
+	(No symbol) [0x00007FF6C1E276C3]
+	(No symbol) [0x00007FF6C1DF0490]
+	(No symbol) [0x00007FF6C1DF1743]
+	GetHandleVerifier [0x00007FF6C231436D+3525677]
+	GetHandleVerifier [0x00007FF6C2327F3B+3606523]
+	GetHandleVerifier [0x00007FF6C231CEE3+3561379]
+	GetHandleVerifier [0x00007FF6C2087C0A+853194]
+	(No symbol) [0x00007FF6C1F2990F]
+	(No symbol) [0x00007FF6C1F25674]
+	(No symbol) [0x00007FF6C1F25816]
+	(No symbol) [0x00007FF6C1F14D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+ERROR    MessageTest:test_assisted_read.py:156 辅助阅卷测试失败: assert False
+ +  where False = <function AssistedReadUtils.add_court_record3_as_evidence at 0x000001F3BD4204C0>(<pages.assisted_read_page.AssistedReadPage object at 0x000001F3BDC5C640>)
+ +    where <function AssistedReadUtils.add_court_record3_as_evidence at 0x000001F3BD4204C0> = AssistedReadUtils.add_court_record3_as_evidence
+ +    and   <pages.assisted_read_page.AssistedReadPage object at 0x000001F3BDC5C640> = <FgAI.test_001.test_assisted_read.TestAssistedReading object at 0x000001F3BD41A310>.assisted_page
+INFO     MessageTest:test_assisted_read.py:175 截图成功: test_failed
+INFO     MessageTest:test_assisted_read.py:53 ==================================================
+INFO     MessageTest:test_assisted_read.py:54 辅助阅卷测试类执行完成
+INFO     MessageTest:test_assisted_read.py:55 测试结束时间: 2025-04-15 05:14:04
+INFO     MessageTest:test_assisted_read.py:56 ==================================================
+INFO     MessageTest:base_test.py:40 清理测试类...
+INFO     MessageTest:base_test.py:44 浏览器已关闭

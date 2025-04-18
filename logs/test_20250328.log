@@ -1,0 +1,1897 @@
+2025-03-28 09:12:00,259 - automation - INFO - 初始化测试类...
+2025-03-28 09:12:00,260 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 09:12:00,260 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 09:12:02,258 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 09:12:02,269 - automation - INFO - 开始登录系统
+2025-03-28 09:12:04,665 - automation - INFO - 成功打开登录页面
+2025-03-28 09:12:04,665 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 09:12:04,854 - automation - INFO - 用户名输入完成
+2025-03-28 09:12:04,854 - automation - INFO - 开始输入密码
+2025-03-28 09:12:04,955 - automation - INFO - 密码输入完成
+2025-03-28 09:12:04,970 - automation - INFO - ==================================================
+2025-03-28 09:12:04,970 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 09:12:04,971 - automation - INFO - ==================================================
+2025-03-28 09:12:09,979 - automation - INFO - 验证码已自动填入
+2025-03-28 09:12:10,987 - automation - INFO - 尝试点击登录按钮
+2025-03-28 09:12:11,043 - automation - INFO - 登录按钮点击成功
+2025-03-28 09:12:11,045 - automation - INFO - 登录成功
+2025-03-28 09:12:13,046 - automation - INFO - 登录成功
+2025-03-28 09:12:13,175 - automation - INFO - 点击辅助阅卷
+2025-03-28 09:12:15,233 - automation - INFO - 步骤1执行成功：点击辅助阅卷
+2025-03-28 09:12:15,310 - automation - INFO - 点击庭审笔录1
+2025-03-28 09:12:17,372 - automation - INFO - 步骤2执行成功：点击庭审笔录1
+2025-03-28 09:12:17,372 - automation - INFO - 点击设为庭审笔录
+2025-03-28 09:12:18,451 - automation - INFO - 步骤3执行成功：点击设为庭审笔录
+2025-03-28 09:12:18,451 - automation - INFO - 输入原告处理意见1
+2025-03-28 09:12:19,550 - automation - INFO - 步骤4执行成功：输入原告处理意见1
+2025-03-28 09:12:19,551 - automation - INFO - 输入原告处理意见2
+2025-03-28 09:12:20,650 - automation - INFO - 步骤5执行成功：输入原告处理意见2
+2025-03-28 09:12:20,650 - automation - INFO - 点击确定按钮
+2025-03-28 09:12:22,729 - automation - INFO - 步骤6执行成功：点击确定按钮
+2025-03-28 09:12:22,930 - automation - INFO - 点击取消设置庭审笔录
+2025-03-28 09:12:25,061 - automation - INFO - 点击确定取消设置
+2025-03-28 09:12:26,184 - automation - ERROR - 辅助阅卷测试失败: Message: element click intercepted: Element <button type="button" class="ant-btn ant-btn-primary ant-btn-sm">...</button> is not clickable at point (414, 274). Other element would receive the click: <div role="tooltip" class="ant-tooltip-inner">...</div>
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E375E9]
+	(No symbol) [0x00007FF6F5E34FA2]
+	(No symbol) [0x00007FF6F5E32051]
+	(No symbol) [0x00007FF6F5E30F76]
+	(No symbol) [0x00007FF6F5E227E4]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-28 09:12:26,618 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-28 09:12:28,819 - automation - INFO - 浏览器已关闭
+2025-03-28 09:20:31,765 - automation - INFO - 初始化测试类...
+2025-03-28 09:20:31,765 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 09:20:31,765 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 09:20:33,223 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 09:20:33,224 - automation - INFO - 开始登录系统
+2025-03-28 09:20:35,628 - automation - INFO - 成功打开登录页面
+2025-03-28 09:20:35,628 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 09:20:35,735 - automation - INFO - 用户名输入完成
+2025-03-28 09:20:35,735 - automation - INFO - 开始输入密码
+2025-03-28 09:20:35,833 - automation - INFO - 密码输入完成
+2025-03-28 09:20:35,848 - automation - INFO - ==================================================
+2025-03-28 09:20:35,848 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 09:20:35,848 - automation - INFO - ==================================================
+2025-03-28 09:20:42,215 - automation - INFO - 验证码已自动填入
+2025-03-28 09:20:43,230 - automation - INFO - 尝试点击登录按钮
+2025-03-28 09:20:43,295 - automation - INFO - 登录按钮点击成功
+2025-03-28 09:20:43,295 - automation - INFO - 登录成功
+2025-03-28 09:20:45,306 - automation - INFO - 登录成功
+2025-03-28 09:20:45,389 - automation - INFO - 点击辅助阅卷
+2025-03-28 09:20:47,456 - automation - INFO - 步骤1执行成功：点击辅助阅卷
+2025-03-28 09:20:47,542 - automation - INFO - 点击庭审笔录1
+2025-03-28 09:20:49,609 - automation - INFO - 步骤2执行成功：点击庭审笔录1
+2025-03-28 09:20:49,610 - automation - INFO - 点击设为庭审笔录
+2025-03-28 09:20:50,707 - automation - INFO - 步骤3执行成功：点击设为庭审笔录
+2025-03-28 09:20:50,707 - automation - INFO - 输入原告处理意见1
+2025-03-28 09:20:51,807 - automation - INFO - 步骤4执行成功：输入原告处理意见1
+2025-03-28 09:20:51,808 - automation - INFO - 输入原告处理意见2
+2025-03-28 09:20:52,905 - automation - INFO - 步骤5执行成功：输入原告处理意见2
+2025-03-28 09:20:52,905 - automation - INFO - 点击确定按钮
+2025-03-28 09:20:54,985 - automation - INFO - 步骤6执行成功：点击确定按钮
+2025-03-28 09:20:55,184 - automation - INFO - 点击取消设置庭审笔录
+2025-03-28 09:20:57,335 - automation - INFO - 点击确定取消设置
+2025-03-28 09:20:58,477 - automation - ERROR - 辅助阅卷测试失败: Message: element click intercepted: Element <button type="button" class="ant-btn ant-btn-primary ant-btn-sm">...</button> is not clickable at point (414, 274). Other element would receive the click: <div role="tooltip" class="ant-tooltip-inner">...</div>
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E375E9]
+	(No symbol) [0x00007FF6F5E34FA2]
+	(No symbol) [0x00007FF6F5E32051]
+	(No symbol) [0x00007FF6F5E30F76]
+	(No symbol) [0x00007FF6F5E227E4]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-28 09:20:58,832 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-28 09:21:01,032 - automation - INFO - 浏览器已关闭
+2025-03-28 09:26:33,137 - automation - INFO - 初始化测试类...
+2025-03-28 09:26:33,137 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 09:26:33,137 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 09:26:34,930 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 09:26:34,933 - automation - INFO - 开始登录系统
+2025-03-28 09:26:37,267 - automation - INFO - 成功打开登录页面
+2025-03-28 09:26:37,267 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 09:26:37,369 - automation - INFO - 用户名输入完成
+2025-03-28 09:26:37,370 - automation - INFO - 开始输入密码
+2025-03-28 09:26:37,476 - automation - INFO - 密码输入完成
+2025-03-28 09:26:37,488 - automation - INFO - ==================================================
+2025-03-28 09:26:37,488 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 09:26:37,488 - automation - INFO - ==================================================
+2025-03-28 09:26:46,865 - automation - INFO - 验证码已自动填入
+2025-03-28 09:26:47,872 - automation - INFO - 尝试点击登录按钮
+2025-03-28 09:26:47,936 - automation - INFO - 登录按钮点击成功
+2025-03-28 09:26:47,937 - automation - INFO - 登录成功
+2025-03-28 09:26:49,939 - automation - INFO - 登录成功
+2025-03-28 09:26:50,035 - automation - INFO - 点击辅助阅卷
+2025-03-28 09:26:52,094 - automation - INFO - 步骤1执行成功：点击辅助阅卷
+2025-03-28 09:26:52,196 - automation - INFO - 点击庭审笔录1
+2025-03-28 09:26:54,287 - automation - INFO - 步骤2执行成功：点击庭审笔录1
+2025-03-28 09:26:54,287 - automation - INFO - 点击设为庭审笔录
+2025-03-28 09:26:55,372 - automation - INFO - 步骤3执行成功：点击设为庭审笔录
+2025-03-28 09:26:55,372 - automation - INFO - 输入原告处理意见1
+2025-03-28 09:26:56,451 - automation - INFO - 步骤4执行成功：输入原告处理意见1
+2025-03-28 09:26:56,452 - automation - INFO - 输入原告处理意见2
+2025-03-28 09:26:57,548 - automation - INFO - 步骤5执行成功：输入原告处理意见2
+2025-03-28 09:26:57,548 - automation - INFO - 点击确定按钮
+2025-03-28 09:26:59,635 - automation - INFO - 步骤6执行成功：点击确定按钮
+2025-03-28 09:26:59,858 - automation - INFO - 点击取消设置庭审笔录
+2025-03-28 09:27:02,032 - automation - INFO - 点击确定取消设置
+2025-03-28 09:27:05,326 - automation - INFO - 尝试标准点击确认按钮
+2025-03-28 09:27:07,372 - automation - INFO - 步骤7执行成功：取消设置庭审笔录
+2025-03-28 09:27:07,583 - automation - INFO - 点击下载按钮
+2025-03-28 09:27:08,665 - automation - INFO - 选择PDF下载
+2025-03-28 09:27:11,752 - automation - INFO - 步骤8执行成功：下载笔录PDF
+2025-03-28 09:27:11,963 - automation - INFO - 点击庭审笔录2
+2025-03-28 09:27:13,078 - automation - INFO - 成功点击庭审笔录2
+2025-03-28 09:27:13,078 - automation - INFO - 点击添加为证据按钮
+2025-03-28 09:27:14,208 - automation - INFO - 成功点击添加为证据按钮
+2025-03-28 09:27:14,208 - automation - INFO - 点击目录下拉框
+2025-03-28 09:27:15,280 - automation - INFO - 成功点击目录下拉框
+2025-03-28 09:27:15,280 - automation - INFO - 选择法院材料选项
+2025-03-28 09:27:16,367 - automation - INFO - 成功选择法院材料选项
+2025-03-28 09:27:16,367 - automation - INFO - 点击确定按钮
+2025-03-28 09:27:18,476 - automation - INFO - 步骤9执行成功：添加庭审笔录2为证据
+2025-03-28 09:27:18,702 - automation - INFO - 选择庭审笔录3
+2025-03-28 09:27:19,785 - automation - INFO - 成功选中庭审笔录3
+2025-03-28 09:27:19,786 - automation - INFO - 点击证据添加按钮
+2025-03-28 09:27:20,887 - automation - INFO - 成功点击证据添加按钮
+2025-03-28 09:27:20,887 - automation - INFO - 点击目录下拉框
+2025-03-28 09:27:21,960 - automation - INFO - 成功点击目录下拉框
+2025-03-28 09:27:21,960 - automation - INFO - 选择上诉人选项
+2025-03-28 09:27:23,062 - automation - INFO - 成功选择上诉人选项
+2025-03-28 09:27:23,062 - automation - INFO - 点击确定按钮
+2025-03-28 09:27:25,148 - automation - INFO - 步骤10执行成功：将庭审笔录3添加为证据
+2025-03-28 09:27:25,366 - automation - INFO - 点击证据引用标签页
+2025-03-28 09:27:27,496 - automation - INFO - 成功点击证据引用标签页
+2025-03-28 09:27:27,497 - automation - INFO - 点击刷新按钮
+2025-03-28 09:27:29,595 - automation - INFO - 成功点击刷新按钮
+2025-03-28 09:27:29,595 - automation - INFO - 点击查看庭审笔录2详情
+2025-03-28 09:27:31,685 - automation - INFO - 成功点击查看庭审笔录2详情
+2025-03-28 09:27:31,685 - automation - INFO - 点击关闭详情
+2025-03-28 09:27:33,774 - automation - INFO - 步骤11执行成功：证据引用功能
+2025-03-28 09:27:33,851 - automation - INFO - 选择庭审笔录2和庭审笔录3
+2025-03-28 09:27:34,933 - automation - INFO - 成功选中庭审笔录2
+2025-03-28 09:27:36,030 - automation - INFO - 成功选中庭审笔录3
+2025-03-28 09:27:36,030 - automation - INFO - 点击双屏阅卷按钮
+2025-03-28 09:27:39,140 - automation - INFO - 成功点击双屏阅卷按钮
+2025-03-28 09:27:39,141 - automation - INFO - 查看双屏阅卷内容
+2025-03-28 09:27:41,142 - automation - INFO - 点击关闭双屏阅卷
+2025-03-28 09:27:43,220 - automation - INFO - 步骤12执行成功：双屏阅卷功能
+2025-03-28 09:27:43,299 - automation - INFO - 点击上诉人选择器
+2025-03-28 09:27:46,340 - automation - INFO - 尝试点击上诉人选择器
+2025-03-28 09:27:47,393 - automation - INFO - 查找并点击第三人选项
+2025-03-28 09:27:47,481 - automation - INFO - 成功点击第三人选项
+2025-03-28 09:27:49,486 - automation - INFO - 步骤13.5执行成功：选择上诉人为第三人
+2025-03-28 09:27:49,564 - automation - INFO - 点击刷新按钮
+2025-03-28 09:27:51,647 - automation - INFO - 成功点击刷新按钮
+2025-03-28 09:27:52,735 - automation - INFO - 成功选中庭审笔录3
+2025-03-28 09:27:52,735 - automation - INFO - 点击批量修改按钮
+2025-03-28 09:27:54,828 - automation - INFO - 成功点击批量修改按钮
+2025-03-28 09:27:54,828 - automation - INFO - 修改证据名称
+2025-03-28 09:27:57,882 - automation - INFO - 成功修改证据名称
+2025-03-28 09:27:57,882 - automation - INFO - 选择质证类型
+2025-03-28 09:28:00,053 - automation - INFO - 成功选择质证类型为无异议
+2025-03-28 09:28:00,053 - automation - INFO - 填写质证意见
+2025-03-28 09:28:00,586 - automation - INFO - 成功填写质证意见
+2025-03-28 09:28:00,586 - automation - INFO - 填写证明目的
+2025-03-28 09:28:01,120 - automation - INFO - 成功填写证明目的
+2025-03-28 09:28:01,120 - automation - INFO - 选择证件类型
+2025-03-28 09:28:02,725 - automation - INFO - 尝试标准点击证件类型单元格
+2025-03-28 09:28:03,866 - automation - INFO - 寻找物证选项
+2025-03-28 09:28:03,890 - automation - INFO - 尝试点击物证选项
+2025-03-28 09:28:04,936 - automation - INFO - 成功选择证件类型为物证
+2025-03-28 09:28:04,936 - automation - INFO - 选择证据形式
+2025-03-28 09:28:06,470 - automation - INFO - 尝试标准点击证据形式单元格
+2025-03-28 09:28:07,536 - automation - INFO - 寻找照片选项
+2025-03-28 09:28:07,556 - automation - INFO - 尝试点击照片选项
+2025-03-28 09:28:08,608 - automation - INFO - 成功选择证据形式为照片
+2025-03-28 09:28:08,608 - automation - INFO - 点击确定按钮保存修改
+2025-03-28 09:28:10,657 - automation - INFO - 成功完成批量修改
+2025-03-28 09:28:10,751 - automation - INFO - 辅助阅卷测试完成
+2025-03-28 09:28:10,764 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-28 09:28:12,928 - automation - INFO - 浏览器已关闭
+2025-03-28 09:43:46,873 - automation - INFO - 开始初始化WebDriver...
+2025-03-28 09:43:46,873 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 09:43:46,873 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 09:43:48,159 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 09:43:48,163 - automation - INFO - WebDriver实例验证成功
+2025-03-28 09:43:48,164 - automation - INFO - 点击辅助阅卷
+2025-03-28 09:43:58,233 - automation - ERROR - 辅助阅卷测试失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-28 10:04:14,273 - automation - INFO - 开始初始化WebDriver...
+2025-03-28 10:04:14,273 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 10:04:14,273 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 10:04:16,072 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 10:04:16,076 - automation - INFO - WebDriver实例验证成功
+2025-03-28 10:04:16,079 - automation - INFO - 点击辅助阅卷
+2025-03-28 10:04:26,110 - automation - ERROR - 辅助阅卷测试失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-28 10:07:57,130 - automation - INFO - 初始化测试类...
+2025-03-28 10:07:57,130 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 10:07:57,131 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 10:07:58,321 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 10:07:58,323 - automation - INFO - 开始登录系统
+2025-03-28 10:08:00,725 - automation - INFO - 成功打开登录页面
+2025-03-28 10:08:00,725 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:08:00,938 - automation - INFO - 用户名输入完成
+2025-03-28 10:08:00,940 - automation - INFO - 开始输入密码
+2025-03-28 10:08:01,051 - automation - INFO - 密码输入完成
+2025-03-28 10:08:01,067 - automation - INFO - ==================================================
+2025-03-28 10:08:01,067 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 10:08:01,067 - automation - INFO - ==================================================
+2025-03-28 10:15:55,934 - automation - ERROR - 验证码输入为空
+2025-03-28 10:16:12,134 - automation - ERROR - 无法截图
+2025-03-28 10:16:32,396 - automation - ERROR - 验证码处理失败: 验证码输入为空
+2025-03-28 10:16:48,556 - automation - ERROR - 无法截图
+2025-03-28 10:16:48,556 - automation - ERROR - 登录过程失败: 验证码处理失败: 验证码输入为空
+2025-03-28 10:16:49,790 - automation - INFO - 初始化测试类...
+2025-03-28 10:16:49,790 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 10:16:49,790 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 10:16:51,734 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 10:16:51,735 - automation - INFO - 开始登录系统
+2025-03-28 10:16:54,239 - automation - INFO - 成功打开登录页面
+2025-03-28 10:16:54,239 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:16:54,350 - automation - INFO - 用户名输入完成
+2025-03-28 10:16:54,350 - automation - INFO - 开始输入密码
+2025-03-28 10:16:54,453 - automation - INFO - 密码输入完成
+2025-03-28 10:16:54,470 - automation - INFO - ==================================================
+2025-03-28 10:16:54,470 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 10:16:54,470 - automation - INFO - ==================================================
+2025-03-28 10:17:04,764 - automation - ERROR - 无法截图
+2025-03-28 10:17:04,765 - automation - ERROR - 辅助阅卷测试失败: 登录过程失败: 验证码处理失败: 验证码输入为空
+2025-03-28 10:17:06,049 - automation - INFO - 验证码已自动填入
+2025-03-28 10:17:07,058 - automation - INFO - 尝试点击登录按钮
+2025-03-28 10:17:07,124 - automation - INFO - 登录按钮点击成功
+2025-03-28 10:17:07,124 - automation - INFO - 登录成功
+2025-03-28 10:17:10,139 - automation - INFO - 登录成功
+2025-03-28 10:17:10,218 - automation - INFO - 点击辅助阅卷
+2025-03-28 10:17:12,279 - automation - INFO - 成功点击辅助阅卷
+2025-03-28 10:17:12,354 - automation - INFO - 点击庭审笔录1
+2025-03-28 10:17:14,439 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 10:17:14,647 - automation - INFO - 点击设为庭审笔录
+2025-03-28 10:17:15,724 - automation - INFO - 成功点击设为庭审笔录
+2025-03-28 10:17:15,724 - automation - INFO - 输入原告处理意见1
+2025-03-28 10:17:16,826 - automation - INFO - 成功输入原告处理意见1
+2025-03-28 10:17:16,826 - automation - INFO - 输入原告处理意见2
+2025-03-28 10:17:17,922 - automation - INFO - 成功输入原告处理意见2
+2025-03-28 10:17:17,922 - automation - INFO - 点击确定按钮
+2025-03-28 10:17:20,023 - automation - INFO - 成功点击确定按钮
+2025-03-28 10:17:20,221 - automation - INFO - 点击取消设置庭审笔录
+2025-03-28 10:17:20,222 - automation - INFO - 点击庭审笔录1
+2025-03-28 10:17:20,964 - automation - ERROR - 无法获取失败截图
+2025-03-28 10:17:21,056 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-28 10:17:22,317 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 10:17:23,385 - automation - INFO - 点击确定取消设置
+2025-03-28 10:17:26,680 - automation - INFO - 尝试标准点击确认按钮
+2025-03-28 10:17:28,730 - automation - INFO - 成功取消设置庭审笔录
+2025-03-28 10:17:28,932 - automation - INFO - 点击下载按钮
+2025-03-28 10:17:29,988 - automation - INFO - 选择PDF下载
+2025-03-28 10:17:33,056 - automation - INFO - 成功下载笔录PDF
+2025-03-28 10:17:33,260 - automation - INFO - 点击庭审笔录2
+2025-03-28 10:17:34,337 - automation - INFO - 点击添加为证据按钮
+2025-03-28 10:17:35,418 - automation - INFO - 点击目录下拉框
+2025-03-28 10:17:36,486 - automation - INFO - 选择法院材料选项
+2025-03-28 10:17:37,554 - automation - INFO - 点击确定按钮
+2025-03-28 10:17:39,621 - automation - INFO - 成功添加庭审笔录2为证据
+2025-03-28 10:17:39,811 - automation - INFO - 选择庭审笔录3
+2025-03-28 10:17:40,883 - automation - INFO - 点击证据添加按钮
+2025-03-28 10:17:41,281 - automation - INFO - 浏览器已关闭
+2025-03-28 10:17:41,956 - automation - INFO - 点击目录下拉框
+2025-03-28 10:17:43,016 - automation - INFO - 选择上诉人选项
+2025-03-28 10:17:44,082 - automation - INFO - 点击确定按钮
+2025-03-28 10:17:46,180 - automation - INFO - 成功将庭审笔录3添加为证据
+2025-03-28 10:17:46,379 - automation - INFO - 点击证据引用标签页
+2025-03-28 10:17:48,484 - automation - INFO - 点击刷新按钮
+2025-03-28 10:17:50,544 - automation - INFO - 点击查看庭审笔录2详情
+2025-03-28 10:17:52,611 - automation - INFO - 点击关闭详情
+2025-03-28 10:17:54,683 - automation - INFO - 成功查看证据引用功能
+2025-03-28 10:17:54,765 - automation - INFO - 选择庭审笔录2和庭审笔录3
+2025-03-28 10:17:56,894 - automation - INFO - 点击双屏阅卷按钮
+2025-03-28 10:17:59,991 - automation - INFO - 查看双屏阅卷内容
+2025-03-28 10:18:01,992 - automation - INFO - 点击关闭双屏阅卷
+2025-03-28 10:18:04,060 - automation - INFO - 成功完成双屏阅卷功能
+2025-03-28 10:18:04,128 - automation - INFO - 点击上诉人选择器
+2025-03-28 10:18:07,173 - automation - INFO - 尝试点击上诉人选择器
+2025-03-28 10:18:08,223 - automation - INFO - 查找并点击第三人选项
+2025-03-28 10:18:08,281 - automation - INFO - 成功点击第三人选项
+2025-03-28 10:18:10,286 - automation - INFO - 成功选择上诉人为第三人
+2025-03-28 10:18:10,363 - automation - INFO - 点击刷新按钮
+2025-03-28 10:18:12,435 - automation - INFO - 取消选中庭审笔录3
+2025-03-28 10:18:13,506 - automation - INFO - 成功取消选中庭审笔录3
+2025-03-28 10:18:13,578 - automation - INFO - 点击批量修改按钮
+2025-03-28 10:18:15,659 - automation - INFO - 修改证据名称为: 庭审笔录2修改
+2025-03-28 10:18:18,713 - automation - INFO - 成功修改证据名称
+2025-03-28 10:18:18,713 - automation - INFO - 选择质证类型
+2025-03-28 10:18:20,848 - automation - INFO - 成功选择质证类型为无异议
+2025-03-28 10:18:20,848 - automation - INFO - 填写质证意见: 无意见
+2025-03-28 10:18:21,368 - automation - INFO - 成功填写质证意见
+2025-03-28 10:18:21,368 - automation - INFO - 填写证明目的: 无目的
+2025-03-28 10:18:21,900 - automation - INFO - 成功填写证明目的
+2025-03-28 10:18:21,901 - automation - INFO - 选择证件类型
+2025-03-28 10:18:23,499 - automation - INFO - 尝试标准点击证件类型单元格
+2025-03-28 10:18:24,631 - automation - INFO - 寻找物证选项
+2025-03-28 10:18:24,640 - automation - INFO - 尝试点击物证选项
+2025-03-28 10:18:25,686 - automation - INFO - 成功选择证件类型为物证
+2025-03-28 10:18:25,686 - automation - INFO - 选择证据形式
+2025-03-28 10:18:27,217 - automation - INFO - 尝试标准点击证据形式单元格
+2025-03-28 10:18:28,273 - automation - INFO - 寻找照片选项
+2025-03-28 10:18:28,289 - automation - INFO - 尝试点击照片选项
+2025-03-28 10:18:29,325 - automation - INFO - 成功选择证据形式为照片
+2025-03-28 10:18:29,325 - automation - INFO - 点击确定按钮保存修改
+2025-03-28 10:18:31,363 - automation - INFO - 成功完成批量修改
+2025-03-28 10:18:31,447 - automation - INFO - 辅助阅卷测试完成
+2025-03-28 10:18:31,455 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-28 10:18:33,637 - automation - INFO - 浏览器已关闭
+2025-03-28 10:20:29,373 - automation - INFO - 开始初始化WebDriver...
+2025-03-28 10:20:29,374 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 10:20:29,374 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 10:20:30,768 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 10:20:30,776 - automation - INFO - WebDriver实例验证成功
+2025-03-28 10:20:30,776 - automation - INFO - 开始执行个人中心测试
+2025-03-28 10:20:33,200 - automation - INFO - 成功打开登录页面
+2025-03-28 10:20:33,200 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:20:33,309 - automation - INFO - 用户名输入完成
+2025-03-28 10:20:33,310 - automation - INFO - 开始输入密码
+2025-03-28 10:20:33,406 - automation - INFO - 密码输入完成
+2025-03-28 10:20:33,423 - automation - INFO - ==================================================
+2025-03-28 10:20:33,423 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 10:20:33,423 - automation - INFO - ==================================================
+2025-03-28 10:20:39,381 - automation - INFO - 验证码已自动填入
+2025-03-28 10:20:40,399 - automation - INFO - 尝试点击登录按钮
+2025-03-28 10:20:40,466 - automation - INFO - 登录按钮点击成功
+2025-03-28 10:20:40,466 - automation - INFO - 登录成功
+2025-03-28 10:20:40,466 - automation - INFO - 完成登录
+2025-03-28 10:20:42,527 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 10:20:43,604 - automation - INFO - 点击报表统计选项
+2025-03-28 10:20:44,688 - automation - INFO - 点击承办部门
+2025-03-28 10:20:45,768 - automation - INFO - 选择承办人
+2025-03-28 10:20:46,834 - automation - INFO - 点击查询按钮
+2025-03-28 10:20:48,894 - automation - INFO - 点击导出按钮
+2025-03-28 10:20:51,969 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 10:20:53,040 - automation - INFO - 点击字体下载选项
+2025-03-28 10:20:54,111 - automation - INFO - 点击方正小标简体按钮
+2025-03-28 10:20:56,184 - automation - INFO - 点击关闭弹框
+2025-03-28 10:20:57,244 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 10:20:58,340 - automation - INFO - 点击修改密码选项
+2025-03-28 10:20:59,469 - automation - INFO - 输入原密码
+2025-03-28 10:20:59,573 - automation - INFO - 输入新密码
+2025-03-28 10:20:59,678 - automation - INFO - 确认新密码
+2025-03-28 10:20:59,734 - automation - INFO - 点击确定按钮
+2025-03-28 10:21:04,766 - automation - INFO - 成功打开登录页面
+2025-03-28 10:21:04,766 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:21:04,862 - automation - INFO - 用户名输入完成
+2025-03-28 10:21:04,862 - automation - INFO - 开始输入密码
+2025-03-28 10:21:04,955 - automation - INFO - 密码输入完成
+2025-03-28 10:21:04,962 - automation - INFO - ==================================================
+2025-03-28 10:21:04,962 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 10:21:04,962 - automation - INFO - ==================================================
+2025-03-28 10:21:12,314 - automation - INFO - 验证码已自动填入
+2025-03-28 10:21:13,331 - automation - INFO - 尝试点击登录按钮
+2025-03-28 10:21:13,387 - automation - INFO - 登录按钮点击成功
+2025-03-28 10:21:13,387 - automation - INFO - 登录成功
+2025-03-28 10:21:13,388 - automation - INFO - 完成新密码登录
+2025-03-28 10:21:15,413 - automation - INFO - 使用新密码登录成功
+2025-03-28 10:21:15,478 - automation - INFO - 个人中心测试执行完成
+2025-03-28 10:21:15,489 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-03-28 10:21:15,489 - automation - INFO - 测试数据加载成功
+2025-03-28 10:21:15,489 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-03-28 10:21:15,490 - automation - INFO - 开始添加案件: (2025)苏0105民初0001号
+2025-03-28 10:21:15,617 - automation - INFO - 点击元素: ('xpath', '//body//div//button[2]')
+2025-03-28 10:21:16,747 - automation - INFO - 截图已添加到Allure报告: add_case_form
+2025-03-28 10:21:17,313 - automation - INFO - 输入文本: (2025)苏0105民初0001号, 元素: ('xpath', "//div[@class='ant-col ant-col-24']//input[@placeholder='请输入案件名称']")
+2025-03-28 10:21:17,893 - automation - INFO - 输入文本: (2025)苏0105民初0001号, 元素: ('xpath', "//div[@class='ant-col ant-col-12']//input[@placeholder='请输入案件编号']")
+2025-03-28 10:21:17,951 - automation - INFO - 点击元素: ('css selector', 'input.vue-treeselect__input')
+2025-03-28 10:21:18,007 - automation - INFO - 点击元素: ('xpath', "//label[contains(text(),'民事')]")
+2025-03-28 10:21:18,088 - automation - INFO - 点击元素: ('xpath', "//label[contains(text(),'民事一审')]")
+2025-03-28 10:21:19,181 - automation - INFO - 截图已添加到Allure报告: case_type_selected
+2025-03-28 10:21:19,247 - automation - INFO - 点击元素: ('xpath', "//div[contains(@class, 'vue-treeselect__placeholder') and text()='请选择案由类型']/following-sibling::div//input[@class='vue-treeselect__input']")
+2025-03-28 10:21:19,333 - automation - INFO - 点击元素: ('xpath', '//label[contains(text(),"行政案由")]')
+2025-03-28 10:21:20,421 - automation - INFO - 截图已添加到Allure报告: reason_type_selected
+2025-03-28 10:21:20,483 - automation - INFO - 点击元素: ('xpath', "//div[contains(@class, 'ant-select-selection__placeholder') and text()='请输入原审案号']/ancestor::div[contains(@class, 'ant-select-selection')]")
+2025-03-28 10:21:22,676 - automation - INFO - 点击元素: ('xpath', "//form/div/div[7]//input[@placeholder='选择开始日期']")
+2025-03-28 10:21:23,284 - automation - INFO - 点击元素: ('xpath', '//a[text()="今天"]')
+2025-03-28 10:21:24,368 - automation - INFO - 截图已添加到Allure报告: date_selected
+2025-03-28 10:21:24,429 - automation - INFO - 点击元素: ('xpath', '//div[@class="ant-modal-root"]//button[2]')
+2025-03-28 10:21:26,505 - automation - INFO - 截图已添加到Allure报告: case_added
+2025-03-28 10:21:26,505 - automation - INFO - 案件添加成功: (2025)苏0105民初0001号
+2025-03-28 10:21:26,506 - automation - INFO - 开始编辑案件: (2025)苏0105民初0001号
+2025-03-28 10:21:26,601 - automation - INFO - 点击元素: ('xpath', "//td[@title='(2025)苏0105民初0001号'][1]/ancestor::div[contains(@class, 'ant-table-content')]/div[3]/div[2]/div/table/tbody/tr/td[3]/div/div[3]")
+2025-03-28 10:21:27,702 - automation - INFO - 截图已添加到Allure报告: edit_case_form
+2025-03-28 10:21:30,554 - automation - INFO - 截图已添加到Allure报告: case_name_modified
+2025-03-28 10:21:30,614 - automation - INFO - 点击元素: ('xpath', '//div[@class="ant-modal-root"]//button[2]')
+2025-03-28 10:21:32,701 - automation - INFO - 截图已添加到Allure报告: case_edited
+2025-03-28 10:21:32,701 - automation - INFO - 案件修改成功: (2025)苏0105民初0001号修改
+2025-03-28 10:21:32,701 - automation - INFO - 开始删除案件: (2025)苏0105民初0001号
+2025-03-28 10:21:32,758 - automation - INFO - 点击元素: ('xpath', "//td[@title='(2025)苏0105民初0001号'][1]/ancestor::div[contains(@class, 'ant-table-content')]/div[3]/div[2]/div/table/tbody/tr/td[3]/div/div[4]")
+2025-03-28 10:21:33,856 - automation - INFO - 截图已添加到Allure报告: delete_confirmation
+2025-03-28 10:21:33,903 - automation - INFO - 点击元素: ('xpath', "//div[@class='ant-modal-body']//button[2]")
+2025-03-28 10:21:36,000 - automation - INFO - 截图已添加到Allure报告: case_deleted
+2025-03-28 10:21:36,000 - automation - INFO - 案件删除成功: (2025)苏0105民初0001号
+2025-03-28 10:21:36,000 - automation - INFO - 案件增删改功能测试完成，案件名称: (2025)苏0105民初0001号
+2025-03-28 10:21:36,004 - automation - INFO - 开始登录系统
+2025-03-28 10:21:36,006 - automation - ERROR - 辅助阅卷测试失败: 'TestAssistedReading' object has no attribute 'login_page'
+2025-03-28 10:21:36,006 - automation - WARNING - 无法获取test_failed截图
+2025-03-28 10:21:36,119 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-28 10:24:04,528 - automation - INFO - 开始初始化WebDriver...
+2025-03-28 10:24:04,528 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 10:24:04,528 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 10:24:05,968 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 10:24:05,980 - automation - INFO - WebDriver实例验证成功
+2025-03-28 10:24:05,980 - automation - INFO - 开始执行个人中心测试
+2025-03-28 10:24:08,419 - automation - INFO - 成功打开登录页面
+2025-03-28 10:24:08,419 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:24:08,526 - automation - INFO - 用户名输入完成
+2025-03-28 10:24:08,527 - automation - INFO - 开始输入密码
+2025-03-28 10:24:08,652 - automation - INFO - 密码输入完成
+2025-03-28 10:24:08,670 - automation - INFO - ==================================================
+2025-03-28 10:24:08,670 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 10:24:08,670 - automation - INFO - ==================================================
+2025-03-28 10:24:14,599 - automation - INFO - 验证码已自动填入
+2025-03-28 10:24:15,617 - automation - INFO - 尝试点击登录按钮
+2025-03-28 10:24:15,677 - automation - INFO - 登录按钮点击成功
+2025-03-28 10:24:15,677 - automation - INFO - 登录成功
+2025-03-28 10:24:15,677 - automation - INFO - 完成登录
+2025-03-28 10:24:17,766 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 10:24:18,825 - automation - INFO - 点击报表统计选项
+2025-03-28 10:24:19,917 - automation - INFO - 点击承办部门
+2025-03-28 10:24:20,980 - automation - INFO - 选择承办人
+2025-03-28 10:24:22,099 - automation - INFO - 点击查询按钮
+2025-03-28 10:24:24,158 - automation - INFO - 点击导出按钮
+2025-03-28 10:24:27,214 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 10:24:28,277 - automation - INFO - 点击字体下载选项
+2025-03-28 10:24:29,335 - automation - INFO - 点击方正小标简体按钮
+2025-03-28 10:24:31,394 - automation - INFO - 点击关闭弹框
+2025-03-28 10:24:32,436 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 10:24:33,529 - automation - INFO - 点击修改密码选项
+2025-03-28 10:24:34,645 - automation - INFO - 输入原密码
+2025-03-28 10:24:34,745 - automation - INFO - 输入新密码
+2025-03-28 10:24:34,844 - automation - INFO - 确认新密码
+2025-03-28 10:24:34,903 - automation - INFO - 点击确定按钮
+2025-03-28 10:24:39,940 - automation - INFO - 成功打开登录页面
+2025-03-28 10:24:39,941 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:24:40,028 - automation - INFO - 用户名输入完成
+2025-03-28 10:24:40,028 - automation - INFO - 开始输入密码
+2025-03-28 10:24:40,131 - automation - INFO - 密码输入完成
+2025-03-28 10:24:40,140 - automation - INFO - ==================================================
+2025-03-28 10:24:40,140 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 10:24:40,141 - automation - INFO - ==================================================
+2025-03-28 10:24:46,708 - automation - INFO - 验证码已自动填入
+2025-03-28 10:24:47,714 - automation - INFO - 尝试点击登录按钮
+2025-03-28 10:24:47,767 - automation - INFO - 登录按钮点击成功
+2025-03-28 10:24:47,767 - automation - INFO - 登录成功
+2025-03-28 10:24:47,767 - automation - INFO - 完成新密码登录
+2025-03-28 10:24:49,782 - automation - INFO - 使用新密码登录成功
+2025-03-28 10:24:49,846 - automation - INFO - 个人中心测试执行完成
+2025-03-28 10:24:49,857 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-03-28 10:24:49,857 - automation - INFO - 测试数据加载成功
+2025-03-28 10:24:49,857 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-03-28 10:24:49,858 - automation - INFO - 开始添加案件: (2025)苏0105民初0001号
+2025-03-28 10:24:50,003 - automation - INFO - 点击元素: ('xpath', '//body//div//button[2]')
+2025-03-28 10:24:51,098 - automation - INFO - 截图已添加到Allure报告: add_case_form
+2025-03-28 10:24:51,650 - automation - INFO - 输入文本: (2025)苏0105民初0001号, 元素: ('xpath', "//div[@class='ant-col ant-col-24']//input[@placeholder='请输入案件名称']")
+2025-03-28 10:24:52,231 - automation - INFO - 输入文本: (2025)苏0105民初0001号, 元素: ('xpath', "//div[@class='ant-col ant-col-12']//input[@placeholder='请输入案件编号']")
+2025-03-28 10:24:52,303 - automation - INFO - 点击元素: ('css selector', 'input.vue-treeselect__input')
+2025-03-28 10:24:52,369 - automation - INFO - 点击元素: ('xpath', "//label[contains(text(),'民事')]")
+2025-03-28 10:24:52,458 - automation - INFO - 点击元素: ('xpath', "//label[contains(text(),'民事一审')]")
+2025-03-28 10:24:53,552 - automation - INFO - 截图已添加到Allure报告: case_type_selected
+2025-03-28 10:24:53,618 - automation - INFO - 点击元素: ('xpath', "//div[contains(@class, 'vue-treeselect__placeholder') and text()='请选择案由类型']/following-sibling::div//input[@class='vue-treeselect__input']")
+2025-03-28 10:24:53,706 - automation - INFO - 点击元素: ('xpath', '//label[contains(text(),"行政案由")]')
+2025-03-28 10:24:54,798 - automation - INFO - 截图已添加到Allure报告: reason_type_selected
+2025-03-28 10:24:54,853 - automation - INFO - 点击元素: ('xpath', "//div[contains(@class, 'ant-select-selection__placeholder') and text()='请输入原审案号']/ancestor::div[contains(@class, 'ant-select-selection')]")
+2025-03-28 10:24:57,014 - automation - INFO - 点击元素: ('xpath', "//form/div/div[7]//input[@placeholder='选择开始日期']")
+2025-03-28 10:24:57,626 - automation - INFO - 点击元素: ('xpath', '//a[text()="今天"]')
+2025-03-28 10:24:58,715 - automation - INFO - 截图已添加到Allure报告: date_selected
+2025-03-28 10:24:58,766 - automation - INFO - 点击元素: ('xpath', '//div[@class="ant-modal-root"]//button[2]')
+2025-03-28 10:25:00,846 - automation - INFO - 截图已添加到Allure报告: case_added
+2025-03-28 10:25:00,846 - automation - INFO - 案件添加成功: (2025)苏0105民初0001号
+2025-03-28 10:25:00,846 - automation - INFO - 开始编辑案件: (2025)苏0105民初0001号
+2025-03-28 10:25:00,942 - automation - INFO - 点击元素: ('xpath', "//td[@title='(2025)苏0105民初0001号'][1]/ancestor::div[contains(@class, 'ant-table-content')]/div[3]/div[2]/div/table/tbody/tr/td[3]/div/div[3]")
+2025-03-28 10:25:02,079 - automation - INFO - 截图已添加到Allure报告: edit_case_form
+2025-03-28 10:25:04,894 - automation - INFO - 截图已添加到Allure报告: case_name_modified
+2025-03-28 10:25:04,948 - automation - INFO - 点击元素: ('xpath', '//div[@class="ant-modal-root"]//button[2]')
+2025-03-28 10:25:07,029 - automation - INFO - 截图已添加到Allure报告: case_edited
+2025-03-28 10:25:07,029 - automation - INFO - 案件修改成功: (2025)苏0105民初0001号修改
+2025-03-28 10:25:07,029 - automation - INFO - 开始删除案件: (2025)苏0105民初0001号
+2025-03-28 10:25:07,083 - automation - INFO - 点击元素: ('xpath', "//td[@title='(2025)苏0105民初0001号'][1]/ancestor::div[contains(@class, 'ant-table-content')]/div[3]/div[2]/div/table/tbody/tr/td[3]/div/div[4]")
+2025-03-28 10:25:08,199 - automation - INFO - 截图已添加到Allure报告: delete_confirmation
+2025-03-28 10:25:08,258 - automation - INFO - 点击元素: ('xpath', "//div[@class='ant-modal-body']//button[2]")
+2025-03-28 10:25:10,350 - automation - INFO - 截图已添加到Allure报告: case_deleted
+2025-03-28 10:25:10,351 - automation - INFO - 案件删除成功: (2025)苏0105民初0001号
+2025-03-28 10:25:10,351 - automation - INFO - 案件增删改功能测试完成，案件名称: (2025)苏0105民初0001号
+2025-03-28 10:25:10,356 - automation - INFO - 初始化测试类...
+2025-03-28 10:25:10,396 - automation - INFO - 使用现有的WebDriver实例
+2025-03-28 10:25:10,396 - automation - INFO - 开始登录系统
+2025-03-28 10:25:12,414 - automation - INFO - 成功打开登录页面
+2025-03-28 10:25:12,414 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:25:22,446 - automation - ERROR - 用户名输入失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-28 10:25:24,661 - automation - ERROR - 登录过程失败: 用户名输入失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-28 10:25:40,905 - automation - ERROR - 无法截图
+2025-03-28 10:25:40,905 - automation - ERROR - 辅助阅卷测试失败: 登录过程失败: 用户名输入失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-28 10:25:57,067 - automation - WARNING - 无法获取test_failed截图
+2025-03-28 10:25:57,193 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-28 10:25:57,193 - automation - INFO - 浏览器已关闭
+2025-03-28 10:28:59,035 - automation - INFO - 开始初始化WebDriver...
+2025-03-28 10:28:59,035 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 10:28:59,035 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 10:29:00,276 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 10:29:00,280 - automation - INFO - WebDriver实例验证成功
+2025-03-28 10:29:00,283 - automation - INFO - 开始执行个人中心测试
+2025-03-28 10:29:02,667 - automation - INFO - 成功打开登录页面
+2025-03-28 10:29:02,667 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:29:02,796 - automation - INFO - 用户名输入完成
+2025-03-28 10:29:02,796 - automation - INFO - 开始输入密码
+2025-03-28 10:29:02,923 - automation - INFO - 密码输入完成
+2025-03-28 10:29:02,937 - automation - INFO - ==================================================
+2025-03-28 10:29:02,937 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 10:29:02,937 - automation - INFO - ==================================================
+2025-03-28 10:29:08,697 - automation - INFO - 验证码已自动填入
+2025-03-28 10:29:09,708 - automation - INFO - 尝试点击登录按钮
+2025-03-28 10:29:09,768 - automation - INFO - 登录按钮点击成功
+2025-03-28 10:29:09,768 - automation - INFO - 登录成功
+2025-03-28 10:29:09,768 - automation - INFO - 完成登录
+2025-03-28 10:29:11,825 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 10:29:12,892 - automation - INFO - 点击报表统计选项
+2025-03-28 10:29:13,978 - automation - INFO - 点击承办部门
+2025-03-28 10:29:15,071 - automation - INFO - 选择承办人
+2025-03-28 10:29:16,132 - automation - INFO - 点击查询按钮
+2025-03-28 10:29:18,198 - automation - INFO - 点击导出按钮
+2025-03-28 10:29:21,269 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 10:29:22,370 - automation - INFO - 点击字体下载选项
+2025-03-28 10:29:23,425 - automation - INFO - 点击方正小标简体按钮
+2025-03-28 10:29:25,491 - automation - INFO - 点击关闭弹框
+2025-03-28 10:29:26,563 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 10:29:27,657 - automation - INFO - 点击修改密码选项
+2025-03-28 10:29:28,794 - automation - INFO - 输入原密码
+2025-03-28 10:29:28,905 - automation - INFO - 输入新密码
+2025-03-28 10:29:29,058 - automation - INFO - 确认新密码
+2025-03-28 10:29:29,122 - automation - INFO - 点击确定按钮
+2025-03-28 10:29:34,147 - automation - INFO - 成功打开登录页面
+2025-03-28 10:29:34,148 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:29:34,241 - automation - INFO - 用户名输入完成
+2025-03-28 10:29:34,241 - automation - INFO - 开始输入密码
+2025-03-28 10:29:34,335 - automation - INFO - 密码输入完成
+2025-03-28 10:29:34,344 - automation - INFO - ==================================================
+2025-03-28 10:29:34,344 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 10:29:34,344 - automation - INFO - ==================================================
+2025-03-28 10:29:44,415 - automation - INFO - 验证码已自动填入
+2025-03-28 10:29:45,420 - automation - INFO - 尝试点击登录按钮
+2025-03-28 10:29:45,483 - automation - INFO - 登录按钮点击成功
+2025-03-28 10:29:45,483 - automation - INFO - 登录成功
+2025-03-28 10:29:45,483 - automation - INFO - 完成新密码登录
+2025-03-28 10:29:47,521 - automation - INFO - 使用新密码登录成功
+2025-03-28 10:29:47,602 - automation - INFO - 个人中心测试执行完成
+2025-03-28 10:29:47,613 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-03-28 10:29:47,614 - automation - INFO - 测试数据加载成功
+2025-03-28 10:29:47,614 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-03-28 10:29:47,614 - automation - INFO - 开始添加案件: (2025)苏0105民初0001号
+2025-03-28 10:29:47,761 - automation - INFO - 点击元素: ('xpath', '//body//div//button[2]')
+2025-03-28 10:29:48,880 - automation - INFO - 截图已添加到Allure报告: add_case_form
+2025-03-28 10:29:49,426 - automation - INFO - 输入文本: (2025)苏0105民初0001号, 元素: ('xpath', "//div[@class='ant-col ant-col-24']//input[@placeholder='请输入案件名称']")
+2025-03-28 10:29:49,955 - automation - INFO - 输入文本: (2025)苏0105民初0001号, 元素: ('xpath', "//div[@class='ant-col ant-col-12']//input[@placeholder='请输入案件编号']")
+2025-03-28 10:29:50,015 - automation - INFO - 点击元素: ('css selector', 'input.vue-treeselect__input')
+2025-03-28 10:29:50,072 - automation - INFO - 点击元素: ('xpath', "//label[contains(text(),'民事')]")
+2025-03-28 10:29:50,163 - automation - INFO - 点击元素: ('xpath', "//label[contains(text(),'民事一审')]")
+2025-03-28 10:29:51,250 - automation - INFO - 截图已添加到Allure报告: case_type_selected
+2025-03-28 10:29:51,315 - automation - INFO - 点击元素: ('xpath', "//div[contains(@class, 'vue-treeselect__placeholder') and text()='请选择案由类型']/following-sibling::div//input[@class='vue-treeselect__input']")
+2025-03-28 10:29:51,399 - automation - INFO - 点击元素: ('xpath', '//label[contains(text(),"行政案由")]')
+2025-03-28 10:29:52,500 - automation - INFO - 截图已添加到Allure报告: reason_type_selected
+2025-03-28 10:29:52,556 - automation - INFO - 点击元素: ('xpath', "//div[contains(@class, 'ant-select-selection__placeholder') and text()='请输入原审案号']/ancestor::div[contains(@class, 'ant-select-selection')]")
+2025-03-28 10:29:54,730 - automation - INFO - 点击元素: ('xpath', "//form/div/div[7]//input[@placeholder='选择开始日期']")
+2025-03-28 10:29:55,341 - automation - INFO - 点击元素: ('xpath', '//a[text()="今天"]')
+2025-03-28 10:29:56,416 - automation - INFO - 截图已添加到Allure报告: date_selected
+2025-03-28 10:29:56,479 - automation - INFO - 点击元素: ('xpath', '//div[@class="ant-modal-root"]//button[2]')
+2025-03-28 10:29:58,561 - automation - INFO - 截图已添加到Allure报告: case_added
+2025-03-28 10:29:58,561 - automation - INFO - 案件添加成功: (2025)苏0105民初0001号
+2025-03-28 10:29:58,562 - automation - INFO - 开始编辑案件: (2025)苏0105民初0001号
+2025-03-28 10:29:58,655 - automation - INFO - 点击元素: ('xpath', "//td[@title='(2025)苏0105民初0001号'][1]/ancestor::div[contains(@class, 'ant-table-content')]/div[3]/div[2]/div/table/tbody/tr/td[3]/div/div[3]")
+2025-03-28 10:29:59,754 - automation - INFO - 截图已添加到Allure报告: edit_case_form
+2025-03-28 10:30:02,591 - automation - INFO - 截图已添加到Allure报告: case_name_modified
+2025-03-28 10:30:02,653 - automation - INFO - 点击元素: ('xpath', '//div[@class="ant-modal-root"]//button[2]')
+2025-03-28 10:30:04,751 - automation - INFO - 截图已添加到Allure报告: case_edited
+2025-03-28 10:30:04,752 - automation - INFO - 案件修改成功: (2025)苏0105民初0001号修改
+2025-03-28 10:30:04,753 - automation - INFO - 开始删除案件: (2025)苏0105民初0001号
+2025-03-28 10:30:04,814 - automation - INFO - 点击元素: ('xpath', "//td[@title='(2025)苏0105民初0001号'][1]/ancestor::div[contains(@class, 'ant-table-content')]/div[3]/div[2]/div/table/tbody/tr/td[3]/div/div[4]")
+2025-03-28 10:30:05,929 - automation - INFO - 截图已添加到Allure报告: delete_confirmation
+2025-03-28 10:30:05,977 - automation - INFO - 点击元素: ('xpath', "//div[@class='ant-modal-body']//button[2]")
+2025-03-28 10:30:08,063 - automation - INFO - 截图已添加到Allure报告: case_deleted
+2025-03-28 10:30:08,063 - automation - INFO - 案件删除成功: (2025)苏0105民初0001号
+2025-03-28 10:30:08,063 - automation - INFO - 案件增删改功能测试完成，案件名称: (2025)苏0105民初0001号
+2025-03-28 10:30:08,066 - automation - INFO - 初始化测试方法...
+2025-03-28 10:30:08,072 - automation - INFO - 点击辅助阅卷
+2025-03-28 10:30:10,141 - automation - INFO - 成功点击辅助阅卷
+2025-03-28 10:30:10,219 - automation - INFO - 点击庭审笔录1
+2025-03-28 10:30:12,302 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 10:30:12,503 - automation - INFO - 点击设为庭审笔录
+2025-03-28 10:30:13,582 - automation - INFO - 成功点击设为庭审笔录
+2025-03-28 10:30:13,582 - automation - INFO - 输入原告处理意见1
+2025-03-28 10:30:14,698 - automation - INFO - 成功输入原告处理意见1
+2025-03-28 10:30:14,700 - automation - INFO - 输入原告处理意见2
+2025-03-28 10:30:15,808 - automation - INFO - 成功输入原告处理意见2
+2025-03-28 10:30:15,808 - automation - INFO - 点击确定按钮
+2025-03-28 10:30:17,877 - automation - INFO - 成功点击确定按钮
+2025-03-28 10:30:18,075 - automation - INFO - 点击取消设置庭审笔录
+2025-03-28 10:30:18,075 - automation - INFO - 点击庭审笔录1
+2025-03-28 10:30:20,137 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 10:30:21,216 - automation - INFO - 点击确定取消设置
+2025-03-28 10:30:24,509 - automation - INFO - 尝试标准点击确认按钮
+2025-03-28 10:30:26,549 - automation - INFO - 成功取消设置庭审笔录
+2025-03-28 10:30:26,743 - automation - INFO - 点击下载按钮
+2025-03-28 10:30:27,806 - automation - INFO - 选择PDF下载
+2025-03-28 10:30:30,875 - automation - INFO - 成功下载笔录PDF
+2025-03-28 10:30:31,078 - automation - INFO - 点击庭审笔录2
+2025-03-28 10:30:32,159 - automation - INFO - 点击添加为证据按钮
+2025-03-28 10:30:33,252 - automation - INFO - 点击目录下拉框
+2025-03-28 10:30:34,332 - automation - INFO - 选择法院材料选项
+2025-03-28 10:30:35,411 - automation - INFO - 点击确定按钮
+2025-03-28 10:30:45,940 - automation - ERROR - 辅助阅卷测试失败: Message: 
+
+2025-03-28 10:30:46,238 - automation - INFO - 测试方法执行完毕
+2025-03-28 10:32:41,888 - automation - INFO - 开始初始化WebDriver...
+2025-03-28 10:32:41,889 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 10:32:41,889 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 10:32:43,558 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 10:32:43,562 - automation - INFO - WebDriver实例验证成功
+2025-03-28 10:32:43,562 - automation - INFO - 初始化测试方法...
+2025-03-28 10:32:43,565 - automation - INFO - 点击辅助阅卷
+2025-03-28 10:32:51,609 - automation - ERROR - 辅助阅卷测试失败: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DC55D1]
+	(No symbol) [0x00007FF6F5DC553C]
+	(No symbol) [0x00007FF6F5DC3C95]
+	(No symbol) [0x00007FF6F5DC49BF]
+	(No symbol) [0x00007FF6F5DDE5D1]
+	(No symbol) [0x00007FF6F5DDF0CA]
+	(No symbol) [0x00007FF6F5DE38FC]
+	(No symbol) [0x00007FF6F5DE39CF]
+	(No symbol) [0x00007FF6F5E2F000]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-28 10:32:51,610 - automation - WARNING - 无法获取test_failed截图
+2025-03-28 10:32:51,739 - automation - INFO - 测试方法执行完毕
+2025-03-28 10:33:04,206 - automation - INFO - 开始登录系统
+2025-03-28 10:33:04,206 - automation - ERROR - 辅助阅卷测试失败: 'TestAssistedReading' object has no attribute 'login_page'
+2025-03-28 10:33:04,206 - automation - WARNING - 无法获取test_failed截图
+2025-03-28 10:33:04,270 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-28 10:33:15,572 - automation - INFO - 初始化测试类...
+2025-03-28 10:33:15,572 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 10:33:15,572 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 10:33:16,746 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 10:33:16,748 - automation - INFO - 开始登录系统
+2025-03-28 10:33:19,180 - automation - INFO - 成功打开登录页面
+2025-03-28 10:33:19,180 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:33:19,285 - automation - INFO - 用户名输入完成
+2025-03-28 10:33:19,286 - automation - INFO - 开始输入密码
+2025-03-28 10:33:19,388 - automation - INFO - 密码输入完成
+2025-03-28 10:33:19,403 - automation - INFO - ==================================================
+2025-03-28 10:33:19,403 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 10:33:19,403 - automation - INFO - ==================================================
+2025-03-28 10:33:24,798 - automation - INFO - 验证码已自动填入
+2025-03-28 10:33:25,815 - automation - INFO - 尝试点击登录按钮
+2025-03-28 10:33:25,878 - automation - INFO - 登录按钮点击成功
+2025-03-28 10:33:25,878 - automation - INFO - 登录成功
+2025-03-28 10:33:28,880 - automation - INFO - 登录成功
+2025-03-28 10:33:28,956 - automation - INFO - 点击辅助阅卷
+2025-03-28 10:33:31,025 - automation - INFO - 成功点击辅助阅卷
+2025-03-28 10:33:31,118 - automation - INFO - 点击庭审笔录1
+2025-03-28 10:33:33,184 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 10:33:33,417 - automation - INFO - 点击设为庭审笔录
+2025-03-28 10:33:34,533 - automation - INFO - 成功点击设为庭审笔录
+2025-03-28 10:33:34,533 - automation - INFO - 输入原告处理意见1
+2025-03-28 10:33:35,629 - automation - INFO - 成功输入原告处理意见1
+2025-03-28 10:33:35,629 - automation - INFO - 输入原告处理意见2
+2025-03-28 10:33:36,754 - automation - INFO - 成功输入原告处理意见2
+2025-03-28 10:33:36,754 - automation - INFO - 点击确定按钮
+2025-03-28 10:33:38,841 - automation - INFO - 成功点击确定按钮
+2025-03-28 10:33:39,039 - automation - INFO - 点击取消设置庭审笔录
+2025-03-28 10:33:39,040 - automation - INFO - 点击庭审笔录1
+2025-03-28 10:33:41,104 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 10:33:42,174 - automation - INFO - 点击确定取消设置
+2025-03-28 10:33:45,501 - automation - INFO - 尝试标准点击确认按钮
+2025-03-28 10:33:47,556 - automation - INFO - 成功取消设置庭审笔录
+2025-03-28 10:33:47,757 - automation - INFO - 点击下载按钮
+2025-03-28 10:33:48,805 - automation - INFO - 选择PDF下载
+2025-03-28 10:33:51,889 - automation - INFO - 成功下载笔录PDF
+2025-03-28 10:33:52,092 - automation - INFO - 点击庭审笔录2
+2025-03-28 10:33:53,182 - automation - INFO - 点击添加为证据按钮
+2025-03-28 10:33:54,293 - automation - INFO - 点击目录下拉框
+2025-03-28 10:33:55,368 - automation - INFO - 选择法院材料选项
+2025-03-28 10:33:56,466 - automation - INFO - 点击确定按钮
+2025-03-28 10:33:58,558 - automation - INFO - 成功添加庭审笔录2为证据
+2025-03-28 10:33:58,772 - automation - INFO - 选择庭审笔录3
+2025-03-28 10:33:59,872 - automation - INFO - 点击证据添加按钮
+2025-03-28 10:34:00,945 - automation - INFO - 点击目录下拉框
+2025-03-28 10:34:02,011 - automation - INFO - 选择上诉人选项
+2025-03-28 10:34:03,108 - automation - INFO - 点击确定按钮
+2025-03-28 10:34:05,190 - automation - INFO - 成功将庭审笔录3添加为证据
+2025-03-28 10:34:05,379 - automation - INFO - 点击证据引用标签页
+2025-03-28 10:34:07,489 - automation - INFO - 点击刷新按钮
+2025-03-28 10:34:09,089 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-28 10:35:13,409 - automation - INFO - 开始初始化WebDriver...
+2025-03-28 10:35:13,409 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 10:35:13,409 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 10:35:14,646 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 10:35:14,654 - automation - INFO - WebDriver实例验证成功
+2025-03-28 10:35:14,654 - automation - INFO - 开始执行个人中心测试
+2025-03-28 10:35:17,052 - automation - INFO - 成功打开登录页面
+2025-03-28 10:35:17,052 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:35:17,158 - automation - INFO - 用户名输入完成
+2025-03-28 10:35:17,158 - automation - INFO - 开始输入密码
+2025-03-28 10:35:17,271 - automation - INFO - 密码输入完成
+2025-03-28 10:35:17,287 - automation - INFO - ==================================================
+2025-03-28 10:35:17,287 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 10:35:17,287 - automation - INFO - ==================================================
+2025-03-28 10:35:23,648 - automation - INFO - 验证码已自动填入
+2025-03-28 10:35:24,663 - automation - INFO - 尝试点击登录按钮
+2025-03-28 10:35:24,728 - automation - INFO - 登录按钮点击成功
+2025-03-28 10:35:24,728 - automation - INFO - 登录成功
+2025-03-28 10:35:24,728 - automation - INFO - 完成登录
+2025-03-28 10:35:26,783 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 10:35:27,888 - automation - INFO - 点击报表统计选项
+2025-03-28 10:35:28,980 - automation - INFO - 点击承办部门
+2025-03-28 10:35:30,060 - automation - INFO - 选择承办人
+2025-03-28 10:35:31,132 - automation - INFO - 点击查询按钮
+2025-03-28 10:35:33,204 - automation - INFO - 点击导出按钮
+2025-03-28 10:35:36,267 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 10:35:37,347 - automation - INFO - 点击字体下载选项
+2025-03-28 10:35:38,403 - automation - INFO - 点击方正小标简体按钮
+2025-03-28 10:35:40,480 - automation - INFO - 点击关闭弹框
+2025-03-28 10:35:41,535 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 10:35:42,636 - automation - INFO - 点击修改密码选项
+2025-03-28 10:35:43,772 - automation - INFO - 输入原密码
+2025-03-28 10:35:43,883 - automation - INFO - 输入新密码
+2025-03-28 10:35:43,987 - automation - INFO - 确认新密码
+2025-03-28 10:35:44,047 - automation - INFO - 点击确定按钮
+2025-03-28 10:35:49,078 - automation - INFO - 成功打开登录页面
+2025-03-28 10:35:49,078 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:35:49,175 - automation - INFO - 用户名输入完成
+2025-03-28 10:35:49,176 - automation - INFO - 开始输入密码
+2025-03-28 10:35:49,274 - automation - INFO - 密码输入完成
+2025-03-28 10:35:49,283 - automation - INFO - ==================================================
+2025-03-28 10:35:49,283 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 10:35:49,283 - automation - INFO - ==================================================
+2025-03-28 10:35:55,918 - automation - INFO - 验证码已自动填入
+2025-03-28 10:35:56,922 - automation - INFO - 尝试点击登录按钮
+2025-03-28 10:35:56,974 - automation - INFO - 登录按钮点击成功
+2025-03-28 10:35:56,974 - automation - INFO - 登录成功
+2025-03-28 10:35:56,974 - automation - INFO - 完成新密码登录
+2025-03-28 10:35:58,988 - automation - INFO - 使用新密码登录成功
+2025-03-28 10:35:59,058 - automation - INFO - 个人中心测试执行完成
+2025-03-28 10:35:59,061 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-03-28 10:35:59,061 - automation - INFO - 测试数据加载成功
+2025-03-28 10:35:59,061 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-03-28 10:35:59,061 - automation - INFO - 开始添加案件: (2025)苏0105民初0001号
+2025-03-28 10:35:59,189 - automation - INFO - 点击元素: ('xpath', '//body//div//button[2]')
+2025-03-28 10:36:00,340 - automation - INFO - 截图已添加到Allure报告: add_case_form
+2025-03-28 10:36:00,897 - automation - INFO - 输入文本: (2025)苏0105民初0001号, 元素: ('xpath', "//div[@class='ant-col ant-col-24']//input[@placeholder='请输入案件名称']")
+2025-03-28 10:36:01,418 - automation - INFO - 输入文本: (2025)苏0105民初0001号, 元素: ('xpath', "//div[@class='ant-col ant-col-12']//input[@placeholder='请输入案件编号']")
+2025-03-28 10:36:01,495 - automation - INFO - 点击元素: ('css selector', 'input.vue-treeselect__input')
+2025-03-28 10:36:01,552 - automation - INFO - 点击元素: ('xpath', "//label[contains(text(),'民事')]")
+2025-03-28 10:36:01,640 - automation - INFO - 点击元素: ('xpath', "//label[contains(text(),'民事一审')]")
+2025-03-28 10:36:02,736 - automation - INFO - 截图已添加到Allure报告: case_type_selected
+2025-03-28 10:36:02,804 - automation - INFO - 点击元素: ('xpath', "//div[contains(@class, 'vue-treeselect__placeholder') and text()='请选择案由类型']/following-sibling::div//input[@class='vue-treeselect__input']")
+2025-03-28 10:36:02,890 - automation - INFO - 点击元素: ('xpath', '//label[contains(text(),"行政案由")]')
+2025-03-28 10:36:03,976 - automation - INFO - 截图已添加到Allure报告: reason_type_selected
+2025-03-28 10:36:04,032 - automation - INFO - 点击元素: ('xpath', "//div[contains(@class, 'ant-select-selection__placeholder') and text()='请输入原审案号']/ancestor::div[contains(@class, 'ant-select-selection')]")
+2025-03-28 10:36:06,218 - automation - INFO - 点击元素: ('xpath', "//form/div/div[7]//input[@placeholder='选择开始日期']")
+2025-03-28 10:36:06,879 - automation - INFO - 点击元素: ('xpath', '//a[text()="今天"]')
+2025-03-28 10:36:07,963 - automation - INFO - 截图已添加到Allure报告: date_selected
+2025-03-28 10:36:08,026 - automation - INFO - 点击元素: ('xpath', '//div[@class="ant-modal-root"]//button[2]')
+2025-03-28 10:36:10,117 - automation - INFO - 截图已添加到Allure报告: case_added
+2025-03-28 10:36:10,119 - automation - INFO - 案件添加成功: (2025)苏0105民初0001号
+2025-03-28 10:36:10,119 - automation - INFO - 开始编辑案件: (2025)苏0105民初0001号
+2025-03-28 10:36:10,216 - automation - INFO - 点击元素: ('xpath', "//td[@title='(2025)苏0105民初0001号'][1]/ancestor::div[contains(@class, 'ant-table-content')]/div[3]/div[2]/div/table/tbody/tr/td[3]/div/div[3]")
+2025-03-28 10:36:11,320 - automation - INFO - 截图已添加到Allure报告: edit_case_form
+2025-03-28 10:36:14,155 - automation - INFO - 截图已添加到Allure报告: case_name_modified
+2025-03-28 10:36:14,213 - automation - INFO - 点击元素: ('xpath', '//div[@class="ant-modal-root"]//button[2]')
+2025-03-28 10:36:16,296 - automation - INFO - 截图已添加到Allure报告: case_edited
+2025-03-28 10:36:16,296 - automation - INFO - 案件修改成功: (2025)苏0105民初0001号修改
+2025-03-28 10:36:16,296 - automation - INFO - 开始删除案件: (2025)苏0105民初0001号
+2025-03-28 10:36:16,354 - automation - INFO - 点击元素: ('xpath', "//td[@title='(2025)苏0105民初0001号'][1]/ancestor::div[contains(@class, 'ant-table-content')]/div[3]/div[2]/div/table/tbody/tr/td[3]/div/div[4]")
+2025-03-28 10:36:17,464 - automation - INFO - 截图已添加到Allure报告: delete_confirmation
+2025-03-28 10:36:17,521 - automation - INFO - 点击元素: ('xpath', "//div[@class='ant-modal-body']//button[2]")
+2025-03-28 10:36:19,589 - automation - INFO - 截图已添加到Allure报告: case_deleted
+2025-03-28 10:36:19,589 - automation - INFO - 案件删除成功: (2025)苏0105民初0001号
+2025-03-28 10:36:19,591 - automation - INFO - 案件增删改功能测试完成，案件名称: (2025)苏0105民初0001号
+2025-03-28 10:36:19,596 - automation - INFO - 初始化测试方法...
+2025-03-28 10:36:19,603 - automation - INFO - 点击辅助阅卷
+2025-03-28 10:36:21,661 - automation - INFO - 成功点击辅助阅卷
+2025-03-28 10:36:21,753 - automation - INFO - 点击庭审笔录1
+2025-03-28 10:36:23,824 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 10:36:24,033 - automation - INFO - 点击设为庭审笔录
+2025-03-28 10:36:25,105 - automation - INFO - 成功点击设为庭审笔录
+2025-03-28 10:36:25,105 - automation - INFO - 输入原告处理意见1
+2025-03-28 10:36:26,200 - automation - INFO - 成功输入原告处理意见1
+2025-03-28 10:36:26,200 - automation - INFO - 输入原告处理意见2
+2025-03-28 10:36:27,312 - automation - INFO - 成功输入原告处理意见2
+2025-03-28 10:36:27,312 - automation - INFO - 点击确定按钮
+2025-03-28 10:36:29,413 - automation - INFO - 成功点击确定按钮
+2025-03-28 10:36:29,620 - automation - INFO - 点击取消设置庭审笔录
+2025-03-28 10:36:29,620 - automation - INFO - 点击庭审笔录1
+2025-03-28 10:36:31,688 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 10:36:32,767 - automation - INFO - 点击确定取消设置
+2025-03-28 10:36:36,056 - automation - INFO - 尝试标准点击确认按钮
+2025-03-28 10:36:38,106 - automation - INFO - 成功取消设置庭审笔录
+2025-03-28 10:36:38,310 - automation - INFO - 点击下载按钮
+2025-03-28 10:36:39,378 - automation - INFO - 选择PDF下载
+2025-03-28 10:36:42,454 - automation - INFO - 成功下载笔录PDF
+2025-03-28 10:36:42,660 - automation - INFO - 点击庭审笔录2
+2025-03-28 10:36:44,748 - automation - INFO - 点击添加为证据按钮
+2025-03-28 10:36:46,835 - automation - INFO - 点击目录下拉框
+2025-03-28 10:36:47,915 - automation - INFO - 选择法院材料选项
+2025-03-28 10:36:48,992 - automation - INFO - 点击确定按钮
+2025-03-28 10:36:59,528 - automation - ERROR - 辅助阅卷测试失败: Message: 
+
+2025-03-28 10:36:59,852 - automation - INFO - 测试方法执行完毕
+2025-03-28 10:42:50,601 - automation - INFO - 初始化测试类...
+2025-03-28 10:42:50,601 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 10:42:50,602 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 10:42:51,782 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 10:42:51,814 - automation - INFO - 开始登录系统
+2025-03-28 10:42:54,265 - automation - INFO - 成功打开登录页面
+2025-03-28 10:42:54,265 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:42:54,373 - automation - INFO - 用户名输入完成
+2025-03-28 10:42:54,373 - automation - INFO - 开始输入密码
+2025-03-28 10:42:54,495 - automation - INFO - 密码输入完成
+2025-03-28 10:42:54,512 - automation - INFO - ==================================================
+2025-03-28 10:42:54,512 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 10:42:54,512 - automation - INFO - ==================================================
+2025-03-28 10:42:59,309 - automation - INFO - 验证码已自动填入
+2025-03-28 10:43:00,324 - automation - INFO - 尝试点击登录按钮
+2025-03-28 10:43:00,384 - automation - INFO - 登录按钮点击成功
+2025-03-28 10:43:00,384 - automation - INFO - 登录成功
+2025-03-28 10:43:03,388 - automation - INFO - 登录成功
+2025-03-28 10:43:03,457 - automation - INFO - 点击辅助阅卷
+2025-03-28 10:43:05,538 - automation - INFO - 成功点击辅助阅卷
+2025-03-28 10:43:05,615 - automation - INFO - 点击庭审笔录1
+2025-03-28 10:43:07,677 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 10:43:07,917 - automation - INFO - 点击设为庭审笔录
+2025-03-28 10:43:08,984 - automation - INFO - 成功点击设为庭审笔录
+2025-03-28 10:43:08,984 - automation - INFO - 输入原告处理意见1
+2025-03-28 10:43:10,078 - automation - INFO - 成功输入原告处理意见1
+2025-03-28 10:43:10,078 - automation - INFO - 输入原告处理意见2
+2025-03-28 10:43:11,186 - automation - INFO - 成功输入原告处理意见2
+2025-03-28 10:43:11,186 - automation - INFO - 点击确定按钮
+2025-03-28 10:43:13,270 - automation - INFO - 成功点击确定按钮
+2025-03-28 10:43:13,494 - automation - INFO - 点击取消设置庭审笔录
+2025-03-28 10:43:13,494 - automation - INFO - 点击庭审笔录1
+2025-03-28 10:43:15,556 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 10:43:16,638 - automation - INFO - 点击确定取消设置
+2025-03-28 10:43:19,937 - automation - INFO - 尝试标准点击确认按钮
+2025-03-28 10:43:21,995 - automation - INFO - 成功取消设置庭审笔录
+2025-03-28 10:43:22,222 - automation - INFO - 点击下载按钮
+2025-03-28 10:43:23,279 - automation - INFO - 选择PDF下载
+2025-03-28 10:43:26,363 - automation - INFO - 成功下载笔录PDF
+2025-03-28 10:43:26,555 - automation - INFO - 点击庭审笔录2
+2025-03-28 10:43:28,658 - automation - INFO - 点击添加为证据按钮
+2025-03-28 10:43:30,736 - automation - INFO - 点击目录下拉框
+2025-03-28 10:43:31,821 - automation - INFO - 选择法院材料选项
+2025-03-28 10:43:32,891 - automation - INFO - 点击确定按钮
+2025-03-28 10:43:34,978 - automation - INFO - 成功添加庭审笔录2为证据
+2025-03-28 10:43:35,183 - automation - INFO - 选择庭审笔录3
+2025-03-28 10:43:36,259 - automation - INFO - 点击证据添加按钮
+2025-03-28 10:43:37,340 - automation - INFO - 点击目录下拉框
+2025-03-28 10:43:38,404 - automation - INFO - 选择上诉人选项
+2025-03-28 10:43:39,489 - automation - INFO - 点击确定按钮
+2025-03-28 10:43:41,565 - automation - INFO - 成功将庭审笔录3添加为证据
+2025-03-28 10:43:41,754 - automation - INFO - 点击证据引用标签页
+2025-03-28 10:43:43,871 - automation - INFO - 点击刷新按钮
+2025-03-28 10:43:45,963 - automation - INFO - 点击查看庭审笔录2详情
+2025-03-28 10:43:48,041 - automation - INFO - 点击关闭详情
+2025-03-28 10:43:50,135 - automation - INFO - 成功查看证据引用功能
+2025-03-28 10:43:50,221 - automation - INFO - 选择庭审笔录2和庭审笔录3
+2025-03-28 10:43:52,348 - automation - INFO - 点击双屏阅卷按钮
+2025-03-28 10:43:55,415 - automation - INFO - 查看双屏阅卷内容
+2025-03-28 10:43:57,420 - automation - INFO - 点击关闭双屏阅卷
+2025-03-28 10:43:59,485 - automation - INFO - 成功完成双屏阅卷功能
+2025-03-28 10:43:59,554 - automation - INFO - 点击上诉人选择器
+2025-03-28 10:44:01,561 - automation - WARNING - 选择上诉人为第三人失败，但继续执行: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DC4FB5]
+	(No symbol) [0x00007FF6F5DE9CD4]
+	(No symbol) [0x00007FF6F5E5F78F]
+	(No symbol) [0x00007FF6F5E7F975]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-28 10:44:01,563 - automation - WARNING - 无法获取select_third_party_complete截图
+2025-03-28 10:44:01,564 - automation - INFO - 点击刷新按钮
+2025-03-28 10:44:01,566 - automation - ERROR - 辅助阅卷测试失败: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD8FFC]
+	(No symbol) [0x00007FF6F5E1F69F]
+	(No symbol) [0x00007FF6F5E577B2]
+	(No symbol) [0x00007FF6F5E5210E]
+	(No symbol) [0x00007FF6F5E511B9]
+	(No symbol) [0x00007FF6F5DA55E5]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5DA41FF]
+	GetHandleVerifier [0x00007FF6F63C25D8+4042392]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-28 10:44:01,567 - automation - WARNING - 无法获取test_failed截图
+2025-03-28 10:44:01,742 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-28 10:44:56,459 - automation - INFO - 开始初始化WebDriver...
+2025-03-28 10:44:56,459 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 10:44:56,459 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 10:44:57,708 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 10:44:57,718 - automation - INFO - WebDriver实例验证成功
+2025-03-28 10:44:57,719 - automation - INFO - 开始执行个人中心测试
+2025-03-28 10:45:00,123 - automation - INFO - 成功打开登录页面
+2025-03-28 10:45:00,123 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:45:00,230 - automation - INFO - 用户名输入完成
+2025-03-28 10:45:00,230 - automation - INFO - 开始输入密码
+2025-03-28 10:45:00,328 - automation - INFO - 密码输入完成
+2025-03-28 10:45:00,343 - automation - INFO - ==================================================
+2025-03-28 10:45:00,343 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 10:45:00,343 - automation - INFO - ==================================================
+2025-03-28 10:45:06,047 - automation - INFO - 验证码已自动填入
+2025-03-28 10:45:07,053 - automation - INFO - 尝试点击登录按钮
+2025-03-28 10:45:07,122 - automation - INFO - 登录按钮点击成功
+2025-03-28 10:45:07,122 - automation - INFO - 登录成功
+2025-03-28 10:45:07,122 - automation - INFO - 完成登录
+2025-03-28 10:45:09,181 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 10:45:10,250 - automation - INFO - 点击报表统计选项
+2025-03-28 10:45:11,328 - automation - INFO - 点击承办部门
+2025-03-28 10:45:12,401 - automation - INFO - 选择承办人
+2025-03-28 10:45:13,479 - automation - INFO - 点击查询按钮
+2025-03-28 10:45:15,550 - automation - INFO - 点击导出按钮
+2025-03-28 10:45:18,609 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 10:45:19,681 - automation - INFO - 点击字体下载选项
+2025-03-28 10:45:20,756 - automation - INFO - 点击方正小标简体按钮
+2025-03-28 10:45:22,822 - automation - INFO - 点击关闭弹框
+2025-03-28 10:45:23,871 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 10:45:24,966 - automation - INFO - 点击修改密码选项
+2025-03-28 10:45:26,089 - automation - INFO - 输入原密码
+2025-03-28 10:45:26,220 - automation - INFO - 输入新密码
+2025-03-28 10:45:26,323 - automation - INFO - 确认新密码
+2025-03-28 10:45:26,383 - automation - INFO - 点击确定按钮
+2025-03-28 10:45:31,411 - automation - INFO - 成功打开登录页面
+2025-03-28 10:45:31,412 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:45:31,504 - automation - INFO - 用户名输入完成
+2025-03-28 10:45:31,504 - automation - INFO - 开始输入密码
+2025-03-28 10:45:31,598 - automation - INFO - 密码输入完成
+2025-03-28 10:45:31,605 - automation - INFO - ==================================================
+2025-03-28 10:45:31,605 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 10:45:31,605 - automation - INFO - ==================================================
+2025-03-28 10:45:38,271 - automation - INFO - 验证码已自动填入
+2025-03-28 10:45:39,273 - automation - INFO - 尝试点击登录按钮
+2025-03-28 10:45:39,334 - automation - INFO - 登录按钮点击成功
+2025-03-28 10:45:39,334 - automation - INFO - 登录成功
+2025-03-28 10:45:39,334 - automation - INFO - 完成新密码登录
+2025-03-28 10:45:41,361 - automation - INFO - 使用新密码登录成功
+2025-03-28 10:45:41,436 - automation - INFO - 个人中心测试执行完成
+2025-03-28 10:45:41,439 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-03-28 10:45:41,440 - automation - INFO - 测试数据加载成功
+2025-03-28 10:45:41,440 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-03-28 10:45:41,440 - automation - INFO - 开始添加案件: (2025)苏0105民初0001号
+2025-03-28 10:45:41,567 - automation - INFO - 点击元素: ('xpath', '//body//div//button[2]')
+2025-03-28 10:45:42,689 - automation - INFO - 截图已添加到Allure报告: add_case_form
+2025-03-28 10:45:43,256 - automation - INFO - 输入文本: (2025)苏0105民初0001号, 元素: ('xpath', "//div[@class='ant-col ant-col-24']//input[@placeholder='请输入案件名称']")
+2025-03-28 10:45:43,789 - automation - INFO - 输入文本: (2025)苏0105民初0001号, 元素: ('xpath', "//div[@class='ant-col ant-col-12']//input[@placeholder='请输入案件编号']")
+2025-03-28 10:45:43,859 - automation - INFO - 点击元素: ('css selector', 'input.vue-treeselect__input')
+2025-03-28 10:45:43,914 - automation - INFO - 点击元素: ('xpath', "//label[contains(text(),'民事')]")
+2025-03-28 10:45:43,997 - automation - INFO - 点击元素: ('xpath', "//label[contains(text(),'民事一审')]")
+2025-03-28 10:45:45,095 - automation - INFO - 截图已添加到Allure报告: case_type_selected
+2025-03-28 10:45:45,160 - automation - INFO - 点击元素: ('xpath', "//div[contains(@class, 'vue-treeselect__placeholder') and text()='请选择案由类型']/following-sibling::div//input[@class='vue-treeselect__input']")
+2025-03-28 10:45:45,250 - automation - INFO - 点击元素: ('xpath', '//label[contains(text(),"行政案由")]')
+2025-03-28 10:45:46,343 - automation - INFO - 截图已添加到Allure报告: reason_type_selected
+2025-03-28 10:45:46,416 - automation - INFO - 点击元素: ('xpath', "//div[contains(@class, 'ant-select-selection__placeholder') and text()='请输入原审案号']/ancestor::div[contains(@class, 'ant-select-selection')]")
+2025-03-28 10:45:48,570 - automation - INFO - 点击元素: ('xpath', "//form/div/div[7]//input[@placeholder='选择开始日期']")
+2025-03-28 10:45:49,177 - automation - INFO - 点击元素: ('xpath', '//a[text()="今天"]')
+2025-03-28 10:45:50,264 - automation - INFO - 截图已添加到Allure报告: date_selected
+2025-03-28 10:45:50,321 - automation - INFO - 点击元素: ('xpath', '//div[@class="ant-modal-root"]//button[2]')
+2025-03-28 10:45:52,413 - automation - INFO - 截图已添加到Allure报告: case_added
+2025-03-28 10:45:52,413 - automation - INFO - 案件添加成功: (2025)苏0105民初0001号
+2025-03-28 10:45:52,413 - automation - INFO - 开始编辑案件: (2025)苏0105民初0001号
+2025-03-28 10:45:52,511 - automation - INFO - 点击元素: ('xpath', "//td[@title='(2025)苏0105民初0001号'][1]/ancestor::div[contains(@class, 'ant-table-content')]/div[3]/div[2]/div/table/tbody/tr/td[3]/div/div[3]")
+2025-03-28 10:45:53,630 - automation - INFO - 截图已添加到Allure报告: edit_case_form
+2025-03-28 10:45:56,480 - automation - INFO - 截图已添加到Allure报告: case_name_modified
+2025-03-28 10:45:56,537 - automation - INFO - 点击元素: ('xpath', '//div[@class="ant-modal-root"]//button[2]')
+2025-03-28 10:45:58,627 - automation - INFO - 截图已添加到Allure报告: case_edited
+2025-03-28 10:45:58,627 - automation - INFO - 案件修改成功: (2025)苏0105民初0001号修改
+2025-03-28 10:45:58,628 - automation - INFO - 开始删除案件: (2025)苏0105民初0001号
+2025-03-28 10:45:58,684 - automation - INFO - 点击元素: ('xpath', "//td[@title='(2025)苏0105民初0001号'][1]/ancestor::div[contains(@class, 'ant-table-content')]/div[3]/div[2]/div/table/tbody/tr/td[3]/div/div[4]")
+2025-03-28 10:45:59,791 - automation - INFO - 截图已添加到Allure报告: delete_confirmation
+2025-03-28 10:45:59,844 - automation - INFO - 点击元素: ('xpath', "//div[@class='ant-modal-body']//button[2]")
+2025-03-28 10:46:01,921 - automation - INFO - 截图已添加到Allure报告: case_deleted
+2025-03-28 10:46:01,921 - automation - INFO - 案件删除成功: (2025)苏0105民初0001号
+2025-03-28 10:46:01,921 - automation - INFO - 案件增删改功能测试完成，案件名称: (2025)苏0105民初0001号
+2025-03-28 10:46:01,924 - automation - INFO - 初始化测试方法...
+2025-03-28 10:46:01,930 - automation - INFO - 点击辅助阅卷
+2025-03-28 10:46:03,995 - automation - INFO - 成功点击辅助阅卷
+2025-03-28 10:46:04,082 - automation - INFO - 点击庭审笔录1
+2025-03-28 10:46:06,165 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 10:46:06,409 - automation - INFO - 点击设为庭审笔录
+2025-03-28 10:46:07,493 - automation - INFO - 成功点击设为庭审笔录
+2025-03-28 10:46:07,493 - automation - INFO - 输入原告处理意见1
+2025-03-28 10:46:08,590 - automation - INFO - 成功输入原告处理意见1
+2025-03-28 10:46:08,590 - automation - INFO - 输入原告处理意见2
+2025-03-28 10:46:09,689 - automation - INFO - 成功输入原告处理意见2
+2025-03-28 10:46:09,689 - automation - INFO - 点击确定按钮
+2025-03-28 10:46:11,762 - automation - INFO - 成功点击确定按钮
+2025-03-28 10:46:11,960 - automation - INFO - 点击取消设置庭审笔录
+2025-03-28 10:46:11,960 - automation - INFO - 点击庭审笔录1
+2025-03-28 10:46:14,030 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 10:46:15,105 - automation - INFO - 点击确定取消设置
+2025-03-28 10:46:18,411 - automation - INFO - 尝试标准点击确认按钮
+2025-03-28 10:46:20,455 - automation - INFO - 成功取消设置庭审笔录
+2025-03-28 10:46:20,669 - automation - INFO - 点击下载按钮
+2025-03-28 10:46:21,734 - automation - INFO - 选择PDF下载
+2025-03-28 10:46:24,798 - automation - INFO - 成功下载笔录PDF
+2025-03-28 10:46:25,021 - automation - INFO - 点击庭审笔录2
+2025-03-28 10:46:27,117 - automation - INFO - 点击添加为证据按钮
+2025-03-28 10:46:29,190 - automation - INFO - 点击目录下拉框
+2025-03-28 10:46:30,262 - automation - INFO - 选择法院材料选项
+2025-03-28 10:46:31,360 - automation - INFO - 点击确定按钮
+2025-03-28 10:46:41,410 - automation - ERROR - 辅助阅卷测试失败: Message: 
+
+2025-03-28 10:46:41,695 - automation - INFO - 测试方法执行完毕
+2025-03-28 10:57:42,418 - automation - INFO - 初始化测试类...
+2025-03-28 10:57:42,418 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 10:57:42,418 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 10:57:44,213 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 10:57:44,218 - automation - INFO - 开始登录系统
+2025-03-28 10:57:46,651 - automation - INFO - 成功打开登录页面
+2025-03-28 10:57:46,651 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:57:46,756 - automation - INFO - 用户名输入完成
+2025-03-28 10:57:46,756 - automation - INFO - 开始输入密码
+2025-03-28 10:57:46,856 - automation - INFO - 密码输入完成
+2025-03-28 10:57:46,872 - automation - INFO - ==================================================
+2025-03-28 10:57:46,872 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 10:57:46,872 - automation - INFO - ==================================================
+2025-03-28 10:57:54,595 - automation - INFO - 验证码已自动填入
+2025-03-28 10:57:55,607 - automation - INFO - 尝试点击登录按钮
+2025-03-28 10:57:55,679 - automation - INFO - 登录按钮点击成功
+2025-03-28 10:57:55,679 - automation - INFO - 登录成功
+2025-03-28 10:57:58,690 - automation - INFO - 登录成功
+2025-03-28 10:57:58,768 - automation - INFO - 点击辅助阅卷
+2025-03-28 10:58:00,823 - automation - INFO - 成功点击辅助阅卷
+2025-03-28 10:58:00,915 - automation - INFO - 点击庭审笔录1
+2025-03-28 10:58:02,986 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 10:58:03,191 - automation - INFO - 点击设为庭审笔录
+2025-03-28 10:58:04,264 - automation - INFO - 成功点击设为庭审笔录
+2025-03-28 10:58:04,264 - automation - INFO - 输入原告处理意见1
+2025-03-28 10:58:05,347 - automation - INFO - 成功输入原告处理意见1
+2025-03-28 10:58:05,347 - automation - INFO - 输入原告处理意见2
+2025-03-28 10:58:06,458 - automation - INFO - 成功输入原告处理意见2
+2025-03-28 10:58:06,458 - automation - INFO - 点击确定按钮
+2025-03-28 10:58:08,547 - automation - INFO - 成功点击确定按钮
+2025-03-28 10:58:08,745 - automation - INFO - 点击取消设置庭审笔录
+2025-03-28 10:58:08,745 - automation - INFO - 点击庭审笔录1
+2025-03-28 10:58:10,834 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 10:58:11,919 - automation - INFO - 点击确定取消设置
+2025-03-28 10:58:15,241 - automation - INFO - 尝试标准点击确认按钮
+2025-03-28 10:58:17,300 - automation - INFO - 成功取消设置庭审笔录
+2025-03-28 10:58:17,515 - automation - INFO - 点击下载按钮
+2025-03-28 10:58:18,578 - automation - INFO - 选择PDF下载
+2025-03-28 10:58:21,658 - automation - INFO - 成功下载笔录PDF
+2025-03-28 10:58:21,897 - automation - INFO - 尝试添加庭审笔录2为证据
+2025-03-28 10:58:21,897 - automation - INFO - 添加庭审笔录2为证据
+2025-03-28 10:58:21,897 - automation - INFO - 检查当前页面状态
+2025-03-28 10:58:21,901 - automation - INFO - 当前页面URL: http://192.168.2.176:86/#/auxiliaryMarking/index?caseCode=00a4571ea2d44d6bab87af27e07221b1
+2025-03-28 10:58:21,908 - automation - INFO - 当前页面标题: 法官AI助手 - 辅助阅卷
+2025-03-28 10:58:22,100 - automation - INFO - 尝试点击庭审笔录2
+2025-03-28 10:58:26,212 - automation - INFO - 成功点击庭审笔录2
+2025-03-28 10:58:28,217 - automation - INFO - 点击添加为证据按钮
+2025-03-28 10:58:30,319 - automation - INFO - 成功点击添加为证据按钮
+2025-03-28 10:58:30,508 - automation - INFO - 选择庭审笔录3
+2025-03-28 10:58:31,599 - automation - ERROR - 辅助阅卷测试失败: Message: element click intercepted: Element <span class="ant-tree-checkbox-inner"></span> is not clickable at point (67, 384). Other element would receive the click: <div tabindex="-1" role="dialog" aria-labelledby="rcDialogTitle0" class="ant-modal-wrap animate__animated animate__fadeInDownBig">...</div>
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E375E9]
+	(No symbol) [0x00007FF6F5E34FA2]
+	(No symbol) [0x00007FF6F5E32051]
+	(No symbol) [0x00007FF6F5E30F76]
+	(No symbol) [0x00007FF6F5E227E4]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-28 10:58:32,020 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-28 10:58:34,185 - automation - INFO - 浏览器已关闭
+2025-03-28 10:59:27,361 - automation - INFO - 初始化测试类...
+2025-03-28 10:59:27,362 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 10:59:27,362 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 10:59:28,670 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 10:59:28,671 - automation - INFO - 开始登录系统
+2025-03-28 10:59:31,028 - automation - INFO - 成功打开登录页面
+2025-03-28 10:59:31,028 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:59:31,146 - automation - INFO - 用户名输入完成
+2025-03-28 10:59:31,146 - automation - INFO - 开始输入密码
+2025-03-28 10:59:31,245 - automation - INFO - 密码输入完成
+2025-03-28 10:59:31,260 - automation - INFO - ==================================================
+2025-03-28 10:59:31,260 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 10:59:31,260 - automation - INFO - ==================================================
+2025-03-28 10:59:39,648 - automation - INFO - 验证码已自动填入
+2025-03-28 10:59:40,659 - automation - INFO - 尝试点击登录按钮
+2025-03-28 10:59:40,730 - automation - INFO - 登录按钮点击成功
+2025-03-28 10:59:40,731 - automation - INFO - 登录成功
+2025-03-28 10:59:43,746 - automation - INFO - 登录成功
+2025-03-28 10:59:43,817 - automation - INFO - 点击辅助阅卷
+2025-03-28 10:59:45,880 - automation - INFO - 成功点击辅助阅卷
+2025-03-28 10:59:45,957 - automation - INFO - 点击庭审笔录1
+2025-03-28 10:59:48,020 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 10:59:48,246 - automation - INFO - 点击设为庭审笔录
+2025-03-28 10:59:49,328 - automation - INFO - 成功点击设为庭审笔录
+2025-03-28 10:59:49,328 - automation - INFO - 输入原告处理意见1
+2025-03-28 10:59:50,428 - automation - INFO - 成功输入原告处理意见1
+2025-03-28 10:59:50,428 - automation - INFO - 输入原告处理意见2
+2025-03-28 10:59:51,545 - automation - INFO - 成功输入原告处理意见2
+2025-03-28 10:59:51,546 - automation - INFO - 点击确定按钮
+2025-03-28 10:59:53,622 - automation - INFO - 成功点击确定按钮
+2025-03-28 10:59:53,829 - automation - INFO - 点击取消设置庭审笔录
+2025-03-28 10:59:53,829 - automation - INFO - 点击庭审笔录1
+2025-03-28 10:59:55,895 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 10:59:56,966 - automation - INFO - 点击确定取消设置
+2025-03-28 11:00:00,265 - automation - INFO - 尝试标准点击确认按钮
+2025-03-28 11:00:02,312 - automation - INFO - 成功取消设置庭审笔录
+2025-03-28 11:00:02,523 - automation - INFO - 点击下载按钮
+2025-03-28 11:00:03,577 - automation - INFO - 选择PDF下载
+2025-03-28 11:00:06,659 - automation - INFO - 成功下载笔录PDF
+2025-03-28 11:00:06,888 - automation - INFO - 添加庭审笔录2为证据
+2025-03-28 11:00:06,888 - automation - INFO - 检查当前页面状态
+2025-03-28 11:00:06,895 - automation - INFO - 当前页面URL: http://192.168.2.176:86/#/auxiliaryMarking/index?caseCode=00a4571ea2d44d6bab87af27e07221b1
+2025-03-28 11:00:06,899 - automation - INFO - 当前页面标题: 法官AI助手 - 辅助阅卷
+2025-03-28 11:00:07,101 - automation - INFO - 尝试点击庭审笔录2
+2025-03-28 11:00:11,214 - automation - INFO - 成功点击庭审笔录2
+2025-03-28 11:00:13,220 - automation - INFO - 点击添加为证据按钮
+2025-03-28 11:00:15,307 - automation - INFO - 成功点击添加为证据按钮
+2025-03-28 11:00:15,504 - automation - INFO - 选择庭审笔录3
+2025-03-28 11:00:16,581 - automation - ERROR - 辅助阅卷测试失败: Message: element click intercepted: Element <span class="ant-tree-checkbox-inner"></span> is not clickable at point (67, 384). Other element would receive the click: <div tabindex="-1" role="dialog" aria-labelledby="rcDialogTitle0" class="ant-modal-wrap animate__animated animate__fadeInDownBig">...</div>
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E375E9]
+	(No symbol) [0x00007FF6F5E34FA2]
+	(No symbol) [0x00007FF6F5E32051]
+	(No symbol) [0x00007FF6F5E30F76]
+	(No symbol) [0x00007FF6F5E227E4]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-28 11:00:16,924 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-28 11:00:19,116 - automation - INFO - 浏览器已关闭
+2025-03-28 11:04:14,094 - automation - INFO - 初始化测试类...
+2025-03-28 11:04:14,094 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 11:04:14,094 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 11:04:15,273 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 11:04:15,278 - automation - INFO - 开始登录系统
+2025-03-28 11:04:17,681 - automation - INFO - 成功打开登录页面
+2025-03-28 11:04:17,681 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 11:04:17,785 - automation - INFO - 用户名输入完成
+2025-03-28 11:04:17,785 - automation - INFO - 开始输入密码
+2025-03-28 11:04:17,885 - automation - INFO - 密码输入完成
+2025-03-28 11:04:17,899 - automation - INFO - ==================================================
+2025-03-28 11:04:17,899 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 11:04:17,899 - automation - INFO - ==================================================
+2025-03-28 11:04:23,009 - automation - INFO - 验证码已自动填入
+2025-03-28 11:04:24,026 - automation - INFO - 尝试点击登录按钮
+2025-03-28 11:04:24,093 - automation - INFO - 登录按钮点击成功
+2025-03-28 11:04:24,093 - automation - INFO - 登录成功
+2025-03-28 11:04:27,099 - automation - INFO - 登录成功
+2025-03-28 11:04:27,197 - automation - INFO - 点击辅助阅卷
+2025-03-28 11:04:29,261 - automation - INFO - 成功点击辅助阅卷
+2025-03-28 11:04:29,336 - automation - INFO - 点击庭审笔录1
+2025-03-28 11:04:31,414 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 11:04:31,616 - automation - INFO - 点击设为庭审笔录
+2025-03-28 11:04:32,713 - automation - INFO - 成功点击设为庭审笔录
+2025-03-28 11:04:32,713 - automation - INFO - 输入原告处理意见1
+2025-03-28 11:04:33,820 - automation - INFO - 成功输入原告处理意见1
+2025-03-28 11:04:33,820 - automation - INFO - 输入原告处理意见2
+2025-03-28 11:04:34,936 - automation - INFO - 成功输入原告处理意见2
+2025-03-28 11:04:34,936 - automation - INFO - 点击确定按钮
+2025-03-28 11:04:37,021 - automation - INFO - 成功点击确定按钮
+2025-03-28 11:04:37,222 - automation - INFO - 点击取消设置庭审笔录
+2025-03-28 11:04:37,222 - automation - INFO - 点击庭审笔录1
+2025-03-28 11:04:39,293 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 11:04:40,371 - automation - INFO - 点击确定取消设置
+2025-03-28 11:04:43,683 - automation - INFO - 尝试标准点击确认按钮
+2025-03-28 11:04:45,726 - automation - INFO - 成功取消设置庭审笔录
+2025-03-28 11:04:45,927 - automation - INFO - 点击下载按钮
+2025-03-28 11:04:46,987 - automation - INFO - 选择PDF下载
+2025-03-28 11:04:50,067 - automation - INFO - 成功下载笔录PDF
+2025-03-28 11:04:50,268 - automation - INFO - 添加庭审笔录2为证据
+2025-03-28 11:04:50,268 - automation - INFO - 检查当前页面状态
+2025-03-28 11:04:50,276 - automation - INFO - 当前页面URL: http://192.168.2.176:86/#/auxiliaryMarking/index?caseCode=00a4571ea2d44d6bab87af27e07221b1
+2025-03-28 11:04:50,280 - automation - INFO - 当前页面标题: 法官AI助手 - 辅助阅卷
+2025-03-28 11:04:50,488 - automation - INFO - 尝试点击庭审笔录2
+2025-03-28 11:04:54,610 - automation - INFO - 成功点击庭审笔录2
+2025-03-28 11:04:56,613 - automation - INFO - 点击添加为证据按钮
+2025-03-28 11:04:58,707 - automation - INFO - 成功点击添加为证据按钮
+2025-03-28 11:04:58,903 - automation - INFO - 选择庭审笔录3
+2025-03-28 11:05:00,006 - automation - ERROR - 辅助阅卷测试失败: Message: element click intercepted: Element <span class="ant-tree-checkbox-inner"></span> is not clickable at point (67, 384). Other element would receive the click: <div tabindex="-1" role="dialog" aria-labelledby="rcDialogTitle0" class="ant-modal-wrap animate__animated animate__fadeInDownBig">...</div>
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E375E9]
+	(No symbol) [0x00007FF6F5E34FA2]
+	(No symbol) [0x00007FF6F5E32051]
+	(No symbol) [0x00007FF6F5E30F76]
+	(No symbol) [0x00007FF6F5E227E4]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-28 11:05:00,427 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-28 11:05:02,607 - automation - INFO - 浏览器已关闭
+2025-03-28 11:19:04,914 - automation - INFO - 初始化测试类...
+2025-03-28 11:19:04,914 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 11:19:04,914 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 11:19:06,812 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 11:19:06,813 - automation - INFO - 开始登录系统
+2025-03-28 11:19:09,248 - automation - INFO - 成功打开登录页面
+2025-03-28 11:19:09,248 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 11:19:09,359 - automation - INFO - 用户名输入完成
+2025-03-28 11:19:09,359 - automation - INFO - 开始输入密码
+2025-03-28 11:19:09,464 - automation - INFO - 密码输入完成
+2025-03-28 11:19:09,476 - automation - INFO - ==================================================
+2025-03-28 11:19:09,476 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 11:19:09,476 - automation - INFO - ==================================================
+2025-03-28 11:19:14,994 - automation - INFO - 验证码已自动填入
+2025-03-28 11:19:15,998 - automation - INFO - 尝试点击登录按钮
+2025-03-28 11:19:16,059 - automation - INFO - 登录按钮点击成功
+2025-03-28 11:19:16,059 - automation - INFO - 登录成功
+2025-03-28 11:19:19,064 - automation - INFO - 登录成功
+2025-03-28 11:19:19,146 - automation - INFO - 点击辅助阅卷
+2025-03-28 11:19:21,208 - automation - INFO - 成功点击辅助阅卷
+2025-03-28 11:19:21,301 - automation - INFO - 点击庭审笔录1
+2025-03-28 11:19:23,374 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 11:19:23,595 - automation - INFO - 点击设为庭审笔录
+2025-03-28 11:19:24,685 - automation - INFO - 成功点击设为庭审笔录
+2025-03-28 11:19:24,685 - automation - INFO - 输入原告处理意见1
+2025-03-28 11:19:25,802 - automation - INFO - 成功输入原告处理意见1
+2025-03-28 11:19:25,802 - automation - INFO - 输入原告处理意见2
+2025-03-28 11:19:26,907 - automation - INFO - 成功输入原告处理意见2
+2025-03-28 11:19:26,909 - automation - INFO - 点击确定按钮
+2025-03-28 11:19:29,010 - automation - INFO - 成功点击确定按钮
+2025-03-28 11:19:29,219 - automation - INFO - 点击取消设置庭审笔录
+2025-03-28 11:19:29,219 - automation - INFO - 点击庭审笔录1
+2025-03-28 11:19:31,281 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 11:19:32,367 - automation - INFO - 点击确定取消设置
+2025-03-28 11:19:35,673 - automation - INFO - 尝试标准点击确认按钮
+2025-03-28 11:19:37,716 - automation - INFO - 成功取消设置庭审笔录
+2025-03-28 11:19:37,920 - automation - INFO - 点击下载按钮
+2025-03-28 11:19:38,979 - automation - INFO - 选择PDF下载
+2025-03-28 11:19:42,057 - automation - INFO - 成功下载笔录PDF
+2025-03-28 11:19:42,298 - automation - INFO - 点击庭审笔录2
+2025-03-28 11:19:44,395 - automation - INFO - 点击添加为证据按钮
+2025-03-28 11:19:46,489 - automation - INFO - 点击目录下拉框
+2025-03-28 11:19:47,597 - automation - INFO - 选择法院材料选项
+2025-03-28 11:19:48,678 - automation - INFO - 点击确定按钮
+2025-03-28 11:19:50,773 - automation - INFO - 成功添加庭审笔录2为证据
+2025-03-28 11:19:50,967 - automation - INFO - 选择庭审笔录3
+2025-03-28 11:19:52,047 - automation - INFO - 点击证据添加按钮
+2025-03-28 11:19:53,128 - automation - INFO - 点击目录下拉框
+2025-03-28 11:19:54,196 - automation - INFO - 选择上诉人选项
+2025-03-28 11:19:55,283 - automation - INFO - 点击确定按钮
+2025-03-28 11:19:57,377 - automation - INFO - 成功将庭审笔录3添加为证据
+2025-03-28 11:19:57,592 - automation - INFO - 点击证据引用标签页
+2025-03-28 11:19:59,697 - automation - INFO - 点击刷新按钮
+2025-03-28 11:20:01,784 - automation - INFO - 点击查看庭审笔录2详情
+2025-03-28 11:20:03,864 - automation - INFO - 点击关闭详情
+2025-03-28 11:20:05,953 - automation - INFO - 成功查看证据引用功能
+2025-03-28 11:20:06,025 - automation - INFO - 选择庭审笔录2和庭审笔录3
+2025-03-28 11:20:08,167 - automation - INFO - 点击双屏阅卷按钮
+2025-03-28 11:20:11,239 - automation - INFO - 查看双屏阅卷内容
+2025-03-28 11:20:13,252 - automation - INFO - 点击关闭双屏阅卷
+2025-03-28 11:20:15,320 - automation - INFO - 成功完成双屏阅卷功能
+2025-03-28 11:20:15,389 - automation - INFO - 点击上诉人选择器
+2025-03-28 11:20:18,445 - automation - INFO - 尝试点击上诉人选择器
+2025-03-28 11:20:19,500 - automation - INFO - 查找并点击第三人选项
+2025-03-28 11:20:19,569 - automation - INFO - 成功点击第三人选项
+2025-03-28 11:20:21,576 - automation - INFO - 成功选择上诉人为第三人
+2025-03-28 11:20:21,657 - automation - INFO - 点击刷新按钮
+2025-03-28 11:20:23,729 - automation - INFO - 取消选中庭审笔录3
+2025-03-28 11:20:24,799 - automation - INFO - 成功取消选中庭审笔录3
+2025-03-28 11:20:24,873 - automation - INFO - 点击批量修改按钮
+2025-03-28 11:20:26,960 - automation - INFO - 修改证据名称为: 庭审笔录2修改
+2025-03-28 11:20:30,030 - automation - INFO - 成功修改证据名称
+2025-03-28 11:20:30,030 - automation - INFO - 选择质证类型
+2025-03-28 11:20:32,191 - automation - INFO - 成功选择质证类型为无异议
+2025-03-28 11:20:32,191 - automation - INFO - 填写质证意见: 无意见
+2025-03-28 11:20:32,722 - automation - INFO - 成功填写质证意见
+2025-03-28 11:20:32,722 - automation - INFO - 填写证明目的: 无目的
+2025-03-28 11:20:33,272 - automation - INFO - 成功填写证明目的
+2025-03-28 11:20:33,272 - automation - INFO - 选择证件类型
+2025-03-28 11:20:34,871 - automation - INFO - 尝试标准点击证件类型单元格
+2025-03-28 11:20:36,007 - automation - INFO - 寻找物证选项
+2025-03-28 11:20:36,017 - automation - INFO - 尝试点击物证选项
+2025-03-28 11:20:37,063 - automation - INFO - 成功选择证件类型为物证
+2025-03-28 11:20:37,063 - automation - INFO - 选择证据形式
+2025-03-28 11:20:38,611 - automation - INFO - 尝试标准点击证据形式单元格
+2025-03-28 11:20:39,659 - automation - INFO - 寻找照片选项
+2025-03-28 11:20:39,672 - automation - INFO - 尝试点击照片选项
+2025-03-28 11:20:40,728 - automation - INFO - 成功选择证据形式为照片
+2025-03-28 11:20:40,728 - automation - INFO - 点击确定按钮保存修改
+2025-03-28 11:20:42,791 - automation - INFO - 成功完成批量修改
+2025-03-28 11:20:42,891 - automation - INFO - 辅助阅卷测试完成
+2025-03-28 11:20:42,898 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-28 11:20:45,077 - automation - INFO - 浏览器已关闭
+2025-03-28 11:22:48,945 - automation - INFO - 开始初始化WebDriver...
+2025-03-28 11:22:48,947 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 11:22:48,947 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 11:22:50,379 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 11:22:50,386 - automation - INFO - WebDriver实例验证成功
+2025-03-28 11:22:50,386 - automation - INFO - 初始化测试方法...
+2025-03-28 11:22:50,390 - automation - INFO - 点击辅助阅卷
+2025-03-28 11:22:54,019 - automation - ERROR - 辅助阅卷测试失败: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DC55D1]
+	(No symbol) [0x00007FF6F5DC553C]
+	(No symbol) [0x00007FF6F5DC3C95]
+	(No symbol) [0x00007FF6F5DC49BF]
+	(No symbol) [0x00007FF6F5DDE5D1]
+	(No symbol) [0x00007FF6F5DDF0CA]
+	(No symbol) [0x00007FF6F5DE38FC]
+	(No symbol) [0x00007FF6F5DE39CF]
+	(No symbol) [0x00007FF6F5E2F000]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-28 11:22:54,022 - automation - WARNING - 无法获取test_failed截图
+2025-03-28 11:22:54,145 - automation - INFO - 测试方法执行完毕
+2025-03-28 11:23:04,056 - automation - INFO - 开始初始化WebDriver...
+2025-03-28 11:23:04,056 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 11:23:04,056 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 11:23:05,475 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 11:23:05,481 - automation - INFO - WebDriver实例验证成功
+2025-03-28 11:23:05,482 - automation - INFO - 开始执行个人中心测试
+2025-03-28 11:23:07,895 - automation - INFO - 成功打开登录页面
+2025-03-28 11:23:07,895 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 11:23:08,002 - automation - INFO - 用户名输入完成
+2025-03-28 11:23:08,003 - automation - INFO - 开始输入密码
+2025-03-28 11:23:08,115 - automation - INFO - 密码输入完成
+2025-03-28 11:23:08,127 - automation - INFO - ==================================================
+2025-03-28 11:23:08,127 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 11:23:08,127 - automation - INFO - ==================================================
+2025-03-28 11:23:20,656 - automation - INFO - 开始初始化WebDriver...
+2025-03-28 11:23:20,657 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 11:23:20,657 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 11:23:22,127 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 11:23:22,139 - automation - INFO - WebDriver实例验证成功
+2025-03-28 11:23:22,144 - automation - INFO - 开始执行个人中心测试
+2025-03-28 11:23:24,537 - automation - INFO - 成功打开登录页面
+2025-03-28 11:23:24,538 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 11:23:24,649 - automation - INFO - 用户名输入完成
+2025-03-28 11:23:24,649 - automation - INFO - 开始输入密码
+2025-03-28 11:23:24,750 - automation - INFO - 密码输入完成
+2025-03-28 11:23:24,767 - automation - INFO - ==================================================
+2025-03-28 11:23:24,767 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 11:23:24,769 - automation - INFO - ==================================================
+2025-03-28 11:23:32,157 - automation - INFO - 验证码已自动填入
+2025-03-28 11:23:33,161 - automation - INFO - 尝试点击登录按钮
+2025-03-28 11:23:33,261 - automation - INFO - 登录按钮点击成功
+2025-03-28 11:23:33,261 - automation - INFO - 登录成功
+2025-03-28 11:23:33,261 - automation - INFO - 完成登录
+2025-03-28 11:23:35,358 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 11:23:36,445 - automation - INFO - 点击报表统计选项
+2025-03-28 11:23:37,526 - automation - INFO - 点击承办部门
+2025-03-28 11:23:38,606 - automation - INFO - 选择承办人
+2025-03-28 11:23:39,683 - automation - INFO - 点击查询按钮
+2025-03-28 11:23:41,750 - automation - INFO - 点击导出按钮
+2025-03-28 11:23:44,795 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 11:23:45,883 - automation - INFO - 点击字体下载选项
+2025-03-28 11:23:46,959 - automation - INFO - 点击方正小标简体按钮
+2025-03-28 11:23:49,023 - automation - INFO - 点击关闭弹框
+2025-03-28 11:23:50,074 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 11:23:51,181 - automation - INFO - 点击修改密码选项
+2025-03-28 11:23:52,298 - automation - INFO - 输入原密码
+2025-03-28 11:23:52,404 - automation - INFO - 输入新密码
+2025-03-28 11:23:52,503 - automation - INFO - 确认新密码
+2025-03-28 11:23:52,560 - automation - INFO - 点击确定按钮
+2025-03-28 11:23:57,606 - automation - INFO - 成功打开登录页面
+2025-03-28 11:23:57,606 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 11:23:57,702 - automation - INFO - 用户名输入完成
+2025-03-28 11:23:57,702 - automation - INFO - 开始输入密码
+2025-03-28 11:23:57,797 - automation - INFO - 密码输入完成
+2025-03-28 11:23:57,806 - automation - INFO - ==================================================
+2025-03-28 11:23:57,806 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 11:23:57,806 - automation - INFO - ==================================================
+2025-03-28 11:24:04,193 - automation - INFO - 验证码已自动填入
+2025-03-28 11:24:05,210 - automation - INFO - 尝试点击登录按钮
+2025-03-28 11:24:05,272 - automation - INFO - 登录按钮点击成功
+2025-03-28 11:24:05,272 - automation - INFO - 登录成功
+2025-03-28 11:24:05,272 - automation - INFO - 完成新密码登录
+2025-03-28 11:24:07,292 - automation - INFO - 使用新密码登录成功
+2025-03-28 11:24:07,356 - automation - INFO - 个人中心测试执行完成
+2025-03-28 11:24:07,360 - automation - INFO - 初始化测试方法...
+2025-03-28 11:24:07,364 - automation - INFO - 点击辅助阅卷
+2025-03-28 11:24:09,422 - automation - INFO - 成功点击辅助阅卷
+2025-03-28 11:24:09,506 - automation - INFO - 点击庭审笔录1
+2025-03-28 11:24:11,590 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 11:24:11,809 - automation - INFO - 点击设为庭审笔录
+2025-03-28 11:24:12,891 - automation - INFO - 成功点击设为庭审笔录
+2025-03-28 11:24:12,892 - automation - INFO - 输入原告处理意见1
+2025-03-28 11:24:13,992 - automation - INFO - 成功输入原告处理意见1
+2025-03-28 11:24:13,992 - automation - INFO - 输入原告处理意见2
+2025-03-28 11:24:15,093 - automation - INFO - 成功输入原告处理意见2
+2025-03-28 11:24:15,093 - automation - INFO - 点击确定按钮
+2025-03-28 11:24:17,174 - automation - INFO - 成功点击确定按钮
+2025-03-28 11:24:17,401 - automation - INFO - 点击取消设置庭审笔录
+2025-03-28 11:24:17,401 - automation - INFO - 点击庭审笔录1
+2025-03-28 11:24:19,484 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 11:24:20,568 - automation - INFO - 点击确定取消设置
+2025-03-28 11:24:23,874 - automation - INFO - 尝试标准点击确认按钮
+2025-03-28 11:24:25,924 - automation - INFO - 成功取消设置庭审笔录
+2025-03-28 11:24:26,150 - automation - INFO - 点击下载按钮
+2025-03-28 11:24:27,202 - automation - INFO - 选择PDF下载
+2025-03-28 11:24:30,286 - automation - INFO - 成功下载笔录PDF
+2025-03-28 11:24:30,494 - automation - INFO - 尝试添加庭审笔录2为证据
+2025-03-28 11:24:30,494 - automation - INFO - 点击庭审笔录2
+2025-03-28 11:24:32,574 - automation - INFO - 点击添加为证据按钮
+2025-03-28 11:24:34,651 - automation - INFO - 点击目录下拉框
+2025-03-28 11:24:35,749 - automation - INFO - 选择法院材料选项
+2025-03-28 11:24:36,829 - automation - INFO - 点击确定按钮
+2025-03-28 11:24:38,917 - automation - INFO - 成功添加庭审笔录2为证据
+2025-03-28 11:24:39,127 - automation - INFO - 选择庭审笔录3
+2025-03-28 11:24:40,225 - automation - INFO - 点击证据添加按钮
+2025-03-28 11:24:41,309 - automation - INFO - 点击目录下拉框
+2025-03-28 11:24:42,366 - automation - INFO - 选择上诉人选项
+2025-03-28 11:24:43,437 - automation - INFO - 点击确定按钮
+2025-03-28 11:24:45,513 - automation - INFO - 成功将庭审笔录3添加为证据
+2025-03-28 11:24:45,723 - automation - INFO - 点击证据引用标签页
+2025-03-28 11:24:47,847 - automation - INFO - 点击刷新按钮
+2025-03-28 11:24:49,924 - automation - INFO - 点击查看庭审笔录2详情
+2025-03-28 11:24:52,000 - automation - INFO - 点击关闭详情
+2025-03-28 11:24:54,060 - automation - INFO - 成功查看证据引用功能
+2025-03-28 11:24:54,142 - automation - INFO - 选择庭审笔录2和庭审笔录3
+2025-03-28 11:24:56,277 - automation - INFO - 点击双屏阅卷按钮
+2025-03-28 11:24:59,366 - automation - INFO - 查看双屏阅卷内容
+2025-03-28 11:25:00,536 - automation - INFO - 测试方法执行完毕
+2025-03-28 11:25:14,463 - automation - INFO - 开始初始化WebDriver...
+2025-03-28 11:25:14,463 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 11:25:14,463 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 11:25:15,929 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 11:25:15,941 - automation - INFO - WebDriver实例验证成功
+2025-03-28 11:25:15,942 - automation - INFO - 开始执行个人中心测试
+2025-03-28 11:25:18,351 - automation - INFO - 成功打开登录页面
+2025-03-28 11:25:18,351 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 11:25:18,458 - automation - INFO - 用户名输入完成
+2025-03-28 11:25:18,458 - automation - INFO - 开始输入密码
+2025-03-28 11:25:18,581 - automation - INFO - 密码输入完成
+2025-03-28 11:25:18,597 - automation - INFO - ==================================================
+2025-03-28 11:25:18,597 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 11:25:18,597 - automation - INFO - ==================================================
+2025-03-28 11:25:25,022 - automation - INFO - 验证码已自动填入
+2025-03-28 11:25:26,036 - automation - INFO - 尝试点击登录按钮
+2025-03-28 11:25:26,106 - automation - INFO - 登录按钮点击成功
+2025-03-28 11:25:26,107 - automation - INFO - 登录成功
+2025-03-28 11:25:26,107 - automation - INFO - 完成登录
+2025-03-28 11:25:28,160 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 11:25:29,238 - automation - INFO - 点击报表统计选项
+2025-03-28 11:25:30,324 - automation - INFO - 点击承办部门
+2025-03-28 11:25:31,396 - automation - INFO - 选择承办人
+2025-03-28 11:25:32,478 - automation - INFO - 点击查询按钮
+2025-03-28 11:25:34,542 - automation - INFO - 点击导出按钮
+2025-03-28 11:25:37,608 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 11:25:38,681 - automation - INFO - 点击字体下载选项
+2025-03-28 11:25:39,744 - automation - INFO - 点击方正小标简体按钮
+2025-03-28 11:25:41,820 - automation - INFO - 点击关闭弹框
+2025-03-28 11:25:42,878 - automation - INFO - 成功点击右上角用户菜单
+2025-03-28 11:25:43,982 - automation - INFO - 点击修改密码选项
+2025-03-28 11:25:45,091 - automation - INFO - 输入原密码
+2025-03-28 11:25:45,190 - automation - INFO - 输入新密码
+2025-03-28 11:25:45,288 - automation - INFO - 确认新密码
+2025-03-28 11:25:45,346 - automation - INFO - 点击确定按钮
+2025-03-28 11:25:50,366 - automation - INFO - 成功打开登录页面
+2025-03-28 11:25:50,366 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 11:25:50,453 - automation - INFO - 用户名输入完成
+2025-03-28 11:25:50,453 - automation - INFO - 开始输入密码
+2025-03-28 11:25:50,548 - automation - INFO - 密码输入完成
+2025-03-28 11:25:50,558 - automation - INFO - ==================================================
+2025-03-28 11:25:50,558 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 11:25:50,558 - automation - INFO - ==================================================
+2025-03-28 11:25:57,638 - automation - INFO - 验证码已自动填入
+2025-03-28 11:25:58,644 - automation - INFO - 尝试点击登录按钮
+2025-03-28 11:25:58,699 - automation - INFO - 登录按钮点击成功
+2025-03-28 11:25:58,699 - automation - INFO - 登录成功
+2025-03-28 11:25:58,699 - automation - INFO - 完成新密码登录
+2025-03-28 11:26:00,727 - automation - INFO - 使用新密码登录成功
+2025-03-28 11:26:00,805 - automation - INFO - 个人中心测试执行完成
+2025-03-28 11:26:00,809 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-03-28 11:26:00,810 - automation - INFO - 测试数据加载成功
+2025-03-28 11:26:00,810 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-03-28 11:26:00,810 - automation - INFO - 开始添加案件: (2025)苏0105民初0001号
+2025-03-28 11:26:00,938 - automation - INFO - 点击元素: ('xpath', '//body//div//button[2]')
+2025-03-28 11:26:02,042 - automation - INFO - 截图已添加到Allure报告: add_case_form
+2025-03-28 11:26:02,574 - automation - INFO - 输入文本: (2025)苏0105民初0001号, 元素: ('xpath', "//div[@class='ant-col ant-col-24']//input[@placeholder='请输入案件名称']")
+2025-03-28 11:26:03,106 - automation - INFO - 输入文本: (2025)苏0105民初0001号, 元素: ('xpath', "//div[@class='ant-col ant-col-12']//input[@placeholder='请输入案件编号']")
+2025-03-28 11:26:03,170 - automation - INFO - 点击元素: ('css selector', 'input.vue-treeselect__input')
+2025-03-28 11:26:03,223 - automation - INFO - 点击元素: ('xpath', "//label[contains(text(),'民事')]")
+2025-03-28 11:26:03,310 - automation - INFO - 点击元素: ('xpath', "//label[contains(text(),'民事一审')]")
+2025-03-28 11:26:04,396 - automation - INFO - 截图已添加到Allure报告: case_type_selected
+2025-03-28 11:26:04,476 - automation - INFO - 点击元素: ('xpath', "//div[contains(@class, 'vue-treeselect__placeholder') and text()='请选择案由类型']/following-sibling::div//input[@class='vue-treeselect__input']")
+2025-03-28 11:26:04,561 - automation - INFO - 点击元素: ('xpath', '//label[contains(text(),"行政案由")]')
+2025-03-28 11:26:05,650 - automation - INFO - 截图已添加到Allure报告: reason_type_selected
+2025-03-28 11:26:05,710 - automation - INFO - 点击元素: ('xpath', "//div[contains(@class, 'ant-select-selection__placeholder') and text()='请输入原审案号']/ancestor::div[contains(@class, 'ant-select-selection')]")
+2025-03-28 11:26:07,871 - automation - INFO - 点击元素: ('xpath', "//form/div/div[7]//input[@placeholder='选择开始日期']")
+2025-03-28 11:26:08,477 - automation - INFO - 点击元素: ('xpath', '//a[text()="今天"]')
+2025-03-28 11:26:09,565 - automation - INFO - 截图已添加到Allure报告: date_selected
+2025-03-28 11:26:09,634 - automation - INFO - 点击元素: ('xpath', '//div[@class="ant-modal-root"]//button[2]')
+2025-03-28 11:26:11,727 - automation - INFO - 截图已添加到Allure报告: case_added
+2025-03-28 11:26:11,727 - automation - INFO - 案件添加成功: (2025)苏0105民初0001号
+2025-03-28 11:26:11,727 - automation - INFO - 开始编辑案件: (2025)苏0105民初0001号
+2025-03-28 11:26:11,822 - automation - INFO - 点击元素: ('xpath', "//td[@title='(2025)苏0105民初0001号'][1]/ancestor::div[contains(@class, 'ant-table-content')]/div[3]/div[2]/div/table/tbody/tr/td[3]/div/div[3]")
+2025-03-28 11:26:12,926 - automation - INFO - 截图已添加到Allure报告: edit_case_form
+2025-03-28 11:26:15,737 - automation - INFO - 截图已添加到Allure报告: case_name_modified
+2025-03-28 11:26:15,794 - automation - INFO - 点击元素: ('xpath', '//div[@class="ant-modal-root"]//button[2]')
+2025-03-28 11:26:17,879 - automation - INFO - 截图已添加到Allure报告: case_edited
+2025-03-28 11:26:17,879 - automation - INFO - 案件修改成功: (2025)苏0105民初0001号修改
+2025-03-28 11:26:17,880 - automation - INFO - 开始删除案件: (2025)苏0105民初0001号
+2025-03-28 11:26:17,944 - automation - INFO - 点击元素: ('xpath', "//td[@title='(2025)苏0105民初0001号'][1]/ancestor::div[contains(@class, 'ant-table-content')]/div[3]/div[2]/div/table/tbody/tr/td[3]/div/div[4]")
+2025-03-28 11:26:19,045 - automation - INFO - 截图已添加到Allure报告: delete_confirmation
+2025-03-28 11:26:19,103 - automation - INFO - 点击元素: ('xpath', "//div[@class='ant-modal-body']//button[2]")
+2025-03-28 11:26:21,174 - automation - INFO - 截图已添加到Allure报告: case_deleted
+2025-03-28 11:26:21,175 - automation - INFO - 案件删除成功: (2025)苏0105民初0001号
+2025-03-28 11:26:21,175 - automation - INFO - 案件增删改功能测试完成，案件名称: (2025)苏0105民初0001号
+2025-03-28 11:26:21,178 - automation - INFO - 初始化测试方法...
+2025-03-28 11:26:21,184 - automation - INFO - 点击辅助阅卷
+2025-03-28 11:26:23,249 - automation - INFO - 成功点击辅助阅卷
+2025-03-28 11:26:23,339 - automation - INFO - 点击庭审笔录1
+2025-03-28 11:26:25,426 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 11:26:25,644 - automation - INFO - 点击设为庭审笔录
+2025-03-28 11:26:26,735 - automation - INFO - 成功点击设为庭审笔录
+2025-03-28 11:26:26,735 - automation - INFO - 输入原告处理意见1
+2025-03-28 11:26:27,845 - automation - INFO - 成功输入原告处理意见1
+2025-03-28 11:26:27,845 - automation - INFO - 输入原告处理意见2
+2025-03-28 11:26:28,956 - automation - INFO - 成功输入原告处理意见2
+2025-03-28 11:26:28,956 - automation - INFO - 点击确定按钮
+2025-03-28 11:26:31,028 - automation - INFO - 成功点击确定按钮
+2025-03-28 11:26:31,230 - automation - INFO - 点击取消设置庭审笔录
+2025-03-28 11:26:31,230 - automation - INFO - 点击庭审笔录1
+2025-03-28 11:26:33,300 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 11:26:34,376 - automation - INFO - 点击确定取消设置
+2025-03-28 11:26:37,687 - automation - INFO - 尝试标准点击确认按钮
+2025-03-28 11:26:39,746 - automation - INFO - 成功取消设置庭审笔录
+2025-03-28 11:26:39,943 - automation - INFO - 点击下载按钮
+2025-03-28 11:26:41,014 - automation - INFO - 选择PDF下载
+2025-03-28 11:26:44,079 - automation - INFO - 成功下载笔录PDF
+2025-03-28 11:26:44,312 - automation - INFO - 尝试添加庭审笔录2为证据
+2025-03-28 11:26:44,312 - automation - INFO - 点击庭审笔录2
+2025-03-28 11:26:46,415 - automation - INFO - 点击添加为证据按钮
+2025-03-28 11:26:48,505 - automation - INFO - 点击目录下拉框
+2025-03-28 11:26:49,590 - automation - INFO - 选择法院材料选项
+2025-03-28 11:26:50,685 - automation - INFO - 点击确定按钮
+2025-03-28 11:27:00,699 - automation - WARNING - 添加庭审笔录2为证据时出错: Message: 
+
+2025-03-28 11:27:00,889 - automation - INFO - 刷新页面后重试添加庭审笔录2为证据
+2025-03-28 11:27:06,046 - automation - INFO - 点击辅助阅卷
+2025-03-28 11:27:16,055 - automation - ERROR - 重试添加庭审笔录2为证据失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-28 11:27:16,148 - automation - INFO - 跳过添加庭审笔录2为证据步骤，继续执行后续步骤
+2025-03-28 11:27:16,148 - automation - INFO - 选择庭审笔录3
+2025-03-28 11:27:17,217 - automation - INFO - 点击证据添加按钮
+2025-03-28 11:27:18,300 - automation - INFO - 点击目录下拉框
+2025-03-28 11:27:19,367 - automation - INFO - 选择上诉人选项
+2025-03-28 11:27:20,452 - automation - INFO - 点击确定按钮
+2025-03-28 11:27:22,533 - automation - INFO - 成功将庭审笔录3添加为证据
+2025-03-28 11:27:22,630 - automation - INFO - 点击证据引用标签页
+2025-03-28 11:27:24,745 - automation - INFO - 点击刷新按钮
+2025-03-28 11:27:26,825 - automation - INFO - 点击查看庭审笔录2详情
+2025-03-28 11:27:28,916 - automation - INFO - 点击关闭详情
+2025-03-28 11:27:31,010 - automation - INFO - 成功查看证据引用功能
+2025-03-28 11:27:31,084 - automation - INFO - 选择庭审笔录2和庭审笔录3
+2025-03-28 11:27:33,250 - automation - INFO - 点击双屏阅卷按钮
+2025-03-28 11:27:36,334 - automation - INFO - 查看双屏阅卷内容
+2025-03-28 11:27:38,345 - automation - INFO - 点击关闭双屏阅卷
+2025-03-28 11:27:40,419 - automation - INFO - 成功完成双屏阅卷功能
+2025-03-28 11:27:40,487 - automation - INFO - 点击上诉人选择器
+2025-03-28 11:27:43,529 - automation - INFO - 尝试点击上诉人选择器
+2025-03-28 11:27:44,593 - automation - INFO - 查找并点击第三人选项
+2025-03-28 11:27:44,652 - automation - INFO - 成功点击第三人选项
+2025-03-28 11:27:46,662 - automation - INFO - 成功选择上诉人为第三人
+2025-03-28 11:27:46,747 - automation - INFO - 点击刷新按钮
+2025-03-28 11:27:48,817 - automation - INFO - 取消选中庭审笔录3
+2025-03-28 11:27:49,889 - automation - INFO - 成功取消选中庭审笔录3
+2025-03-28 11:27:49,972 - automation - INFO - 点击批量修改按钮
+2025-03-28 11:27:52,064 - automation - INFO - 修改证据名称为: 庭审笔录2修改
+2025-03-28 11:27:55,144 - automation - INFO - 成功修改证据名称
+2025-03-28 11:27:55,144 - automation - INFO - 选择质证类型
+2025-03-28 11:27:57,311 - automation - INFO - 成功选择质证类型为无异议
+2025-03-28 11:27:57,311 - automation - INFO - 填写质证意见: 无意见
+2025-03-28 11:27:57,859 - automation - INFO - 成功填写质证意见
+2025-03-28 11:27:57,859 - automation - INFO - 填写证明目的: 无目的
+2025-03-28 11:27:58,406 - automation - INFO - 成功填写证明目的
+2025-03-28 11:27:58,406 - automation - INFO - 选择证件类型
+2025-03-28 11:28:00,007 - automation - INFO - 尝试标准点击证件类型单元格
+2025-03-28 11:28:01,160 - automation - INFO - 寻找物证选项
+2025-03-28 11:28:01,173 - automation - INFO - 尝试点击物证选项
+2025-03-28 11:28:02,222 - automation - INFO - 成功选择证件类型为物证
+2025-03-28 11:28:02,222 - automation - INFO - 选择证据形式
+2025-03-28 11:28:03,765 - automation - INFO - 尝试标准点击证据形式单元格
+2025-03-28 11:28:04,819 - automation - INFO - 寻找照片选项
+2025-03-28 11:28:04,834 - automation - INFO - 尝试点击照片选项
+2025-03-28 11:28:05,874 - automation - INFO - 成功选择证据形式为照片
+2025-03-28 11:28:05,874 - automation - INFO - 点击确定按钮保存修改
+2025-03-28 11:28:07,934 - automation - INFO - 成功完成批量修改
+2025-03-28 11:28:08,027 - automation - INFO - 辅助阅卷测试完成
+2025-03-28 11:28:08,030 - automation - INFO - 测试方法执行完毕

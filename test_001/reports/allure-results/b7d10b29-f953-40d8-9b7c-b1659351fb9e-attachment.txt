@@ -1,0 +1,79 @@
+2025-03-28 11:04:14,094 - automation - INFO - 初始化测试类...
+2025-03-28 11:04:14,094 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 11:04:14,094 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 11:04:15,273 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 11:04:15,278 - automation - INFO - 开始登录系统
+2025-03-28 11:04:17,681 - automation - INFO - 成功打开登录页面
+2025-03-28 11:04:17,681 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 11:04:17,785 - automation - INFO - 用户名输入完成
+2025-03-28 11:04:17,785 - automation - INFO - 开始输入密码
+2025-03-28 11:04:17,885 - automation - INFO - 密码输入完成
+2025-03-28 11:04:17,899 - automation - INFO - ==================================================
+2025-03-28 11:04:17,899 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 11:04:17,899 - automation - INFO - ==================================================
+2025-03-28 11:04:23,009 - automation - INFO - 验证码已自动填入
+2025-03-28 11:04:24,026 - automation - INFO - 尝试点击登录按钮
+2025-03-28 11:04:24,093 - automation - INFO - 登录按钮点击成功
+2025-03-28 11:04:24,093 - automation - INFO - 登录成功
+2025-03-28 11:04:27,099 - automation - INFO - 登录成功
+2025-03-28 11:04:27,197 - automation - INFO - 点击辅助阅卷
+2025-03-28 11:04:29,261 - automation - INFO - 成功点击辅助阅卷
+2025-03-28 11:04:29,336 - automation - INFO - 点击庭审笔录1
+2025-03-28 11:04:31,414 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 11:04:31,616 - automation - INFO - 点击设为庭审笔录
+2025-03-28 11:04:32,713 - automation - INFO - 成功点击设为庭审笔录
+2025-03-28 11:04:32,713 - automation - INFO - 输入原告处理意见1
+2025-03-28 11:04:33,820 - automation - INFO - 成功输入原告处理意见1
+2025-03-28 11:04:33,820 - automation - INFO - 输入原告处理意见2
+2025-03-28 11:04:34,936 - automation - INFO - 成功输入原告处理意见2
+2025-03-28 11:04:34,936 - automation - INFO - 点击确定按钮
+2025-03-28 11:04:37,021 - automation - INFO - 成功点击确定按钮
+2025-03-28 11:04:37,222 - automation - INFO - 点击取消设置庭审笔录
+2025-03-28 11:04:37,222 - automation - INFO - 点击庭审笔录1
+2025-03-28 11:04:39,293 - automation - INFO - 成功点击庭审笔录1
+2025-03-28 11:04:40,371 - automation - INFO - 点击确定取消设置
+2025-03-28 11:04:43,683 - automation - INFO - 尝试标准点击确认按钮
+2025-03-28 11:04:45,726 - automation - INFO - 成功取消设置庭审笔录
+2025-03-28 11:04:45,927 - automation - INFO - 点击下载按钮
+2025-03-28 11:04:46,987 - automation - INFO - 选择PDF下载
+2025-03-28 11:04:50,067 - automation - INFO - 成功下载笔录PDF
+2025-03-28 11:04:50,268 - automation - INFO - 添加庭审笔录2为证据
+2025-03-28 11:04:50,268 - automation - INFO - 检查当前页面状态
+2025-03-28 11:04:50,276 - automation - INFO - 当前页面URL: http://192.168.2.176:86/#/auxiliaryMarking/index?caseCode=00a4571ea2d44d6bab87af27e07221b1
+2025-03-28 11:04:50,280 - automation - INFO - 当前页面标题: 法官AI助手 - 辅助阅卷
+2025-03-28 11:04:50,488 - automation - INFO - 尝试点击庭审笔录2
+2025-03-28 11:04:54,610 - automation - INFO - 成功点击庭审笔录2
+2025-03-28 11:04:56,613 - automation - INFO - 点击添加为证据按钮
+2025-03-28 11:04:58,707 - automation - INFO - 成功点击添加为证据按钮
+2025-03-28 11:04:58,903 - automation - INFO - 选择庭审笔录3
+2025-03-28 11:05:00,006 - automation - ERROR - 辅助阅卷测试失败: Message: element click intercepted: Element <span class="ant-tree-checkbox-inner"></span> is not clickable at point (67, 384). Other element would receive the click: <div tabindex="-1" role="dialog" aria-labelledby="rcDialogTitle0" class="ant-modal-wrap animate__animated animate__fadeInDownBig">...</div>
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E375E9]
+	(No symbol) [0x00007FF6F5E34FA2]
+	(No symbol) [0x00007FF6F5E32051]
+	(No symbol) [0x00007FF6F5E30F76]
+	(No symbol) [0x00007FF6F5E227E4]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-28 11:05:00,427 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-28 11:05:02,607 - automation - INFO - 浏览器已关闭

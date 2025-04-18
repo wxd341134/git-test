@@ -1,0 +1,68 @@
+2025-04-15 09:25:55,180 - automation - INFO - 初始化测试类...
+2025-04-15 09:25:55,181 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 09:25:55,181 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 09:25:56,311 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 09:25:56,312 - automation - INFO - 开始登录系统
+2025-04-15 09:26:08,628 - automation - INFO - 登录成功
+2025-04-15 09:26:08,707 - automation - INFO - 点击辅助阅卷
+2025-04-15 09:26:10,761 - automation - INFO - 成功点击辅助阅卷
+2025-04-15 09:26:10,832 - automation - INFO - 点击庭审笔录1
+2025-04-15 09:26:12,904 - automation - INFO - 成功点击庭审笔录1
+2025-04-15 09:26:13,103 - automation - INFO - 点击设为庭审笔录
+2025-04-15 09:26:14,181 - automation - INFO - 成功点击设为庭审笔录
+2025-04-15 09:26:14,181 - automation - INFO - 输入原告处理意见1
+2025-04-15 09:26:15,267 - automation - INFO - 成功输入原告处理意见1
+2025-04-15 09:26:15,267 - automation - INFO - 输入原告处理意见2
+2025-04-15 09:26:16,370 - automation - INFO - 成功输入原告处理意见2
+2025-04-15 09:26:16,370 - automation - INFO - 点击确定按钮
+2025-04-15 09:26:18,439 - automation - INFO - 成功点击确定按钮
+2025-04-15 09:26:18,629 - automation - INFO - 点击取消设置庭审笔录
+2025-04-15 09:26:18,629 - automation - INFO - 点击庭审笔录1
+2025-04-15 09:26:20,696 - automation - INFO - 成功点击庭审笔录1
+2025-04-15 09:26:21,760 - automation - INFO - 点击确定取消设置
+2025-04-15 09:26:25,083 - automation - INFO - 尝试标准点击确认按钮
+2025-04-15 09:26:27,151 - automation - INFO - 成功取消设置庭审笔录
+2025-04-15 09:26:27,332 - automation - INFO - 点击下载按钮
+2025-04-15 09:26:28,387 - automation - INFO - 选择PDF下载
+2025-04-15 09:26:31,449 - automation - INFO - 成功下载笔录PDF
+2025-04-15 09:26:31,635 - automation - INFO - 点击庭审笔录2
+2025-04-15 09:26:33,715 - automation - INFO - 点击添加为证据按钮
+2025-04-15 09:26:35,795 - automation - INFO - 点击目录下拉框
+2025-04-15 09:26:36,869 - automation - INFO - 选择法院材料选项
+2025-04-15 09:26:37,940 - automation - INFO - 点击确定按钮
+2025-04-15 09:26:40,004 - automation - INFO - 成功添加庭审笔录2为证据
+2025-04-15 09:26:40,195 - automation - INFO - 选择庭审笔录3
+2025-04-15 09:26:41,272 - automation - INFO - 点击证据添加按钮
+2025-04-15 09:26:42,344 - automation - INFO - 点击目录下拉框
+2025-04-15 09:26:43,405 - automation - INFO - 选择上诉人选项
+2025-04-15 09:26:44,482 - automation - INFO - 点击确定按钮
+2025-04-15 09:26:46,551 - automation - INFO - 成功将庭审笔录3添加为证据
+2025-04-15 09:26:46,731 - automation - INFO - 点击证据引用标签页
+2025-04-15 09:26:48,850 - automation - INFO - 点击刷新按钮
+2025-04-15 09:26:50,922 - automation - INFO - 点击查看庭审笔录2详情
+2025-04-15 09:27:00,993 - automation - ERROR - 辅助阅卷测试失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF60FFEDF85+26693]
+	(No symbol) [0x00007FF60FF4EAD0]
+	(No symbol) [0x00007FF60FDD91CA]
+	(No symbol) [0x00007FF60FE2F747]
+	(No symbol) [0x00007FF60FE2F97C]
+	(No symbol) [0x00007FF60FE833C7]
+	(No symbol) [0x00007FF60FE5792F]
+	(No symbol) [0x00007FF60FE800B8]
+	(No symbol) [0x00007FF60FE576C3]
+	(No symbol) [0x00007FF60FE20490]
+	(No symbol) [0x00007FF60FE21743]
+	GetHandleVerifier [0x00007FF61034436D+3525677]
+	GetHandleVerifier [0x00007FF610357F3B+3606523]
+	GetHandleVerifier [0x00007FF61034CEE3+3561379]
+	GetHandleVerifier [0x00007FF6100B7C0A+853194]
+	(No symbol) [0x00007FF60FF5990F]
+	(No symbol) [0x00007FF60FF55674]
+	(No symbol) [0x00007FF60FF55816]
+	(No symbol) [0x00007FF60FF44D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-15 09:27:01,183 - automation - INFO - 测试类执行完成，进行清理...
+2025-04-15 09:27:03,347 - automation - INFO - 浏览器已关闭

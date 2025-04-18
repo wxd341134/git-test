@@ -1,0 +1,6 @@
+INFO     automation:test_CaseMg.py:27 尝试加载测试数据文件: E:\AutoTest\FgAI\data\case_data.json
+INFO     automation:test_CaseMg.py:56 测试数据加载成功
+INFO     automation:test_CaseMg.py:91 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+INFO     automation:login_page.py:33 开始登录系统，用户名: wxdfg
+INFO     automation:base_page.py:62 截图已添加到Allure报告: login_page
+INFO     automation:login_page.py:42 开始输入用户名...

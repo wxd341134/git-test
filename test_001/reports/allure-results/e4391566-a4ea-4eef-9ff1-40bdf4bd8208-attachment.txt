@@ -1,0 +1,135 @@
+2025-04-14 11:19:07,160 - automation - INFO - ========== 开始执行测试方法: test_case_search_and_detail ==========
+2025-04-14 11:19:07,161 - automation - INFO - 开始测试案例查询与详情查看功能
+2025-04-14 11:19:07,161 - automation - INFO - 开始执行案例管理完整流程
+2025-04-14 11:19:07,161 - automation - INFO - 开始导航到案例管理页面
+2025-04-14 11:19:17,207 - automation - ERROR - 导航到案例管理页面失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 11:19:18,310 - automation - INFO - 成功导航到案例管理页面
+2025-04-14 11:19:18,310 - automation - INFO - 开始搜索案例: 民初
+2025-04-14 11:19:28,379 - automation - ERROR - 输入搜索文本失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 11:19:38,431 - automation - ERROR - 点击搜索按钮失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 11:19:39,502 - automation - INFO - 案例搜索完成
+2025-04-14 11:19:39,531 - automation - INFO - 找到 6 个案例结果
+2025-04-14 11:19:39,531 - automation - INFO - 开始查看案例详情
+2025-04-14 11:19:49,593 - automation - ERROR - 点击案例详情按钮失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 11:19:50,673 - automation - INFO - 查看案例详情完成
+2025-04-14 11:19:50,673 - automation - INFO - 开始返回案例列表
+2025-04-14 11:20:00,726 - automation - ERROR - 点击返回按钮失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 11:20:01,821 - automation - INFO - 返回案例列表完成
+2025-04-14 11:20:01,821 - automation - INFO - 案例管理完整流程执行完成
+2025-04-14 11:20:01,821 - automation - INFO - 案例查询与详情功能测试完成
+2025-04-14 11:20:01,824 - automation - INFO - ========== 结束执行测试方法: test_case_search_and_detail ==========

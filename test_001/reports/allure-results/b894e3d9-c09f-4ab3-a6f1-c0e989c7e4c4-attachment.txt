@@ -1,0 +1,41 @@
+INFO     automation:AssistedG.py:22 初始化测试类...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     automation:AssistedG.py:227 开始登录系统
+INFO     automation:login_page.py:174 成功打开登录页面
+INFO     automation:login_page.py:118 开始输入用户名: wxdfg
+INFO     automation:login_page.py:125 用户名输入完成
+INFO     automation:login_page.py:130 开始输入密码
+INFO     automation:login_page.py:137 密码输入完成
+INFO     automation:login_page.py:79 ==================================================
+INFO     automation:login_page.py:80 请在弹出窗口中输入验证码
+INFO     automation:login_page.py:81 ==================================================
+ERROR    automation:login_page.py:28 验证码输入为空
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C62E19B5E0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2/screenshot
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C62E19BFA0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2/screenshot
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C62E19BBE0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2/screenshot
+ERROR    automation:login_page.py:37 无法截图
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C62E14D2B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C62E14D4C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C62E14D670>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2
+ERROR    automation:login_page.py:28 验证码处理失败: 验证码输入为空
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C62E14DCD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2/screenshot
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C62E14DF70>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2/screenshot
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C62E14D1F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2/screenshot
+ERROR    automation:login_page.py:37 无法截图
+ERROR    automation:login_page.py:28 登录过程失败: 验证码处理失败: 验证码输入为空
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C63616F280>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2/screenshot
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C63616F490>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2/screenshot
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C63616F640>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2/screenshot
+ERROR    automation:login_page.py:37 无法截图
+ERROR    automation:AssistedG.py:1217 辅助阅卷测试失败: 登录过程失败: 验证码处理失败: 验证码输入为空
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C63616F850>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2/screenshot
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C63616FB50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2/screenshot
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C63616FD00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2/screenshot
+ERROR    automation:AssistedG.py:1225 无法获取失败截图
+INFO     automation:AssistedG.py:211 测试类执行完成，进行清理...
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C634FB8CA0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C634FB8940>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C634FB88B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/23be95fe52f003ab43fe17ea2a08a0c2
+INFO     automation:AssistedG.py:215 浏览器已关闭

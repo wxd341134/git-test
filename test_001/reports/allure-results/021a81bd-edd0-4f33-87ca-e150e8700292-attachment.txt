@@ -1,0 +1,22 @@
+2025-04-14 15:27:13,608 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 15:27:13,608 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 15:27:14,723 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 15:27:25,074 - automation - INFO - ========== 开始执行测试方法: test_dossier_upload ==========
+2025-04-14 15:27:25,075 - automation - INFO - 开始卷宗上传测试
+2025-04-14 15:27:25,076 - automation - INFO - 找到ZIP文件: (2024)鲁0502民初374号.zip
+2025-04-14 15:27:25,076 - automation - INFO - 找到DOCX文件: 法官AI助手安装文档.docx
+2025-04-14 15:27:25,544 - automation - INFO - 点击上传卷宗按钮成功
+2025-04-14 15:27:27,615 - automation - INFO - 点击上传ZIP按钮成功
+2025-04-14 15:27:28,647 - automation - INFO - 选择ZIP文件: E:\AutoTest\FgAI\test_data\(2024)鲁0502民初374号.zip
+2025-04-14 15:27:30,713 - automation - INFO - 确认ZIP文件上传
+2025-04-14 15:27:35,728 - automation - INFO - ZIP文件上传成功
+2025-04-14 15:27:35,881 - automation - INFO - 点击上传单个文件按钮成功
+2025-04-14 15:27:36,929 - automation - INFO - 选择单个文件: E:\AutoTest\FgAI\test_data\法官AI助手安装文档.docx
+2025-04-14 15:27:39,043 - automation - INFO - 确认单个文件上传
+2025-04-14 15:27:41,049 - automation - INFO - 单个文件上传成功
+2025-04-14 15:27:41,184 - automation - INFO - 点击刷新按钮成功
+2025-04-14 15:27:42,253 - automation - INFO - 点击展开按钮成功
+2025-04-14 15:27:43,358 - automation - INFO - 关闭上传窗口成功
+2025-04-14 15:27:45,370 - automation - INFO - 卷宗上传流程执行完成
+2025-04-14 15:27:45,370 - automation - INFO - 卷宗上传测试完成
+2025-04-14 15:27:45,372 - automation - INFO - ========== 结束执行测试方法: test_dossier_upload ==========

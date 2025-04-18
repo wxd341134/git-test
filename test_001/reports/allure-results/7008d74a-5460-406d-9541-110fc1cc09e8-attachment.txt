@@ -1,0 +1,12 @@
+2025-04-07 19:31:54,244 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-07 19:31:54,244 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-07 19:31:54,244 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-07 19:31:54,244 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-07 19:31:55,931 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-07 19:31:55,969 - automation - INFO - 开始阅卷笔记测试
+2025-04-07 19:31:55,969 - automation - INFO - 开始登录系统
+2025-04-07 19:31:55,969 - automation - ERROR - 阅卷笔记测试过程中出现错误: 'LoginPage' object has no attribute 'open'
+2025-04-07 19:31:56,067 - automation - INFO - 已保存截图: error_test_error_20250407_193155.png
+2025-04-07 19:31:56,068 - automation - INFO - 阅卷笔记测试结束
+2025-04-07 19:31:56,160 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-07 19:31:56,161 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========

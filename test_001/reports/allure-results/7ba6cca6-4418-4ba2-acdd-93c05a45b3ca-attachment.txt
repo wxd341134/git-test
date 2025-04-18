@@ -1,0 +1,36 @@
+INFO     MessageTest:test_read_notes.py:20 初始化阅卷笔记工具类...
+INFO     MessageTest:test_read_notes.py:149 开始测试笔记导出功能...
+INFO     MessageTest:read_notes_utils.py:63 开始打开阅卷笔记
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 阅卷笔记按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 阅卷笔记按钮
+INFO     MessageTest:read_notes_utils.py:67 阅卷笔记打开成功
+INFO     MessageTest:read_notes_utils.py:210 开始导出阅卷笔记
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 导出按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 导出按钮
+INFO     MessageTest:read_notes_utils.py:214 阅卷笔记导出成功
+ERROR    MessageTest:test_read_notes.py:44 截图失败: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C1FBDF85+26693]
+	(No symbol) [0x00007FF6C1F1EAD0]
+	(No symbol) [0x00007FF6C1DA91CA]
+	(No symbol) [0x00007FF6C1D94FB5]
+	(No symbol) [0x00007FF6C1DB9CD4]
+	(No symbol) [0x00007FF6C1E2F78F]
+	(No symbol) [0x00007FF6C1E4F975]
+	(No symbol) [0x00007FF6C1E276C3]
+	(No symbol) [0x00007FF6C1DF0490]
+	(No symbol) [0x00007FF6C1DF1743]
+	GetHandleVerifier [0x00007FF6C231436D+3525677]
+	GetHandleVerifier [0x00007FF6C2327F3B+3606523]
+	GetHandleVerifier [0x00007FF6C231CEE3+3561379]
+	GetHandleVerifier [0x00007FF6C2087C0A+853194]
+	(No symbol) [0x00007FF6C1F2990F]
+	(No symbol) [0x00007FF6C1F25674]
+	(No symbol) [0x00007FF6C1F25816]
+	(No symbol) [0x00007FF6C1F14D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+INFO     MessageTest:test_read_notes.py:159 笔记导出测试完成

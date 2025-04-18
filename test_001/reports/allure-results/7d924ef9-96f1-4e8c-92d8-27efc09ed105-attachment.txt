@@ -1,0 +1,65 @@
+INFO     MessageTest:test_read_notes.py:20 初始化阅卷笔记工具类...
+INFO     MessageTest:test_read_notes.py:178 开始测试完整业务流程...
+INFO     MessageTest:read_notes_utils.py:63 开始打开阅卷笔记
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 阅卷笔记按钮
+ERROR    MessageTest:read_notes_utils.py:69 打开阅卷笔记失败: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C1FBDF85+26693]
+	(No symbol) [0x00007FF6C1F1EAD0]
+	(No symbol) [0x00007FF6C1DA8FFC]
+	(No symbol) [0x00007FF6C1DEF69F]
+	(No symbol) [0x00007FF6C1E277B2]
+	(No symbol) [0x00007FF6C1E2210E]
+	(No symbol) [0x00007FF6C1E211B9]
+	(No symbol) [0x00007FF6C1D755E5]
+	GetHandleVerifier [0x00007FF6C231436D+3525677]
+	GetHandleVerifier [0x00007FF6C2327F3B+3606523]
+	GetHandleVerifier [0x00007FF6C231CEE3+3561379]
+	GetHandleVerifier [0x00007FF6C2087C0A+853194]
+	(No symbol) [0x00007FF6C1F2990F]
+	(No symbol) [0x00007FF6C1D741FF]
+	GetHandleVerifier [0x00007FF6C23925D8+4042392]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+ERROR    MessageTest:test_read_notes.py:206 完整业务流程测试失败: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C1FBDF85+26693]
+	(No symbol) [0x00007FF6C1F1EAD0]
+	(No symbol) [0x00007FF6C1DA8FFC]
+	(No symbol) [0x00007FF6C1DEF69F]
+	(No symbol) [0x00007FF6C1E277B2]
+	(No symbol) [0x00007FF6C1E2210E]
+	(No symbol) [0x00007FF6C1E211B9]
+	(No symbol) [0x00007FF6C1D755E5]
+	GetHandleVerifier [0x00007FF6C231436D+3525677]
+	GetHandleVerifier [0x00007FF6C2327F3B+3606523]
+	GetHandleVerifier [0x00007FF6C231CEE3+3561379]
+	GetHandleVerifier [0x00007FF6C2087C0A+853194]
+	(No symbol) [0x00007FF6C1F2990F]
+	(No symbol) [0x00007FF6C1D741FF]
+	GetHandleVerifier [0x00007FF6C23925D8+4042392]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+ERROR    MessageTest:test_read_notes.py:44 截图失败: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C1FBDF85+26693]
+	(No symbol) [0x00007FF6C1F1EAD0]
+	(No symbol) [0x00007FF6C1DA8FFC]
+	(No symbol) [0x00007FF6C1DEF69F]
+	(No symbol) [0x00007FF6C1E277B2]
+	(No symbol) [0x00007FF6C1E2210E]
+	(No symbol) [0x00007FF6C1E211B9]
+	(No symbol) [0x00007FF6C1D755E5]
+	GetHandleVerifier [0x00007FF6C231436D+3525677]
+	GetHandleVerifier [0x00007FF6C2327F3B+3606523]
+	GetHandleVerifier [0x00007FF6C231CEE3+3561379]
+	GetHandleVerifier [0x00007FF6C2087C0A+853194]
+	(No symbol) [0x00007FF6C1F2990F]
+	(No symbol) [0x00007FF6C1D741FF]
+	GetHandleVerifier [0x00007FF6C23925D8+4042392]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+INFO     MessageTest:base_test.py:40 清理测试类...
+INFO     MessageTest:base_test.py:44 浏览器已关闭

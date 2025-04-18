@@ -1,0 +1,64 @@
+2025-04-11 13:46:14,541 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 13:46:14,541 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 13:46:14,541 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 13:46:14,542 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 13:46:16,500 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 13:46:16,514 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 13:46:16,514 - automation - INFO - 开始登录系统
+2025-04-11 13:46:19,639 - automation - INFO - 成功打开登录页面
+2025-04-11 13:46:19,639 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 13:46:19,745 - automation - INFO - 用户名输入完成
+2025-04-11 13:46:19,752 - automation - INFO - 开始输入密码
+2025-04-11 13:46:19,854 - automation - INFO - 密码输入完成
+2025-04-11 13:46:19,869 - automation - INFO - ==================================================
+2025-04-11 13:46:19,870 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 13:46:19,958 - automation - INFO - ==================================================
+2025-04-11 13:46:26,393 - automation - INFO - 验证码已自动填入
+2025-04-11 13:46:27,410 - automation - INFO - 尝试点击登录按钮
+2025-04-11 13:46:27,476 - automation - INFO - 登录按钮点击成功
+2025-04-11 13:46:27,476 - automation - INFO - 登录成功
+2025-04-11 13:46:27,476 - automation - INFO - 登录系统完成
+2025-04-11 13:46:27,476 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 13:46:27,894 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 13:46:29,909 - automation - INFO - 开始在iframe中选中精确文本并使用AI智能问答
+2025-04-11 13:46:29,909 - automation - INFO - 切换到iframe
+2025-04-11 13:46:29,932 - automation - INFO - 成功切换到iframe
+2025-04-11 13:46:29,933 - automation - INFO - 在iframe中精确选择指定文本
+2025-04-11 13:46:29,937 - automation - INFO - 成功精确选择文本: '东营区西二路万家新城内'
+2025-04-11 13:46:30,443 - automation - INFO - 切回主文档
+2025-04-11 13:46:30,460 - automation - INFO - 点击AI智能问答按钮
+2025-04-11 13:46:51,060 - automation - ERROR - 选中文本并使用AI智能问答功能失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-11 13:46:51,065 - automation - INFO - 异常处理中切回主文档
+2025-04-11 13:46:51,190 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\ai_qa_failed_134651.png
+2025-04-11 13:46:51,190 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 13:46:51,272 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_134651.png
+2025-04-11 13:46:51,272 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 13:46:51,272 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 13:46:51,273 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 13:46:51,273 - automation - INFO - 正在关闭浏览器...
+2025-04-11 13:46:53,467 - automation - INFO - 浏览器已关闭
+2025-04-11 13:46:53,467 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 13:47:13,738 - automation - INFO - 已关闭浏览器实例

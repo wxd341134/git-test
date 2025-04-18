@@ -1,0 +1,51 @@
+INFO     automation:driver_manager.py:36 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:66 Chrome选项配置完成
+INFO     automation:driver_manager.py:72 ChromeDriver 安装/更新成功
+INFO     automation:driver_manager.py:82 Chrome版本: 134.0.6998.118
+INFO     automation:driver_manager.py:83 ChromeDriver版本: 134.0.6998.165 (fd886e2cb29dd984c13deec032832dee68d8abe3-refs/branch-heads/6998@{#2122})
+INFO     automation:driver_manager.py:88 成功创建Chrome WebDriver实例
+INFO     automation:test_UserCenter.py:40 开始执行个人中心测试
+INFO     automation:login_page.py:33 开始登录系统，用户名: wxdfg
+INFO     automation:base_page.py:62 截图已添加到Allure报告: login_page
+INFO     automation:login_page.py:42 开始输入用户名...
+INFO     automation:login_page.py:52 开始输入密码...
+INFO     automation:login_page.py:63 请查看浏览器中的验证码图片
+INFO     automation:base_page.py:62 截图已添加到Allure报告: captcha_image
+INFO     automation:login_page.py:85 验证码已输入: 5536
+INFO     automation:login_page.py:92 点击登录按钮...
+INFO     automation:base_page.py:35 点击元素: ('xpath', "//button[@type='button']")
+INFO     automation:base_page.py:62 截图已添加到Allure报告: login_success
+INFO     automation:login_page.py:96 登录系统成功
+INFO     automation:test_UserCenter.py:54 完成登录
+INFO     automation:test_UserCenter.py:83 成功点击右上角用户菜单
+INFO     automation:test_UserCenter.py:103 点击报表统计选项
+INFO     automation:test_UserCenter.py:111 点击承办部门
+INFO     automation:test_UserCenter.py:119 选择承办人
+INFO     automation:test_UserCenter.py:127 点击查询按钮
+INFO     automation:test_UserCenter.py:135 点击导出按钮
+INFO     automation:test_UserCenter.py:83 成功点击右上角用户菜单
+INFO     automation:test_UserCenter.py:155 点击字体下载选项
+INFO     automation:test_UserCenter.py:163 点击方正小标简体按钮
+INFO     automation:test_UserCenter.py:171 点击关闭弹框
+INFO     automation:test_UserCenter.py:83 成功点击右上角用户菜单
+INFO     automation:test_UserCenter.py:191 点击修改密码选项
+INFO     automation:test_UserCenter.py:199 输入原密码
+INFO     automation:test_UserCenter.py:206 输入新密码
+INFO     automation:test_UserCenter.py:213 确认新密码
+INFO     automation:test_UserCenter.py:220 点击确定按钮
+INFO     automation:login_page.py:33 开始登录系统，用户名: wxdfg
+INFO     automation:base_page.py:62 截图已添加到Allure报告: login_page
+INFO     automation:login_page.py:42 开始输入用户名...
+INFO     automation:login_page.py:52 开始输入密码...
+INFO     automation:login_page.py:63 请查看浏览器中的验证码图片
+INFO     automation:base_page.py:62 截图已添加到Allure报告: captcha_image
+INFO     automation:login_page.py:85 验证码已输入: 9298
+INFO     automation:login_page.py:92 点击登录按钮...
+INFO     automation:base_page.py:35 点击元素: ('xpath', "//button[@type='button']")
+INFO     automation:base_page.py:62 截图已添加到Allure报告: login_success
+INFO     automation:login_page.py:96 登录系统成功
+INFO     automation:test_UserCenter.py:238 完成新密码登录
+INFO     automation:test_UserCenter.py:247 使用新密码登录成功
+INFO     automation:test_UserCenter.py:42 个人中心测试执行完成
+INFO     automation:driver_manager.py:115 正在关闭WebDriver实例...
+INFO     automation:driver_manager.py:123 成功关闭WebDriver实例

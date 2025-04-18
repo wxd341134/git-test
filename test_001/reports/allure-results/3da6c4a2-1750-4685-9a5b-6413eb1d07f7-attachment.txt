@@ -1,0 +1,123 @@
+2025-03-27 18:05:06,496 - automation - INFO - 初始化测试类...
+2025-03-27 18:05:06,496 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-27 18:05:06,496 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-27 18:05:07,764 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-27 18:05:07,765 - automation - INFO - 开始登录系统
+2025-03-27 18:05:10,241 - automation - INFO - 成功打开登录页面
+2025-03-27 18:05:10,241 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-27 18:05:10,349 - automation - INFO - 用户名输入完成
+2025-03-27 18:05:10,349 - automation - INFO - 开始输入密码
+2025-03-27 18:05:10,451 - automation - INFO - 密码输入完成
+2025-03-27 18:05:10,464 - automation - INFO - ==================================================
+2025-03-27 18:05:10,464 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-27 18:05:10,464 - automation - INFO - ==================================================
+2025-03-27 18:05:16,242 - automation - INFO - 验证码已自动填入
+2025-03-27 18:05:17,247 - automation - INFO - 尝试点击登录按钮
+2025-03-27 18:05:17,321 - automation - INFO - 登录按钮点击成功
+2025-03-27 18:05:17,322 - automation - INFO - 登录成功
+2025-03-27 18:05:19,336 - automation - INFO - 登录成功
+2025-03-27 18:05:19,413 - automation - INFO - 点击辅助阅卷
+2025-03-27 18:05:21,474 - automation - INFO - 步骤1执行成功：点击辅助阅卷
+2025-03-27 18:05:21,555 - automation - INFO - 点击庭审笔录1
+2025-03-27 18:05:23,641 - automation - INFO - 步骤2执行成功：点击庭审笔录1
+2025-03-27 18:05:23,641 - automation - INFO - 点击设为庭审笔录
+2025-03-27 18:05:24,722 - automation - INFO - 步骤3执行成功：点击设为庭审笔录
+2025-03-27 18:05:24,722 - automation - INFO - 输入原告处理意见1
+2025-03-27 18:05:25,817 - automation - INFO - 步骤4执行成功：输入原告处理意见1
+2025-03-27 18:05:25,817 - automation - INFO - 输入原告处理意见2
+2025-03-27 18:05:26,912 - automation - INFO - 步骤5执行成功：输入原告处理意见2
+2025-03-27 18:05:26,912 - automation - INFO - 点击确定按钮
+2025-03-27 18:05:29,021 - automation - INFO - 步骤6执行成功：点击确定按钮
+2025-03-27 18:05:29,228 - automation - INFO - 点击下载按钮
+2025-03-27 18:05:30,298 - automation - INFO - 选择PDF下载
+2025-03-27 18:05:33,379 - automation - INFO - 步骤8执行成功：下载笔录PDF
+2025-03-27 18:05:33,583 - automation - INFO - 点击庭审笔录2
+2025-03-27 18:05:34,671 - automation - INFO - 成功点击庭审笔录2
+2025-03-27 18:05:34,671 - automation - INFO - 点击添加为证据按钮
+2025-03-27 18:05:35,800 - automation - INFO - 成功点击添加为证据按钮
+2025-03-27 18:05:35,800 - automation - INFO - 点击目录下拉框
+2025-03-27 18:05:36,870 - automation - INFO - 成功点击目录下拉框
+2025-03-27 18:05:36,870 - automation - INFO - 选择法院材料选项
+2025-03-27 18:05:37,939 - automation - INFO - 成功选择法院材料选项
+2025-03-27 18:05:37,939 - automation - INFO - 点击确定按钮
+2025-03-27 18:05:40,017 - automation - INFO - 步骤9执行成功：添加庭审笔录2为证据
+2025-03-27 18:05:40,221 - automation - INFO - 选择庭审笔录3
+2025-03-27 18:05:41,304 - automation - INFO - 成功选中庭审笔录3
+2025-03-27 18:05:41,304 - automation - INFO - 点击证据添加按钮
+2025-03-27 18:05:42,390 - automation - INFO - 成功点击证据添加按钮
+2025-03-27 18:05:42,390 - automation - INFO - 点击目录下拉框
+2025-03-27 18:05:43,445 - automation - INFO - 成功点击目录下拉框
+2025-03-27 18:05:43,445 - automation - INFO - 选择上诉人选项
+2025-03-27 18:05:44,528 - automation - INFO - 成功选择上诉人选项
+2025-03-27 18:05:44,528 - automation - INFO - 点击确定按钮
+2025-03-27 18:05:46,611 - automation - INFO - 步骤10执行成功：将庭审笔录3添加为证据
+2025-03-27 18:05:46,821 - automation - INFO - 点击证据引用标签页
+2025-03-27 18:05:48,934 - automation - INFO - 成功点击证据引用标签页
+2025-03-27 18:05:48,934 - automation - INFO - 点击刷新按钮
+2025-03-27 18:05:51,011 - automation - INFO - 成功点击刷新按钮
+2025-03-27 18:05:51,011 - automation - INFO - 点击查看庭审笔录2详情
+2025-03-27 18:05:53,089 - automation - INFO - 成功点击查看庭审笔录2详情
+2025-03-27 18:05:53,089 - automation - INFO - 点击关闭详情
+2025-03-27 18:05:55,158 - automation - INFO - 步骤11执行成功：证据引用功能
+2025-03-27 18:05:55,236 - automation - INFO - 选择庭审笔录2和庭审笔录3
+2025-03-27 18:05:56,317 - automation - INFO - 成功选中庭审笔录2
+2025-03-27 18:05:57,395 - automation - INFO - 成功选中庭审笔录3
+2025-03-27 18:05:57,395 - automation - INFO - 点击双屏阅卷按钮
+2025-03-27 18:06:00,475 - automation - INFO - 成功点击双屏阅卷按钮
+2025-03-27 18:06:00,475 - automation - INFO - 查看双屏阅卷内容
+2025-03-27 18:06:02,488 - automation - INFO - 点击关闭双屏阅卷
+2025-03-27 18:06:04,563 - automation - INFO - 步骤12执行成功：双屏阅卷功能
+2025-03-27 18:06:04,645 - automation - INFO - 点击上诉人选择器
+2025-03-27 18:06:07,711 - automation - INFO - 尝试点击上诉人选择器
+2025-03-27 18:06:08,774 - automation - INFO - 查找并点击第三人选项
+2025-03-27 18:06:18,824 - automation - WARNING - 找不到第三人选项元素: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-select-selection__rendered']/div[@title='第三人']"}
+  (Session info: chrome=134.0.6998.177); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-27 18:06:20,832 - automation - INFO - 步骤13.5执行成功：选择上诉人为第三人
+2025-03-27 18:06:20,914 - automation - INFO - 点击批量修改按钮
+2025-03-27 18:06:23,033 - automation - INFO - 成功点击批量修改按钮
+2025-03-27 18:06:23,033 - automation - INFO - 修改证据名称
+2025-03-27 18:06:26,095 - automation - INFO - 成功修改证据名称
+2025-03-27 18:06:26,095 - automation - INFO - 选择质证类型
+2025-03-27 18:06:28,229 - automation - INFO - 成功选择质证类型为无异议
+2025-03-27 18:06:28,229 - automation - INFO - 填写质证意见
+2025-03-27 18:06:28,768 - automation - INFO - 成功填写质证意见
+2025-03-27 18:06:28,768 - automation - INFO - 填写证明目的
+2025-03-27 18:06:29,299 - automation - INFO - 成功填写证明目的
+2025-03-27 18:06:29,299 - automation - INFO - 选择证件类型
+2025-03-27 18:06:30,914 - automation - INFO - 尝试标准点击证件类型单元格
+2025-03-27 18:06:32,046 - automation - INFO - 寻找物证选项
+2025-03-27 18:06:32,058 - automation - INFO - 尝试点击物证选项
+2025-03-27 18:06:33,107 - automation - INFO - 成功选择证件类型为物证
+2025-03-27 18:06:33,107 - automation - INFO - 选择证据形式
+2025-03-27 18:06:34,648 - automation - INFO - 尝试标准点击证据形式单元格
+2025-03-27 18:06:35,702 - automation - INFO - 寻找照片选项
+2025-03-27 18:06:35,721 - automation - INFO - 尝试点击照片选项
+2025-03-27 18:06:36,771 - automation - INFO - 成功选择证据形式为照片
+2025-03-27 18:06:36,771 - automation - INFO - 点击确定按钮保存修改
+2025-03-27 18:06:38,831 - automation - INFO - 成功完成批量修改
+2025-03-27 18:06:38,916 - automation - INFO - 辅助阅卷测试完成
+2025-03-27 18:06:38,924 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-27 18:06:41,081 - automation - INFO - 浏览器已关闭

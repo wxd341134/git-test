@@ -1,0 +1,41 @@
+2025-04-11 09:50:15,154 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 09:50:15,154 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 09:50:15,154 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 09:50:15,154 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 09:50:17,522 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 09:50:17,538 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 09:50:17,538 - automation - INFO - 开始登录系统
+2025-04-11 09:50:20,285 - automation - INFO - 成功打开登录页面
+2025-04-11 09:50:20,285 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 09:50:20,450 - automation - INFO - 用户名输入完成
+2025-04-11 09:50:20,450 - automation - INFO - 开始输入密码
+2025-04-11 09:50:20,579 - automation - INFO - 密码输入完成
+2025-04-11 09:50:20,595 - automation - INFO - ==================================================
+2025-04-11 09:50:20,596 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 09:50:20,596 - automation - INFO - ==================================================
+2025-04-11 09:50:27,192 - automation - INFO - 验证码已自动填入
+2025-04-11 09:50:28,203 - automation - INFO - 尝试点击登录按钮
+2025-04-11 09:50:28,276 - automation - INFO - 登录按钮点击成功
+2025-04-11 09:50:28,276 - automation - INFO - 登录成功
+2025-04-11 09:50:28,276 - automation - INFO - 登录系统完成
+2025-04-11 09:50:28,276 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 09:50:28,720 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 09:50:30,723 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 09:50:30,765 - automation - INFO - 成功点击判决书
+2025-04-11 09:50:32,778 - automation - INFO - 测试缩小文档视图
+2025-04-11 09:50:32,867 - automation - INFO - 成功点击缩小按钮
+2025-04-11 09:50:33,877 - automation - INFO - 测试放大文档视图
+2025-04-11 09:50:33,969 - automation - INFO - 成功点击放大按钮
+2025-04-11 09:50:34,978 - automation - INFO - 测试文档下载功能
+2025-04-11 09:50:35,023 - automation - INFO - 成功点击下载按钮
+2025-04-11 09:50:35,592 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 09:50:36,601 - automation - INFO - 下载前目录中有 6 个文件
+2025-04-11 09:50:41,653 - automation - WARNING - 未检测到新下载的文件，下载可能失败或尚未完成
+2025-04-11 09:50:41,653 - automation - ERROR - PDF文件下载失败或超时
+2025-04-11 09:50:41,653 - automation - ERROR - PDF文件下载失败
+2025-04-11 09:50:41,653 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 09:50:41,761 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 09:50:41,761 - automation - INFO - 正在关闭浏览器...
+2025-04-11 09:50:43,946 - automation - INFO - 浏览器已关闭
+2025-04-11 09:50:43,947 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 09:51:04,213 - automation - INFO - 已关闭浏览器实例

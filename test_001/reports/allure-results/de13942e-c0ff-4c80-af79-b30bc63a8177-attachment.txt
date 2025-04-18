@@ -1,0 +1,115 @@
+INFO     automation:阅卷笔记.py:206 ========== 开始执行阅卷笔记测试 ==========
+INFO     automation:阅卷笔记.py:239 开始执行测试方法: test_document_notes
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     automation:阅卷笔记.py:52 创建当天截图子目录: E:\AutoTest\FgAI\screenshots\20250407
+INFO     automation:阅卷笔记.py:258 开始阅卷笔记测试
+INFO     automation:阅卷笔记.py:261 开始登录系统
+INFO     automation:login_page.py:174 成功打开登录页面
+INFO     automation:login_page.py:174 成功打开登录页面
+INFO     automation:login_page.py:118 开始输入用户名: wxdfg
+INFO     automation:login_page.py:125 用户名输入完成
+INFO     automation:login_page.py:130 开始输入密码
+INFO     automation:login_page.py:137 密码输入完成
+INFO     automation:login_page.py:79 ==================================================
+INFO     automation:login_page.py:80 请在弹出窗口中输入验证码
+INFO     automation:login_page.py:81 ==================================================
+INFO     automation:login_page.py:93 验证码已自动填入
+INFO     automation:login_page.py:146 尝试点击登录按钮
+INFO     automation:login_page.py:157 登录按钮点击成功
+INFO     automation:login_page.py:162 登录成功
+INFO     automation:阅卷笔记.py:265 登录系统完成
+INFO     automation:阅卷笔记.py:58 点击案件的阅卷笔记按钮
+INFO     automation:阅卷笔记.py:62 成功点击阅卷笔记按钮
+INFO     automation:阅卷笔记.py:72 点击左侧文档树中的判决书
+INFO     automation:阅卷笔记.py:76 成功点击判决书
+INFO     automation:阅卷笔记.py:86 测试缩小文档视图
+ERROR    automation:阅卷笔记.py:94 点击缩小按钮失败: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DE0B2C]
+	(No symbol) [0x00007FF6F5DE3C8C]
+	(No symbol) [0x00007FF6F5E813F2]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+INFO     automation:阅卷笔记.py:193 已保存截图: E:\AutoTest\FgAI\screenshots\20250407\zoom_out_failed_194147.png
+INFO     automation:阅卷笔记.py:100 测试放大文档视图
+ERROR    automation:阅卷笔记.py:108 点击放大按钮失败: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DE0B2C]
+	(No symbol) [0x00007FF6F5DE3C8C]
+	(No symbol) [0x00007FF6F5E813F2]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+INFO     automation:阅卷笔记.py:193 已保存截图: E:\AutoTest\FgAI\screenshots\20250407\zoom_in_failed_194147.png
+INFO     automation:阅卷笔记.py:114 测试文档下载功能
+ERROR    automation:阅卷笔记.py:131 文档下载操作失败: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DE0B2C]
+	(No symbol) [0x00007FF6F5DE3C8C]
+	(No symbol) [0x00007FF6F5E813F2]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+INFO     automation:阅卷笔记.py:193 已保存截图: E:\AutoTest\FgAI\screenshots\20250407\download_failed_194147.png
+INFO     automation:阅卷笔记.py:137 关闭文档查看弹框
+INFO     automation:阅卷笔记.py:141 成功关闭文档查看弹框
+INFO     automation:阅卷笔记.py:147 确认文档查看弹框已关闭
+INFO     automation:阅卷笔记.py:193 已保存截图: E:\AutoTest\FgAI\screenshots\20250407\test_complete_194159.png
+INFO     automation:阅卷笔记.py:289 阅卷笔记功能测试完成
+INFO     automation:阅卷笔记.py:297 阅卷笔记测试结束
+INFO     automation:阅卷笔记.py:252 测试方法执行完成: test_document_notes
+INFO     automation:阅卷笔记.py:224 ========== 阅卷笔记测试执行完成 ==========

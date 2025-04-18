@@ -1,0 +1,267 @@
+2025-04-15 09:09:00,663 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 09:09:00,663 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 09:09:02,693 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 09:16:53,159 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 09:16:53,159 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 09:16:54,293 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 09:25:55,180 - automation - INFO - 初始化测试类...
+2025-04-15 09:25:55,181 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 09:25:55,181 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 09:25:56,311 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 09:25:56,312 - automation - INFO - 开始登录系统
+2025-04-15 09:26:08,628 - automation - INFO - 登录成功
+2025-04-15 09:26:08,707 - automation - INFO - 点击辅助阅卷
+2025-04-15 09:26:10,761 - automation - INFO - 成功点击辅助阅卷
+2025-04-15 09:26:10,832 - automation - INFO - 点击庭审笔录1
+2025-04-15 09:26:12,904 - automation - INFO - 成功点击庭审笔录1
+2025-04-15 09:26:13,103 - automation - INFO - 点击设为庭审笔录
+2025-04-15 09:26:14,181 - automation - INFO - 成功点击设为庭审笔录
+2025-04-15 09:26:14,181 - automation - INFO - 输入原告处理意见1
+2025-04-15 09:26:15,267 - automation - INFO - 成功输入原告处理意见1
+2025-04-15 09:26:15,267 - automation - INFO - 输入原告处理意见2
+2025-04-15 09:26:16,370 - automation - INFO - 成功输入原告处理意见2
+2025-04-15 09:26:16,370 - automation - INFO - 点击确定按钮
+2025-04-15 09:26:18,439 - automation - INFO - 成功点击确定按钮
+2025-04-15 09:26:18,629 - automation - INFO - 点击取消设置庭审笔录
+2025-04-15 09:26:18,629 - automation - INFO - 点击庭审笔录1
+2025-04-15 09:26:20,696 - automation - INFO - 成功点击庭审笔录1
+2025-04-15 09:26:21,760 - automation - INFO - 点击确定取消设置
+2025-04-15 09:26:25,083 - automation - INFO - 尝试标准点击确认按钮
+2025-04-15 09:26:27,151 - automation - INFO - 成功取消设置庭审笔录
+2025-04-15 09:26:27,332 - automation - INFO - 点击下载按钮
+2025-04-15 09:26:28,387 - automation - INFO - 选择PDF下载
+2025-04-15 09:26:31,449 - automation - INFO - 成功下载笔录PDF
+2025-04-15 09:26:31,635 - automation - INFO - 点击庭审笔录2
+2025-04-15 09:26:33,715 - automation - INFO - 点击添加为证据按钮
+2025-04-15 09:26:35,795 - automation - INFO - 点击目录下拉框
+2025-04-15 09:26:36,869 - automation - INFO - 选择法院材料选项
+2025-04-15 09:26:37,940 - automation - INFO - 点击确定按钮
+2025-04-15 09:26:40,004 - automation - INFO - 成功添加庭审笔录2为证据
+2025-04-15 09:26:40,195 - automation - INFO - 选择庭审笔录3
+2025-04-15 09:26:41,272 - automation - INFO - 点击证据添加按钮
+2025-04-15 09:26:42,344 - automation - INFO - 点击目录下拉框
+2025-04-15 09:26:43,405 - automation - INFO - 选择上诉人选项
+2025-04-15 09:26:44,482 - automation - INFO - 点击确定按钮
+2025-04-15 09:26:46,551 - automation - INFO - 成功将庭审笔录3添加为证据
+2025-04-15 09:26:46,731 - automation - INFO - 点击证据引用标签页
+2025-04-15 09:26:48,850 - automation - INFO - 点击刷新按钮
+2025-04-15 09:26:50,922 - automation - INFO - 点击查看庭审笔录2详情
+2025-04-15 09:27:00,993 - automation - ERROR - 辅助阅卷测试失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF60FFEDF85+26693]
+	(No symbol) [0x00007FF60FF4EAD0]
+	(No symbol) [0x00007FF60FDD91CA]
+	(No symbol) [0x00007FF60FE2F747]
+	(No symbol) [0x00007FF60FE2F97C]
+	(No symbol) [0x00007FF60FE833C7]
+	(No symbol) [0x00007FF60FE5792F]
+	(No symbol) [0x00007FF60FE800B8]
+	(No symbol) [0x00007FF60FE576C3]
+	(No symbol) [0x00007FF60FE20490]
+	(No symbol) [0x00007FF60FE21743]
+	GetHandleVerifier [0x00007FF61034436D+3525677]
+	GetHandleVerifier [0x00007FF610357F3B+3606523]
+	GetHandleVerifier [0x00007FF61034CEE3+3561379]
+	GetHandleVerifier [0x00007FF6100B7C0A+853194]
+	(No symbol) [0x00007FF60FF5990F]
+	(No symbol) [0x00007FF60FF55674]
+	(No symbol) [0x00007FF60FF55816]
+	(No symbol) [0x00007FF60FF44D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-15 09:27:01,183 - automation - INFO - 测试类执行完成，进行清理...
+2025-04-15 09:27:03,347 - automation - INFO - 浏览器已关闭
+2025-04-15 09:50:42,539 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 09:50:42,540 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 09:50:44,204 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 09:50:54,690 - automation - INFO - ========== 开始执行测试方法: test_dossier_upload ==========
+2025-04-15 09:50:54,691 - automation - INFO - 开始卷宗上传测试
+2025-04-15 09:50:54,692 - automation - INFO - 找到ZIP文件: (2024)鲁0502民初374号.zip
+2025-04-15 09:50:54,692 - automation - INFO - 找到DOCX文件: 法官AI助手安装文档.docx
+2025-04-15 09:50:55,224 - automation - INFO - 点击上传卷宗按钮成功
+2025-04-15 09:50:57,290 - automation - INFO - 点击上传ZIP按钮成功
+2025-04-15 09:50:58,331 - automation - INFO - 选择ZIP文件: E:\AutoTest\FgAI\test_data\(2024)鲁0502民初374号.zip
+2025-04-15 09:51:00,397 - automation - INFO - 确认ZIP文件上传
+2025-04-15 09:51:05,399 - automation - INFO - ZIP文件上传成功
+2025-04-15 09:51:05,532 - automation - INFO - 点击上传单个文件按钮成功
+2025-04-15 09:51:06,572 - automation - INFO - 选择单个文件: E:\AutoTest\FgAI\test_data\法官AI助手安装文档.docx
+2025-04-15 09:51:08,641 - automation - INFO - 确认单个文件上传
+2025-04-15 09:51:10,655 - automation - INFO - 单个文件上传成功
+2025-04-15 09:51:10,784 - automation - INFO - 点击刷新按钮成功
+2025-04-15 09:51:11,843 - automation - INFO - 点击展开按钮成功
+2025-04-15 09:51:12,941 - automation - INFO - 关闭上传窗口成功
+2025-04-15 09:51:14,952 - automation - INFO - 卷宗上传流程执行完成
+2025-04-15 09:51:14,952 - automation - INFO - 卷宗上传测试完成
+2025-04-15 09:51:14,955 - automation - INFO - ========== 结束执行测试方法: test_dossier_upload ==========
+2025-04-15 12:30:07,622 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 12:30:07,640 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 12:30:08,786 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 12:30:18,563 - automation - INFO - ========== 开始执行测试方法: test_dossier_upload ==========
+2025-04-15 12:30:18,564 - automation - INFO - 开始卷宗上传测试
+2025-04-15 12:30:18,564 - automation - INFO - 找到ZIP文件: (2024)鲁0502民初374号.zip
+2025-04-15 12:30:18,564 - automation - INFO - 找到DOCX文件: 法官AI助手安装文档.docx
+2025-04-15 12:30:19,076 - automation - INFO - 点击上传卷宗按钮成功
+2025-04-15 12:30:21,141 - automation - INFO - 点击上传ZIP按钮成功
+2025-04-15 12:30:22,208 - automation - INFO - 选择ZIP文件: E:\AutoTest\FgAI\test_data\(2024)鲁0502民初374号.zip
+2025-04-15 12:30:24,275 - automation - INFO - 确认ZIP文件上传
+2025-04-15 12:30:29,278 - automation - INFO - ZIP文件上传成功
+2025-04-15 12:30:29,411 - automation - INFO - 点击上传单个文件按钮成功
+2025-04-15 12:30:30,465 - automation - INFO - 选择单个文件: E:\AutoTest\FgAI\test_data\法官AI助手安装文档.docx
+2025-04-15 12:30:32,531 - automation - INFO - 确认单个文件上传
+2025-04-15 12:30:34,547 - automation - INFO - 单个文件上传成功
+2025-04-15 12:30:34,679 - automation - INFO - 点击刷新按钮成功
+2025-04-15 12:30:35,735 - automation - INFO - 点击展开按钮成功
+2025-04-15 12:30:36,843 - automation - INFO - 关闭上传窗口成功
+2025-04-15 12:30:38,846 - automation - INFO - 卷宗上传流程执行完成
+2025-04-15 12:30:38,846 - automation - INFO - 卷宗上传测试完成
+2025-04-15 12:30:38,848 - automation - INFO - ========== 结束执行测试方法: test_dossier_upload ==========
+2025-04-15 13:13:08,312 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 13:13:08,331 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 13:13:10,221 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 13:23:28,280 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 13:23:28,280 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 13:23:29,454 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 13:25:44,929 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 13:25:44,929 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 13:25:46,064 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 13:46:11,340 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 13:46:11,340 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 13:46:12,477 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 14:30:45,913 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 14:30:45,933 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 14:30:47,756 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 14:56:48,815 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 14:56:48,836 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 14:56:50,117 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 15:06:23,200 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 15:06:23,200 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 15:06:24,382 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 15:07:59,533 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 15:07:59,533 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 15:08:00,710 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 15:09:33,089 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 15:09:33,090 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 15:09:34,195 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 15:14:00,274 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 15:14:00,274 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 15:14:01,393 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 15:16:54,516 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 15:16:54,517 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 15:16:55,644 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 15:48:46,613 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 15:48:46,613 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 15:48:47,753 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 16:14:04,227 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-15 16:14:04,247 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-15 16:14:04,247 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 16:14:04,247 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 16:14:05,426 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 16:14:05,429 - automation - INFO - 创建当天截图子目录: E:\AutoTest\FgAI\screenshots\20250415
+2025-04-15 16:14:05,430 - automation - INFO - 开始阅卷笔记测试
+2025-04-15 16:14:05,430 - automation - INFO - 开始登录系统
+2025-04-15 16:14:14,547 - automation - INFO - 登录系统完成
+2025-04-15 16:14:14,547 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-15 16:14:29,428 - automation - INFO - 阅卷笔记测试结束
+2025-04-15 16:14:29,430 - automation - INFO - 正在关闭浏览器...
+2025-04-15 16:20:29,744 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-15 16:20:29,746 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-15 16:20:29,746 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 16:20:29,746 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 16:20:30,902 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 16:20:30,905 - automation - INFO - 开始阅卷笔记测试
+2025-04-15 16:20:30,905 - automation - INFO - 开始登录系统
+2025-04-15 16:20:40,556 - automation - INFO - 登录系统完成
+2025-04-15 16:20:40,556 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-15 16:20:40,909 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-15 16:20:42,921 - automation - INFO - 开始通过真实鼠标操作选中文本并使用AI智能问答
+2025-04-15 16:20:42,921 - automation - INFO - 切换到iframe
+2025-04-15 16:20:42,994 - automation - INFO - 成功切换到iframe
+2025-04-15 16:20:42,994 - automation - INFO - 查找包含文本'东营区西二路万家新城内'的元素
+2025-04-15 16:20:53,025 - automation - ERROR - 选中文本并使用AI智能问答失败: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), '东营区西二路万家新城内')]"}
+  (Session info: chrome=135.0.7049.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C1FBDF85+26693]
+	(No symbol) [0x00007FF6C1F1EAD0]
+	(No symbol) [0x00007FF6C1DA91CA]
+	(No symbol) [0x00007FF6C1DFF747]
+	(No symbol) [0x00007FF6C1DFF97C]
+	(No symbol) [0x00007FF6C1E533C7]
+	(No symbol) [0x00007FF6C1E2792F]
+	(No symbol) [0x00007FF6C1E500B8]
+	(No symbol) [0x00007FF6C1E276C3]
+	(No symbol) [0x00007FF6C1DF0490]
+	(No symbol) [0x00007FF6C1DF1743]
+	GetHandleVerifier [0x00007FF6C231436D+3525677]
+	GetHandleVerifier [0x00007FF6C2327F3B+3606523]
+	GetHandleVerifier [0x00007FF6C231CEE3+3561379]
+	GetHandleVerifier [0x00007FF6C2087C0A+853194]
+	(No symbol) [0x00007FF6C1F2990F]
+	(No symbol) [0x00007FF6C1F25674]
+	(No symbol) [0x00007FF6C1F25816]
+	(No symbol) [0x00007FF6C1F14D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-15 16:20:53,139 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250415\ai_qa_failed_162053.png
+2025-04-15 16:20:53,146 - automation - INFO - 开始通过真实鼠标操作选中文本并使用构成要件功能
+2025-04-15 16:20:53,146 - automation - INFO - 切换到iframe
+2025-04-15 16:20:53,166 - automation - INFO - 成功切换到iframe
+2025-04-15 16:20:53,167 - automation - INFO - 查找包含文本'胜利街道办事处'的元素
+2025-04-15 16:20:53,177 - automation - INFO - 找到包含目标文本的元素: p
+2025-04-15 16:20:53,730 - automation - INFO - 起点坐标: (13, 204.5), 终点坐标: (133, 204.5)
+2025-04-15 16:20:56,421 - automation - INFO - 已执行鼠标拖动选择文本操作
+2025-04-15 16:20:57,429 - automation - INFO - 切回主文档
+2025-04-15 16:20:57,429 - automation - INFO - 查找构成要件按钮
+2025-04-15 16:20:57,533 - automation - INFO - 成功点击构成要件按钮
+2025-04-15 16:20:57,533 - automation - INFO - 等待5秒...
+2025-04-15 16:21:02,539 - automation - INFO - 关闭构成要件弹框
+2025-04-15 16:21:02,592 - automation - INFO - 成功关闭构成要件弹框
+2025-04-15 16:21:03,601 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-15 16:21:03,703 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250415\test_complete_162103.png
+2025-04-15 16:21:03,703 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-15 16:21:03,703 - automation - INFO - 阅卷笔记测试结束
+2025-04-15 16:21:03,703 - automation - INFO - 正在关闭浏览器...
+2025-04-15 16:21:05,879 - automation - INFO - 浏览器已关闭
+2025-04-15 16:21:05,882 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-15 16:21:05,883 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-15 16:21:05,883 - automation - WARNING - 关闭浏览器实例时出错: 'DriverManager' object has no attribute 'quit_all_drivers'
+2025-04-15 17:04:39,870 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 17:04:39,891 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 17:04:41,760 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 17:16:30,646 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 17:16:30,646 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 17:16:31,841 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 17:24:37,260 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 17:24:37,260 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 17:24:38,585 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 17:38:16,800 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 17:38:16,801 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 17:38:18,008 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 17:38:37,114 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 17:38:37,114 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 17:38:38,249 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 17:46:58,726 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 17:46:58,727 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 17:47:00,315 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 17:48:39,411 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 17:48:39,411 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 17:48:40,719 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 17:53:23,004 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 17:53:23,005 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 17:53:24,184 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 17:54:51,421 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 17:54:51,421 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 17:54:52,575 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 18:02:55,898 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 18:02:55,898 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 18:02:57,093 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 18:03:37,232 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 18:03:37,232 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 18:03:38,926 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 19:10:09,425 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 19:10:09,425 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 19:10:10,620 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 19:10:47,719 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 19:10:47,719 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 19:10:49,456 - automation - INFO - Chrome WebDriver 创建成功

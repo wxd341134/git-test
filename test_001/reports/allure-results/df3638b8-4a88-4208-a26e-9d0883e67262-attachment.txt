@@ -1,0 +1,53 @@
+2025-03-26 14:46:04,672 - automation - INFO - 开始初始化WebDriver...
+2025-03-26 14:46:04,672 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-26 14:46:04,672 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-26 14:46:05,965 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-26 14:46:05,970 - automation - INFO - WebDriver实例验证成功
+2025-03-26 14:46:05,971 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-03-26 14:46:05,971 - automation - INFO - 测试数据加载成功
+2025-03-26 14:46:05,971 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-03-26 14:46:08,366 - automation - INFO - 成功打开登录页面
+2025-03-26 14:46:08,366 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-26 14:46:08,480 - automation - INFO - 用户名输入完成
+2025-03-26 14:46:08,480 - automation - INFO - 开始输入密码
+2025-03-26 14:46:08,580 - automation - INFO - 密码输入完成
+2025-03-26 14:46:08,594 - automation - INFO - ==================================================
+2025-03-26 14:46:08,594 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-26 14:46:08,594 - automation - INFO - ==================================================
+2025-03-26 14:46:14,419 - automation - INFO - 验证码已自动填入
+2025-03-26 14:46:15,423 - automation - INFO - 尝试点击登录按钮
+2025-03-26 14:46:15,490 - automation - INFO - 登录按钮点击成功
+2025-03-26 14:46:15,492 - automation - INFO - 登录成功
+2025-03-26 14:46:15,492 - automation - INFO - 开始添加案件: (2025)苏0105民初0001号
+2025-03-26 14:46:16,003 - automation - INFO - 点击元素: ('xpath', '//body//div//button[2]')
+2025-03-26 14:46:17,121 - automation - INFO - 截图已添加到Allure报告: add_case_form
+2025-03-26 14:46:17,766 - automation - INFO - 输入文本: (2025)苏0105民初0001号, 元素: ('xpath', "//div[@class='ant-col ant-col-24']//input[@placeholder='请输入案件名称']")
+2025-03-26 14:46:18,378 - automation - INFO - 输入文本: (2025)苏0105民初0001号, 元素: ('xpath', "//div[@class='ant-col ant-col-12']//input[@placeholder='请输入案件编号']")
+2025-03-26 14:46:18,453 - automation - INFO - 点击元素: ('css selector', 'input.vue-treeselect__input')
+2025-03-26 14:46:18,511 - automation - INFO - 点击元素: ('xpath', "//label[contains(text(),'民事')]")
+2025-03-26 14:46:18,598 - automation - INFO - 点击元素: ('xpath', "//label[contains(text(),'民事一审')]")
+2025-03-26 14:46:19,681 - automation - INFO - 截图已添加到Allure报告: case_type_selected
+2025-03-26 14:46:19,756 - automation - INFO - 点击元素: ('xpath', "//div[contains(@class, 'vue-treeselect__placeholder') and text()='请选择案由类型']/following-sibling::div//input[@class='vue-treeselect__input']")
+2025-03-26 14:46:19,847 - automation - INFO - 点击元素: ('xpath', '//label[contains(text(),"行政案由")]')
+2025-03-26 14:46:20,947 - automation - INFO - 截图已添加到Allure报告: reason_type_selected
+2025-03-26 14:46:21,021 - automation - INFO - 点击元素: ('xpath', "//div[contains(@class, 'ant-select-selection__placeholder') and text()='请输入原审案号']/ancestor::div[contains(@class, 'ant-select-selection')]")
+2025-03-26 14:46:23,245 - automation - INFO - 点击元素: ('xpath', "//form/div/div[7]//input[@placeholder='选择开始日期']")
+2025-03-26 14:46:23,926 - automation - INFO - 点击元素: ('xpath', '//a[text()="今天"]')
+2025-03-26 14:46:25,023 - automation - INFO - 截图已添加到Allure报告: date_selected
+2025-03-26 14:46:25,094 - automation - INFO - 点击元素: ('xpath', '//div[@class="ant-modal-root"]//button[2]')
+2025-03-26 14:46:27,187 - automation - INFO - 截图已添加到Allure报告: case_added
+2025-03-26 14:46:27,187 - automation - INFO - 案件添加成功: (2025)苏0105民初0001号
+2025-03-26 14:46:27,187 - automation - INFO - 开始编辑案件: (2025)苏0105民初0001号
+2025-03-26 14:46:27,282 - automation - INFO - 点击元素: ('xpath', "//td[@title='(2025)苏0105民初0001号'][1]/ancestor::div[contains(@class, 'ant-table-content')]/div[3]/div[2]/div/table/tbody/tr/td[3]/div/div[3]")
+2025-03-26 14:46:28,394 - automation - INFO - 截图已添加到Allure报告: edit_case_form
+2025-03-26 14:46:31,336 - automation - INFO - 截图已添加到Allure报告: case_name_modified
+2025-03-26 14:46:31,397 - automation - INFO - 点击元素: ('xpath', '//div[@class="ant-modal-root"]//button[2]')
+2025-03-26 14:46:33,489 - automation - INFO - 截图已添加到Allure报告: case_edited
+2025-03-26 14:46:33,489 - automation - INFO - 案件修改成功: (2025)苏0105民初0001号修改
+2025-03-26 14:46:33,489 - automation - INFO - 开始删除案件: (2025)苏0105民初0001号
+2025-03-26 14:46:33,553 - automation - INFO - 点击元素: ('xpath', "//td[@title='(2025)苏0105民初0001号'][1]/ancestor::div[contains(@class, 'ant-table-content')]/div[3]/div[2]/div/table/tbody/tr/td[3]/div/div[4]")
+2025-03-26 14:46:34,674 - automation - INFO - 截图已添加到Allure报告: delete_confirmation
+2025-03-26 14:46:34,751 - automation - INFO - 点击元素: ('xpath', "//div[@class='ant-modal-body']//button[2]")
+2025-03-26 14:46:36,847 - automation - INFO - 截图已添加到Allure报告: case_deleted
+2025-03-26 14:46:36,847 - automation - INFO - 案件删除成功: (2025)苏0105民初0001号
+2025-03-26 14:46:36,847 - automation - INFO - 案件增删改功能测试完成，案件名称: (2025)苏0105民初0001号

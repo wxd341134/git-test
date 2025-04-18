@@ -1,0 +1,26 @@
+2025-03-25 15:40:06,342 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-25 15:40:06,342 - automation - INFO - Chrome选项配置完成
+2025-03-25 15:40:08,761 - automation - INFO - ChromeDriver 安装/更新成功
+2025-03-25 15:40:08,762 - automation - INFO - 正在创建Chrome浏览器实例...
+2025-03-25 15:40:09,911 - automation - INFO - 成功创建Chrome WebDriver实例
+2025-03-25 15:40:09,911 - automation - INFO - 开始执行个人中心测试
+2025-03-25 15:40:09,912 - automation - INFO - 开始登录系统，用户名: wxdfg
+2025-03-25 15:40:11,433 - automation - INFO - 截图已添加到Allure报告: login_page
+2025-03-25 15:40:11,433 - automation - INFO - 开始输入用户名...
+2025-03-25 15:40:13,132 - automation - INFO - 开始输入密码...
+2025-03-25 15:40:15,988 - automation - INFO - 请查看浏览器中的验证码图片
+2025-03-25 15:40:16,188 - automation - INFO - 截图已添加到Allure报告: captcha_image
+2025-03-25 15:40:23,414 - automation - INFO - 验证码已输入: 4936
+2025-03-25 15:40:23,414 - automation - INFO - 点击登录按钮...
+2025-03-25 15:40:23,479 - automation - INFO - 点击元素: ('xpath', "//button[@type='button']")
+2025-03-25 15:40:25,593 - automation - INFO - 截图已添加到Allure报告: login_success
+2025-03-25 15:40:25,593 - automation - INFO - 登录系统成功
+2025-03-25 15:40:25,593 - automation - INFO - 完成登录
+2025-03-25 15:40:27,688 - automation - INFO - 成功点击右上角用户菜单
+2025-03-25 15:40:38,723 - automation - ERROR - 报表统计测试失败: Message: 
+
+2025-03-25 15:40:38,805 - automation - ERROR - 个人中心测试流程失败: Message: 
+
+2025-03-25 15:40:38,975 - automation - INFO - 个人中心测试执行完成
+2025-03-25 15:40:38,976 - automation - INFO - 正在关闭WebDriver实例...
+2025-03-25 15:40:41,119 - automation - INFO - 成功关闭WebDriver实例

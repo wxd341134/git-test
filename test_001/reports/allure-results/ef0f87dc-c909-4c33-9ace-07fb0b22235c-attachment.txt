@@ -1,0 +1,62 @@
+2025-04-15 16:20:29,744 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-15 16:20:29,746 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-15 16:20:29,746 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-15 16:20:29,746 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-15 16:20:30,902 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-15 16:20:30,905 - automation - INFO - 开始阅卷笔记测试
+2025-04-15 16:20:30,905 - automation - INFO - 开始登录系统
+2025-04-15 16:20:40,556 - automation - INFO - 登录系统完成
+2025-04-15 16:20:40,556 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-15 16:20:40,909 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-15 16:20:42,921 - automation - INFO - 开始通过真实鼠标操作选中文本并使用AI智能问答
+2025-04-15 16:20:42,921 - automation - INFO - 切换到iframe
+2025-04-15 16:20:42,994 - automation - INFO - 成功切换到iframe
+2025-04-15 16:20:42,994 - automation - INFO - 查找包含文本'东营区西二路万家新城内'的元素
+2025-04-15 16:20:53,025 - automation - ERROR - 选中文本并使用AI智能问答失败: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), '东营区西二路万家新城内')]"}
+  (Session info: chrome=135.0.7049.85); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C1FBDF85+26693]
+	(No symbol) [0x00007FF6C1F1EAD0]
+	(No symbol) [0x00007FF6C1DA91CA]
+	(No symbol) [0x00007FF6C1DFF747]
+	(No symbol) [0x00007FF6C1DFF97C]
+	(No symbol) [0x00007FF6C1E533C7]
+	(No symbol) [0x00007FF6C1E2792F]
+	(No symbol) [0x00007FF6C1E500B8]
+	(No symbol) [0x00007FF6C1E276C3]
+	(No symbol) [0x00007FF6C1DF0490]
+	(No symbol) [0x00007FF6C1DF1743]
+	GetHandleVerifier [0x00007FF6C231436D+3525677]
+	GetHandleVerifier [0x00007FF6C2327F3B+3606523]
+	GetHandleVerifier [0x00007FF6C231CEE3+3561379]
+	GetHandleVerifier [0x00007FF6C2087C0A+853194]
+	(No symbol) [0x00007FF6C1F2990F]
+	(No symbol) [0x00007FF6C1F25674]
+	(No symbol) [0x00007FF6C1F25816]
+	(No symbol) [0x00007FF6C1F14D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-15 16:20:53,139 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250415\ai_qa_failed_162053.png
+2025-04-15 16:20:53,146 - automation - INFO - 开始通过真实鼠标操作选中文本并使用构成要件功能
+2025-04-15 16:20:53,146 - automation - INFO - 切换到iframe
+2025-04-15 16:20:53,166 - automation - INFO - 成功切换到iframe
+2025-04-15 16:20:53,167 - automation - INFO - 查找包含文本'胜利街道办事处'的元素
+2025-04-15 16:20:53,177 - automation - INFO - 找到包含目标文本的元素: p
+2025-04-15 16:20:53,730 - automation - INFO - 起点坐标: (13, 204.5), 终点坐标: (133, 204.5)
+2025-04-15 16:20:56,421 - automation - INFO - 已执行鼠标拖动选择文本操作
+2025-04-15 16:20:57,429 - automation - INFO - 切回主文档
+2025-04-15 16:20:57,429 - automation - INFO - 查找构成要件按钮
+2025-04-15 16:20:57,533 - automation - INFO - 成功点击构成要件按钮
+2025-04-15 16:20:57,533 - automation - INFO - 等待5秒...
+2025-04-15 16:21:02,539 - automation - INFO - 关闭构成要件弹框
+2025-04-15 16:21:02,592 - automation - INFO - 成功关闭构成要件弹框
+2025-04-15 16:21:03,601 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-15 16:21:03,703 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250415\test_complete_162103.png
+2025-04-15 16:21:03,703 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-15 16:21:03,703 - automation - INFO - 阅卷笔记测试结束
+2025-04-15 16:21:03,703 - automation - INFO - 正在关闭浏览器...
+2025-04-15 16:21:05,879 - automation - INFO - 浏览器已关闭
+2025-04-15 16:21:05,882 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-15 16:21:05,883 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-15 16:21:05,883 - automation - WARNING - 关闭浏览器实例时出错: 'DriverManager' object has no attribute 'quit_all_drivers'

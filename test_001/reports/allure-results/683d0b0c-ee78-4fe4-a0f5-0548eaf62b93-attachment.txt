@@ -1,0 +1,4 @@
+ChromeDriver path: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+Service created.
+WebDriver initialized.
+Window maximized.

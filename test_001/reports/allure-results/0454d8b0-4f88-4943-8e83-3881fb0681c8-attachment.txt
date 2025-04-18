@@ -1,0 +1,4 @@
+assert False
+ +  where False = <function AssistedReadUtils.cancel_set_record at 0x000001AE1A238280>(<pages.assisted_read_page.AssistedReadPage object at 0x000001AE1A274940>)
+ +    where <function AssistedReadUtils.cancel_set_record at 0x000001AE1A238280> = AssistedReadUtils.cancel_set_record
+ +    and   <pages.assisted_read_page.AssistedReadPage object at 0x000001AE1A274940> = <FgAI.test_001.test_assisted_read.TestAssistedReading object at 0x000001AE1A23B610>.assisted_page

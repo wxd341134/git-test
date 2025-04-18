@@ -1,0 +1,28 @@
+INFO     automation:login_page.py:33 开始登录系统，用户名: wxdfg
+INFO     automation:base_page.py:62 截图已添加到Allure报告: login_page
+INFO     automation:login_page.py:42 开始输入用户名...
+ERROR    automation:base_page.py:26 查找元素失败: ('xpath', "//input[@placeholder='请输入账号']"), 错误: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF761B8DF85+26693]
+	(No symbol) [0x00007FF761AEEAD0]
+	(No symbol) [0x00007FF7619791CA]
+	(No symbol) [0x00007FF7619CF747]
+	(No symbol) [0x00007FF7619CF97C]
+	(No symbol) [0x00007FF761A233C7]
+	(No symbol) [0x00007FF7619F792F]
+	(No symbol) [0x00007FF761A200B8]
+	(No symbol) [0x00007FF7619F76C3]
+	(No symbol) [0x00007FF7619C0490]
+	(No symbol) [0x00007FF7619C1743]
+	GetHandleVerifier [0x00007FF761EE436D+3525677]
+	GetHandleVerifier [0x00007FF761EF7F3B+3606523]
+	GetHandleVerifier [0x00007FF761EECEE3+3561379]
+	GetHandleVerifier [0x00007FF761C57C0A+853194]
+	(No symbol) [0x00007FF761AF990F]
+	(No symbol) [0x00007FF761AF5674]
+	(No symbol) [0x00007FF761AF5816]
+	(No symbol) [0x00007FF761AE4D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+INFO     automation:base_page.py:62 截图已添加到Allure报告: find_element_failed_//input[@placeholder='请输入账号']

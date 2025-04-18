@@ -1,0 +1,24 @@
+INFO     automation:conftest.py:59 开始初始化WebDriver...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     automation:conftest.py:65 WebDriver实例验证成功
+INFO     automation:DossierUp_utils.py:37 找到ZIP文件: (2024)鲁0502民初374号.zip
+INFO     automation:DossierUp_utils.py:40 找到DOCX文件: 法官AI助手安装文档.docx
+INFO     automation:test_DossierUp.py:49 开始登录系统
+INFO     MessageTest:login_page.py:190 成功打开登录页面
+INFO     MessageTest:login_page.py:134 开始输入用户名: wxdfg
+INFO     MessageTest:login_page.py:141 用户名输入完成
+INFO     MessageTest:login_page.py:146 开始输入密码
+INFO     MessageTest:login_page.py:153 密码输入完成
+INFO     MessageTest:login_page.py:95 ==================================================
+INFO     MessageTest:login_page.py:96 请在弹出窗口中输入验证码
+INFO     MessageTest:login_page.py:97 ==================================================
+INFO     MessageTest:login_page.py:109 验证码已自动填入
+INFO     MessageTest:login_page.py:162 尝试点击登录按钮
+INFO     MessageTest:login_page.py:173 登录按钮点击成功
+INFO     MessageTest:login_page.py:178 登录成功
+INFO     automation:test_DossierUp.py:59 点击上传卷宗按钮
+ERROR    automation:test_DossierUp.py:121 卷宗上传测试失败: name 'EC' is not defined
+INFO     automation:test_DossierUp.py:36 测试结束，关闭浏览器
+INFO     automation:test_DossierUp.py:137 测试方法结束，确保浏览器已关闭

@@ -1,0 +1,4 @@
+INFO     automation:test_assisted_read.py:20 执行测试类前置操作：登录系统
+ERROR    automation:test_assisted_read.py:30 登录失败: 'TestAssistedRead' object has no attribute 'login'
+INFO     MessageTest:base_test.py:40 清理测试类...
+INFO     MessageTest:base_test.py:44 浏览器已关闭

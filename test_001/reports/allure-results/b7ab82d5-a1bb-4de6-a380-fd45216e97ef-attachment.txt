@@ -1,0 +1,43 @@
+INFO     automation:阅卷笔记.py:17 ========== 开始执行阅卷笔记测试 ==========
+INFO     automation:阅卷笔记.py:44 开始执行测试方法: test_document_notes
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     automation:阅卷笔记.py:71 开始阅卷笔记测试
+INFO     automation:阅卷笔记.py:75 开始登录系统
+INFO     automation:login_page.py:174 成功打开登录页面
+INFO     automation:login_page.py:118 开始输入用户名: wxdfg
+INFO     automation:login_page.py:125 用户名输入完成
+INFO     automation:login_page.py:130 开始输入密码
+INFO     automation:login_page.py:137 密码输入完成
+INFO     automation:login_page.py:79 ==================================================
+INFO     automation:login_page.py:80 请在弹出窗口中输入验证码
+INFO     automation:login_page.py:81 ==================================================
+INFO     automation:login_page.py:93 验证码已自动填入
+INFO     automation:login_page.py:146 尝试点击登录按钮
+INFO     automation:login_page.py:157 登录按钮点击成功
+INFO     automation:login_page.py:162 登录成功
+INFO     automation:阅卷笔记.py:77 登录系统完成
+INFO     automation:reading_notes_page.py:66 点击案件的阅卷笔记按钮
+INFO     automation:reading_notes_page.py:70 成功点击阅卷笔记按钮
+INFO     automation:reading_notes_page.py:80 点击左侧文档树中的判决书
+INFO     automation:reading_notes_page.py:84 成功点击判决书
+INFO     automation:reading_notes_page.py:94 测试缩小文档视图
+INFO     automation:reading_notes_page.py:99 成功点击缩小按钮
+INFO     automation:reading_notes_page.py:109 测试放大文档视图
+INFO     automation:reading_notes_page.py:114 成功点击放大按钮
+INFO     automation:reading_notes_page.py:124 测试文档下载功能
+INFO     automation:reading_notes_page.py:130 成功点击下载按钮
+INFO     automation:reading_notes_page.py:136 成功选择PDF下载选项
+INFO     automation:reading_notes_page.py:277 关闭判决书预览弹框
+INFO     automation:reading_notes_page.py:282 成功关闭判决书预览弹框
+ERROR    automation:reading_notes_page.py:258 关闭判决书预览失败
+INFO     automation:阅卷笔记.py:97 阅卷笔记测试结束
+INFO     automation:阅卷笔记.py:57 测试方法执行完成: test_document_notes
+INFO     automation:阅卷笔记.py:62 正在关闭浏览器...
+INFO     automation:阅卷笔记.py:64 浏览器已关闭
+INFO     automation:阅卷笔记.py:31 ========== 阅卷笔记测试执行完成 ==========
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D3B7F2E340>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/fc8d3bb51259240e5deba9c2c7cdf4ac
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D3B7F2E7C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/fc8d3bb51259240e5deba9c2c7cdf4ac
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D3C1A91F70>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/fc8d3bb51259240e5deba9c2c7cdf4ac
+INFO     automation:阅卷笔记.py:38 已关闭浏览器实例

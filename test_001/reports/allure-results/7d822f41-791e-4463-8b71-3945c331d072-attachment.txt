@@ -1,0 +1,54 @@
+INFO     automation:conftest.py:55 开始初始化WebDriver...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     automation:conftest.py:61 WebDriver实例验证成功
+WARNING  automation:test_卷宗上传.py:29 test_data目录不存在，创建目录: E:\AutoTest\FgAI\test_001\test_data
+WARNING  automation:test_卷宗上传.py:40 未在test_data目录中找到ZIP文件
+WARNING  automation:test_卷宗上传.py:50 未在test_data目录中找到DOCX文件
+INFO     automation:test_卷宗上传.py:57 开始登录系统
+INFO     automation:login_page.py:174 成功打开登录页面
+INFO     automation:login_page.py:118 开始输入用户名: wxdfg
+INFO     automation:login_page.py:125 用户名输入完成
+INFO     automation:login_page.py:130 开始输入密码
+INFO     automation:login_page.py:137 密码输入完成
+INFO     automation:login_page.py:79 ==================================================
+INFO     automation:login_page.py:80 请在弹出窗口中输入验证码
+INFO     automation:login_page.py:81 ==================================================
+INFO     automation:login_page.py:93 验证码已自动填入
+INFO     automation:login_page.py:146 尝试点击登录按钮
+INFO     automation:login_page.py:157 登录按钮点击成功
+INFO     automation:login_page.py:162 登录成功
+INFO     automation:test_卷宗上传.py:60 登录成功
+INFO     automation:test_卷宗上传.py:63 点击上传卷宗按钮
+INFO     automation:test_卷宗上传.py:71 点击上传zip按钮
+WARNING  automation:test_卷宗上传.py:96 未找到可用的ZIP文件，跳过ZIP上传步骤
+INFO     automation:test_卷宗上传.py:99 点击上传单个文件按钮
+ERROR    automation:test_卷宗上传.py:156 卷宗上传测试失败: Message: element click intercepted: Element <button type="button" class="ant-btn ant-btn-primary">...</button> is not clickable at point (373, 91). Other element would receive the click: <div tabindex="-1" role="dialog" aria-labelledby="rcDialogTitle1" class="ant-modal-wrap animate__animated animate__fadeInDownBig">...</div>
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF686B2DF85+26693]
+	(No symbol) [0x00007FF686A8EAD0]
+	(No symbol) [0x00007FF6869191CA]
+	(No symbol) [0x00007FF6869775E9]
+	(No symbol) [0x00007FF686974FA2]
+	(No symbol) [0x00007FF686972051]
+	(No symbol) [0x00007FF686970F76]
+	(No symbol) [0x00007FF6869627E4]
+	(No symbol) [0x00007FF6869978EA]
+	(No symbol) [0x00007FF686962096]
+	(No symbol) [0x00007FF686997B00]
+	(No symbol) [0x00007FF6869C00B8]
+	(No symbol) [0x00007FF6869976C3]
+	(No symbol) [0x00007FF686960490]
+	(No symbol) [0x00007FF686961743]
+	GetHandleVerifier [0x00007FF686E8436D+3525677]
+	GetHandleVerifier [0x00007FF686E97F3B+3606523]
+	GetHandleVerifier [0x00007FF686E8CEE3+3561379]
+	GetHandleVerifier [0x00007FF686BF7C0A+853194]
+	(No symbol) [0x00007FF686A9990F]
+	(No symbol) [0x00007FF686A95674]
+	(No symbol) [0x00007FF686A95816]
+	(No symbol) [0x00007FF686A84D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]

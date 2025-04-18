@@ -1,0 +1,58 @@
+INFO     automation:AssistedG.py:20 初始化测试类...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     automation:AssistedG.py:87 开始登录系统
+INFO     automation:login_page.py:174 成功打开登录页面
+INFO     automation:login_page.py:118 开始输入用户名: wxdfg
+INFO     automation:login_page.py:125 用户名输入完成
+INFO     automation:login_page.py:130 开始输入密码
+INFO     automation:login_page.py:137 密码输入完成
+INFO     automation:login_page.py:79 ==================================================
+INFO     automation:login_page.py:80 请在弹出窗口中输入验证码
+INFO     automation:login_page.py:81 ==================================================
+INFO     automation:login_page.py:93 验证码已自动填入
+INFO     automation:login_page.py:146 尝试点击登录按钮
+INFO     automation:login_page.py:157 登录按钮点击成功
+INFO     automation:login_page.py:162 登录成功
+INFO     automation:AssistedG.py:90 登录成功
+INFO     automation:AssistedG.py:102 点击辅助阅卷
+INFO     automation:AssistedG.py:108 步骤1执行成功：点击辅助阅卷
+INFO     automation:AssistedG.py:120 点击庭审笔录1
+INFO     automation:AssistedG.py:126 步骤2执行成功：点击庭审笔录1
+INFO     automation:AssistedG.py:130 点击设为庭审笔录
+INFO     automation:AssistedG.py:136 步骤3执行成功：点击设为庭审笔录
+INFO     automation:AssistedG.py:140 输入原告处理意见1
+INFO     automation:AssistedG.py:147 步骤4执行成功：输入原告处理意见1
+INFO     automation:AssistedG.py:151 输入原告处理意见2
+INFO     automation:AssistedG.py:158 步骤5执行成功：输入原告处理意见2
+INFO     automation:AssistedG.py:162 点击确定按钮
+INFO     automation:AssistedG.py:168 步骤6执行成功：点击确定按钮
+INFO     automation:AssistedG.py:180 点击取消设置庭审笔录
+WARNING  automation:AssistedG.py:198 无法使用SVG/use定位方式，尝试备用定位
+INFO     automation:AssistedG.py:212 点击确定取消设置
+ERROR    automation:AssistedG.py:259 辅助阅卷测试失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6234ADF85+26693]
+	(No symbol) [0x00007FF62340EAD0]
+	(No symbol) [0x00007FF6232991CA]
+	(No symbol) [0x00007FF6232EF747]
+	(No symbol) [0x00007FF6232EF97C]
+	(No symbol) [0x00007FF6233433C7]
+	(No symbol) [0x00007FF62331792F]
+	(No symbol) [0x00007FF6233400B8]
+	(No symbol) [0x00007FF6233176C3]
+	(No symbol) [0x00007FF6232E0490]
+	(No symbol) [0x00007FF6232E1743]
+	GetHandleVerifier [0x00007FF62380436D+3525677]
+	GetHandleVerifier [0x00007FF623817F3B+3606523]
+	GetHandleVerifier [0x00007FF62380CEE3+3561379]
+	GetHandleVerifier [0x00007FF623577C0A+853194]
+	(No symbol) [0x00007FF62341990F]
+	(No symbol) [0x00007FF623415674]
+	(No symbol) [0x00007FF623415816]
+	(No symbol) [0x00007FF623404D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+INFO     automation:AssistedG.py:71 测试类执行完成，进行清理...
+INFO     automation:AssistedG.py:75 浏览器已关闭

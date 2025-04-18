@@ -1,0 +1,10 @@
+2025-04-14 14:39:32,054 - automation - INFO - 开始初始化WebDriver...
+2025-04-14 14:39:32,054 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 14:39:32,055 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 14:39:33,208 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 14:39:33,213 - automation - INFO - WebDriver实例验证成功
+2025-04-14 14:39:33,213 - automation - INFO - 找到ZIP文件: (2024)鲁0502民初374号.zip
+2025-04-14 14:39:33,213 - automation - INFO - 找到DOCX文件: 法官AI助手安装文档.docx
+2025-04-14 14:39:33,214 - automation - INFO - 开始登录系统
+2025-04-14 14:39:44,306 - automation - ERROR - 卷宗上传测试失败: 'TestDossierUpload' object has no attribute 'wait'
+2025-04-14 14:39:44,507 - automation - INFO - 测试结束，关闭浏览器

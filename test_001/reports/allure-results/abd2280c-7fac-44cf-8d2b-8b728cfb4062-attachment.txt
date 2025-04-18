@@ -1,0 +1,6 @@
+2025-04-17 14:21:38,543 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-17 14:21:38,544 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-17 14:21:39,702 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-17 14:21:52,619 - automation - INFO - 开始执行案件查询
+2025-04-17 14:21:52,619 - automation - INFO - 点击承办人/助理下拉框
+2025-04-17 14:21:52,619 - automation - ERROR - 案件查询执行失败: 'bytes' object has no attribute 'element_to_be_clickable'

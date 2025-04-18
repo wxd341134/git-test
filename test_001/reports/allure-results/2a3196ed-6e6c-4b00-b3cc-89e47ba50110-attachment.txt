@@ -1,0 +1,4 @@
+INFO     MessageTest:test_CaseMg.py:53 开始执行个人中心测试
+INFO     MessageTest:test_CaseMg.py:55 个人中心测试执行完成
+INFO     MessageTest:base_test.py:40 清理测试类...
+INFO     MessageTest:base_test.py:44 浏览器已关闭

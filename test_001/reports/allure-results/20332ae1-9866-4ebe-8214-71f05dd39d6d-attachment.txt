@@ -1,0 +1,3 @@
+2025-03-25 15:58:55,085 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-25 15:58:55,085 - automation - ERROR - 创建WebDriver实例失败: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+

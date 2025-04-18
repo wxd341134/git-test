@@ -1,0 +1,155 @@
+INFO     MessageTest:base_test.py:18 初始化测试类...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     MessageTest:login_page.py:190 成功打开登录页面
+INFO     MessageTest:login_page.py:134 开始输入用户名: wxdfg
+INFO     MessageTest:login_page.py:141 用户名输入完成
+INFO     MessageTest:login_page.py:146 开始输入密码
+INFO     MessageTest:login_page.py:153 密码输入完成
+INFO     MessageTest:login_page.py:95 ==================================================
+INFO     MessageTest:login_page.py:96 请在弹出窗口中输入验证码
+INFO     MessageTest:login_page.py:97 ==================================================
+INFO     MessageTest:login_page.py:109 验证码已自动填入
+INFO     MessageTest:login_page.py:162 尝试点击登录按钮
+INFO     MessageTest:login_page.py:173 登录按钮点击成功
+INFO     MessageTest:login_page.py:178 登录成功
+INFO     MessageTest:base_test.py:26 登录成功
+INFO     automation:test_assisted_read.py:17 ========== 开始执行测试方法: test_assisted_reading ==========
+INFO     automation:test_assisted_read.py:31 开始辅助阅读测试
+INFO     automation:assisted_read_utils.py:136 开始执行辅助阅读流程
+INFO     automation:assisted_read_utils.py:15 开始导航到辅助阅读页面
+ERROR    automation:assisted_read_page.py:62 导航到辅助阅读页面失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF66C14DF85+26693]
+	(No symbol) [0x00007FF66C0AEAD0]
+	(No symbol) [0x00007FF66BF391CA]
+	(No symbol) [0x00007FF66BF8F747]
+	(No symbol) [0x00007FF66BF8F97C]
+	(No symbol) [0x00007FF66BFE33C7]
+	(No symbol) [0x00007FF66BFB792F]
+	(No symbol) [0x00007FF66BFE00B8]
+	(No symbol) [0x00007FF66BFB76C3]
+	(No symbol) [0x00007FF66BF80490]
+	(No symbol) [0x00007FF66BF81743]
+	GetHandleVerifier [0x00007FF66C4A436D+3525677]
+	GetHandleVerifier [0x00007FF66C4B7F3B+3606523]
+	GetHandleVerifier [0x00007FF66C4ACEE3+3561379]
+	GetHandleVerifier [0x00007FF66C217C0A+853194]
+	(No symbol) [0x00007FF66C0B990F]
+	(No symbol) [0x00007FF66C0B5674]
+	(No symbol) [0x00007FF66C0B5816]
+	(No symbol) [0x00007FF66C0A4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+INFO     automation:assisted_read_utils.py:40 开始选择案件
+ERROR    automation:assisted_read_page.py:74 选择案件失败: Message: element click intercepted: Element <td title="..." class="ant-table-fixed-columns-in-body ant-table-row-cell-ellipsis ant-table-row-cell-break-word">(2025)苏0105民初0001号</td> is not clickable at point (215, 363). Other element would receive the click: <td title="..." class="ant-table-row-cell-ellipsis ant-table-row-cell-break-word">(2025)苏0105民初0001号</td>
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66C14DF85+26693]
+	(No symbol) [0x00007FF66C0AEAD0]
+	(No symbol) [0x00007FF66BF391CA]
+	(No symbol) [0x00007FF66BF975E9]
+	(No symbol) [0x00007FF66BF94FA2]
+	(No symbol) [0x00007FF66BF92051]
+	(No symbol) [0x00007FF66BF90F76]
+	(No symbol) [0x00007FF66BF827E4]
+	(No symbol) [0x00007FF66BFB78EA]
+	(No symbol) [0x00007FF66BF82096]
+	(No symbol) [0x00007FF66BFB7B00]
+	(No symbol) [0x00007FF66BFE00B8]
+	(No symbol) [0x00007FF66BFB76C3]
+	(No symbol) [0x00007FF66BF80490]
+	(No symbol) [0x00007FF66BF81743]
+	GetHandleVerifier [0x00007FF66C4A436D+3525677]
+	GetHandleVerifier [0x00007FF66C4B7F3B+3606523]
+	GetHandleVerifier [0x00007FF66C4ACEE3+3561379]
+	GetHandleVerifier [0x00007FF66C217C0A+853194]
+	(No symbol) [0x00007FF66C0B990F]
+	(No symbol) [0x00007FF66C0B5674]
+	(No symbol) [0x00007FF66C0B5816]
+	(No symbol) [0x00007FF66C0A4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+INFO     automation:assisted_read_utils.py:64 开始添加庭审笔录2
+ERROR    automation:assisted_read_page.py:86 添加庭审笔录2失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF66C14DF85+26693]
+	(No symbol) [0x00007FF66C0AEAD0]
+	(No symbol) [0x00007FF66BF391CA]
+	(No symbol) [0x00007FF66BF8F747]
+	(No symbol) [0x00007FF66BF8F97C]
+	(No symbol) [0x00007FF66BFE33C7]
+	(No symbol) [0x00007FF66BFB792F]
+	(No symbol) [0x00007FF66BFE00B8]
+	(No symbol) [0x00007FF66BFB76C3]
+	(No symbol) [0x00007FF66BF80490]
+	(No symbol) [0x00007FF66BF81743]
+	GetHandleVerifier [0x00007FF66C4A436D+3525677]
+	GetHandleVerifier [0x00007FF66C4B7F3B+3606523]
+	GetHandleVerifier [0x00007FF66C4ACEE3+3561379]
+	GetHandleVerifier [0x00007FF66C217C0A+853194]
+	(No symbol) [0x00007FF66C0B990F]
+	(No symbol) [0x00007FF66C0B5674]
+	(No symbol) [0x00007FF66C0B5816]
+	(No symbol) [0x00007FF66C0A4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+INFO     automation:assisted_read_utils.py:112 开始批量编辑证据
+ERROR    automation:assisted_read_page.py:148 批量编辑证据失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF66C14DF85+26693]
+	(No symbol) [0x00007FF66C0AEAD0]
+	(No symbol) [0x00007FF66BF391CA]
+	(No symbol) [0x00007FF66BF8F747]
+	(No symbol) [0x00007FF66BF8F97C]
+	(No symbol) [0x00007FF66BFE33C7]
+	(No symbol) [0x00007FF66BFB792F]
+	(No symbol) [0x00007FF66BFE00B8]
+	(No symbol) [0x00007FF66BFB76C3]
+	(No symbol) [0x00007FF66BF80490]
+	(No symbol) [0x00007FF66BF81743]
+	GetHandleVerifier [0x00007FF66C4A436D+3525677]
+	GetHandleVerifier [0x00007FF66C4B7F3B+3606523]
+	GetHandleVerifier [0x00007FF66C4ACEE3+3561379]
+	GetHandleVerifier [0x00007FF66C217C0A+853194]
+	(No symbol) [0x00007FF66C0B990F]
+	(No symbol) [0x00007FF66C0B5674]
+	(No symbol) [0x00007FF66C0B5816]
+	(No symbol) [0x00007FF66C0A4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+INFO     automation:assisted_read_utils.py:88 开始添加庭审笔录3
+ERROR    automation:assisted_read_page.py:98 添加庭审笔录3失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF66C14DF85+26693]
+	(No symbol) [0x00007FF66C0AEAD0]
+	(No symbol) [0x00007FF66BF391CA]
+	(No symbol) [0x00007FF66BF8F747]
+	(No symbol) [0x00007FF66BF8F97C]
+	(No symbol) [0x00007FF66BFE33C7]
+	(No symbol) [0x00007FF66BFB792F]
+	(No symbol) [0x00007FF66BFE00B8]
+	(No symbol) [0x00007FF66BFB76C3]
+	(No symbol) [0x00007FF66BF80490]
+	(No symbol) [0x00007FF66BF81743]
+	GetHandleVerifier [0x00007FF66C4A436D+3525677]
+	GetHandleVerifier [0x00007FF66C4B7F3B+3606523]
+	GetHandleVerifier [0x00007FF66C4ACEE3+3561379]
+	GetHandleVerifier [0x00007FF66C217C0A+853194]
+	(No symbol) [0x00007FF66C0B990F]
+	(No symbol) [0x00007FF66C0B5674]
+	(No symbol) [0x00007FF66C0B5816]
+	(No symbol) [0x00007FF66C0A4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+INFO     automation:assisted_read_utils.py:153 辅助阅读流程执行完成
+INFO     automation:test_assisted_read.py:39 辅助阅读测试完成
+INFO     automation:test_assisted_read.py:23 ========== 结束执行测试方法: test_assisted_reading ==========
+INFO     MessageTest:base_test.py:40 清理测试类...
+INFO     MessageTest:base_test.py:44 浏览器已关闭

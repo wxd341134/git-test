@@ -1,0 +1,110 @@
+INFO     automation:阅卷笔记.py:17 ========== 开始执行阅卷笔记测试 ==========
+INFO     automation:阅卷笔记.py:44 开始执行测试方法: test_document_notes
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     automation:阅卷笔记.py:71 开始阅卷笔记测试
+INFO     automation:阅卷笔记.py:75 开始登录系统
+INFO     automation:login_page.py:174 成功打开登录页面
+INFO     automation:login_page.py:118 开始输入用户名: wxdfg
+INFO     automation:login_page.py:125 用户名输入完成
+INFO     automation:login_page.py:130 开始输入密码
+INFO     automation:login_page.py:137 密码输入完成
+INFO     automation:login_page.py:79 ==================================================
+INFO     automation:login_page.py:80 请在弹出窗口中输入验证码
+INFO     automation:login_page.py:81 ==================================================
+INFO     automation:login_page.py:93 验证码已自动填入
+INFO     automation:login_page.py:146 尝试点击登录按钮
+INFO     automation:login_page.py:157 登录按钮点击成功
+INFO     automation:login_page.py:162 登录成功
+INFO     automation:阅卷笔记.py:77 登录系统完成
+INFO     automation:reading_notes_page.py:71 点击案件的阅卷笔记按钮
+INFO     automation:reading_notes_page.py:75 成功点击阅卷笔记按钮
+INFO     automation:reading_notes_page.py:85 点击左侧文档树中的判决书
+INFO     automation:reading_notes_page.py:89 成功点击判决书
+INFO     automation:reading_notes_page.py:99 测试缩小文档视图
+INFO     automation:reading_notes_page.py:104 成功点击缩小按钮
+INFO     automation:reading_notes_page.py:114 测试放大文档视图
+INFO     automation:reading_notes_page.py:119 成功点击放大按钮
+INFO     automation:reading_notes_page.py:129 测试文档下载功能
+INFO     automation:reading_notes_page.py:135 成功点击下载按钮
+INFO     automation:reading_notes_page.py:141 成功选择PDF下载选项
+INFO     automation:reading_notes_page.py:390 关闭判决书预览弹框
+INFO     automation:reading_notes_page.py:395 已点击关闭按钮
+INFO     automation:reading_notes_page.py:403 确认判决书预览弹框已完全关闭
+INFO     automation:reading_notes_page.py:239 开始选中文本并使用AI智能问答
+INFO     automation:reading_notes_page.py:247 找到TinyMCE编辑器区域
+INFO     automation:reading_notes_page.py:251 已切换到编辑器iframe
+WARNING  automation:reading_notes_page.py:292 搜索方式选择文本失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+INFO     automation:reading_notes_page.py:304 使用三次点击选择了文本
+WARNING  automation:reading_notes_page.py:316 切回主文档失败: Message: no such element: element not found
+  (Session info: chrome=134.0.6998.177); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DEF304]
+	(No symbol) [0x00007FF6F5DEDDD3]
+	(No symbol) [0x00007FF6F5DE1869]
+	(No symbol) [0x00007FF6F5DDF632]
+	(No symbol) [0x00007FF6F5DE38FC]
+	(No symbol) [0x00007FF6F5DE39CF]
+	(No symbol) [0x00007FF6F5E296AB]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+INFO     automation:reading_notes_page.py:320 点击AI智能问答按钮
+INFO     automation:reading_notes_page.py:323 成功点击AI智能问答按钮
+INFO     automation:reading_notes_page.py:326 等待3秒...
+INFO     automation:reading_notes_page.py:330 关闭AI智能问答弹框
+INFO     automation:reading_notes_page.py:333 成功关闭AI智能问答弹框
+INFO     automation:reading_notes_page.py:380 阅卷笔记工作流程执行完成
+INFO     automation:reading_notes_page.py:157 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_131704.png
+INFO     automation:阅卷笔记.py:89 阅卷笔记功能测试完成
+INFO     automation:阅卷笔记.py:97 阅卷笔记测试结束
+INFO     automation:阅卷笔记.py:57 测试方法执行完成: test_document_notes
+INFO     automation:阅卷笔记.py:62 正在关闭浏览器...
+INFO     automation:阅卷笔记.py:64 浏览器已关闭
+INFO     automation:阅卷笔记.py:31 ========== 阅卷笔记测试执行完成 ==========
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000188CA89D220>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ab933c93b804cb40da01721fc5149a4c
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000188CA89D3A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ab933c93b804cb40da01721fc5149a4c
+WARNING  urllib3.connectionpool:connectionpool.py:812 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000188CA89D520>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ab933c93b804cb40da01721fc5149a4c
+INFO     automation:阅卷笔记.py:38 已关闭浏览器实例

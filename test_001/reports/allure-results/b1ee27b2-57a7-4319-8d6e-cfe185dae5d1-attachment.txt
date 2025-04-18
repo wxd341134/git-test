@@ -1,0 +1,26 @@
+2025-04-14 09:46:30,806 - automation - INFO - ========== 开始执行登录和退出登录测试 ==========
+2025-04-14 09:46:30,806 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 09:46:30,806 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 09:46:32,174 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 09:46:32,179 - automation - INFO - 开始测试登录功能
+2025-04-14 09:46:34,704 - automation - INFO - 成功打开登录页面
+2025-04-14 09:46:34,704 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-14 09:46:34,811 - automation - INFO - 用户名输入完成
+2025-04-14 09:46:34,811 - automation - INFO - 开始输入密码
+2025-04-14 09:46:34,915 - automation - INFO - 密码输入完成
+2025-04-14 09:46:34,932 - automation - INFO - ==================================================
+2025-04-14 09:46:34,932 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-14 09:46:34,932 - automation - INFO - ==================================================
+2025-04-14 09:46:41,169 - automation - INFO - 验证码已自动填入
+2025-04-14 09:46:42,177 - automation - INFO - 尝试点击登录按钮
+2025-04-14 09:46:42,245 - automation - INFO - 登录按钮点击成功
+2025-04-14 09:46:42,245 - automation - INFO - 登录成功
+2025-04-14 09:46:42,245 - automation - INFO - 登录成功
+2025-04-14 09:46:45,253 - automation - INFO - 点击右上角用户菜单
+2025-04-14 09:46:45,305 - automation - INFO - 成功点击用户菜单
+2025-04-14 09:46:46,316 - automation - INFO - 点击下拉菜单中的'退出'选项
+2025-04-14 09:46:46,383 - automation - INFO - 成功点击'退出'选项
+2025-04-14 09:46:48,408 - automation - INFO - 成功退出到登录页面: http://192.168.2.176:86/#/login
+2025-04-14 09:46:48,408 - automation - INFO - 登录和退出登录测试完成
+2025-04-14 09:46:48,409 - automation - INFO - ========== 登录和退出登录测试执行完成 ==========
+2025-04-14 09:46:50,647 - automation - INFO - 已关闭浏览器

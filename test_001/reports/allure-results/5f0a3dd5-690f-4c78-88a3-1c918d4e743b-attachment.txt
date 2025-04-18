@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "E:\AutoTest\FgAI\test_001\test_CaseMg.py", line 126, in test_case_crud
+    CaseUtils.navigate_to_case_management(self.case_page)
+  File "D:\Python39\lib\site-packages\allure_commons\_allure.py", line 192, in impl
+    return func(*a, **kw)
+  File "E:\AutoTest\FgAI\common\case_utils.py", line 18, in navigate_to_case_management
+    case_page.navigate_to_case_management()
+AttributeError: 'CasePage' object has no attribute 'navigate_to_case_management'

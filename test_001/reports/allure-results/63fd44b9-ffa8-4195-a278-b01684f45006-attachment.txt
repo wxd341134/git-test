@@ -1,0 +1,63 @@
+2025-03-25 15:56:56,854 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-25 15:56:56,854 - automation - INFO - Chrome选项配置完成
+2025-03-25 15:57:00,627 - automation - INFO - ChromeDriver 安装/更新成功
+2025-03-25 15:57:01,808 - automation - INFO - 成功创建Chrome WebDriver实例
+2025-03-25 15:57:01,810 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\data\case_data.json
+2025-03-25 15:57:01,810 - automation - INFO - 测试数据加载成功
+2025-03-25 15:57:01,810 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-03-25 15:57:01,810 - automation - INFO - 开始登录系统，用户名: wxdfg
+2025-03-25 15:57:03,263 - automation - INFO - 截图已添加到Allure报告: login_page
+2025-03-25 15:57:03,263 - automation - INFO - 开始输入用户名...
+2025-03-25 15:57:04,983 - automation - INFO - 开始输入密码...
+2025-03-25 15:57:07,805 - automation - ERROR - 查找元素失败: ('xpath', '//img[contains(@src, "/judge-ai/captcha")]'), 错误: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.118)
+Stacktrace:
+	GetHandleVerifier [0x005EC7F3+24435]
+	(No symbol) [0x00572074]
+	(No symbol) [0x004406E3]
+	(No symbol) [0x0042FEC0]
+	(No symbol) [0x0044DFDF]
+	(No symbol) [0x004B46AF]
+	(No symbol) [0x004CEB19]
+	(No symbol) [0x004AD5B6]
+	(No symbol) [0x0047C54F]
+	(No symbol) [0x0047D894]
+	GetHandleVerifier [0x008F70A3+3213347]
+	GetHandleVerifier [0x0090B0C9+3295305]
+	GetHandleVerifier [0x0090558C+3271948]
+	GetHandleVerifier [0x00687360+658144]
+	(No symbol) [0x0057B27D]
+	(No symbol) [0x00578208]
+	(No symbol) [0x005783A9]
+	(No symbol) [0x0056AAC0]
+	BaseThreadInitThunk [0x75005D49+25]
+	RtlInitializeExceptionChain [0x7726CE3B+107]
+	RtlGetAppContainerNamedObjectPath [0x7726CDC1+561]
+
+2025-03-25 15:57:07,902 - automation - ERROR - 截图失败: find_element_failed_//img[contains(@src, "/judge-ai/captcha")], 错误: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x005EC7F3+24435]
+	(No symbol) [0x00572074]
+	(No symbol) [0x0044055E]
+	(No symbol) [0x0047B9D8]
+	(No symbol) [0x004AD676]
+	(No symbol) [0x004A904C]
+	(No symbol) [0x004A85C6]
+	(No symbol) [0x00413245]
+	(No symbol) [0x0041379E]
+	(No symbol) [0x00413C1D]
+	GetHandleVerifier [0x008F70A3+3213347]
+	GetHandleVerifier [0x0090B0C9+3295305]
+	GetHandleVerifier [0x0090558C+3271948]
+	GetHandleVerifier [0x00687360+658144]
+	(No symbol) [0x0057B27D]
+	(No symbol) [0x00412F10]
+	(No symbol) [0x00412ACA]
+	GetHandleVerifier [0x0097E9AC+3768620]
+	BaseThreadInitThunk [0x75005D49+25]
+	RtlInitializeExceptionChain [0x7726CE3B+107]
+	RtlGetAppContainerNamedObjectPath [0x7726CDC1+561]
+
+2025-03-25 15:57:08,074 - automation - INFO - 正在关闭WebDriver实例...
+2025-03-25 15:57:10,087 - automation - INFO - 成功关闭WebDriver实例

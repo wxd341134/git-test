@@ -1,0 +1,50 @@
+2025-03-26 14:44:01,339 - automation - INFO - 开始初始化WebDriver...
+2025-03-26 14:44:01,339 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-26 14:44:01,339 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-26 14:44:02,954 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-26 14:44:02,958 - automation - INFO - WebDriver实例验证成功
+2025-03-26 14:44:02,958 - automation - INFO - 开始执行个人中心测试
+2025-03-26 14:44:05,274 - automation - INFO - 成功打开登录页面
+2025-03-26 14:44:05,274 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-26 14:44:05,387 - automation - INFO - 用户名输入完成
+2025-03-26 14:44:05,387 - automation - INFO - 开始输入密码
+2025-03-26 14:44:05,485 - automation - INFO - 密码输入完成
+2025-03-26 14:44:05,500 - automation - INFO - ==================================================
+2025-03-26 14:44:05,500 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-26 14:44:05,500 - automation - INFO - ==================================================
+2025-03-26 14:44:10,862 - automation - INFO - 验证码已自动填入
+2025-03-26 14:44:11,877 - automation - INFO - 尝试点击登录按钮
+2025-03-26 14:44:11,940 - automation - INFO - 登录按钮点击成功
+2025-03-26 14:44:11,940 - automation - INFO - 登录成功
+2025-03-26 14:44:11,940 - automation - INFO - 完成登录
+2025-03-26 14:44:13,989 - automation - INFO - 成功点击右上角用户菜单
+2025-03-26 14:44:15,057 - automation - INFO - 点击报表统计选项
+2025-03-26 14:44:16,136 - automation - INFO - 点击承办部门
+2025-03-26 14:44:17,218 - automation - INFO - 选择承办人
+2025-03-26 14:44:18,304 - automation - INFO - 点击查询按钮
+2025-03-26 14:44:20,379 - automation - INFO - 点击导出按钮
+2025-03-26 14:44:23,450 - automation - INFO - 成功点击右上角用户菜单
+2025-03-26 14:44:24,546 - automation - INFO - 点击字体下载选项
+2025-03-26 14:44:25,623 - automation - INFO - 点击方正小标简体按钮
+2025-03-26 14:44:27,717 - automation - INFO - 点击关闭弹框
+2025-03-26 14:44:28,782 - automation - INFO - 成功点击右上角用户菜单
+2025-03-26 14:44:29,887 - automation - INFO - 点击修改密码选项
+2025-03-26 14:44:31,048 - automation - INFO - 输入原密码
+2025-03-26 14:44:31,148 - automation - INFO - 输入新密码
+2025-03-26 14:44:31,259 - automation - INFO - 确认新密码
+2025-03-26 14:44:31,318 - automation - INFO - 点击确定按钮
+2025-03-26 14:44:36,359 - automation - INFO - 成功打开登录页面
+2025-03-26 14:44:36,359 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-26 14:44:36,458 - automation - INFO - 用户名输入完成
+2025-03-26 14:44:36,459 - automation - INFO - 开始输入密码
+2025-03-26 14:44:36,551 - automation - INFO - 密码输入完成
+2025-03-26 14:44:36,560 - automation - INFO - ==================================================
+2025-03-26 14:44:36,560 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-26 14:44:36,560 - automation - INFO - ==================================================
+2025-03-26 14:44:43,131 - automation - INFO - 验证码已自动填入
+2025-03-26 14:44:44,147 - automation - INFO - 尝试点击登录按钮
+2025-03-26 14:44:44,209 - automation - INFO - 登录按钮点击成功
+2025-03-26 14:44:44,210 - automation - INFO - 登录成功
+2025-03-26 14:44:44,210 - automation - INFO - 完成新密码登录
+2025-03-26 14:44:46,228 - automation - INFO - 使用新密码登录成功
+2025-03-26 14:44:46,304 - automation - INFO - 个人中心测试执行完成

@@ -1,0 +1,35 @@
+2025-04-14 16:10:21,694 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 16:10:21,694 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 16:10:22,850 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 16:10:31,772 - automation - INFO - ========== 开始执行测试方法: test_assisted_reading ==========
+2025-04-14 16:10:31,773 - automation - INFO - 开始辅助阅读测试
+2025-04-14 16:10:34,775 - automation - INFO - 点击辅助阅卷按钮
+2025-04-14 16:10:37,818 - automation - INFO - 成功点击辅助阅卷按钮
+2025-04-14 16:10:47,864 - automation - ERROR - 选择案件失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF66C14DF85+26693]
+	(No symbol) [0x00007FF66C0AEAD0]
+	(No symbol) [0x00007FF66BF391CA]
+	(No symbol) [0x00007FF66BF8F747]
+	(No symbol) [0x00007FF66BF8F97C]
+	(No symbol) [0x00007FF66BFE33C7]
+	(No symbol) [0x00007FF66BFB792F]
+	(No symbol) [0x00007FF66BFE00B8]
+	(No symbol) [0x00007FF66BFB76C3]
+	(No symbol) [0x00007FF66BF80490]
+	(No symbol) [0x00007FF66BF81743]
+	GetHandleVerifier [0x00007FF66C4A436D+3525677]
+	GetHandleVerifier [0x00007FF66C4B7F3B+3606523]
+	GetHandleVerifier [0x00007FF66C4ACEE3+3561379]
+	GetHandleVerifier [0x00007FF66C217C0A+853194]
+	(No symbol) [0x00007FF66C0B990F]
+	(No symbol) [0x00007FF66C0B5674]
+	(No symbol) [0x00007FF66C0B5816]
+	(No symbol) [0x00007FF66C0A4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 16:10:47,865 - automation - ERROR - 选择案件失败
+2025-04-14 16:10:47,866 - automation - ERROR - 辅助阅读测试失败: 辅助阅读流程失败
+assert False
+2025-04-14 16:10:48,067 - automation - INFO - ========== 结束执行测试方法: test_assisted_reading ==========

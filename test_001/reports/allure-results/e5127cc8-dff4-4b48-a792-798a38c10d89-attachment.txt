@@ -1,0 +1,27 @@
+INFO     MessageTest:base_test.py:18 初始化测试类...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     MessageTest:login_page.py:190 成功打开登录页面
+INFO     MessageTest:login_page.py:134 开始输入用户名: wxdfg
+INFO     MessageTest:login_page.py:141 用户名输入完成
+INFO     MessageTest:login_page.py:146 开始输入密码
+INFO     MessageTest:login_page.py:153 密码输入完成
+INFO     MessageTest:login_page.py:95 ==================================================
+INFO     MessageTest:login_page.py:96 请在弹出窗口中输入验证码
+INFO     MessageTest:login_page.py:97 ==================================================
+INFO     MessageTest:login_page.py:109 验证码已自动填入
+INFO     MessageTest:login_page.py:162 尝试点击登录按钮
+INFO     MessageTest:login_page.py:173 登录按钮点击成功
+INFO     MessageTest:login_page.py:178 登录成功
+INFO     MessageTest:base_test.py:26 登录成功
+INFO     MessageTest:test_CaseMg.py:78 开始执行测试方法: test_case_crud
+INFO     MessageTest:test_CaseMg.py:23 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+INFO     MessageTest:test_CaseMg.py:52 测试数据加载成功
+INFO     MessageTest:test_CaseMg.py:98 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+INFO     MessageTest:case_utils.py:248 开始执行案例增删改查流程: (2025)苏0105民初0001号
+INFO     MessageTest:case_utils.py:17 开始导航到案例管理页面
+ERROR    MessageTest:case_utils.py:30 导航到案例管理页面失败: 'CasePage' object has no attribute 'navigate_to_case_management'
+ERROR    MessageTest:case_utils.py:290 执行案例增删改查流程失败: 'CasePage' object has no attribute 'navigate_to_case_management'
+ERROR    MessageTest:test_CaseMg.py:105 测试过程中出现错误: 'CasePage' object has no attribute 'navigate_to_case_management'
+INFO     MessageTest:test_CaseMg.py:84 测试方法执行完成: test_case_crud

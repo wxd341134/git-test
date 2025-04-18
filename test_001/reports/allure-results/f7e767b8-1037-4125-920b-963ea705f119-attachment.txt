@@ -1,0 +1,45 @@
+2025-03-27 09:26:47,931 - automation - INFO - 初始化测试类...
+2025-03-27 09:26:47,931 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-27 09:26:47,932 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-27 09:26:49,183 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-27 09:26:49,184 - automation - INFO - 开始登录系统
+2025-03-27 09:26:52,047 - automation - INFO - 成功打开登录页面
+2025-03-27 09:26:52,047 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-27 09:26:52,165 - automation - INFO - 用户名输入完成
+2025-03-27 09:26:52,165 - automation - INFO - 开始输入密码
+2025-03-27 09:26:52,273 - automation - INFO - 密码输入完成
+2025-03-27 09:26:52,288 - automation - INFO - ==================================================
+2025-03-27 09:26:52,288 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-27 09:26:52,288 - automation - INFO - ==================================================
+2025-03-27 09:26:58,774 - automation - INFO - 验证码已自动填入
+2025-03-27 09:26:59,785 - automation - INFO - 尝试点击登录按钮
+2025-03-27 09:26:59,859 - automation - INFO - 登录按钮点击成功
+2025-03-27 09:26:59,859 - automation - INFO - 登录成功
+2025-03-27 09:27:01,871 - automation - INFO - 登录成功
+2025-03-27 09:27:01,871 - automation - INFO - 点击辅助生成菜单
+2025-03-27 09:27:11,911 - automation - ERROR - 辅助生成测试失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6780FDF85+26693]
+	(No symbol) [0x00007FF67805EAD0]
+	(No symbol) [0x00007FF677EE91CA]
+	(No symbol) [0x00007FF677F3F747]
+	(No symbol) [0x00007FF677F3F97C]
+	(No symbol) [0x00007FF677F933C7]
+	(No symbol) [0x00007FF677F6792F]
+	(No symbol) [0x00007FF677F900B8]
+	(No symbol) [0x00007FF677F676C3]
+	(No symbol) [0x00007FF677F30490]
+	(No symbol) [0x00007FF677F31743]
+	GetHandleVerifier [0x00007FF67845436D+3525677]
+	GetHandleVerifier [0x00007FF678467F3B+3606523]
+	GetHandleVerifier [0x00007FF67845CEE3+3561379]
+	GetHandleVerifier [0x00007FF6781C7C0A+853194]
+	(No symbol) [0x00007FF67806990F]
+	(No symbol) [0x00007FF678065674]
+	(No symbol) [0x00007FF678065816]
+	(No symbol) [0x00007FF678054D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-27 09:27:12,063 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-27 09:27:14,196 - automation - INFO - 浏览器已关闭

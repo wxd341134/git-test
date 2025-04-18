@@ -1,0 +1,38 @@
+INFO     MessageTest:base_test.py:18 初始化测试类...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     MessageTest:login_page.py:190 成功打开登录页面
+INFO     MessageTest:login_page.py:134 开始输入用户名: wxdfg
+INFO     MessageTest:login_page.py:141 用户名输入完成
+INFO     MessageTest:login_page.py:146 开始输入密码
+INFO     MessageTest:login_page.py:153 密码输入完成
+INFO     MessageTest:login_page.py:95 ==================================================
+INFO     MessageTest:login_page.py:96 请在弹出窗口中输入验证码
+INFO     MessageTest:login_page.py:97 ==================================================
+INFO     MessageTest:login_page.py:109 验证码已自动填入
+INFO     MessageTest:login_page.py:162 尝试点击登录按钮
+INFO     MessageTest:login_page.py:173 登录按钮点击成功
+INFO     MessageTest:login_page.py:178 登录成功
+INFO     MessageTest:base_test.py:26 登录成功
+INFO     automation:test_DossierUp.py:18 ========== 开始执行测试方法: test_dossier_upload ==========
+INFO     automation:test_DossierUp.py:34 开始卷宗上传测试
+INFO     automation:DossierUp_utils.py:25 找到ZIP文件: (2024)鲁0502民初374号.zip
+INFO     automation:DossierUp_utils.py:33 找到DOCX文件: 法官AI助手安装文档.docx
+INFO     automation:DossierUp_page.py:44 点击上传卷宗按钮成功
+INFO     automation:DossierUp_page.py:56 点击上传ZIP按钮成功
+INFO     automation:DossierUp_page.py:62 选择ZIP文件: E:\AutoTest\FgAI\test_001\test_data\(2024)鲁0502民初374号.zip
+INFO     automation:DossierUp_page.py:67 确认ZIP文件上传
+INFO     automation:DossierUp_utils.py:49 ZIP文件上传成功
+INFO     automation:DossierUp_page.py:79 点击上传单个文件按钮成功
+INFO     automation:DossierUp_page.py:85 选择单个文件: E:\AutoTest\FgAI\test_001\test_data\法官AI助手安装文档.docx
+INFO     automation:DossierUp_page.py:90 确认单个文件上传
+INFO     automation:DossierUp_utils.py:76 单个文件上传成功
+INFO     automation:DossierUp_page.py:102 点击刷新按钮成功
+INFO     automation:DossierUp_page.py:108 点击展开按钮成功
+INFO     automation:DossierUp_page.py:122 关闭上传窗口成功
+INFO     automation:DossierUp_utils.py:124 卷宗上传流程执行完成
+INFO     automation:test_DossierUp.py:42 卷宗上传测试完成
+INFO     automation:test_DossierUp.py:26 ========== 结束执行测试方法: test_dossier_upload ==========
+INFO     MessageTest:base_test.py:40 清理测试类...
+INFO     MessageTest:base_test.py:44 浏览器已关闭

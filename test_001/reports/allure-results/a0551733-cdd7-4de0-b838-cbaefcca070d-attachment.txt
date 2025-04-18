@@ -1,0 +1,32 @@
+INFO     MessageTest:base_test.py:18 初始化测试类...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     MessageTest:login_page.py:190 成功打开登录页面
+INFO     MessageTest:login_page.py:134 开始输入用户名: wxdfg
+INFO     MessageTest:login_page.py:141 用户名输入完成
+INFO     MessageTest:login_page.py:146 开始输入密码
+INFO     MessageTest:login_page.py:153 密码输入完成
+INFO     MessageTest:login_page.py:95 ==================================================
+INFO     MessageTest:login_page.py:96 请在弹出窗口中输入验证码
+INFO     MessageTest:login_page.py:97 ==================================================
+INFO     MessageTest:login_page.py:109 验证码已自动填入
+INFO     MessageTest:login_page.py:162 尝试点击登录按钮
+INFO     MessageTest:login_page.py:173 登录按钮点击成功
+INFO     MessageTest:login_page.py:178 登录成功
+INFO     MessageTest:base_test.py:26 登录成功
+INFO     MessageTest:test_archives_search.py:21 开始测试前置操作...
+INFO     MessageTest:test_archives_search.py:25 卷宗检索工具类初始化完成
+INFO     MessageTest:archives_search_utils.py:46 开始执行卷宗检索流程，关键词: 判决
+INFO     MessageTest:archives_search_utils.py:22 成功点击辅助阅卷按钮
+INFO     MessageTest:archives_search_utils.py:22 成功点击卷宗检索按钮
+INFO     MessageTest:archives_search_utils.py:33 成功在搜索输入框中输入文本: 判决
+INFO     MessageTest:archives_search_utils.py:22 成功点击搜索按钮
+INFO     MessageTest:archives_search_utils.py:22 成功点击预览卷宗按钮
+INFO     MessageTest:archives_search_utils.py:22 成功点击关闭预览按钮
+INFO     MessageTest:archives_search_utils.py:22 成功点击仅显示文件名复选框
+INFO     MessageTest:archives_search_utils.py:22 成功点击关闭搜索按钮
+INFO     MessageTest:archives_search_utils.py:111 卷宗检索流程执行完成
+INFO     MessageTest:test_archives_search.py:30 测试后置操作完成
+INFO     MessageTest:base_test.py:40 清理测试类...
+INFO     MessageTest:base_test.py:44 浏览器已关闭

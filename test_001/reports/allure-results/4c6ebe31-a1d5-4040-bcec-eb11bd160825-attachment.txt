@@ -1,0 +1,4 @@
+2025-04-14 13:27:05,522 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 13:27:05,523 - automation - INFO - 测试数据加载成功
+2025-04-14 13:27:05,523 - automation - INFO - 案件管理测试初始化完成
+2025-04-14 13:27:05,524 - automation - INFO - 案件管理测试清理完成

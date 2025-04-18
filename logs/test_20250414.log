@@ -1,0 +1,1493 @@
+2025-04-14 09:39:21,064 - automation - INFO - ========== 开始执行登录和退出登录测试 ==========
+2025-04-14 09:39:21,064 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 09:39:21,064 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 09:39:23,097 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 09:39:23,108 - automation - INFO - 开始测试登录功能
+2025-04-14 09:39:25,807 - automation - INFO - 成功打开登录页面
+2025-04-14 09:39:25,807 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-14 09:39:25,922 - automation - INFO - 用户名输入完成
+2025-04-14 09:39:25,922 - automation - INFO - 开始输入密码
+2025-04-14 09:39:26,034 - automation - INFO - 密码输入完成
+2025-04-14 09:39:26,047 - automation - INFO - ==================================================
+2025-04-14 09:39:26,047 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-14 09:39:26,047 - automation - INFO - ==================================================
+2025-04-14 09:39:31,899 - automation - INFO - 验证码已自动填入
+2025-04-14 09:39:32,904 - automation - INFO - 尝试点击登录按钮
+2025-04-14 09:39:32,972 - automation - INFO - 登录按钮点击成功
+2025-04-14 09:39:32,972 - automation - INFO - 登录成功
+2025-04-14 09:39:32,972 - automation - INFO - 登录成功
+2025-04-14 09:39:56,526 - automation - WARNING - 无法找到欢迎元素，但继续测试: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 09:39:56,526 - automation - INFO - 开始执行退出登录
+2025-04-14 09:40:16,631 - automation - WARNING - 未找到用户菜单
+2025-04-14 09:40:28,675 - automation - WARNING - 未能验证退出到登录页面: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 09:40:28,679 - automation - WARNING - 当前URL不含login，可能未正确退出: http://192.168.2.176:86/#/case/index
+2025-04-14 09:40:28,679 - automation - INFO - 登录和退出登录测试完成
+2025-04-14 09:40:28,681 - automation - INFO - ========== 登录和退出登录测试执行完成 ==========
+2025-04-14 09:40:30,822 - automation - INFO - 已关闭浏览器
+2025-04-14 09:46:30,806 - automation - INFO - ========== 开始执行登录和退出登录测试 ==========
+2025-04-14 09:46:30,806 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 09:46:30,806 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 09:46:32,174 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 09:46:32,179 - automation - INFO - 开始测试登录功能
+2025-04-14 09:46:34,704 - automation - INFO - 成功打开登录页面
+2025-04-14 09:46:34,704 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-14 09:46:34,811 - automation - INFO - 用户名输入完成
+2025-04-14 09:46:34,811 - automation - INFO - 开始输入密码
+2025-04-14 09:46:34,915 - automation - INFO - 密码输入完成
+2025-04-14 09:46:34,932 - automation - INFO - ==================================================
+2025-04-14 09:46:34,932 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-14 09:46:34,932 - automation - INFO - ==================================================
+2025-04-14 09:46:41,169 - automation - INFO - 验证码已自动填入
+2025-04-14 09:46:42,177 - automation - INFO - 尝试点击登录按钮
+2025-04-14 09:46:42,245 - automation - INFO - 登录按钮点击成功
+2025-04-14 09:46:42,245 - automation - INFO - 登录成功
+2025-04-14 09:46:42,245 - automation - INFO - 登录成功
+2025-04-14 09:46:45,253 - automation - INFO - 点击右上角用户菜单
+2025-04-14 09:46:45,305 - automation - INFO - 成功点击用户菜单
+2025-04-14 09:46:46,316 - automation - INFO - 点击下拉菜单中的'退出'选项
+2025-04-14 09:46:46,383 - automation - INFO - 成功点击'退出'选项
+2025-04-14 09:46:48,408 - automation - INFO - 成功退出到登录页面: http://192.168.2.176:86/#/login
+2025-04-14 09:46:48,408 - automation - INFO - 登录和退出登录测试完成
+2025-04-14 09:46:48,409 - automation - INFO - ========== 登录和退出登录测试执行完成 ==========
+2025-04-14 09:46:50,647 - automation - INFO - 已关闭浏览器
+2025-04-14 09:55:06,315 - automation - INFO - ========== 开始执行登录和退出登录测试 ==========
+2025-04-14 09:55:06,316 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 09:55:06,316 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 09:55:07,499 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 09:55:07,504 - automation - ERROR - 测试过程中出现错误: 'LoginPage' object has no attribute 'wait_for_element_visible'
+2025-04-14 09:55:07,687 - automation - INFO - ========== 登录和退出登录测试执行完成 ==========
+2025-04-14 09:55:09,803 - automation - INFO - 已关闭浏览器
+2025-04-14 09:57:57,459 - automation - INFO - ========== 开始执行登录和退出登录测试 ==========
+2025-04-14 09:57:57,460 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 09:57:57,460 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 09:57:58,593 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 09:58:08,612 - automation - ERROR - 输入用户名失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 09:58:10,882 - automation - ERROR - 执行登录操作失败: 输入用户名失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 10:01:07,953 - automation - INFO - ========== 开始执行登录和退出登录测试 ==========
+2025-04-14 10:01:07,953 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 10:01:07,953 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 10:01:09,057 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 10:01:09,066 - automation - INFO - 开始测试登录功能
+2025-04-14 10:01:18,929 - automation - INFO - 登录成功
+2025-04-14 10:01:21,933 - automation - INFO - 点击右上角用户菜单
+2025-04-14 10:01:21,991 - automation - INFO - 成功点击用户菜单
+2025-04-14 10:01:22,995 - automation - INFO - 点击下拉菜单中的'退出'选项
+2025-04-14 10:01:23,053 - automation - INFO - 成功点击'退出'选项
+2025-04-14 10:01:25,081 - automation - INFO - 成功退出到登录页面: http://192.168.2.176:86/#/login
+2025-04-14 10:01:25,081 - automation - INFO - 登录和退出登录测试完成
+2025-04-14 10:01:25,083 - automation - INFO - ========== 登录和退出登录测试执行完成 ==========
+2025-04-14 10:01:27,244 - automation - INFO - 已关闭浏览器
+2025-04-14 10:04:16,764 - automation - INFO - ========== 开始执行登录和退出登录测试 ==========
+2025-04-14 10:04:16,765 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 10:04:16,765 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 10:04:18,538 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 10:04:18,542 - automation - INFO - 开始执行登录
+2025-04-14 10:04:31,723 - automation - INFO - 点击用户下拉菜单
+2025-04-14 10:04:32,857 - automation - INFO - 点击退出选项
+2025-04-14 10:04:35,148 - automation - INFO - 验证是否退出到登录页面
+2025-04-14 10:04:35,183 - automation - INFO - ========== 登录和退出登录测试执行完成 ==========
+2025-04-14 10:04:37,357 - automation - INFO - 已关闭浏览器
+2025-04-14 10:15:43,177 - automation - INFO - ========== 开始执行登录和退出登录测试 ==========
+2025-04-14 10:15:43,177 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 10:15:43,178 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 10:15:44,468 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 10:15:44,474 - automation - INFO - 开始执行登录
+2025-04-14 10:15:56,932 - automation - INFO - 登录操作完成
+2025-04-14 10:15:56,933 - automation - INFO - 点击用户下拉菜单
+2025-04-14 10:15:58,063 - automation - INFO - 点击退出选项
+2025-04-14 10:16:00,355 - automation - INFO - 退出登录操作完成
+2025-04-14 10:16:00,355 - automation - INFO - 验证是否退出到登录页面
+2025-04-14 10:16:00,366 - automation - INFO - 验证成功：已退出到登录页面
+2025-04-14 10:16:00,367 - automation - INFO - 登录-退出流程执行完成
+2025-04-14 10:16:00,368 - automation - INFO - ========== 登录和退出登录测试执行完成 ==========
+2025-04-14 10:16:02,570 - automation - INFO - 已关闭浏览器
+2025-04-14 10:17:02,274 - automation - INFO - 开始测试用例执行
+2025-04-14 10:17:12,515 - automation - INFO - 登录成功
+2025-04-14 10:17:21,989 - automation - INFO - 报表统计操作完成
+2025-04-14 10:17:26,762 - automation - INFO - 字体下载操作完成
+2025-04-14 10:17:30,883 - automation - INFO - 密码修改操作完成
+2025-04-14 10:17:30,884 - automation - INFO - 测试用例执行完成
+2025-04-14 10:33:56,730 - automation - INFO - ========== 开始执行案例管理测试 ==========
+2025-04-14 10:33:56,731 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 10:33:56,731 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 10:33:57,841 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 10:33:57,845 - automation - INFO - 开始打开案例管理页面
+2025-04-14 10:34:18,425 - automation - ERROR - 导航到案例管理失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 10:34:20,513 - automation - INFO - 成功打开案例管理页面
+2025-04-14 10:34:20,513 - automation - INFO - 开始搜索案例: 民初
+2025-04-14 10:34:30,564 - automation - ERROR - 输入搜索文本失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 10:34:40,612 - automation - ERROR - 点击搜索按钮失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 10:34:42,701 - automation - INFO - 案例搜索完成
+2025-04-14 10:34:42,702 - automation - INFO - 开始查看案例详情
+2025-04-14 10:34:52,759 - automation - ERROR - 点击案例详情按钮失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 10:34:54,829 - automation - INFO - 成功打开案例详情页面
+2025-04-14 10:34:54,829 - automation - INFO - 开始返回案例列表
+2025-04-14 10:35:04,852 - automation - ERROR - 点击返回按钮失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 10:35:06,945 - automation - INFO - 成功返回案例列表页面
+2025-04-14 10:35:06,945 - automation - INFO - 案例管理完整流程执行完成
+2025-04-14 10:35:06,949 - automation - INFO - ========== 案例管理测试执行完成 ==========
+2025-04-14 10:35:09,058 - automation - INFO - 已关闭浏览器
+2025-04-14 10:37:35,388 - automation - INFO - 开始初始化WebDriver...
+2025-04-14 10:37:35,388 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 10:37:35,388 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 10:37:36,517 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 10:37:36,522 - automation - INFO - WebDriver实例验证成功
+2025-04-14 10:37:36,523 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 10:37:36,524 - automation - INFO - 测试数据加载成功
+2025-04-14 10:37:36,524 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-04-14 10:41:24,233 - automation - INFO - ========== 开始执行案例管理测试 ==========
+2025-04-14 10:41:24,235 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 10:41:24,235 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 10:41:25,362 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 10:41:25,366 - automation - INFO - 开始打开案例管理页面
+2025-04-14 10:41:25,366 - automation - ERROR - 打开案例管理页面失败: 'CasePage' object has no attribute 'navigate_to_case_management'
+2025-04-14 10:41:25,449 - automation - ERROR - 案例管理流程执行失败: 'CasePage' object has no attribute 'navigate_to_case_management'
+2025-04-14 10:41:25,450 - automation - ERROR - 测试过程中出现错误: 'CasePage' object has no attribute 'navigate_to_case_management'
+2025-04-14 10:41:25,620 - automation - INFO - ========== 案例管理测试执行完成 ==========
+2025-04-14 10:41:27,731 - automation - INFO - 已关闭浏览器
+2025-04-14 10:43:01,755 - automation - INFO - ========== 开始执行案例管理测试 ==========
+2025-04-14 10:43:01,756 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 10:43:01,756 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 10:43:02,894 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 10:43:02,899 - automation - INFO - 开始打开案例管理页面
+2025-04-14 10:43:12,947 - automation - ERROR - 导航到案例管理失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 10:43:15,033 - automation - INFO - 成功打开案例管理页面
+2025-04-14 10:43:15,034 - automation - INFO - 开始搜索案例: 民初
+2025-04-14 10:43:25,089 - automation - ERROR - 输入搜索文本失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 10:43:35,150 - automation - ERROR - 点击搜索按钮失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 10:43:37,246 - automation - INFO - 案例搜索完成
+2025-04-14 10:43:37,247 - automation - INFO - 开始查看案例详情
+2025-04-14 10:43:47,286 - automation - ERROR - 点击案例详情按钮失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 10:43:49,365 - automation - INFO - 成功打开案例详情页面
+2025-04-14 10:43:49,366 - automation - INFO - 开始返回案例列表
+2025-04-14 10:43:59,380 - automation - ERROR - 点击返回按钮失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 10:44:01,465 - automation - INFO - 成功返回案例列表页面
+2025-04-14 10:44:01,465 - automation - INFO - 案例管理完整流程执行完成
+2025-04-14 10:44:01,468 - automation - INFO - ========== 案例管理测试执行完成 ==========
+2025-04-14 10:44:03,564 - automation - INFO - 已关闭浏览器
+2025-04-14 10:47:45,475 - automation - INFO - ========== 开始执行案例管理测试 ==========
+2025-04-14 10:51:19,154 - automation - INFO - ========== 开始执行测试: test_case_crud ==========
+2025-04-14 10:51:29,214 - automation - INFO - ========== 开始执行测试: test_case_management_workflow ==========
+2025-04-14 10:55:39,298 - automation - INFO - ========== 开始执行测试: test_case_crud ==========
+2025-04-14 10:55:43,342 - automation - ERROR - 测试方法初始化失败: Message: session not created: This version of ChromeDriver only supports Chrome version 113
+Current browser version is 135.0.7049.85 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00438893+48451]
+	(No symbol) [0x003CB8A1]
+	(No symbol) [0x002D5058]
+	(No symbol) [0x002F5D9C]
+	(No symbol) [0x002F1AA3]
+	(No symbol) [0x002F0019]
+	(No symbol) [0x00320798]
+	(No symbol) [0x0032047C]
+	(No symbol) [0x0031A0B6]
+	(No symbol) [0x002F7E08]
+	(No symbol) [0x002F8F2D]
+	GetHandleVerifier [0x00698E3A+2540266]
+	GetHandleVerifier [0x006D8959+2801161]
+	GetHandleVerifier [0x006D295C+2776588]
+	GetHandleVerifier [0x004C2280+612144]
+	(No symbol) [0x003D4F6C]
+	(No symbol) [0x003D11D8]
+	(No symbol) [0x003D12BB]
+	(No symbol) [0x003C4857]
+	BaseThreadInitThunk [0x758E5D49+25]
+	RtlInitializeExceptionChain [0x773BCF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x773BCE91+561]
+
+2025-04-14 10:55:43,442 - automation - INFO - ========== 开始执行测试: test_case_management_workflow ==========
+2025-04-14 10:55:46,821 - automation - ERROR - 测试方法初始化失败: Message: session not created: This version of ChromeDriver only supports Chrome version 113
+Current browser version is 135.0.7049.85 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00438893+48451]
+	(No symbol) [0x003CB8A1]
+	(No symbol) [0x002D5058]
+	(No symbol) [0x002F5D9C]
+	(No symbol) [0x002F1AA3]
+	(No symbol) [0x002F0019]
+	(No symbol) [0x00320798]
+	(No symbol) [0x0032047C]
+	(No symbol) [0x0031A0B6]
+	(No symbol) [0x002F7E08]
+	(No symbol) [0x002F8F2D]
+	GetHandleVerifier [0x00698E3A+2540266]
+	GetHandleVerifier [0x006D8959+2801161]
+	GetHandleVerifier [0x006D295C+2776588]
+	GetHandleVerifier [0x004C2280+612144]
+	(No symbol) [0x003D4F6C]
+	(No symbol) [0x003D11D8]
+	(No symbol) [0x003D12BB]
+	(No symbol) [0x003C4857]
+	BaseThreadInitThunk [0x758E5D49+25]
+	RtlInitializeExceptionChain [0x773BCF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x773BCE91+561]
+
+2025-04-14 10:58:15,253 - automation - INFO - 开始初始化WebDriver...
+2025-04-14 10:58:15,253 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 10:58:15,253 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 10:58:16,378 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 10:58:16,385 - automation - INFO - WebDriver实例验证成功
+2025-04-14 10:58:16,386 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 10:58:16,386 - automation - INFO - 测试数据加载成功
+2025-04-14 10:58:16,387 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-04-14 11:03:37,309 - automation - INFO - 开始初始化WebDriver...
+2025-04-14 11:03:37,309 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 11:03:37,309 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 11:03:38,662 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 11:03:38,668 - automation - INFO - WebDriver实例验证成功
+2025-04-14 11:03:38,703 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 11:03:38,704 - automation - INFO - 测试数据加载成功
+2025-04-14 11:03:38,704 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-04-14 11:04:10,019 - automation - INFO - 案件增删改功能测试完成，案件名称: (2025)苏0105民初0001号
+2025-04-14 11:12:31,653 - automation - INFO - ========== TestCaseManagement 测试开始 ==========
+2025-04-14 11:13:13,123 - automation - INFO - ========== TestPersonalCenter 测试开始 ==========
+2025-04-14 11:16:42,542 - automation - INFO - ========== TestPersonalCenter 测试开始 ==========
+2025-04-14 11:16:42,542 - automation - INFO - 创建driver目录: E:\AutoTest\FgAI\driver
+2025-04-14 11:16:46,099 - automation - ERROR - 测试环境初始化失败: Message: session not created: This version of ChromeDriver only supports Chrome version 113
+Current browser version is 135.0.7049.85 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00438893+48451]
+	(No symbol) [0x003CB8A1]
+	(No symbol) [0x002D5058]
+	(No symbol) [0x002F5D9C]
+	(No symbol) [0x002F1AA3]
+	(No symbol) [0x002F0019]
+	(No symbol) [0x00320798]
+	(No symbol) [0x0032047C]
+	(No symbol) [0x0031A0B6]
+	(No symbol) [0x002F7E08]
+	(No symbol) [0x002F8F2D]
+	GetHandleVerifier [0x00698E3A+2540266]
+	GetHandleVerifier [0x006D8959+2801161]
+	GetHandleVerifier [0x006D295C+2776588]
+	GetHandleVerifier [0x004C2280+612144]
+	(No symbol) [0x003D4F6C]
+	(No symbol) [0x003D11D8]
+	(No symbol) [0x003D12BB]
+	(No symbol) [0x003C4857]
+	BaseThreadInitThunk [0x758E5D49+25]
+	RtlInitializeExceptionChain [0x773BCF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x773BCE91+561]
+
+2025-04-14 11:18:15,798 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 11:18:15,798 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 11:18:16,922 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 11:18:32,939 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 11:18:32,940 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 11:18:34,383 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 11:18:45,597 - automation - INFO - ========== 开始执行测试方法: test_case_crud ==========
+2025-04-14 11:18:45,598 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 11:18:45,598 - automation - INFO - 测试数据加载成功
+2025-04-14 11:18:45,598 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-04-14 11:18:45,599 - automation - INFO - 开始导航到案例管理页面
+2025-04-14 11:18:55,659 - automation - ERROR - 导航到案例管理页面失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 11:18:56,777 - automation - INFO - 成功导航到案例管理页面
+2025-04-14 11:18:56,778 - automation - INFO - 开始添加案例: (2025)苏0105民初0001号
+2025-04-14 11:19:06,894 - automation - ERROR - 添加案例失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 11:19:06,979 - automation - ERROR - 测试过程中出现错误: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 11:19:07,156 - automation - INFO - ========== 结束执行测试方法: test_case_crud ==========
+2025-04-14 11:19:07,160 - automation - INFO - ========== 开始执行测试方法: test_case_search_and_detail ==========
+2025-04-14 11:19:07,161 - automation - INFO - 开始测试案例查询与详情查看功能
+2025-04-14 11:19:07,161 - automation - INFO - 开始执行案例管理完整流程
+2025-04-14 11:19:07,161 - automation - INFO - 开始导航到案例管理页面
+2025-04-14 11:19:17,207 - automation - ERROR - 导航到案例管理页面失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 11:19:18,310 - automation - INFO - 成功导航到案例管理页面
+2025-04-14 11:19:18,310 - automation - INFO - 开始搜索案例: 民初
+2025-04-14 11:19:28,379 - automation - ERROR - 输入搜索文本失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 11:19:38,431 - automation - ERROR - 点击搜索按钮失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 11:19:39,502 - automation - INFO - 案例搜索完成
+2025-04-14 11:19:39,531 - automation - INFO - 找到 6 个案例结果
+2025-04-14 11:19:39,531 - automation - INFO - 开始查看案例详情
+2025-04-14 11:19:49,593 - automation - ERROR - 点击案例详情按钮失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 11:19:50,673 - automation - INFO - 查看案例详情完成
+2025-04-14 11:19:50,673 - automation - INFO - 开始返回案例列表
+2025-04-14 11:20:00,726 - automation - ERROR - 点击返回按钮失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BA8DF85+26693]
+	(No symbol) [0x00007FF74B9EEAD0]
+	(No symbol) [0x00007FF74B8791CA]
+	(No symbol) [0x00007FF74B8CF747]
+	(No symbol) [0x00007FF74B8CF97C]
+	(No symbol) [0x00007FF74B9233C7]
+	(No symbol) [0x00007FF74B8F792F]
+	(No symbol) [0x00007FF74B9200B8]
+	(No symbol) [0x00007FF74B8F76C3]
+	(No symbol) [0x00007FF74B8C0490]
+	(No symbol) [0x00007FF74B8C1743]
+	GetHandleVerifier [0x00007FF74BDE436D+3525677]
+	GetHandleVerifier [0x00007FF74BDF7F3B+3606523]
+	GetHandleVerifier [0x00007FF74BDECEE3+3561379]
+	GetHandleVerifier [0x00007FF74BB57C0A+853194]
+	(No symbol) [0x00007FF74B9F990F]
+	(No symbol) [0x00007FF74B9F5674]
+	(No symbol) [0x00007FF74B9F5816]
+	(No symbol) [0x00007FF74B9E4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 11:20:01,821 - automation - INFO - 返回案例列表完成
+2025-04-14 11:20:01,821 - automation - INFO - 案例管理完整流程执行完成
+2025-04-14 11:20:01,821 - automation - INFO - 案例查询与详情功能测试完成
+2025-04-14 11:20:01,824 - automation - INFO - ========== 结束执行测试方法: test_case_search_and_detail ==========
+2025-04-14 11:20:01,829 - automation - INFO - ========== 开始执行测试方法: test_case_pagination ==========
+2025-04-14 11:20:01,829 - automation - INFO - 开始测试案例列表分页功能
+2025-04-14 11:20:01,829 - automation - INFO - 开始导航到案例管理页面
+2025-04-14 11:20:02,972 - automation - INFO - ========== 结束执行测试方法: test_case_pagination ==========
+2025-04-14 11:24:57,797 - automation - INFO - 开始初始化WebDriver...
+2025-04-14 11:24:57,797 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 11:24:57,797 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 11:24:59,005 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 11:24:59,009 - automation - INFO - WebDriver实例验证成功
+2025-04-14 11:24:59,010 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 11:24:59,010 - automation - INFO - 测试数据加载成功
+2025-04-14 11:24:59,010 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-04-14 11:28:20,043 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 11:28:20,043 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 11:28:21,181 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 12:21:13,917 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 12:21:13,957 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 12:21:16,217 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 12:21:28,426 - automation - INFO - ========== 开始执行测试方法: test_case_crud ==========
+2025-04-14 12:21:28,427 - automation - INFO - 案例页面对象创建成功
+2025-04-14 12:21:31,455 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 12:21:31,486 - automation - INFO - 测试数据加载成功
+2025-04-14 12:21:31,486 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-04-14 12:21:33,497 - automation - INFO - 准备开始案例增删改查流程
+2025-04-14 12:21:33,497 - automation - INFO - 步骤1: 导航到案例管理页面
+2025-04-14 12:21:33,656 - automation - ERROR - 案例增删改查流程执行失败: 'CasePage' object has no attribute 'navigate_to_case_management'
+2025-04-14 12:21:33,659 - automation - ERROR - Traceback (most recent call last):
+  File "E:\AutoTest\FgAI\test_001\test_CaseMg.py", line 126, in test_case_crud
+    CaseUtils.navigate_to_case_management(self.case_page)
+  File "D:\Python39\lib\site-packages\allure_commons\_allure.py", line 192, in impl
+    return func(*a, **kw)
+  File "E:\AutoTest\FgAI\common\case_utils.py", line 18, in navigate_to_case_management
+    case_page.navigate_to_case_management()
+AttributeError: 'CasePage' object has no attribute 'navigate_to_case_management'
+
+2025-04-14 12:21:33,659 - automation - ERROR - 测试过程中出现错误: 'CasePage' object has no attribute 'navigate_to_case_management'
+2025-04-14 12:21:33,660 - automation - ERROR - Traceback (most recent call last):
+  File "E:\AutoTest\FgAI\test_001\test_CaseMg.py", line 126, in test_case_crud
+    CaseUtils.navigate_to_case_management(self.case_page)
+  File "D:\Python39\lib\site-packages\allure_commons\_allure.py", line 192, in impl
+    return func(*a, **kw)
+  File "E:\AutoTest\FgAI\common\case_utils.py", line 18, in navigate_to_case_management
+    case_page.navigate_to_case_management()
+AttributeError: 'CasePage' object has no attribute 'navigate_to_case_management'
+
+2025-04-14 12:21:33,738 - automation - INFO - 错误截图已保存: E:\AutoTest\FgAI\screenshots\test_case_crud_failure.png
+2025-04-14 12:21:34,017 - automation - INFO - ========== 结束执行测试方法: test_case_crud ==========
+2025-04-14 12:28:07,581 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 12:28:07,581 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 12:28:08,698 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 13:14:12,250 - automation - INFO - 开始初始化WebDriver...
+2025-04-14 13:14:12,250 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 13:14:12,251 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 13:14:13,411 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 13:14:13,416 - automation - INFO - WebDriver实例验证成功
+2025-04-14 13:14:13,417 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 13:14:13,417 - automation - INFO - 测试数据加载成功
+2025-04-14 13:14:13,417 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-04-14 13:14:33,376 - automation - INFO - 开始初始化WebDriver...
+2025-04-14 13:14:33,376 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 13:14:33,377 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 13:14:34,481 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 13:14:34,487 - automation - INFO - WebDriver实例验证成功
+2025-04-14 13:14:34,488 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 13:14:34,488 - automation - INFO - 测试数据加载成功
+2025-04-14 13:14:34,488 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-04-14 13:25:28,957 - automation - INFO - 开始初始化WebDriver...
+2025-04-14 13:25:28,957 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 13:25:28,957 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 13:25:30,087 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 13:25:30,093 - automation - INFO - WebDriver实例验证成功
+2025-04-14 13:25:30,094 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 13:25:30,094 - automation - INFO - 测试数据加载成功
+2025-04-14 13:25:30,094 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-04-14 13:26:32,448 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 13:26:32,449 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 13:26:33,573 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 13:26:42,979 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 13:26:42,980 - automation - INFO - 测试数据加载成功
+2025-04-14 13:26:42,980 - automation - INFO - 案件管理测试初始化完成
+2025-04-14 13:26:42,981 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-04-14 13:26:42,981 - automation - INFO - 开始添加案件: (2025)苏0105民初0001号
+2025-04-14 13:26:55,601 - automation - INFO - 案件添加成功: (2025)苏0105民初0001号
+2025-04-14 13:26:55,691 - automation - INFO - 开始编辑案件: (2025)苏0105民初0001号
+2025-04-14 13:27:01,939 - automation - INFO - 案件修改成功: (2025)苏0105民初0001号修改
+2025-04-14 13:27:02,021 - automation - INFO - 开始删除案件: (2025)苏0105民初0001号
+2025-04-14 13:27:05,422 - automation - INFO - 案件删除成功: (2025)苏0105民初0001号
+2025-04-14 13:27:05,506 - automation - INFO - 案件增删改功能测试完成，案件名称: (2025)苏0105民初0001号
+2025-04-14 13:27:05,510 - automation - INFO - 案件管理测试清理完成
+2025-04-14 13:27:05,522 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 13:27:05,523 - automation - INFO - 测试数据加载成功
+2025-04-14 13:27:05,523 - automation - INFO - 案件管理测试初始化完成
+2025-04-14 13:27:05,524 - automation - INFO - 案件管理测试清理完成
+2025-04-14 13:28:19,242 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 13:28:19,242 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 13:28:20,506 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 13:28:29,699 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 13:28:29,699 - automation - INFO - 测试数据加载成功
+2025-04-14 13:28:29,700 - automation - INFO - 案件管理测试初始化完成
+2025-04-14 13:28:29,700 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-04-14 13:28:29,700 - automation - INFO - 开始添加案件: (2025)苏0105民初0001号
+2025-04-14 13:28:42,398 - automation - INFO - 案件添加成功: (2025)苏0105民初0001号
+2025-04-14 13:28:42,485 - automation - INFO - 开始编辑案件: (2025)苏0105民初0001号
+2025-04-14 13:28:48,738 - automation - INFO - 案件修改成功: (2025)苏0105民初0001号修改
+2025-04-14 13:28:48,835 - automation - INFO - 开始删除案件: (2025)苏0105民初0001号
+2025-04-14 13:28:52,160 - automation - INFO - 案件删除成功: (2025)苏0105民初0001号
+2025-04-14 13:28:52,243 - automation - INFO - 案件增删改功能测试完成，案件名称: (2025)苏0105民初0001号
+2025-04-14 13:28:52,244 - automation - INFO - 案件管理测试清理完成
+2025-04-14 13:28:52,252 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 13:28:52,253 - automation - INFO - 测试数据加载成功
+2025-04-14 13:28:52,255 - automation - INFO - 案件管理测试初始化完成
+2025-04-14 13:28:52,256 - automation - INFO - 案件管理测试清理完成
+2025-04-14 13:33:56,009 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 13:33:56,009 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 13:33:57,271 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 13:34:06,138 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 13:34:06,138 - automation - INFO - 测试数据加载成功
+2025-04-14 13:34:06,138 - automation - INFO - 案件管理测试初始化完成
+2025-04-14 13:34:06,139 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-04-14 13:34:06,139 - automation - INFO - 开始添加案件: (2025)苏0105民初0001号
+2025-04-14 13:34:18,555 - automation - INFO - 案件添加成功: (2025)苏0105民初0001号
+2025-04-14 13:34:18,637 - automation - INFO - 开始编辑案件: (2025)苏0105民初0001号
+2025-04-14 13:34:24,760 - automation - INFO - 案件修改成功: (2025)苏0105民初0001号修改
+2025-04-14 13:34:24,840 - automation - INFO - 开始删除案件: (2025)苏0105民初0001号
+2025-04-14 13:34:28,176 - automation - INFO - 案件删除成功: (2025)苏0105民初0001号
+2025-04-14 13:34:28,254 - automation - INFO - 案件增删改功能测试完成，案件名称: (2025)苏0105民初0001号
+2025-04-14 13:34:28,256 - automation - INFO - 案件管理测试清理完成
+2025-04-14 13:34:28,262 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 13:34:28,262 - automation - INFO - 测试数据加载成功
+2025-04-14 13:34:28,262 - automation - INFO - 案件管理测试初始化完成
+2025-04-14 13:34:28,263 - automation - INFO - 案件管理测试清理完成
+2025-04-14 14:32:45,415 - automation - INFO - 开始初始化WebDriver...
+2025-04-14 14:32:45,415 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 14:32:45,415 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 14:32:46,783 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 14:32:46,790 - automation - INFO - WebDriver实例验证成功
+2025-04-14 14:32:46,790 - automation - INFO - 找到ZIP文件: (2024)鲁0502民初374号.zip
+2025-04-14 14:32:46,790 - automation - INFO - 找到DOCX文件: 法官AI助手安装文档.docx
+2025-04-14 14:32:46,792 - automation - INFO - 开始登录系统
+2025-04-14 14:32:57,720 - automation - INFO - 登录成功
+2025-04-14 14:32:57,793 - automation - INFO - 点击上传卷宗按钮
+2025-04-14 14:32:59,961 - automation - INFO - 点击上传zip按钮
+2025-04-14 14:33:01,030 - automation - INFO - 上传ZIP文件: E:\AutoTest\FgAI\test_001\test_data\(2024)鲁0502民初374号.zip
+2025-04-14 14:33:01,083 - automation - INFO - ZIP文件已选择
+2025-04-14 14:33:08,230 - automation - INFO - 点击上传单个文件按钮
+2025-04-14 14:33:09,300 - automation - INFO - 上传单个文件: E:\AutoTest\FgAI\test_001\test_data\法官AI助手安装文档.docx
+2025-04-14 14:33:09,339 - automation - INFO - 单个文件已选择
+2025-04-14 14:33:13,480 - automation - INFO - 点击刷新按钮
+2025-04-14 14:33:14,542 - automation - INFO - 点击展开按钮
+2025-04-14 14:33:15,696 - automation - INFO - 点击关闭按钮
+2025-04-14 14:33:17,882 - automation - INFO - 卷宗上传测试完成
+2025-04-14 14:33:17,882 - automation - INFO - 测试结束，关闭浏览器
+2025-04-14 14:33:20,052 - automation - INFO - 测试方法结束，确保浏览器已关闭
+2025-04-14 14:33:20,054 - automation - INFO - 测试结束，关闭浏览器
+2025-04-14 14:39:32,054 - automation - INFO - 开始初始化WebDriver...
+2025-04-14 14:39:32,054 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 14:39:32,055 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 14:39:33,208 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 14:39:33,213 - automation - INFO - WebDriver实例验证成功
+2025-04-14 14:39:33,213 - automation - INFO - 找到ZIP文件: (2024)鲁0502民初374号.zip
+2025-04-14 14:39:33,213 - automation - INFO - 找到DOCX文件: 法官AI助手安装文档.docx
+2025-04-14 14:39:33,214 - automation - INFO - 开始登录系统
+2025-04-14 14:39:44,306 - automation - ERROR - 卷宗上传测试失败: 'TestDossierUpload' object has no attribute 'wait'
+2025-04-14 14:39:44,507 - automation - INFO - 测试结束，关闭浏览器
+2025-04-14 14:41:04,379 - automation - INFO - 开始初始化WebDriver...
+2025-04-14 14:41:04,379 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 14:41:04,380 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 14:41:05,561 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 14:41:05,565 - automation - INFO - WebDriver实例验证成功
+2025-04-14 14:41:05,566 - automation - INFO - 找到ZIP文件: (2024)鲁0502民初374号.zip
+2025-04-14 14:41:05,566 - automation - INFO - 找到DOCX文件: 法官AI助手安装文档.docx
+2025-04-14 14:41:05,567 - automation - INFO - 开始登录系统
+2025-04-14 14:41:15,015 - automation - INFO - 点击上传卷宗按钮
+2025-04-14 14:41:15,015 - automation - ERROR - 卷宗上传测试失败: name 'EC' is not defined
+2025-04-14 14:41:15,232 - automation - INFO - 测试结束，关闭浏览器
+2025-04-14 14:41:17,386 - automation - INFO - 测试方法结束，确保浏览器已关闭
+2025-04-14 14:46:02,222 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 14:46:02,222 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 14:46:03,364 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 14:54:13,606 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 14:54:13,606 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 14:54:14,742 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 14:59:53,514 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 14:59:53,514 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 14:59:54,637 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 15:06:43,265 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 15:06:43,265 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 15:06:44,448 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 15:09:30,755 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 15:09:30,755 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 15:09:31,872 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 15:09:40,182 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 15:09:40,182 - automation - INFO - 测试数据加载成功
+2025-04-14 15:17:38,276 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 15:17:38,277 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 15:17:39,525 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 15:17:47,848 - automation - INFO - ========== 开始执行测试方法: test_dossier_upload ==========
+2025-04-14 15:17:47,849 - automation - INFO - 开始卷宗上传测试
+2025-04-14 15:17:47,849 - automation - INFO - 找到ZIP文件: (2024)鲁0502民初374号.zip
+2025-04-14 15:17:47,849 - automation - INFO - 找到DOCX文件: 法官AI助手安装文档.docx
+2025-04-14 15:17:48,295 - automation - INFO - 点击上传卷宗按钮成功
+2025-04-14 15:17:50,374 - automation - INFO - 点击上传ZIP按钮成功
+2025-04-14 15:17:51,413 - automation - INFO - 选择ZIP文件: E:\AutoTest\FgAI\test_001\test_data\(2024)鲁0502民初374号.zip
+2025-04-14 15:17:53,481 - automation - INFO - 确认ZIP文件上传
+2025-04-14 15:17:58,481 - automation - INFO - ZIP文件上传成功
+2025-04-14 15:17:58,626 - automation - INFO - 点击上传单个文件按钮成功
+2025-04-14 15:17:59,671 - automation - INFO - 选择单个文件: E:\AutoTest\FgAI\test_001\test_data\法官AI助手安装文档.docx
+2025-04-14 15:18:01,744 - automation - INFO - 确认单个文件上传
+2025-04-14 15:18:03,753 - automation - INFO - 单个文件上传成功
+2025-04-14 15:18:03,888 - automation - INFO - 点击刷新按钮成功
+2025-04-14 15:18:04,944 - automation - INFO - 点击展开按钮成功
+2025-04-14 15:18:06,027 - automation - INFO - 关闭上传窗口成功
+2025-04-14 15:18:08,027 - automation - INFO - 卷宗上传流程执行完成
+2025-04-14 15:18:08,028 - automation - INFO - 卷宗上传测试完成
+2025-04-14 15:18:08,033 - automation - INFO - ========== 结束执行测试方法: test_dossier_upload ==========
+2025-04-14 15:23:09,079 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 15:23:09,080 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 15:23:10,524 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 15:23:19,582 - automation - INFO - ========== 开始执行测试方法: test_dossier_upload ==========
+2025-04-14 15:23:19,583 - automation - INFO - 开始卷宗上传测试
+2025-04-14 15:23:20,011 - automation - INFO - 点击上传卷宗按钮成功
+2025-04-14 15:23:22,014 - automation - WARNING - 未找到可用的ZIP文件
+2025-04-14 15:23:22,015 - automation - WARNING - 未找到可用的DOCX文件
+2025-04-14 15:23:22,075 - automation - INFO - 点击刷新按钮成功
+2025-04-14 15:23:23,124 - automation - INFO - 点击展开按钮成功
+2025-04-14 15:23:24,206 - automation - INFO - 关闭上传窗口成功
+2025-04-14 15:23:26,215 - automation - INFO - 卷宗上传流程执行完成
+2025-04-14 15:23:26,215 - automation - INFO - 卷宗上传测试完成
+2025-04-14 15:23:26,216 - automation - INFO - ========== 结束执行测试方法: test_dossier_upload ==========
+2025-04-14 15:27:13,608 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 15:27:13,608 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 15:27:14,723 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 15:27:25,074 - automation - INFO - ========== 开始执行测试方法: test_dossier_upload ==========
+2025-04-14 15:27:25,075 - automation - INFO - 开始卷宗上传测试
+2025-04-14 15:27:25,076 - automation - INFO - 找到ZIP文件: (2024)鲁0502民初374号.zip
+2025-04-14 15:27:25,076 - automation - INFO - 找到DOCX文件: 法官AI助手安装文档.docx
+2025-04-14 15:27:25,544 - automation - INFO - 点击上传卷宗按钮成功
+2025-04-14 15:27:27,615 - automation - INFO - 点击上传ZIP按钮成功
+2025-04-14 15:27:28,647 - automation - INFO - 选择ZIP文件: E:\AutoTest\FgAI\test_data\(2024)鲁0502民初374号.zip
+2025-04-14 15:27:30,713 - automation - INFO - 确认ZIP文件上传
+2025-04-14 15:27:35,728 - automation - INFO - ZIP文件上传成功
+2025-04-14 15:27:35,881 - automation - INFO - 点击上传单个文件按钮成功
+2025-04-14 15:27:36,929 - automation - INFO - 选择单个文件: E:\AutoTest\FgAI\test_data\法官AI助手安装文档.docx
+2025-04-14 15:27:39,043 - automation - INFO - 确认单个文件上传
+2025-04-14 15:27:41,049 - automation - INFO - 单个文件上传成功
+2025-04-14 15:27:41,184 - automation - INFO - 点击刷新按钮成功
+2025-04-14 15:27:42,253 - automation - INFO - 点击展开按钮成功
+2025-04-14 15:27:43,358 - automation - INFO - 关闭上传窗口成功
+2025-04-14 15:27:45,370 - automation - INFO - 卷宗上传流程执行完成
+2025-04-14 15:27:45,370 - automation - INFO - 卷宗上传测试完成
+2025-04-14 15:27:45,372 - automation - INFO - ========== 结束执行测试方法: test_dossier_upload ==========
+2025-04-14 15:39:42,125 - automation - INFO - 开始初始化WebDriver...
+2025-04-14 15:39:42,126 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 15:39:42,126 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 15:39:43,241 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 15:39:43,246 - automation - INFO - WebDriver实例验证成功
+2025-04-14 15:39:43,247 - automation - INFO - 初始化测试方法...
+2025-04-14 15:39:43,251 - automation - INFO - 点击辅助阅卷
+2025-04-14 15:39:53,798 - automation - ERROR - 辅助阅卷测试失败: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66C14DF85+26693]
+	(No symbol) [0x00007FF66C0AEAD0]
+	(No symbol) [0x00007FF66BF391CA]
+	(No symbol) [0x00007FF66BF24FB5]
+	(No symbol) [0x00007FF66BF49CD4]
+	(No symbol) [0x00007FF66BFBF78F]
+	(No symbol) [0x00007FF66BFDF975]
+	(No symbol) [0x00007FF66BFB76C3]
+	(No symbol) [0x00007FF66BF80490]
+	(No symbol) [0x00007FF66BF81743]
+	GetHandleVerifier [0x00007FF66C4A436D+3525677]
+	GetHandleVerifier [0x00007FF66C4B7F3B+3606523]
+	GetHandleVerifier [0x00007FF66C4ACEE3+3561379]
+	GetHandleVerifier [0x00007FF66C217C0A+853194]
+	(No symbol) [0x00007FF66C0B990F]
+	(No symbol) [0x00007FF66C0B5674]
+	(No symbol) [0x00007FF66C0B5816]
+	(No symbol) [0x00007FF66C0A4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 15:39:53,825 - automation - WARNING - 无法获取test_failed截图
+2025-04-14 15:39:53,966 - automation - INFO - 测试方法执行完毕
+2025-04-14 15:40:02,520 - automation - INFO - 初始化测试类...
+2025-04-14 15:40:02,520 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 15:40:02,521 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 15:40:03,649 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 15:40:03,650 - automation - INFO - 开始登录系统
+2025-04-14 15:40:16,569 - automation - INFO - 登录成功
+2025-04-14 15:40:16,663 - automation - INFO - 点击辅助阅卷
+2025-04-14 15:40:18,729 - automation - INFO - 成功点击辅助阅卷
+2025-04-14 15:40:18,821 - automation - INFO - 点击庭审笔录1
+2025-04-14 15:40:20,907 - automation - INFO - 成功点击庭审笔录1
+2025-04-14 15:40:21,121 - automation - INFO - 点击设为庭审笔录
+2025-04-14 15:40:22,212 - automation - INFO - 成功点击设为庭审笔录
+2025-04-14 15:40:22,212 - automation - INFO - 输入原告处理意见1
+2025-04-14 15:40:23,315 - automation - INFO - 成功输入原告处理意见1
+2025-04-14 15:40:23,315 - automation - INFO - 输入原告处理意见2
+2025-04-14 15:40:24,416 - automation - INFO - 成功输入原告处理意见2
+2025-04-14 15:40:24,416 - automation - INFO - 点击确定按钮
+2025-04-14 15:40:26,515 - automation - INFO - 成功点击确定按钮
+2025-04-14 15:40:26,728 - automation - INFO - 点击取消设置庭审笔录
+2025-04-14 15:40:26,728 - automation - INFO - 点击庭审笔录1
+2025-04-14 15:40:28,793 - automation - INFO - 成功点击庭审笔录1
+2025-04-14 15:40:29,886 - automation - INFO - 点击确定取消设置
+2025-04-14 15:40:33,241 - automation - INFO - 尝试标准点击确认按钮
+2025-04-14 15:40:35,322 - automation - INFO - 成功取消设置庭审笔录
+2025-04-14 15:40:35,552 - automation - INFO - 点击下载按钮
+2025-04-14 15:40:36,627 - automation - INFO - 选择PDF下载
+2025-04-14 15:40:39,704 - automation - INFO - 成功下载笔录PDF
+2025-04-14 15:40:39,899 - automation - INFO - 点击庭审笔录2
+2025-04-14 15:40:39,989 - automation - INFO - 点击添加为证据按钮
+2025-04-14 15:40:40,066 - automation - INFO - 点击目录下拉框
+2025-04-14 15:40:41,167 - automation - INFO - 选择法院材料选项
+2025-04-14 15:40:42,788 - automation - INFO - 点击确定按钮
+2025-04-14 15:40:43,843 - automation - INFO - 成功添加庭审笔录2为证据
+2025-04-14 15:40:44,039 - automation - INFO - 选择庭审笔录3
+2025-04-14 15:40:44,072 - automation - INFO - 点击证据添加按钮
+2025-04-14 15:40:44,100 - automation - INFO - 点击目录下拉框
+2025-04-14 15:40:44,119 - automation - INFO - 选择上诉人选项
+2025-04-14 15:40:45,147 - automation - INFO - 点击确定按钮
+2025-04-14 15:40:46,176 - automation - INFO - 成功将庭审笔录3添加为证据
+2025-04-14 15:40:46,390 - automation - INFO - 点击证据引用标签页
+2025-04-14 15:40:48,514 - automation - INFO - 点击刷新按钮
+2025-04-14 15:40:50,601 - automation - INFO - 点击查看庭审笔录2详情
+2025-04-14 15:40:52,688 - automation - INFO - 点击关闭详情
+2025-04-14 15:40:54,802 - automation - INFO - 成功查看证据引用功能
+2025-04-14 15:40:54,897 - automation - INFO - 选择庭审笔录2和庭审笔录3
+2025-04-14 15:40:57,078 - automation - INFO - 点击双屏阅卷按钮
+2025-04-14 15:41:00,249 - automation - INFO - 查看双屏阅卷内容
+2025-04-14 15:41:02,261 - automation - INFO - 点击关闭双屏阅卷
+2025-04-14 15:41:04,350 - automation - INFO - 成功完成双屏阅卷功能
+2025-04-14 15:41:04,419 - automation - INFO - 点击上诉人选择器
+2025-04-14 15:41:07,463 - automation - INFO - 尝试点击上诉人选择器
+2025-04-14 15:41:08,521 - automation - INFO - 查找并点击第三人选项
+2025-04-14 15:41:08,606 - automation - INFO - 成功点击第三人选项
+2025-04-14 15:41:10,614 - automation - INFO - 成功选择上诉人为第三人
+2025-04-14 15:41:10,686 - automation - INFO - 点击刷新按钮
+2025-04-14 15:41:12,750 - automation - INFO - 取消选中庭审笔录3
+2025-04-14 15:41:13,838 - automation - INFO - 成功取消选中庭审笔录3
+2025-04-14 15:41:13,924 - automation - INFO - 点击批量修改按钮
+2025-04-14 15:41:16,073 - automation - INFO - 修改证据名称为: 庭审笔录2修改
+2025-04-14 15:41:19,156 - automation - INFO - 成功修改证据名称
+2025-04-14 15:41:19,156 - automation - INFO - 选择质证类型
+2025-04-14 15:41:21,359 - automation - INFO - 成功选择质证类型为无异议
+2025-04-14 15:41:21,360 - automation - INFO - 填写质证意见: 无意见
+2025-04-14 15:41:21,901 - automation - INFO - 成功填写质证意见
+2025-04-14 15:41:21,901 - automation - INFO - 填写证明目的: 无目的
+2025-04-14 15:41:22,448 - automation - INFO - 成功填写证明目的
+2025-04-14 15:41:22,448 - automation - INFO - 选择证件类型
+2025-04-14 15:41:24,072 - automation - INFO - 尝试标准点击证件类型单元格
+2025-04-14 15:41:25,208 - automation - INFO - 寻找物证选项
+2025-04-14 15:41:25,219 - automation - INFO - 尝试点击物证选项
+2025-04-14 15:41:26,258 - automation - INFO - 成功选择证件类型为物证
+2025-04-14 15:41:26,258 - automation - INFO - 选择证据形式
+2025-04-14 15:41:27,817 - automation - INFO - 尝试标准点击证据形式单元格
+2025-04-14 15:41:28,892 - automation - INFO - 寻找照片选项
+2025-04-14 15:41:28,910 - automation - INFO - 尝试点击照片选项
+2025-04-14 15:41:29,948 - automation - INFO - 成功选择证据形式为照片
+2025-04-14 15:41:29,948 - automation - INFO - 点击确定按钮保存修改
+2025-04-14 15:41:32,039 - automation - INFO - 成功完成批量修改
+2025-04-14 15:41:32,143 - automation - INFO - 辅助阅卷测试完成
+2025-04-14 15:41:32,148 - automation - INFO - 测试类执行完成，进行清理...
+2025-04-14 15:41:34,307 - automation - INFO - 浏览器已关闭
+2025-04-14 15:57:22,176 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 15:57:22,177 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 15:57:23,445 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 15:57:32,932 - automation - INFO - ========== 开始执行测试方法: test_assisted_reading ==========
+2025-04-14 15:57:32,933 - automation - INFO - 开始辅助阅读测试
+2025-04-14 15:57:32,933 - automation - INFO - 开始执行辅助阅读流程
+2025-04-14 15:57:32,934 - automation - INFO - 开始导航到辅助阅读页面
+2025-04-14 15:57:42,955 - automation - ERROR - 导航到辅助阅读页面失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF66C14DF85+26693]
+	(No symbol) [0x00007FF66C0AEAD0]
+	(No symbol) [0x00007FF66BF391CA]
+	(No symbol) [0x00007FF66BF8F747]
+	(No symbol) [0x00007FF66BF8F97C]
+	(No symbol) [0x00007FF66BFE33C7]
+	(No symbol) [0x00007FF66BFB792F]
+	(No symbol) [0x00007FF66BFE00B8]
+	(No symbol) [0x00007FF66BFB76C3]
+	(No symbol) [0x00007FF66BF80490]
+	(No symbol) [0x00007FF66BF81743]
+	GetHandleVerifier [0x00007FF66C4A436D+3525677]
+	GetHandleVerifier [0x00007FF66C4B7F3B+3606523]
+	GetHandleVerifier [0x00007FF66C4ACEE3+3561379]
+	GetHandleVerifier [0x00007FF66C217C0A+853194]
+	(No symbol) [0x00007FF66C0B990F]
+	(No symbol) [0x00007FF66C0B5674]
+	(No symbol) [0x00007FF66C0B5816]
+	(No symbol) [0x00007FF66C0A4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 15:57:43,036 - automation - INFO - 开始选择案件
+2025-04-14 15:57:44,148 - automation - ERROR - 选择案件失败: Message: element click intercepted: Element <td title="..." class="ant-table-fixed-columns-in-body ant-table-row-cell-ellipsis ant-table-row-cell-break-word">(2025)苏0105民初0001号</td> is not clickable at point (215, 363). Other element would receive the click: <td title="..." class="ant-table-row-cell-ellipsis ant-table-row-cell-break-word">(2025)苏0105民初0001号</td>
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+	GetHandleVerifier [0x00007FF66C14DF85+26693]
+	(No symbol) [0x00007FF66C0AEAD0]
+	(No symbol) [0x00007FF66BF391CA]
+	(No symbol) [0x00007FF66BF975E9]
+	(No symbol) [0x00007FF66BF94FA2]
+	(No symbol) [0x00007FF66BF92051]
+	(No symbol) [0x00007FF66BF90F76]
+	(No symbol) [0x00007FF66BF827E4]
+	(No symbol) [0x00007FF66BFB78EA]
+	(No symbol) [0x00007FF66BF82096]
+	(No symbol) [0x00007FF66BFB7B00]
+	(No symbol) [0x00007FF66BFE00B8]
+	(No symbol) [0x00007FF66BFB76C3]
+	(No symbol) [0x00007FF66BF80490]
+	(No symbol) [0x00007FF66BF81743]
+	GetHandleVerifier [0x00007FF66C4A436D+3525677]
+	GetHandleVerifier [0x00007FF66C4B7F3B+3606523]
+	GetHandleVerifier [0x00007FF66C4ACEE3+3561379]
+	GetHandleVerifier [0x00007FF66C217C0A+853194]
+	(No symbol) [0x00007FF66C0B990F]
+	(No symbol) [0x00007FF66C0B5674]
+	(No symbol) [0x00007FF66C0B5816]
+	(No symbol) [0x00007FF66C0A4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 15:57:44,239 - automation - INFO - 开始添加庭审笔录2
+2025-04-14 15:57:54,258 - automation - ERROR - 添加庭审笔录2失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF66C14DF85+26693]
+	(No symbol) [0x00007FF66C0AEAD0]
+	(No symbol) [0x00007FF66BF391CA]
+	(No symbol) [0x00007FF66BF8F747]
+	(No symbol) [0x00007FF66BF8F97C]
+	(No symbol) [0x00007FF66BFE33C7]
+	(No symbol) [0x00007FF66BFB792F]
+	(No symbol) [0x00007FF66BFE00B8]
+	(No symbol) [0x00007FF66BFB76C3]
+	(No symbol) [0x00007FF66BF80490]
+	(No symbol) [0x00007FF66BF81743]
+	GetHandleVerifier [0x00007FF66C4A436D+3525677]
+	GetHandleVerifier [0x00007FF66C4B7F3B+3606523]
+	GetHandleVerifier [0x00007FF66C4ACEE3+3561379]
+	GetHandleVerifier [0x00007FF66C217C0A+853194]
+	(No symbol) [0x00007FF66C0B990F]
+	(No symbol) [0x00007FF66C0B5674]
+	(No symbol) [0x00007FF66C0B5816]
+	(No symbol) [0x00007FF66C0A4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 15:57:54,340 - automation - INFO - 开始批量编辑证据
+2025-04-14 15:58:14,895 - automation - ERROR - 批量编辑证据失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF66C14DF85+26693]
+	(No symbol) [0x00007FF66C0AEAD0]
+	(No symbol) [0x00007FF66BF391CA]
+	(No symbol) [0x00007FF66BF8F747]
+	(No symbol) [0x00007FF66BF8F97C]
+	(No symbol) [0x00007FF66BFE33C7]
+	(No symbol) [0x00007FF66BFB792F]
+	(No symbol) [0x00007FF66BFE00B8]
+	(No symbol) [0x00007FF66BFB76C3]
+	(No symbol) [0x00007FF66BF80490]
+	(No symbol) [0x00007FF66BF81743]
+	GetHandleVerifier [0x00007FF66C4A436D+3525677]
+	GetHandleVerifier [0x00007FF66C4B7F3B+3606523]
+	GetHandleVerifier [0x00007FF66C4ACEE3+3561379]
+	GetHandleVerifier [0x00007FF66C217C0A+853194]
+	(No symbol) [0x00007FF66C0B990F]
+	(No symbol) [0x00007FF66C0B5674]
+	(No symbol) [0x00007FF66C0B5816]
+	(No symbol) [0x00007FF66C0A4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 15:58:14,971 - automation - INFO - 开始添加庭审笔录3
+2025-04-14 15:58:25,014 - automation - ERROR - 添加庭审笔录3失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF66C14DF85+26693]
+	(No symbol) [0x00007FF66C0AEAD0]
+	(No symbol) [0x00007FF66BF391CA]
+	(No symbol) [0x00007FF66BF8F747]
+	(No symbol) [0x00007FF66BF8F97C]
+	(No symbol) [0x00007FF66BFE33C7]
+	(No symbol) [0x00007FF66BFB792F]
+	(No symbol) [0x00007FF66BFE00B8]
+	(No symbol) [0x00007FF66BFB76C3]
+	(No symbol) [0x00007FF66BF80490]
+	(No symbol) [0x00007FF66BF81743]
+	GetHandleVerifier [0x00007FF66C4A436D+3525677]
+	GetHandleVerifier [0x00007FF66C4B7F3B+3606523]
+	GetHandleVerifier [0x00007FF66C4ACEE3+3561379]
+	GetHandleVerifier [0x00007FF66C217C0A+853194]
+	(No symbol) [0x00007FF66C0B990F]
+	(No symbol) [0x00007FF66C0B5674]
+	(No symbol) [0x00007FF66C0B5816]
+	(No symbol) [0x00007FF66C0A4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 15:58:25,116 - automation - INFO - 辅助阅读流程执行完成
+2025-04-14 15:58:25,117 - automation - INFO - 辅助阅读测试完成
+2025-04-14 15:58:25,130 - automation - INFO - ========== 结束执行测试方法: test_assisted_reading ==========
+2025-04-14 16:10:21,694 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 16:10:21,694 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 16:10:22,850 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 16:10:31,772 - automation - INFO - ========== 开始执行测试方法: test_assisted_reading ==========
+2025-04-14 16:10:31,773 - automation - INFO - 开始辅助阅读测试
+2025-04-14 16:10:34,775 - automation - INFO - 点击辅助阅卷按钮
+2025-04-14 16:10:37,818 - automation - INFO - 成功点击辅助阅卷按钮
+2025-04-14 16:10:47,864 - automation - ERROR - 选择案件失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF66C14DF85+26693]
+	(No symbol) [0x00007FF66C0AEAD0]
+	(No symbol) [0x00007FF66BF391CA]
+	(No symbol) [0x00007FF66BF8F747]
+	(No symbol) [0x00007FF66BF8F97C]
+	(No symbol) [0x00007FF66BFE33C7]
+	(No symbol) [0x00007FF66BFB792F]
+	(No symbol) [0x00007FF66BFE00B8]
+	(No symbol) [0x00007FF66BFB76C3]
+	(No symbol) [0x00007FF66BF80490]
+	(No symbol) [0x00007FF66BF81743]
+	GetHandleVerifier [0x00007FF66C4A436D+3525677]
+	GetHandleVerifier [0x00007FF66C4B7F3B+3606523]
+	GetHandleVerifier [0x00007FF66C4ACEE3+3561379]
+	GetHandleVerifier [0x00007FF66C217C0A+853194]
+	(No symbol) [0x00007FF66C0B990F]
+	(No symbol) [0x00007FF66C0B5674]
+	(No symbol) [0x00007FF66C0B5816]
+	(No symbol) [0x00007FF66C0A4D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+2025-04-14 16:10:47,865 - automation - ERROR - 选择案件失败
+2025-04-14 16:10:47,866 - automation - ERROR - 辅助阅读测试失败: 辅助阅读流程失败
+assert False
+2025-04-14 16:10:48,067 - automation - INFO - ========== 结束执行测试方法: test_assisted_reading ==========
+2025-04-14 16:15:45,718 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 16:15:45,718 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 16:15:47,030 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 16:15:56,689 - automation - INFO - ========== 开始执行测试方法: test_assisted_reading ==========
+2025-04-14 16:15:56,689 - automation - INFO - 开始辅助阅读测试
+2025-04-14 16:15:59,701 - automation - INFO - 点击辅助阅卷
+2025-04-14 16:16:01,750 - automation - INFO - 成功点击辅助阅卷
+2025-04-14 16:16:01,750 - automation - ERROR - 辅助阅读测试失败: 辅助阅读流程失败
+assert False
+2025-04-14 16:16:01,955 - automation - INFO - ========== 结束执行测试方法: test_assisted_reading ==========
+2025-04-14 16:16:01,959 - automation - INFO - ========== 开始执行测试方法: test_batch_edit_evidence ==========
+2025-04-14 16:16:12,012 - automation - INFO - ========== 结束执行测试方法: test_batch_edit_evidence ==========
+2025-04-14 16:19:10,250 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 16:19:10,251 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 16:19:11,391 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 16:19:20,953 - automation - INFO - 执行测试类前置操作：登录系统
+2025-04-14 16:19:20,953 - automation - ERROR - 登录失败: 'TestAssistedRead' object has no attribute 'login'
+2025-04-14 16:19:21,334 - automation - INFO - 执行测试类前置操作：登录系统
+2025-04-14 16:19:21,334 - automation - ERROR - 登录失败: 'TestAssistedRead' object has no attribute 'login'
+2025-04-14 16:25:08,345 - automation - INFO - 初始化测试类...
+2025-04-14 16:25:08,345 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 16:25:08,345 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 16:25:09,469 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 16:25:09,470 - automation - INFO - 开始登录系统
+2025-04-14 16:25:21,176 - automation - INFO - 登录成功
+2025-04-14 16:25:21,255 - automation - INFO - 点击辅助阅卷
+2025-04-14 16:25:23,309 - automation - INFO - 成功点击辅助阅卷
+2025-04-14 16:25:23,392 - automation - INFO - 点击庭审笔录1
+2025-04-14 16:25:25,469 - automation - INFO - 成功点击庭审笔录1
+2025-04-14 16:25:25,691 - automation - INFO - 点击设为庭审笔录
+2025-04-14 16:25:26,780 - automation - INFO - 成功点击设为庭审笔录
+2025-04-14 16:25:26,780 - automation - INFO - 输入原告处理意见1
+2025-04-14 16:25:27,888 - automation - INFO - 成功输入原告处理意见1
+2025-04-14 16:25:27,888 - automation - INFO - 输入原告处理意见2
+2025-04-14 16:25:28,996 - automation - INFO - 成功输入原告处理意见2
+2025-04-14 16:25:28,996 - automation - INFO - 点击确定按钮
+2025-04-14 16:25:31,067 - automation - INFO - 成功点击确定按钮
+2025-04-14 16:25:31,300 - automation - INFO - 点击取消设置庭审笔录
+2025-04-14 16:25:31,300 - automation - INFO - 点击庭审笔录1
+2025-04-14 16:25:33,365 - automation - INFO - 成功点击庭审笔录1
+2025-04-14 16:25:34,471 - automation - INFO - 点击确定取消设置
+2025-04-14 16:25:37,792 - automation - INFO - 尝试标准点击确认按钮
+2025-04-14 16:25:39,887 - automation - INFO - 成功取消设置庭审笔录
+2025-04-14 16:25:40,097 - automation - INFO - 点击下载按钮
+2025-04-14 16:25:41,180 - automation - INFO - 选择PDF下载
+2025-04-14 16:25:44,278 - automation - INFO - 成功下载笔录PDF
+2025-04-14 16:25:44,500 - automation - INFO - 点击庭审笔录2
+2025-04-14 16:25:46,577 - automation - INFO - 点击添加为证据按钮
+2025-04-14 16:25:48,663 - automation - INFO - 点击目录下拉框
+2025-04-14 16:25:49,808 - automation - INFO - 选择法院材料选项
+2025-04-14 16:25:50,895 - automation - INFO - 点击确定按钮
+2025-04-14 16:25:52,966 - automation - INFO - 成功添加庭审笔录2为证据
+2025-04-14 16:25:53,180 - automation - INFO - 选择庭审笔录3
+2025-04-14 16:25:54,261 - automation - INFO - 点击证据添加按钮
+2025-04-14 16:25:55,335 - automation - INFO - 点击目录下拉框
+2025-04-14 16:25:56,378 - automation - INFO - 选择上诉人选项
+2025-04-14 16:25:57,477 - automation - INFO - 点击确定按钮
+2025-04-14 16:25:59,559 - automation - INFO - 成功将庭审笔录3添加为证据
+2025-04-14 16:25:59,755 - automation - INFO - 点击证据引用标签页
+2025-04-14 16:26:01,881 - automation - INFO - 点击刷新按钮
+2025-04-14 16:26:03,969 - automation - INFO - 点击查看庭审笔录2详情
+2025-04-14 16:26:06,046 - automation - INFO - 点击关闭详情
+2025-04-14 16:26:08,136 - automation - INFO - 成功查看证据引用功能
+2025-04-14 16:26:08,210 - automation - INFO - 选择庭审笔录2和庭审笔录3
+2025-04-14 16:26:10,345 - automation - INFO - 点击双屏阅卷按钮
+2025-04-14 16:26:13,441 - automation - INFO - 查看双屏阅卷内容
+2025-04-14 16:26:15,454 - automation - INFO - 点击关闭双屏阅卷
+2025-04-14 16:26:17,529 - automation - INFO - 成功完成双屏阅卷功能
+2025-04-14 16:26:17,611 - automation - INFO - 点击上诉人选择器
+2025-04-14 16:26:20,654 - automation - INFO - 尝试点击上诉人选择器
+2025-04-14 16:26:21,713 - automation - INFO - 查找并点击第三人选项
+2025-04-14 16:26:21,796 - automation - INFO - 成功点击第三人选项
+2025-04-14 16:26:23,797 - automation - INFO - 成功选择上诉人为第三人
+2025-04-14 16:26:23,878 - automation - INFO - 点击刷新按钮
+2025-04-14 16:26:25,954 - automation - INFO - 取消选中庭审笔录3
+2025-04-14 16:26:27,031 - automation - INFO - 成功取消选中庭审笔录3
+2025-04-14 16:26:27,112 - automation - INFO - 点击批量修改按钮
+2025-04-14 16:26:29,210 - automation - INFO - 修改证据名称为: 庭审笔录2修改
+2025-04-14 16:26:32,287 - automation - INFO - 成功修改证据名称
+2025-04-14 16:26:32,287 - automation - INFO - 选择质证类型
+2025-04-14 16:26:34,453 - automation - INFO - 成功选择质证类型为无异议
+2025-04-14 16:26:34,453 - automation - INFO - 填写质证意见: 无意见
+2025-04-14 16:26:34,999 - automation - INFO - 成功填写质证意见
+2025-04-14 16:26:34,999 - automation - INFO - 填写证明目的: 无目的
+2025-04-14 16:26:35,528 - automation - INFO - 成功填写证明目的
+2025-04-14 16:26:35,528 - automation - INFO - 选择证件类型
+2025-04-14 16:26:37,149 - automation - INFO - 尝试标准点击证件类型单元格
+2025-04-14 16:26:38,300 - automation - INFO - 寻找物证选项
+2025-04-14 16:26:38,307 - automation - INFO - 尝试点击物证选项
+2025-04-14 16:26:39,355 - automation - INFO - 成功选择证件类型为物证
+2025-04-14 16:26:39,355 - automation - INFO - 选择证据形式
+2025-04-14 16:26:40,897 - automation - INFO - 尝试标准点击证据形式单元格
+2025-04-14 16:26:41,938 - automation - INFO - 寻找照片选项
+2025-04-14 16:26:41,950 - automation - INFO - 尝试点击照片选项
+2025-04-14 16:26:43,007 - automation - INFO - 成功选择证据形式为照片
+2025-04-14 16:26:43,007 - automation - INFO - 点击确定按钮保存修改
+2025-04-14 16:26:45,065 - automation - INFO - 成功完成批量修改
+2025-04-14 16:26:45,163 - automation - INFO - 辅助阅卷测试完成
+2025-04-14 16:26:45,173 - automation - INFO - 测试类执行完成，进行清理...
+2025-04-14 16:26:47,332 - automation - INFO - 浏览器已关闭
+2025-04-14 17:05:35,478 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 17:05:35,478 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 17:05:36,678 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 17:06:46,637 - automation - INFO - 初始化测试类...
+2025-04-14 17:06:46,637 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 17:06:46,637 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 17:06:47,736 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 17:06:47,737 - automation - INFO - 开始登录系统
+2025-04-14 17:06:49,366 - automation - INFO - 测试类执行完成，进行清理...
+2025-04-14 17:14:08,461 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 17:14:08,461 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 17:14:09,614 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 18:01:28,853 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 18:01:28,854 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 18:01:30,885 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 18:10:15,765 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 18:10:15,766 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 18:10:16,906 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 18:13:40,907 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 18:13:40,907 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 18:13:42,029 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 18:29:21,335 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 18:29:21,335 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 18:29:22,523 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 18:31:41,279 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 18:31:41,279 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 18:31:42,455 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 18:32:35,135 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 18:32:35,135 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 18:32:36,299 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 18:45:08,915 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 18:45:08,915 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 18:45:10,098 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 18:46:08,066 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 18:46:08,067 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 18:46:09,202 - automation - INFO - Chrome WebDriver 创建成功

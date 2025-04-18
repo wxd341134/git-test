@@ -1,0 +1,43 @@
+2025-03-28 10:32:41,888 - automation - INFO - 开始初始化WebDriver...
+2025-03-28 10:32:41,889 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 10:32:41,889 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 10:32:43,558 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 10:32:43,562 - automation - INFO - WebDriver实例验证成功
+2025-03-28 10:32:43,562 - automation - INFO - 初始化测试方法...
+2025-03-28 10:32:43,565 - automation - INFO - 点击辅助阅卷
+2025-03-28 10:32:51,609 - automation - ERROR - 辅助阅卷测试失败: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DC55D1]
+	(No symbol) [0x00007FF6F5DC553C]
+	(No symbol) [0x00007FF6F5DC3C95]
+	(No symbol) [0x00007FF6F5DC49BF]
+	(No symbol) [0x00007FF6F5DDE5D1]
+	(No symbol) [0x00007FF6F5DDF0CA]
+	(No symbol) [0x00007FF6F5DE38FC]
+	(No symbol) [0x00007FF6F5DE39CF]
+	(No symbol) [0x00007FF6F5E2F000]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-28 10:32:51,610 - automation - WARNING - 无法获取test_failed截图
+2025-03-28 10:32:51,739 - automation - INFO - 测试方法执行完毕

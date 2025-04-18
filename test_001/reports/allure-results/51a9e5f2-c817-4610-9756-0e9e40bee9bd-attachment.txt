@@ -1,0 +1,124 @@
+2025-03-27 16:17:05,486 - automation - INFO - 初始化测试类...
+2025-03-27 16:17:05,486 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-27 16:17:05,486 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-27 16:17:07,359 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-27 16:17:07,365 - automation - INFO - 开始登录系统
+2025-03-27 16:17:09,815 - automation - INFO - 成功打开登录页面
+2025-03-27 16:17:09,815 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-27 16:17:09,920 - automation - INFO - 用户名输入完成
+2025-03-27 16:17:09,921 - automation - INFO - 开始输入密码
+2025-03-27 16:17:10,018 - automation - INFO - 密码输入完成
+2025-03-27 16:17:10,033 - automation - INFO - ==================================================
+2025-03-27 16:17:10,033 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-27 16:17:10,033 - automation - INFO - ==================================================
+2025-03-27 16:17:18,554 - automation - INFO - 验证码已自动填入
+2025-03-27 16:17:19,572 - automation - INFO - 尝试点击登录按钮
+2025-03-27 16:17:19,637 - automation - INFO - 登录按钮点击成功
+2025-03-27 16:17:19,637 - automation - INFO - 登录成功
+2025-03-27 16:17:21,648 - automation - INFO - 登录成功
+2025-03-27 16:17:21,715 - automation - INFO - 点击辅助阅卷
+2025-03-27 16:17:23,772 - automation - INFO - 步骤1执行成功：点击辅助阅卷
+2025-03-27 16:17:23,860 - automation - INFO - 点击庭审笔录1
+2025-03-27 16:17:25,934 - automation - INFO - 步骤2执行成功：点击庭审笔录1
+2025-03-27 16:17:25,936 - automation - INFO - 点击设为庭审笔录
+2025-03-27 16:17:27,034 - automation - INFO - 步骤3执行成功：点击设为庭审笔录
+2025-03-27 16:17:27,036 - automation - INFO - 输入原告处理意见1
+2025-03-27 16:17:28,133 - automation - INFO - 步骤4执行成功：输入原告处理意见1
+2025-03-27 16:17:28,133 - automation - INFO - 输入原告处理意见2
+2025-03-27 16:17:29,244 - automation - INFO - 步骤5执行成功：输入原告处理意见2
+2025-03-27 16:17:29,244 - automation - INFO - 点击确定按钮
+2025-03-27 16:17:31,331 - automation - INFO - 步骤6执行成功：点击确定按钮
+2025-03-27 16:17:31,531 - automation - INFO - 点击下载按钮
+2025-03-27 16:17:32,579 - automation - INFO - 选择PDF下载
+2025-03-27 16:17:35,677 - automation - INFO - 步骤8执行成功：下载笔录PDF
+2025-03-27 16:17:35,916 - automation - INFO - 点击庭审笔录2
+2025-03-27 16:17:36,993 - automation - INFO - 成功点击庭审笔录2
+2025-03-27 16:17:36,993 - automation - INFO - 点击添加为证据按钮
+2025-03-27 16:17:38,110 - automation - INFO - 成功点击添加为证据按钮
+2025-03-27 16:17:38,110 - automation - INFO - 点击目录下拉框
+2025-03-27 16:17:39,191 - automation - INFO - 成功点击目录下拉框
+2025-03-27 16:17:39,192 - automation - INFO - 选择法院材料选项
+2025-03-27 16:17:40,262 - automation - INFO - 成功选择法院材料选项
+2025-03-27 16:17:40,262 - automation - INFO - 点击确定按钮
+2025-03-27 16:17:42,326 - automation - INFO - 步骤9执行成功：添加庭审笔录2为证据
+2025-03-27 16:17:42,550 - automation - INFO - 选择庭审笔录3
+2025-03-27 16:17:43,627 - automation - INFO - 成功选中庭审笔录3
+2025-03-27 16:17:43,627 - automation - INFO - 点击证据添加按钮
+2025-03-27 16:17:44,710 - automation - INFO - 成功点击证据添加按钮
+2025-03-27 16:17:44,710 - automation - INFO - 点击目录下拉框
+2025-03-27 16:17:45,776 - automation - INFO - 成功点击目录下拉框
+2025-03-27 16:17:45,776 - automation - INFO - 选择上诉人选项
+2025-03-27 16:17:46,872 - automation - INFO - 成功选择上诉人选项
+2025-03-27 16:17:46,872 - automation - INFO - 点击确定按钮
+2025-03-27 16:17:48,941 - automation - INFO - 步骤10执行成功：将庭审笔录3添加为证据
+2025-03-27 16:17:49,134 - automation - INFO - 点击证据引用标签页
+2025-03-27 16:17:51,253 - automation - INFO - 成功点击证据引用标签页
+2025-03-27 16:17:51,254 - automation - INFO - 点击刷新按钮
+2025-03-27 16:17:53,347 - automation - INFO - 成功点击刷新按钮
+2025-03-27 16:17:53,347 - automation - INFO - 点击查看庭审笔录2详情
+2025-03-27 16:17:55,424 - automation - INFO - 成功点击查看庭审笔录2详情
+2025-03-27 16:17:55,424 - automation - INFO - 点击关闭详情
+2025-03-27 16:17:57,491 - automation - INFO - 步骤11执行成功：证据引用功能
+2025-03-27 16:17:57,569 - automation - INFO - 选择庭审笔录2和庭审笔录3
+2025-03-27 16:17:58,648 - automation - INFO - 成功选中庭审笔录2
+2025-03-27 16:17:59,713 - automation - INFO - 成功选中庭审笔录3
+2025-03-27 16:17:59,713 - automation - INFO - 点击双屏阅卷按钮
+2025-03-27 16:18:02,791 - automation - INFO - 成功点击双屏阅卷按钮
+2025-03-27 16:18:02,791 - automation - INFO - 查看双屏阅卷内容
+2025-03-27 16:18:04,803 - automation - INFO - 点击关闭双屏阅卷
+2025-03-27 16:18:06,884 - automation - INFO - 步骤12执行成功：双屏阅卷功能
+2025-03-27 16:18:06,952 - automation - INFO - 点击批量修改按钮
+2025-03-27 16:18:09,052 - automation - INFO - 成功点击批量修改按钮
+2025-03-27 16:18:09,052 - automation - INFO - 修改证据名称
+2025-03-27 16:18:10,134 - automation - ERROR - 未能修改证据名称: Message: invalid element state
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD8FFC]
+	(No symbol) [0x00007FF6F5E24C85]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-27 16:18:10,191 - automation - ERROR - 辅助阅卷测试失败: Message: invalid element state
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD8FFC]
+	(No symbol) [0x00007FF6F5E24C85]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-27 16:18:10,473 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-27 16:18:12,675 - automation - INFO - 浏览器已关闭

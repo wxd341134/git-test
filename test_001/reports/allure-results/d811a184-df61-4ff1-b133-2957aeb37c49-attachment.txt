@@ -1,0 +1,12 @@
+INFO     automation:阅卷笔记.py:179 ========== 开始执行阅卷笔记测试 ==========
+INFO     automation:阅卷笔记.py:194 开始执行测试方法: test_document_notes
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     automation:阅卷笔记.py:213 开始阅卷笔记测试
+INFO     automation:阅卷笔记.py:216 开始登录系统
+ERROR    automation:阅卷笔记.py:244 阅卷笔记测试过程中出现错误: 'LoginPage' object has no attribute 'open'
+INFO     automation:阅卷笔记.py:168 已保存截图: error_test_error_20250407_193155.png
+INFO     automation:阅卷笔记.py:249 阅卷笔记测试结束
+INFO     automation:阅卷笔记.py:207 测试方法执行完成: test_document_notes
+INFO     automation:阅卷笔记.py:190 ========== 阅卷笔记测试执行完成 ==========

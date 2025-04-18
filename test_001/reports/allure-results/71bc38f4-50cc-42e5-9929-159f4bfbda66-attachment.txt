@@ -1,0 +1,40 @@
+2025-04-11 10:02:53,300 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 10:02:53,300 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 10:02:53,300 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 10:02:53,300 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 10:02:55,288 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 10:02:55,302 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 10:02:55,302 - automation - INFO - 开始登录系统
+2025-04-11 10:02:58,048 - automation - INFO - 成功打开登录页面
+2025-04-11 10:02:58,048 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 10:02:58,161 - automation - INFO - 用户名输入完成
+2025-04-11 10:02:58,161 - automation - INFO - 开始输入密码
+2025-04-11 10:02:58,274 - automation - INFO - 密码输入完成
+2025-04-11 10:02:58,294 - automation - INFO - ==================================================
+2025-04-11 10:02:58,294 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 10:02:58,295 - automation - INFO - ==================================================
+2025-04-11 10:03:04,332 - automation - INFO - 验证码已自动填入
+2025-04-11 10:03:05,342 - automation - INFO - 尝试点击登录按钮
+2025-04-11 10:03:05,405 - automation - INFO - 登录按钮点击成功
+2025-04-11 10:03:05,406 - automation - INFO - 登录成功
+2025-04-11 10:03:05,406 - automation - INFO - 登录系统完成
+2025-04-11 10:03:05,406 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 10:03:05,784 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 10:03:07,793 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 10:03:07,838 - automation - INFO - 成功点击判决书
+2025-04-11 10:03:09,853 - automation - INFO - 测试缩小文档视图
+2025-04-11 10:03:09,943 - automation - INFO - 成功点击缩小按钮
+2025-04-11 10:03:10,955 - automation - INFO - 测试放大文档视图
+2025-04-11 10:03:11,054 - automation - INFO - 成功点击放大按钮
+2025-04-11 10:03:12,054 - automation - INFO - 测试文档下载功能
+2025-04-11 10:03:12,134 - automation - INFO - 成功点击下载按钮
+2025-04-11 10:03:13,208 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 10:03:15,208 - automation - INFO - 关闭判决书预览弹框
+2025-04-11 10:03:15,288 - automation - INFO - 成功关闭判决书预览弹框
+2025-04-11 10:03:17,302 - automation - ERROR - 关闭文档查看器失败
+2025-04-11 10:03:17,302 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 10:03:17,404 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 10:03:17,404 - automation - INFO - 正在关闭浏览器...
+2025-04-11 10:03:19,595 - automation - INFO - 浏览器已关闭
+2025-04-11 10:03:19,596 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 10:03:39,833 - automation - INFO - 已关闭浏览器实例

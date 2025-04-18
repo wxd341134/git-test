@@ -1,0 +1,56 @@
+INFO     automation:AssistedG.py:20 初始化测试类...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     automation:AssistedG.py:131 开始登录系统
+INFO     automation:login_page.py:174 成功打开登录页面
+INFO     automation:login_page.py:118 开始输入用户名: wxdfg
+INFO     automation:login_page.py:125 用户名输入完成
+INFO     automation:login_page.py:130 开始输入密码
+INFO     automation:login_page.py:137 密码输入完成
+INFO     automation:login_page.py:79 ==================================================
+INFO     automation:login_page.py:80 请在弹出窗口中输入验证码
+INFO     automation:login_page.py:81 ==================================================
+INFO     automation:login_page.py:93 验证码已自动填入
+INFO     automation:login_page.py:146 尝试点击登录按钮
+INFO     automation:login_page.py:157 登录按钮点击成功
+INFO     automation:login_page.py:162 登录成功
+INFO     automation:AssistedG.py:134 登录成功
+INFO     automation:AssistedG.py:146 点击辅助阅卷
+INFO     automation:AssistedG.py:152 步骤1执行成功：点击辅助阅卷
+INFO     automation:AssistedG.py:164 点击庭审笔录1
+INFO     automation:AssistedG.py:170 步骤2执行成功：点击庭审笔录1
+INFO     automation:AssistedG.py:174 点击设为庭审笔录
+INFO     automation:AssistedG.py:180 步骤3执行成功：点击设为庭审笔录
+INFO     automation:AssistedG.py:184 输入原告处理意见1
+INFO     automation:AssistedG.py:191 步骤4执行成功：输入原告处理意见1
+INFO     automation:AssistedG.py:195 输入原告处理意见2
+INFO     automation:AssistedG.py:202 步骤5执行成功：输入原告处理意见2
+INFO     automation:AssistedG.py:206 点击确定按钮
+INFO     automation:AssistedG.py:212 步骤6执行成功：点击确定按钮
+INFO     automation:AssistedG.py:275 点击下载按钮
+INFO     automation:AssistedG.py:283 选择PDF下载
+INFO     automation:AssistedG.py:289 步骤8执行成功：下载笔录PDF
+INFO     automation:AssistedG.py:302 点击庭审笔录2
+INFO     automation:AssistedG.py:311 成功点击庭审笔录2
+INFO     automation:AssistedG.py:317 点击添加为证据按钮
+INFO     automation:AssistedG.py:324 成功点击添加为证据按钮
+INFO     automation:AssistedG.py:330 点击目录下拉框
+INFO     automation:AssistedG.py:337 成功点击目录下拉框
+INFO     automation:AssistedG.py:343 选择法院材料选项
+INFO     automation:AssistedG.py:350 成功选择法院材料选项
+INFO     automation:AssistedG.py:356 点击确定按钮
+INFO     automation:AssistedG.py:363 步骤9执行成功：添加庭审笔录2为证据
+INFO     automation:AssistedG.py:379 选择庭审笔录3
+INFO     automation:AssistedG.py:388 成功选中庭审笔录3
+INFO     automation:AssistedG.py:394 点击证据添加按钮
+INFO     automation:AssistedG.py:401 成功点击证据添加按钮
+INFO     automation:AssistedG.py:407 点击目录下拉框
+INFO     automation:AssistedG.py:414 成功点击目录下拉框
+INFO     automation:AssistedG.py:420 选择上诉人选项
+INFO     automation:AssistedG.py:427 成功选择上诉人选项
+INFO     automation:AssistedG.py:433 点击确定按钮
+INFO     automation:AssistedG.py:440 步骤10执行成功：将庭审笔录3添加为证据
+INFO     automation:AssistedG.py:454 辅助阅卷测试完成
+INFO     automation:AssistedG.py:115 测试类执行完成，进行清理...
+INFO     automation:AssistedG.py:119 浏览器已关闭

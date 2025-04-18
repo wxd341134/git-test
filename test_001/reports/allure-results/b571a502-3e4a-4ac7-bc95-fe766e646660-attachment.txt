@@ -1,0 +1,32 @@
+2025-03-25 16:11:34,916 - INFO - 开始创建Chrome WebDriver实例...
+2025-03-25 16:11:34,916 - INFO - Chrome选项配置完成
+2025-03-25 16:11:34,916 - INFO - ====== WebDriver manager ======
+2025-03-25 16:11:35,647 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-25 16:11:36,334 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-25 16:11:38,520 - INFO - Driver [C:\Users\Administrator\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-25 16:11:38,521 - INFO - ChromeDriver 安装/更新成功
+2025-03-25 16:11:39,703 - INFO - Chrome版本: 134.0.6998.118
+2025-03-25 16:11:39,703 - INFO - ChromeDriver版本: 134.0.6998.165
+2025-03-25 16:11:39,703 - INFO - 成功创建Chrome WebDriver实例
+2025-03-25 16:11:39,703 - automation - INFO - 开始执行个人中心测试
+2025-03-25 16:11:39,703 - INFO - 开始执行个人中心测试
+2025-03-25 16:11:39,705 - automation - INFO - 开始登录系统，用户名: wxdfg
+2025-03-25 16:11:39,705 - INFO - 开始登录系统，用户名: wxdfg
+2025-03-25 16:11:41,154 - automation - INFO - 截图已添加到Allure报告: login_page
+2025-03-25 16:11:41,154 - INFO - 截图已添加到Allure报告: login_page
+2025-03-25 16:11:41,154 - automation - INFO - 开始输入用户名...
+2025-03-25 16:11:41,154 - INFO - 开始输入用户名...
+2025-03-25 16:11:42,863 - automation - INFO - 开始输入密码...
+2025-03-25 16:11:42,863 - INFO - 开始输入密码...
+2025-03-25 16:11:45,711 - automation - INFO - 请查看浏览器中的验证码图片
+2025-03-25 16:11:45,711 - INFO - 请查看浏览器中的验证码图片
+2025-03-25 16:11:45,786 - automation - INFO - 截图已添加到Allure报告: captcha_image
+2025-03-25 16:11:45,786 - INFO - 截图已添加到Allure报告: captcha_image
+2025-03-25 16:11:52,650 - automation - ERROR - 未输入验证码，登录失败
+2025-03-25 16:11:52,650 - ERROR - 未输入验证码，登录失败
+2025-03-25 16:11:52,650 - automation - ERROR - 个人中心测试流程失败: 未输入验证码
+2025-03-25 16:11:52,650 - ERROR - 个人中心测试流程失败: 未输入验证码
+2025-03-25 16:11:52,780 - automation - INFO - 个人中心测试执行完成
+2025-03-25 16:11:52,780 - INFO - 个人中心测试执行完成
+2025-03-25 16:11:52,781 - INFO - 正在关闭WebDriver实例...
+2025-03-25 16:11:54,806 - INFO - 成功关闭WebDriver实例

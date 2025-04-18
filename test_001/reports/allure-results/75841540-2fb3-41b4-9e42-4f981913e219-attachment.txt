@@ -1,0 +1,2 @@
+辅助阅读流程失败
+assert False

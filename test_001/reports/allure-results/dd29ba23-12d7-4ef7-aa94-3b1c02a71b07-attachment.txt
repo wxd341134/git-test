@@ -1,0 +1,4 @@
+2025-03-25 20:01:25,396 - automation - INFO - 开始初始化卷宗上传测试环境...
+2025-03-25 20:01:27,399 - automation - INFO - 尝试点击案件 (2025)苏0105民初0001号 的上传卷宗按钮
+2025-03-25 20:01:27,399 - automation - ERROR - 点击上传卷宗按钮失败: 'TestDossierUpload' object has no attribute 'wait'
+2025-03-25 20:01:27,399 - automation - ERROR - 初始化失败: 'TestDossierUpload' object has no attribute 'wait'

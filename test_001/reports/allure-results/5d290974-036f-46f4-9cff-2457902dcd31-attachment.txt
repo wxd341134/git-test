@@ -1,0 +1,72 @@
+2025-04-10 16:58:03,041 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-10 16:58:03,042 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-10 16:58:03,042 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-10 16:58:03,042 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-10 16:58:05,701 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-10 16:58:05,718 - automation - INFO - 开始阅卷笔记测试
+2025-04-10 16:58:05,718 - automation - INFO - 开始登录系统
+2025-04-10 16:58:08,958 - automation - INFO - 成功打开登录页面
+2025-04-10 16:58:08,958 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-10 16:58:09,074 - automation - INFO - 用户名输入完成
+2025-04-10 16:58:09,074 - automation - INFO - 开始输入密码
+2025-04-10 16:58:09,178 - automation - INFO - 密码输入完成
+2025-04-10 16:58:09,194 - automation - INFO - ==================================================
+2025-04-10 16:58:09,195 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-10 16:58:09,256 - automation - INFO - ==================================================
+2025-04-10 16:58:15,877 - automation - INFO - 验证码已自动填入
+2025-04-10 16:58:16,889 - automation - INFO - 尝试点击登录按钮
+2025-04-10 16:58:16,957 - automation - INFO - 登录按钮点击成功
+2025-04-10 16:58:16,957 - automation - INFO - 登录成功
+2025-04-10 16:58:16,957 - automation - INFO - 登录系统完成
+2025-04-10 16:58:16,957 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-10 16:58:17,749 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-10 16:58:19,761 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-10 16:58:19,812 - automation - INFO - 成功点击判决书
+2025-04-10 16:58:21,822 - automation - INFO - 测试缩小文档视图
+2025-04-10 16:58:21,927 - automation - INFO - 成功点击缩小按钮
+2025-04-10 16:58:22,940 - automation - INFO - 测试放大文档视图
+2025-04-10 16:58:23,042 - automation - INFO - 成功点击放大按钮
+2025-04-10 16:58:24,043 - automation - INFO - 测试文档下载功能
+2025-04-10 16:58:24,102 - automation - INFO - 成功点击下载按钮
+2025-04-10 16:58:25,182 - automation - INFO - 成功选择PDF下载选项
+2025-04-10 16:58:27,192 - automation - INFO - 下载前目录中有 6 个文件
+2025-04-10 16:58:37,272 - automation - WARNING - 未检测到新下载的文件，下载可能失败或尚未完成
+2025-04-10 16:58:37,273 - automation - INFO - 开始导出和编辑阅卷笔记
+2025-04-10 16:58:37,273 - automation - INFO - 点击导出阅卷笔记按钮
+2025-04-10 16:58:38,375 - automation - ERROR - 阅卷笔记导出和编辑操作失败: Message: element click intercepted: Element <a data-v-365b5238="" data-v-815c801c="" class="custom-note-btn primary">...</a> is not clickable at point (1403, 122). Other element would receive the click: <div data-v-4908276a="" data-v-2366fe54="" class="toolbar">...</div>
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E375E9]
+	(No symbol) [0x00007FF6F5E34FA2]
+	(No symbol) [0x00007FF6F5E32051]
+	(No symbol) [0x00007FF6F5E30F76]
+	(No symbol) [0x00007FF6F5E227E4]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-10 16:58:38,511 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250410\export_edit_notes_failed_165838.png
+2025-04-10 16:58:38,511 - automation - ERROR - 无法完成阅卷笔记工作流程: 导出和编辑操作失败
+2025-04-10 16:58:38,511 - automation - INFO - 阅卷笔记测试结束
+2025-04-10 16:58:38,664 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-10 16:58:38,665 - automation - INFO - 正在关闭浏览器...
+2025-04-10 16:58:40,842 - automation - INFO - 浏览器已关闭
+2025-04-10 16:58:40,843 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-10 16:59:01,070 - automation - INFO - 已关闭浏览器实例

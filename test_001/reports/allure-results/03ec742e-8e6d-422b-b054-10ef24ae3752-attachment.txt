@@ -1,0 +1,28 @@
+2025-03-28 10:07:57,130 - automation - INFO - 初始化测试类...
+2025-03-28 10:07:57,130 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-28 10:07:57,131 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-28 10:07:58,321 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-28 10:07:58,323 - automation - INFO - 开始登录系统
+2025-03-28 10:08:00,725 - automation - INFO - 成功打开登录页面
+2025-03-28 10:08:00,725 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-28 10:08:00,938 - automation - INFO - 用户名输入完成
+2025-03-28 10:08:00,940 - automation - INFO - 开始输入密码
+2025-03-28 10:08:01,051 - automation - INFO - 密码输入完成
+2025-03-28 10:08:01,067 - automation - INFO - ==================================================
+2025-03-28 10:08:01,067 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-28 10:08:01,067 - automation - INFO - ==================================================
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "D:\Python39\lib\tkinter\__init__.py", line 1882, in __call__
+    try:
+KeyboardInterrupt
+2025-03-28 10:15:55,934 - automation - ERROR - 验证码输入为空
+2025-03-28 10:16:12,134 - automation - ERROR - 无法截图
+2025-03-28 10:16:32,396 - automation - ERROR - 验证码处理失败: 验证码输入为空
+2025-03-28 10:16:48,556 - automation - ERROR - 无法截图
+2025-03-28 10:16:48,556 - automation - ERROR - 登录过程失败: 验证码处理失败: 验证码输入为空
+2025-03-28 10:17:04,764 - automation - ERROR - 无法截图
+2025-03-28 10:17:04,765 - automation - ERROR - 辅助阅卷测试失败: 登录过程失败: 验证码处理失败: 验证码输入为空
+2025-03-28 10:17:20,964 - automation - ERROR - 无法获取失败截图
+2025-03-28 10:17:21,056 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-28 10:17:41,281 - automation - INFO - 浏览器已关闭

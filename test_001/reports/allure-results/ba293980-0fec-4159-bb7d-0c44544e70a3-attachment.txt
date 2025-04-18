@@ -1,0 +1,123 @@
+INFO     automation:AssistedG.py:20 初始化测试类...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     automation:AssistedG.py:197 开始登录系统
+INFO     automation:login_page.py:174 成功打开登录页面
+INFO     automation:login_page.py:118 开始输入用户名: wxdfg
+INFO     automation:login_page.py:125 用户名输入完成
+INFO     automation:login_page.py:130 开始输入密码
+INFO     automation:login_page.py:137 密码输入完成
+INFO     automation:login_page.py:79 ==================================================
+INFO     automation:login_page.py:80 请在弹出窗口中输入验证码
+INFO     automation:login_page.py:81 ==================================================
+INFO     automation:login_page.py:93 验证码已自动填入
+INFO     automation:login_page.py:146 尝试点击登录按钮
+INFO     automation:login_page.py:157 登录按钮点击成功
+INFO     automation:login_page.py:162 登录成功
+INFO     automation:AssistedG.py:200 登录成功
+INFO     automation:AssistedG.py:212 点击辅助阅卷
+INFO     automation:AssistedG.py:218 步骤1执行成功：点击辅助阅卷
+INFO     automation:AssistedG.py:230 点击庭审笔录1
+INFO     automation:AssistedG.py:236 步骤2执行成功：点击庭审笔录1
+INFO     automation:AssistedG.py:240 点击设为庭审笔录
+INFO     automation:AssistedG.py:246 步骤3执行成功：点击设为庭审笔录
+INFO     automation:AssistedG.py:250 输入原告处理意见1
+INFO     automation:AssistedG.py:257 步骤4执行成功：输入原告处理意见1
+INFO     automation:AssistedG.py:261 输入原告处理意见2
+INFO     automation:AssistedG.py:268 步骤5执行成功：输入原告处理意见2
+INFO     automation:AssistedG.py:272 点击确定按钮
+INFO     automation:AssistedG.py:278 步骤6执行成功：点击确定按钮
+INFO     automation:AssistedG.py:341 点击下载按钮
+INFO     automation:AssistedG.py:349 选择PDF下载
+INFO     automation:AssistedG.py:355 步骤8执行成功：下载笔录PDF
+INFO     automation:AssistedG.py:368 点击庭审笔录2
+INFO     automation:AssistedG.py:377 成功点击庭审笔录2
+INFO     automation:AssistedG.py:383 点击添加为证据按钮
+INFO     automation:AssistedG.py:390 成功点击添加为证据按钮
+INFO     automation:AssistedG.py:396 点击目录下拉框
+INFO     automation:AssistedG.py:403 成功点击目录下拉框
+INFO     automation:AssistedG.py:409 选择法院材料选项
+INFO     automation:AssistedG.py:416 成功选择法院材料选项
+INFO     automation:AssistedG.py:422 点击确定按钮
+INFO     automation:AssistedG.py:429 步骤9执行成功：添加庭审笔录2为证据
+INFO     automation:AssistedG.py:445 选择庭审笔录3
+INFO     automation:AssistedG.py:454 成功选中庭审笔录3
+INFO     automation:AssistedG.py:460 点击证据添加按钮
+INFO     automation:AssistedG.py:467 成功点击证据添加按钮
+INFO     automation:AssistedG.py:473 点击目录下拉框
+INFO     automation:AssistedG.py:480 成功点击目录下拉框
+INFO     automation:AssistedG.py:486 选择上诉人选项
+INFO     automation:AssistedG.py:493 成功选择上诉人选项
+INFO     automation:AssistedG.py:499 点击确定按钮
+INFO     automation:AssistedG.py:506 步骤10执行成功：将庭审笔录3添加为证据
+INFO     automation:AssistedG.py:522 点击证据引用标签页
+INFO     automation:AssistedG.py:531 成功点击证据引用标签页
+INFO     automation:AssistedG.py:537 点击刷新按钮
+INFO     automation:AssistedG.py:544 成功点击刷新按钮
+INFO     automation:AssistedG.py:550 点击查看庭审笔录2详情
+INFO     automation:AssistedG.py:557 成功点击查看庭审笔录2详情
+INFO     automation:AssistedG.py:563 点击关闭详情
+INFO     automation:AssistedG.py:570 步骤11执行成功：证据引用功能
+INFO     automation:AssistedG.py:586 选择庭审笔录2和庭审笔录3
+INFO     automation:AssistedG.py:595 成功选中庭审笔录2
+INFO     automation:AssistedG.py:607 成功选中庭审笔录3
+INFO     automation:AssistedG.py:613 点击双屏阅卷按钮
+INFO     automation:AssistedG.py:620 成功点击双屏阅卷按钮
+INFO     automation:AssistedG.py:626 查看双屏阅卷内容
+INFO     automation:AssistedG.py:630 点击关闭双屏阅卷
+INFO     automation:AssistedG.py:637 步骤12执行成功：双屏阅卷功能
+INFO     automation:AssistedG.py:653 点击批量修改按钮
+INFO     automation:AssistedG.py:662 成功点击批量修改按钮
+INFO     automation:AssistedG.py:668 修改证据名称
+ERROR    automation:AssistedG.py:684 未能修改证据名称: Message: invalid element state
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD8FFC]
+	(No symbol) [0x00007FF6F5E24C85]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+ERROR    automation:AssistedG.py:772 辅助阅卷测试失败: Message: invalid element state
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD8FFC]
+	(No symbol) [0x00007FF6F5E24C85]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+INFO     automation:AssistedG.py:181 测试类执行完成，进行清理...
+INFO     automation:AssistedG.py:185 浏览器已关闭

@@ -1,0 +1,2 @@
+2025-04-14 16:16:01,959 - automation - INFO - ========== 开始执行测试方法: test_batch_edit_evidence ==========
+2025-04-14 16:16:12,012 - automation - INFO - ========== 结束执行测试方法: test_batch_edit_evidence ==========

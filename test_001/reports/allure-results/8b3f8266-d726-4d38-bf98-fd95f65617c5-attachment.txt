@@ -1,0 +1,7 @@
+INFO     root:driver_manager.py:44 开始创建Chrome WebDriver实例...
+INFO     root:driver_manager.py:68 Chrome选项配置完成
+ERROR    root:driver_manager.py:94 创建WebDriver实例失败: __init__() got an unexpected keyword argument 'path'
+ERROR    root:driver_manager.py:95 系统信息:
+ERROR    root:driver_manager.py:96 Python版本: 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]
+ERROR    root:driver_manager.py:97 Selenium版本: 4.30.0
+ERROR    root:driver_manager.py:98 操作系统: nt

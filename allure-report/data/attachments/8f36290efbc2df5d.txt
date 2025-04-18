@@ -1,0 +1,33 @@
+2025-04-07 09:43:52,778 - automation - INFO - 使用本地ChromeDriver: chromedriver-win64/chromedriver.exe
+2025-04-07 09:43:58,385 - automation - ERROR - 设置WebDriver失败: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DD5BC2]
+	(No symbol) [0x00007FF6F5DC6919]
+	(No symbol) [0x00007FF6F5DC8688]
+	(No symbol) [0x00007FF6F5DC6C26]
+	(No symbol) [0x00007FF6F5DC66A6]
+	(No symbol) [0x00007FF6F5DC636A]
+	(No symbol) [0x00007FF6F5DC3EF2]
+	(No symbol) [0x00007FF6F5DC47DC]
+	(No symbol) [0x00007FF6F5DDD01A]
+	(No symbol) [0x00007FF6F5E80F4E]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+

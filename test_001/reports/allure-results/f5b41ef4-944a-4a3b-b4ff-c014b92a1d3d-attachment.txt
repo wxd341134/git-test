@@ -1,0 +1,6 @@
+INFO     MessageTest:test_read_notes.py:136 开始测试笔记导出功能...
+INFO     MessageTest:read_notes_utils.py:210 开始导出阅卷笔记
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 导出按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 导出按钮
+INFO     MessageTest:read_notes_utils.py:214 阅卷笔记导出成功
+INFO     MessageTest:test_read_notes.py:142 笔记导出测试完成

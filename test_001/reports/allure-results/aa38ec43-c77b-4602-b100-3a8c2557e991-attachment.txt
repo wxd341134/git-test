@@ -1,0 +1,20 @@
+INFO     MessageTest:test_read_notes.py:110 开始测试查找替换功能...
+INFO     MessageTest:read_notes_utils.py:154 开始执行查找替换: 查找'号码', 替换为'号码'
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 查找替换按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 查找替换按钮
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 查找输入框
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 替换输入框
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 查找按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 查找按钮
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 替换按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 替换按钮
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 全部替换按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 全部替换按钮
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 关闭对话框
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 关闭对话框
+INFO     MessageTest:read_notes_utils.py:188 查找替换操作完成
+INFO     MessageTest:read_notes_utils.py:197 开始保存阅卷笔记
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 保存按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 保存按钮
+INFO     MessageTest:read_notes_utils.py:201 阅卷笔记保存成功
+INFO     MessageTest:test_read_notes.py:120 查找替换测试完成

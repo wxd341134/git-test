@@ -1,0 +1,11 @@
+INFO     automation:login_page.py:33 开始登录系统，用户名: wxdfg
+INFO     automation:base_page.py:62 截图已添加到Allure报告: login_page
+INFO     automation:login_page.py:42 开始输入用户名...
+INFO     automation:login_page.py:52 开始输入密码...
+INFO     automation:login_page.py:63 请查看浏览器中的验证码图片
+INFO     automation:base_page.py:62 截图已添加到Allure报告: captcha_image
+INFO     automation:login_page.py:85 验证码已输入: 4786
+INFO     automation:login_page.py:92 点击登录按钮...
+INFO     automation:base_page.py:35 点击元素: ('xpath', "//button[@type='button']")
+INFO     automation:base_page.py:62 截图已添加到Allure报告: login_success
+INFO     automation:login_page.py:96 登录系统成功

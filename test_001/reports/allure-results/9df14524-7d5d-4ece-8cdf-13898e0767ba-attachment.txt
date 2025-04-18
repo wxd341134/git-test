@@ -1,0 +1,6 @@
+INFO     MessageTest:test_CaseMg.py:27 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+INFO     MessageTest:test_CaseMg.py:33 测试数据加载成功
+INFO     MessageTest:test_CaseMg.py:52 案件管理测试初始化完成
+INFO     MessageTest:test_CaseMg.py:56 案件管理测试清理完成
+INFO     MessageTest:base_test.py:40 清理测试类...
+INFO     MessageTest:base_test.py:44 浏览器已关闭

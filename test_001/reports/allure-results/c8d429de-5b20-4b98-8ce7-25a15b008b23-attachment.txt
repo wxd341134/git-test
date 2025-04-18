@@ -1,0 +1,4 @@
+INFO     automation:test_DossierU.py:25 开始初始化卷宗上传测试环境...
+INFO     automation:test_DossierU.py:48 尝试点击案件 (2025)苏0105民初0001号 的上传卷宗按钮
+ERROR    automation:test_DossierU.py:57 点击上传卷宗按钮失败: 'TestDossierUpload' object has no attribute 'wait'
+ERROR    automation:test_DossierU.py:37 初始化失败: 'TestDossierUpload' object has no attribute 'wait'

@@ -1,0 +1,10 @@
+INFO     automation:test_CaseMg.py:84 ========== 开始执行案例管理测试 ==========
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     automation:case_utils.py:15 开始打开案例管理页面
+ERROR    automation:case_utils.py:28 打开案例管理页面失败: 'CasePage' object has no attribute 'navigate_to_case_management'
+ERROR    automation:case_utils.py:135 案例管理流程执行失败: 'CasePage' object has no attribute 'navigate_to_case_management'
+ERROR    automation:test_CaseMg.py:161 测试过程中出现错误: 'CasePage' object has no attribute 'navigate_to_case_management'
+INFO     automation:test_CaseMg.py:98 ========== 案例管理测试执行完成 ==========
+INFO     automation:test_CaseMg.py:105 已关闭浏览器

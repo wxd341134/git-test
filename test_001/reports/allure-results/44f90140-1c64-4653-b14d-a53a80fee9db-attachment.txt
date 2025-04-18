@@ -1,0 +1,3 @@
+INFO     automation:test_DossierU.py:29 开始执行个人中心测试
+INFO     automation:test_DossierU.py:144 开始ZIP文件上传测试
+ERROR    automation:test_DossierU.py:167 ZIP文件上传测试失败: 'TestDossierUpload' object has no attribute 'wait'

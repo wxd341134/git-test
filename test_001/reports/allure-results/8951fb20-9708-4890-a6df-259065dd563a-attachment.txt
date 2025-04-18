@@ -1,0 +1,2 @@
+2025-03-25 20:09:36,093 - automation - INFO - 开始单文件上传测试
+2025-03-25 20:09:36,093 - automation - ERROR - 单文件上传测试失败: 'TestDossierUpload' object has no attribute 'wait'

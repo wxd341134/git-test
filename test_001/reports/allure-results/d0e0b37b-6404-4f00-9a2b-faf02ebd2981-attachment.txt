@@ -1,0 +1,5 @@
+2025-03-25 20:09:36,104 - automation - INFO - 开始执行刷新和关闭操作
+2025-03-25 20:09:36,104 - automation - ERROR - 刷新和关闭操作失败: 'TestDossierUpload' object has no attribute 'wait'
+2025-03-25 20:09:36,111 - automation - INFO - 个人中心测试执行完成
+2025-03-25 20:09:36,111 - automation - INFO - 开始初始化卷宗上传测试环境...
+2025-03-25 20:09:36,111 - automation - ERROR - 初始化失败: 'TestDossierUpload' object has no attribute 'driver'

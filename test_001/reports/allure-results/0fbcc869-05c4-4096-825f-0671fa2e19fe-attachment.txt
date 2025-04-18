@@ -1,0 +1,5 @@
+INFO     automation:test_DossierU.py:214 开始执行刷新和关闭操作
+ERROR    automation:test_DossierU.py:244 刷新和关闭操作失败: 'TestDossierUpload' object has no attribute 'wait'
+INFO     automation:test_DossierU.py:31 个人中心测试执行完成
+INFO     automation:test_DossierU.py:35 开始初始化卷宗上传测试环境...
+ERROR    automation:test_DossierU.py:59 初始化失败: 'TestDossierUpload' object has no attribute 'driver'

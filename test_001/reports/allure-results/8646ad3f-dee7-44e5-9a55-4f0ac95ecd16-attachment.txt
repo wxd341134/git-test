@@ -1,0 +1,7 @@
+INFO     automation:test_login.py:19 ========== 开始执行登录和退出登录测试 ==========
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+ERROR    automation:test_login.py:67 测试过程中出现错误: 'LoginPage' object has no attribute 'wait_for_element_visible'
+INFO     automation:test_login.py:33 ========== 登录和退出登录测试执行完成 ==========
+INFO     automation:test_login.py:40 已关闭浏览器

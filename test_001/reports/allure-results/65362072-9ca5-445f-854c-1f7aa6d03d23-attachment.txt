@@ -1,0 +1,10 @@
+2025-04-14 10:04:16,764 - automation - INFO - ========== 开始执行登录和退出登录测试 ==========
+2025-04-14 10:04:16,765 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 10:04:16,765 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 10:04:18,538 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 10:04:18,542 - automation - INFO - 开始执行登录
+2025-04-14 10:04:31,723 - automation - INFO - 点击用户下拉菜单
+2025-04-14 10:04:32,857 - automation - INFO - 点击退出选项
+2025-04-14 10:04:35,148 - automation - INFO - 验证是否退出到登录页面
+2025-04-14 10:04:35,183 - automation - INFO - ========== 登录和退出登录测试执行完成 ==========
+2025-04-14 10:04:37,357 - automation - INFO - 已关闭浏览器

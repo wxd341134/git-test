@@ -1,0 +1,4 @@
+2025-03-28 10:33:04,206 - automation - INFO - 开始登录系统
+2025-03-28 10:33:04,206 - automation - ERROR - 辅助阅卷测试失败: 'TestAssistedReading' object has no attribute 'login_page'
+2025-03-28 10:33:04,206 - automation - WARNING - 无法获取test_failed截图
+2025-03-28 10:33:04,270 - automation - INFO - 测试类执行完成，进行清理...

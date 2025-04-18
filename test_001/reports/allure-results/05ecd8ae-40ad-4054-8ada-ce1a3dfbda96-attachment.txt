@@ -1,0 +1,26 @@
+INFO     automation:test_login.py:17 ========== 开始执行登录和退出登录测试 ==========
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     automation:test_login.py:43 开始测试登录功能
+INFO     automation:login_page.py:174 成功打开登录页面
+INFO     automation:login_page.py:118 开始输入用户名: wxdfg
+INFO     automation:login_page.py:125 用户名输入完成
+INFO     automation:login_page.py:130 开始输入密码
+INFO     automation:login_page.py:137 密码输入完成
+INFO     automation:login_page.py:79 ==================================================
+INFO     automation:login_page.py:80 请在弹出窗口中输入验证码
+INFO     automation:login_page.py:81 ==================================================
+INFO     automation:login_page.py:93 验证码已自动填入
+INFO     automation:login_page.py:146 尝试点击登录按钮
+INFO     automation:login_page.py:157 登录按钮点击成功
+INFO     automation:login_page.py:162 登录成功
+INFO     automation:test_login.py:47 登录成功
+INFO     automation:test_login.py:53 点击右上角用户菜单
+INFO     automation:test_login.py:60 成功点击用户菜单
+INFO     automation:test_login.py:66 点击下拉菜单中的'退出'选项
+INFO     automation:test_login.py:71 成功点击'退出'选项
+INFO     automation:test_login.py:87 成功退出到登录页面: http://192.168.2.176:86/#/login
+INFO     automation:test_login.py:99 登录和退出登录测试完成
+INFO     automation:test_login.py:30 ========== 登录和退出登录测试执行完成 ==========
+INFO     automation:test_login.py:36 已关闭浏览器

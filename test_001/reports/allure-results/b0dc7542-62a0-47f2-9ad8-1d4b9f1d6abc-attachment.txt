@@ -1,0 +1,32 @@
+2025-04-14 12:21:13,917 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 12:21:13,957 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 12:21:16,217 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 12:21:28,426 - automation - INFO - ========== 开始执行测试方法: test_case_crud ==========
+2025-04-14 12:21:28,427 - automation - INFO - 案例页面对象创建成功
+2025-04-14 12:21:31,455 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+2025-04-14 12:21:31,486 - automation - INFO - 测试数据加载成功
+2025-04-14 12:21:31,486 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-04-14 12:21:33,497 - automation - INFO - 准备开始案例增删改查流程
+2025-04-14 12:21:33,497 - automation - INFO - 步骤1: 导航到案例管理页面
+2025-04-14 12:21:33,656 - automation - ERROR - 案例增删改查流程执行失败: 'CasePage' object has no attribute 'navigate_to_case_management'
+2025-04-14 12:21:33,659 - automation - ERROR - Traceback (most recent call last):
+  File "E:\AutoTest\FgAI\test_001\test_CaseMg.py", line 126, in test_case_crud
+    CaseUtils.navigate_to_case_management(self.case_page)
+  File "D:\Python39\lib\site-packages\allure_commons\_allure.py", line 192, in impl
+    return func(*a, **kw)
+  File "E:\AutoTest\FgAI\common\case_utils.py", line 18, in navigate_to_case_management
+    case_page.navigate_to_case_management()
+AttributeError: 'CasePage' object has no attribute 'navigate_to_case_management'
+
+2025-04-14 12:21:33,659 - automation - ERROR - 测试过程中出现错误: 'CasePage' object has no attribute 'navigate_to_case_management'
+2025-04-14 12:21:33,660 - automation - ERROR - Traceback (most recent call last):
+  File "E:\AutoTest\FgAI\test_001\test_CaseMg.py", line 126, in test_case_crud
+    CaseUtils.navigate_to_case_management(self.case_page)
+  File "D:\Python39\lib\site-packages\allure_commons\_allure.py", line 192, in impl
+    return func(*a, **kw)
+  File "E:\AutoTest\FgAI\common\case_utils.py", line 18, in navigate_to_case_management
+    case_page.navigate_to_case_management()
+AttributeError: 'CasePage' object has no attribute 'navigate_to_case_management'
+
+2025-04-14 12:21:33,738 - automation - INFO - 错误截图已保存: E:\AutoTest\FgAI\screenshots\test_case_crud_failure.png
+2025-04-14 12:21:34,017 - automation - INFO - ========== 结束执行测试方法: test_case_crud ==========

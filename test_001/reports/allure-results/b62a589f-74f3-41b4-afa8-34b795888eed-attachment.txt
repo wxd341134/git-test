@@ -1,0 +1,50 @@
+INFO     MessageTest:base_test.py:18 初始化测试类...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     MessageTest:login_page.py:190 成功打开登录页面
+INFO     MessageTest:login_page.py:134 开始输入用户名: wxdfg
+INFO     MessageTest:login_page.py:141 用户名输入完成
+INFO     MessageTest:login_page.py:146 开始输入密码
+INFO     MessageTest:login_page.py:153 密码输入完成
+INFO     MessageTest:login_page.py:95 ==================================================
+INFO     MessageTest:login_page.py:96 请在弹出窗口中输入验证码
+INFO     MessageTest:login_page.py:97 ==================================================
+INFO     MessageTest:login_page.py:109 验证码已自动填入
+INFO     MessageTest:login_page.py:162 尝试点击登录按钮
+INFO     MessageTest:login_page.py:173 登录按钮点击成功
+INFO     MessageTest:login_page.py:178 登录成功
+INFO     MessageTest:base_test.py:26 登录成功
+INFO     automation:test_CaseMg.py:82 ========== 开始执行测试方法: test_case_crud ==========
+INFO     automation:test_CaseMg.py:85 案例页面对象创建成功
+INFO     automation:test_CaseMg.py:25 尝试加载测试数据文件: E:\AutoTest\FgAI\test_data\case_data.json
+INFO     automation:test_CaseMg.py:54 测试数据加载成功
+INFO     automation:test_CaseMg.py:115 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+INFO     automation:test_CaseMg.py:120 准备开始案例增删改查流程
+INFO     automation:test_CaseMg.py:125 步骤1: 导航到案例管理页面
+INFO     MessageTest:case_utils.py:17 开始导航到案例管理页面
+ERROR    MessageTest:case_utils.py:30 导航到案例管理页面失败: 'CasePage' object has no attribute 'navigate_to_case_management'
+ERROR    automation:test_CaseMg.py:162 案例增删改查流程执行失败: 'CasePage' object has no attribute 'navigate_to_case_management'
+ERROR    automation:test_CaseMg.py:163 Traceback (most recent call last):
+  File "E:\AutoTest\FgAI\test_001\test_CaseMg.py", line 126, in test_case_crud
+    CaseUtils.navigate_to_case_management(self.case_page)
+  File "D:\Python39\lib\site-packages\allure_commons\_allure.py", line 192, in impl
+    return func(*a, **kw)
+  File "E:\AutoTest\FgAI\common\case_utils.py", line 18, in navigate_to_case_management
+    case_page.navigate_to_case_management()
+AttributeError: 'CasePage' object has no attribute 'navigate_to_case_management'
+
+ERROR    automation:test_CaseMg.py:167 测试过程中出现错误: 'CasePage' object has no attribute 'navigate_to_case_management'
+ERROR    automation:test_CaseMg.py:168 Traceback (most recent call last):
+  File "E:\AutoTest\FgAI\test_001\test_CaseMg.py", line 126, in test_case_crud
+    CaseUtils.navigate_to_case_management(self.case_page)
+  File "D:\Python39\lib\site-packages\allure_commons\_allure.py", line 192, in impl
+    return func(*a, **kw)
+  File "E:\AutoTest\FgAI\common\case_utils.py", line 18, in navigate_to_case_management
+    case_page.navigate_to_case_management()
+AttributeError: 'CasePage' object has no attribute 'navigate_to_case_management'
+
+INFO     automation:test_CaseMg.py:175 错误截图已保存: E:\AutoTest\FgAI\screenshots\test_case_crud_failure.png
+INFO     automation:test_CaseMg.py:101 ========== 结束执行测试方法: test_case_crud ==========
+INFO     MessageTest:base_test.py:40 清理测试类...
+INFO     MessageTest:base_test.py:44 浏览器已关闭

@@ -1,0 +1,33 @@
+INFO     automation:AssistedG.py:20 初始化测试类...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     automation:AssistedG.py:69 开始登录系统
+INFO     automation:login_page.py:174 成功打开登录页面
+INFO     automation:login_page.py:118 开始输入用户名: wxdfg
+INFO     automation:login_page.py:125 用户名输入完成
+INFO     automation:login_page.py:130 开始输入密码
+INFO     automation:login_page.py:137 密码输入完成
+INFO     automation:login_page.py:79 ==================================================
+INFO     automation:login_page.py:80 请在弹出窗口中输入验证码
+INFO     automation:login_page.py:81 ==================================================
+INFO     automation:login_page.py:93 验证码已自动填入
+INFO     automation:login_page.py:146 尝试点击登录按钮
+INFO     automation:login_page.py:157 登录按钮点击成功
+INFO     automation:login_page.py:162 登录成功
+INFO     automation:AssistedG.py:72 登录成功
+INFO     automation:AssistedG.py:84 点击辅助阅卷
+INFO     automation:AssistedG.py:90 步骤1执行成功：点击辅助阅卷
+INFO     automation:AssistedG.py:102 点击庭审笔录1
+INFO     automation:AssistedG.py:108 步骤2执行成功：点击庭审笔录1
+INFO     automation:AssistedG.py:112 点击设为庭审笔录
+INFO     automation:AssistedG.py:118 步骤3执行成功：点击设为庭审笔录
+INFO     automation:AssistedG.py:122 输入原告处理意见1
+INFO     automation:AssistedG.py:129 步骤4执行成功：输入原告处理意见1
+INFO     automation:AssistedG.py:133 输入原告处理意见2
+INFO     automation:AssistedG.py:140 步骤5执行成功：输入原告处理意见2
+INFO     automation:AssistedG.py:144 点击确定按钮
+INFO     automation:AssistedG.py:150 步骤6执行成功：点击确定按钮
+INFO     automation:AssistedG.py:160 辅助阅卷测试完成
+INFO     automation:AssistedG.py:53 测试类执行完成，进行清理...
+INFO     automation:AssistedG.py:57 浏览器已关闭

@@ -1,0 +1,99 @@
+INFO     MessageTest:test_read_notes.py:160 开始测试完整业务流程...
+INFO     MessageTest:read_notes_utils.py:76 开始操作判决书
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 判决书选项
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 判决书选项
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 缩小按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 缩小按钮
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 放大按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 放大按钮
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 下载按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 下载按钮
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: PDF下载选项
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: PDF下载选项
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 关闭预览按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 关闭预览按钮
+INFO     MessageTest:read_notes_utils.py:100 判决书操作完成
+INFO     MessageTest:read_notes_utils.py:109 开始操作证据引用
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 证据引用标签
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 证据引用标签
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 庭审笔录3
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 庭审笔录3
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 顺时针旋转
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 顺时针旋转
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 逆时针旋转
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 逆时针旋转
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 视图按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 视图按钮
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 双页视图
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 双页视图
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 全屏按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 全屏按钮
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 退出全屏
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 退出全屏
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 关闭预览
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 关闭预览
+INFO     MessageTest:read_notes_utils.py:141 证据引用操作完成
+INFO     MessageTest:read_notes_utils.py:154 开始执行查找替换: 查找'号码', 替换为'号码'
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 查找替换按钮
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 查找替换按钮
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 查找替换按钮
+ERROR    MessageTest:read_notes_utils.py:54 元素点击失败，已重试3次
+ERROR    MessageTest:read_notes_utils.py:190 查找替换操作失败: Message: element click intercepted: Element <path d="M16 17.3a8 8 0 111.4-1.4l4.3 4.4a1 1 0 01-1.4 1.4l-4.4-4.3zm-5-.3a6 6 0 100-12 6 6 0 000 12z" fill-rule="nonzero"></path> is not clickable at point (411, 178). Other element would receive the click: <svg width="24" height="24">...</svg>
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C1FBDF85+26693]
+	(No symbol) [0x00007FF6C1F1EAD0]
+	(No symbol) [0x00007FF6C1DA91CA]
+	(No symbol) [0x00007FF6C1E075E9]
+	(No symbol) [0x00007FF6C1E04FA2]
+	(No symbol) [0x00007FF6C1E02051]
+	(No symbol) [0x00007FF6C1E00F76]
+	(No symbol) [0x00007FF6C1DF27E4]
+	(No symbol) [0x00007FF6C1E278EA]
+	(No symbol) [0x00007FF6C1DF2096]
+	(No symbol) [0x00007FF6C1E27B00]
+	(No symbol) [0x00007FF6C1E500B8]
+	(No symbol) [0x00007FF6C1E276C3]
+	(No symbol) [0x00007FF6C1DF0490]
+	(No symbol) [0x00007FF6C1DF1743]
+	GetHandleVerifier [0x00007FF6C231436D+3525677]
+	GetHandleVerifier [0x00007FF6C2327F3B+3606523]
+	GetHandleVerifier [0x00007FF6C231CEE3+3561379]
+	GetHandleVerifier [0x00007FF6C2087C0A+853194]
+	(No symbol) [0x00007FF6C1F2990F]
+	(No symbol) [0x00007FF6C1F25674]
+	(No symbol) [0x00007FF6C1F25816]
+	(No symbol) [0x00007FF6C1F14D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+
+ERROR    MessageTest:test_read_notes.py:184 完整业务流程测试失败: Message: element click intercepted: Element <path d="M16 17.3a8 8 0 111.4-1.4l4.3 4.4a1 1 0 01-1.4 1.4l-4.4-4.3zm-5-.3a6 6 0 100-12 6 6 0 000 12z" fill-rule="nonzero"></path> is not clickable at point (411, 178). Other element would receive the click: <svg width="24" height="24">...</svg>
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C1FBDF85+26693]
+	(No symbol) [0x00007FF6C1F1EAD0]
+	(No symbol) [0x00007FF6C1DA91CA]
+	(No symbol) [0x00007FF6C1E075E9]
+	(No symbol) [0x00007FF6C1E04FA2]
+	(No symbol) [0x00007FF6C1E02051]
+	(No symbol) [0x00007FF6C1E00F76]
+	(No symbol) [0x00007FF6C1DF27E4]
+	(No symbol) [0x00007FF6C1E278EA]
+	(No symbol) [0x00007FF6C1DF2096]
+	(No symbol) [0x00007FF6C1E27B00]
+	(No symbol) [0x00007FF6C1E500B8]
+	(No symbol) [0x00007FF6C1E276C3]
+	(No symbol) [0x00007FF6C1DF0490]
+	(No symbol) [0x00007FF6C1DF1743]
+	GetHandleVerifier [0x00007FF6C231436D+3525677]
+	GetHandleVerifier [0x00007FF6C2327F3B+3606523]
+	GetHandleVerifier [0x00007FF6C231CEE3+3561379]
+	GetHandleVerifier [0x00007FF6C2087C0A+853194]
+	(No symbol) [0x00007FF6C1F2990F]
+	(No symbol) [0x00007FF6C1F25674]
+	(No symbol) [0x00007FF6C1F25816]
+	(No symbol) [0x00007FF6C1F14D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+INFO     MessageTest:base_test.py:40 清理测试类...
+INFO     MessageTest:base_test.py:44 浏览器已关闭

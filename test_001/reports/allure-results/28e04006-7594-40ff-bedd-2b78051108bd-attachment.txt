@@ -1,0 +1,15 @@
+2025-03-25 16:02:25,831 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-25 16:02:25,832 - automation - INFO - Chrome选项配置完成
+2025-03-25 16:02:34,464 - automation - INFO - ChromeDriver 安装/更新成功
+2025-03-25 16:02:35,668 - automation - INFO - Chrome版本: 134.0.6998.118
+2025-03-25 16:02:35,668 - automation - INFO - ChromeDriver版本: 134.0.6998.165 (fd886e2cb29dd984c13deec032832dee68d8abe3-refs/branch-heads/6998@{#2122})
+2025-03-25 16:02:35,668 - automation - INFO - 成功创建Chrome WebDriver实例
+2025-03-25 16:02:35,669 - automation - INFO - 尝试加载测试数据文件: E:\AutoTest\FgAI\data\case_data.json
+2025-03-25 16:02:35,669 - automation - INFO - 测试数据加载成功
+2025-03-25 16:02:35,669 - automation - INFO - 开始测试案件增删改功能，案件名称: (2025)苏0105民初0001号
+2025-03-25 16:02:35,669 - automation - INFO - 开始登录系统，用户名: wxdfg
+2025-03-25 16:02:37,206 - automation - INFO - 截图已添加到Allure报告: login_page
+2025-03-25 16:02:37,207 - automation - INFO - 开始输入用户名...
+2025-03-25 16:02:38,896 - automation - INFO - 开始输入密码...
+2025-03-25 16:02:39,755 - automation - INFO - 正在关闭WebDriver实例...
+2025-03-25 16:02:41,780 - automation - INFO - 成功关闭WebDriver实例

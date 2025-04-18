@@ -1,0 +1,1 @@
+2025-03-26 14:16:12,289 - automation - ERROR - 个人中心测试流程失败: 'TestPersonalCenter' object has no attribute 'driver'

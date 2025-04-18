@@ -1,0 +1,22 @@
+INFO     MessageTest:test_read_notes.py:86 开始测试证据引用操作...
+INFO     MessageTest:read_notes_utils.py:109 开始操作证据引用
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 证据引用标签
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 证据引用标签
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 庭审笔录3
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 庭审笔录3
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 顺时针旋转
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 顺时针旋转
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 逆时针旋转
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 逆时针旋转
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 视图按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 视图按钮
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 双页视图
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 双页视图
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 全屏按钮
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 全屏按钮
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 退出全屏
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 退出全屏
+INFO     MessageTest:read_notes_utils.py:28 等待元素可点击: 关闭预览
+INFO     MessageTest:read_notes_utils.py:49 成功点击元素: 关闭预览
+INFO     MessageTest:read_notes_utils.py:141 证据引用操作完成
+INFO     MessageTest:test_read_notes.py:92 证据引用测试完成

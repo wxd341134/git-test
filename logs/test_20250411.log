@@ -1,0 +1,1507 @@
+2025-04-11 09:35:25,438 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 09:35:25,439 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 09:35:25,439 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 09:35:25,439 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 09:35:28,727 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 09:35:28,733 - automation - INFO - 创建当天截图子目录: E:\AutoTest\FgAI\screenshots\20250411
+2025-04-11 09:35:28,761 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 09:35:28,761 - automation - INFO - 开始登录系统
+2025-04-11 09:35:31,572 - automation - INFO - 成功打开登录页面
+2025-04-11 09:35:31,572 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 09:35:31,774 - automation - INFO - 用户名输入完成
+2025-04-11 09:35:31,776 - automation - INFO - 开始输入密码
+2025-04-11 09:35:31,909 - automation - INFO - 密码输入完成
+2025-04-11 09:35:31,927 - automation - INFO - ==================================================
+2025-04-11 09:35:31,928 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 09:35:31,928 - automation - INFO - ==================================================
+2025-04-11 09:35:38,520 - automation - INFO - 验证码已自动填入
+2025-04-11 09:35:39,536 - automation - INFO - 尝试点击登录按钮
+2025-04-11 09:35:39,611 - automation - INFO - 登录按钮点击成功
+2025-04-11 09:35:39,611 - automation - INFO - 登录成功
+2025-04-11 09:35:39,611 - automation - INFO - 登录系统完成
+2025-04-11 09:35:39,611 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 09:35:40,981 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 09:35:42,984 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 09:35:43,034 - automation - INFO - 成功点击判决书
+2025-04-11 09:35:45,042 - automation - INFO - 测试缩小文档视图
+2025-04-11 09:35:45,154 - automation - INFO - 成功点击缩小按钮
+2025-04-11 09:35:46,160 - automation - INFO - 测试放大文档视图
+2025-04-11 09:35:46,255 - automation - INFO - 成功点击放大按钮
+2025-04-11 09:35:47,258 - automation - INFO - 测试文档下载功能
+2025-04-11 09:35:47,320 - automation - INFO - 成功点击下载按钮
+2025-04-11 09:35:48,381 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 09:35:50,391 - automation - INFO - 关闭文档查看弹框
+2025-04-11 09:35:50,487 - automation - INFO - 成功关闭文档查看弹框
+2025-04-11 09:36:02,522 - automation - INFO - 确认文档查看弹框已关闭
+2025-04-11 09:36:02,522 - automation - INFO - 开始导出和编辑阅卷笔记
+2025-04-11 09:36:02,523 - automation - INFO - 点击导出阅卷笔记按钮
+2025-04-11 09:36:04,592 - automation - INFO - 点击查询和替换按钮
+2025-04-11 09:36:05,693 - automation - INFO - 输入查找内容
+2025-04-11 09:36:06,758 - automation - INFO - 输入替换内容
+2025-04-11 09:36:07,842 - automation - INFO - 点击查找按钮
+2025-04-11 09:36:08,927 - automation - INFO - 点击替换按钮
+2025-04-11 09:36:09,998 - automation - INFO - 点击查找按钮
+2025-04-11 09:36:11,069 - automation - INFO - 点击全部替换按钮
+2025-04-11 09:36:12,141 - automation - INFO - 关闭弹框
+2025-04-11 09:36:13,212 - automation - INFO - 点击保存按钮
+2025-04-11 09:36:15,308 - automation - INFO - 阅卷笔记导出和编辑操作完成
+2025-04-11 09:36:15,308 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 09:36:15,394 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_093615.png
+2025-04-11 09:36:15,394 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 09:36:15,394 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 09:36:15,422 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 09:36:15,422 - automation - INFO - 正在关闭浏览器...
+2025-04-11 09:36:17,643 - automation - INFO - 浏览器已关闭
+2025-04-11 09:36:17,658 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 09:36:37,916 - automation - INFO - 已关闭浏览器实例
+2025-04-11 09:50:15,154 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 09:50:15,154 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 09:50:15,154 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 09:50:15,154 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 09:50:17,522 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 09:50:17,538 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 09:50:17,538 - automation - INFO - 开始登录系统
+2025-04-11 09:50:20,285 - automation - INFO - 成功打开登录页面
+2025-04-11 09:50:20,285 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 09:50:20,450 - automation - INFO - 用户名输入完成
+2025-04-11 09:50:20,450 - automation - INFO - 开始输入密码
+2025-04-11 09:50:20,579 - automation - INFO - 密码输入完成
+2025-04-11 09:50:20,595 - automation - INFO - ==================================================
+2025-04-11 09:50:20,596 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 09:50:20,596 - automation - INFO - ==================================================
+2025-04-11 09:50:27,192 - automation - INFO - 验证码已自动填入
+2025-04-11 09:50:28,203 - automation - INFO - 尝试点击登录按钮
+2025-04-11 09:50:28,276 - automation - INFO - 登录按钮点击成功
+2025-04-11 09:50:28,276 - automation - INFO - 登录成功
+2025-04-11 09:50:28,276 - automation - INFO - 登录系统完成
+2025-04-11 09:50:28,276 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 09:50:28,720 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 09:50:30,723 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 09:50:30,765 - automation - INFO - 成功点击判决书
+2025-04-11 09:50:32,778 - automation - INFO - 测试缩小文档视图
+2025-04-11 09:50:32,867 - automation - INFO - 成功点击缩小按钮
+2025-04-11 09:50:33,877 - automation - INFO - 测试放大文档视图
+2025-04-11 09:50:33,969 - automation - INFO - 成功点击放大按钮
+2025-04-11 09:50:34,978 - automation - INFO - 测试文档下载功能
+2025-04-11 09:50:35,023 - automation - INFO - 成功点击下载按钮
+2025-04-11 09:50:35,592 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 09:50:36,601 - automation - INFO - 下载前目录中有 6 个文件
+2025-04-11 09:50:41,653 - automation - WARNING - 未检测到新下载的文件，下载可能失败或尚未完成
+2025-04-11 09:50:41,653 - automation - ERROR - PDF文件下载失败或超时
+2025-04-11 09:50:41,653 - automation - ERROR - PDF文件下载失败
+2025-04-11 09:50:41,653 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 09:50:41,761 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 09:50:41,761 - automation - INFO - 正在关闭浏览器...
+2025-04-11 09:50:43,946 - automation - INFO - 浏览器已关闭
+2025-04-11 09:50:43,947 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 09:51:04,213 - automation - INFO - 已关闭浏览器实例
+2025-04-11 09:51:39,692 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 09:51:39,693 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 09:51:39,693 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 09:51:39,693 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 09:51:41,878 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 09:51:41,894 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 09:51:41,894 - automation - INFO - 开始登录系统
+2025-04-11 09:51:44,794 - automation - INFO - 成功打开登录页面
+2025-04-11 09:51:44,794 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 09:51:44,913 - automation - INFO - 用户名输入完成
+2025-04-11 09:51:44,913 - automation - INFO - 开始输入密码
+2025-04-11 09:51:45,065 - automation - INFO - 密码输入完成
+2025-04-11 09:51:45,087 - automation - INFO - ==================================================
+2025-04-11 09:51:45,087 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 09:51:45,087 - automation - INFO - ==================================================
+2025-04-11 09:51:50,541 - automation - INFO - 验证码已自动填入
+2025-04-11 09:51:51,550 - automation - INFO - 尝试点击登录按钮
+2025-04-11 09:51:51,624 - automation - INFO - 登录按钮点击成功
+2025-04-11 09:51:51,624 - automation - INFO - 登录成功
+2025-04-11 09:51:51,624 - automation - INFO - 登录系统完成
+2025-04-11 09:51:51,624 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 09:51:52,043 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 09:51:54,057 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 09:51:54,098 - automation - INFO - 成功点击判决书
+2025-04-11 09:51:56,103 - automation - INFO - 测试缩小文档视图
+2025-04-11 09:51:56,210 - automation - INFO - 成功点击缩小按钮
+2025-04-11 09:51:57,224 - automation - INFO - 测试放大文档视图
+2025-04-11 09:51:57,324 - automation - INFO - 成功点击放大按钮
+2025-04-11 09:51:58,339 - automation - INFO - 测试文档下载功能
+2025-04-11 09:51:58,401 - automation - INFO - 成功点击下载按钮
+2025-04-11 09:51:59,465 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 09:52:01,470 - automation - INFO - 关闭文档查看弹框
+2025-04-11 09:52:01,518 - automation - INFO - 成功关闭文档查看弹框
+2025-04-11 09:52:13,587 - automation - INFO - 确认文档查看弹框已关闭
+2025-04-11 09:52:13,587 - automation - INFO - 开始导出和编辑阅卷笔记
+2025-04-11 09:52:13,587 - automation - INFO - 点击导出阅卷笔记按钮
+2025-04-11 09:52:15,667 - automation - INFO - 点击查询和替换按钮
+2025-04-11 09:52:16,767 - automation - INFO - 输入查找内容
+2025-04-11 09:52:17,815 - automation - INFO - 输入替换内容
+2025-04-11 09:52:18,873 - automation - INFO - 点击查找按钮
+2025-04-11 09:52:19,939 - automation - INFO - 点击替换按钮
+2025-04-11 09:52:21,023 - automation - INFO - 点击查找按钮
+2025-04-11 09:52:22,094 - automation - INFO - 点击全部替换按钮
+2025-04-11 09:52:23,166 - automation - INFO - 关闭弹框
+2025-04-11 09:52:24,222 - automation - INFO - 点击保存按钮
+2025-04-11 09:52:26,277 - automation - INFO - 阅卷笔记导出和编辑操作完成
+2025-04-11 09:52:26,277 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 09:52:26,395 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_095226.png
+2025-04-11 09:52:26,395 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 09:52:26,397 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 09:52:26,398 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 09:52:26,398 - automation - INFO - 正在关闭浏览器...
+2025-04-11 09:52:28,571 - automation - INFO - 浏览器已关闭
+2025-04-11 09:52:28,573 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 09:52:48,846 - automation - INFO - 已关闭浏览器实例
+2025-04-11 10:00:45,147 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 10:00:45,147 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 10:00:45,147 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 10:00:45,147 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 10:00:47,565 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 10:00:47,585 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 10:00:47,585 - automation - INFO - 开始登录系统
+2025-04-11 10:00:50,347 - automation - INFO - 成功打开登录页面
+2025-04-11 10:00:50,347 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 10:00:50,464 - automation - INFO - 用户名输入完成
+2025-04-11 10:00:50,464 - automation - INFO - 开始输入密码
+2025-04-11 10:00:50,574 - automation - INFO - 密码输入完成
+2025-04-11 10:00:50,591 - automation - INFO - ==================================================
+2025-04-11 10:00:50,591 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 10:00:50,593 - automation - INFO - ==================================================
+2025-04-11 10:00:56,602 - automation - INFO - 验证码已自动填入
+2025-04-11 10:00:57,610 - automation - INFO - 尝试点击登录按钮
+2025-04-11 10:00:57,678 - automation - INFO - 登录按钮点击成功
+2025-04-11 10:00:57,679 - automation - INFO - 登录成功
+2025-04-11 10:00:57,679 - automation - INFO - 登录系统完成
+2025-04-11 10:00:57,679 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 10:00:58,069 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 10:01:00,072 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 10:01:00,124 - automation - INFO - 成功点击判决书
+2025-04-11 10:01:02,139 - automation - INFO - 测试缩小文档视图
+2025-04-11 10:01:02,240 - automation - INFO - 成功点击缩小按钮
+2025-04-11 10:01:03,250 - automation - INFO - 测试放大文档视图
+2025-04-11 10:01:03,345 - automation - INFO - 成功点击放大按钮
+2025-04-11 10:01:04,349 - automation - INFO - 测试文档下载功能
+2025-04-11 10:01:04,418 - automation - INFO - 成功点击下载按钮
+2025-04-11 10:01:05,493 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 10:01:07,506 - automation - INFO - 关闭判决书预览弹框
+2025-04-11 10:01:07,562 - automation - INFO - 成功关闭判决书预览弹框
+2025-04-11 10:01:09,575 - automation - ERROR - 关闭文档查看器失败
+2025-04-11 10:01:09,576 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 10:01:09,680 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 10:01:09,682 - automation - INFO - 正在关闭浏览器...
+2025-04-11 10:01:11,874 - automation - INFO - 浏览器已关闭
+2025-04-11 10:01:11,875 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 10:01:32,080 - automation - INFO - 已关闭浏览器实例
+2025-04-11 10:02:53,300 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 10:02:53,300 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 10:02:53,300 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 10:02:53,300 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 10:02:55,288 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 10:02:55,302 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 10:02:55,302 - automation - INFO - 开始登录系统
+2025-04-11 10:02:58,048 - automation - INFO - 成功打开登录页面
+2025-04-11 10:02:58,048 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 10:02:58,161 - automation - INFO - 用户名输入完成
+2025-04-11 10:02:58,161 - automation - INFO - 开始输入密码
+2025-04-11 10:02:58,274 - automation - INFO - 密码输入完成
+2025-04-11 10:02:58,294 - automation - INFO - ==================================================
+2025-04-11 10:02:58,294 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 10:02:58,295 - automation - INFO - ==================================================
+2025-04-11 10:03:04,332 - automation - INFO - 验证码已自动填入
+2025-04-11 10:03:05,342 - automation - INFO - 尝试点击登录按钮
+2025-04-11 10:03:05,405 - automation - INFO - 登录按钮点击成功
+2025-04-11 10:03:05,406 - automation - INFO - 登录成功
+2025-04-11 10:03:05,406 - automation - INFO - 登录系统完成
+2025-04-11 10:03:05,406 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 10:03:05,784 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 10:03:07,793 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 10:03:07,838 - automation - INFO - 成功点击判决书
+2025-04-11 10:03:09,853 - automation - INFO - 测试缩小文档视图
+2025-04-11 10:03:09,943 - automation - INFO - 成功点击缩小按钮
+2025-04-11 10:03:10,955 - automation - INFO - 测试放大文档视图
+2025-04-11 10:03:11,054 - automation - INFO - 成功点击放大按钮
+2025-04-11 10:03:12,054 - automation - INFO - 测试文档下载功能
+2025-04-11 10:03:12,134 - automation - INFO - 成功点击下载按钮
+2025-04-11 10:03:13,208 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 10:03:15,208 - automation - INFO - 关闭判决书预览弹框
+2025-04-11 10:03:15,288 - automation - INFO - 成功关闭判决书预览弹框
+2025-04-11 10:03:17,302 - automation - ERROR - 关闭文档查看器失败
+2025-04-11 10:03:17,302 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 10:03:17,404 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 10:03:17,404 - automation - INFO - 正在关闭浏览器...
+2025-04-11 10:03:19,595 - automation - INFO - 浏览器已关闭
+2025-04-11 10:03:19,596 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 10:03:39,833 - automation - INFO - 已关闭浏览器实例
+2025-04-11 10:06:50,397 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 10:06:50,398 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 10:06:50,398 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 10:06:50,398 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 10:06:52,351 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 10:06:52,370 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 10:06:52,372 - automation - INFO - 开始登录系统
+2025-04-11 10:06:55,143 - automation - INFO - 成功打开登录页面
+2025-04-11 10:06:55,143 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 10:06:55,251 - automation - INFO - 用户名输入完成
+2025-04-11 10:06:55,251 - automation - INFO - 开始输入密码
+2025-04-11 10:06:55,364 - automation - INFO - 密码输入完成
+2025-04-11 10:06:55,381 - automation - INFO - ==================================================
+2025-04-11 10:06:55,381 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 10:06:55,381 - automation - INFO - ==================================================
+2025-04-11 10:07:01,314 - automation - INFO - 验证码已自动填入
+2025-04-11 10:07:02,320 - automation - INFO - 尝试点击登录按钮
+2025-04-11 10:07:02,383 - automation - INFO - 登录按钮点击成功
+2025-04-11 10:07:02,383 - automation - INFO - 登录成功
+2025-04-11 10:07:02,383 - automation - INFO - 登录系统完成
+2025-04-11 10:07:02,383 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 10:07:02,770 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 10:07:04,777 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 10:07:04,818 - automation - INFO - 成功点击判决书
+2025-04-11 10:07:06,828 - automation - INFO - 测试缩小文档视图
+2025-04-11 10:07:06,911 - automation - INFO - 成功点击缩小按钮
+2025-04-11 10:07:07,915 - automation - INFO - 测试放大文档视图
+2025-04-11 10:07:08,020 - automation - INFO - 成功点击放大按钮
+2025-04-11 10:07:09,028 - automation - INFO - 测试文档下载功能
+2025-04-11 10:07:09,084 - automation - INFO - 成功点击下载按钮
+2025-04-11 10:07:10,179 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 10:07:12,187 - automation - INFO - 关闭判决书预览弹框
+2025-04-11 10:07:12,269 - automation - INFO - 成功关闭判决书预览弹框
+2025-04-11 10:07:24,302 - automation - INFO - 确认文档查看弹框已关闭
+2025-04-11 10:07:24,302 - automation - INFO - 开始导出和编辑阅卷笔记
+2025-04-11 10:07:24,303 - automation - INFO - 点击导出阅卷笔记按钮
+2025-04-11 10:07:26,383 - automation - INFO - 点击查询和替换按钮
+2025-04-11 10:07:27,486 - automation - INFO - 输入查找内容
+2025-04-11 10:07:28,554 - automation - INFO - 输入替换内容
+2025-04-11 10:07:29,609 - automation - INFO - 点击查找按钮
+2025-04-11 10:07:30,665 - automation - INFO - 点击替换按钮
+2025-04-11 10:07:31,738 - automation - INFO - 点击查找按钮
+2025-04-11 10:07:32,807 - automation - INFO - 点击全部替换按钮
+2025-04-11 10:07:33,880 - automation - INFO - 关闭弹框
+2025-04-11 10:07:34,947 - automation - INFO - 点击保存按钮
+2025-04-11 10:07:37,024 - automation - INFO - 阅卷笔记导出和编辑操作完成
+2025-04-11 10:07:37,024 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 10:07:37,112 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_100737.png
+2025-04-11 10:07:37,112 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 10:07:37,112 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 10:07:37,115 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 10:07:37,115 - automation - INFO - 正在关闭浏览器...
+2025-04-11 10:07:39,291 - automation - INFO - 浏览器已关闭
+2025-04-11 10:07:39,293 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 10:07:59,516 - automation - INFO - 已关闭浏览器实例
+2025-04-11 10:09:22,793 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 10:09:22,793 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 10:09:22,793 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 10:09:22,793 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 10:09:24,789 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 10:09:24,805 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 10:09:24,805 - automation - INFO - 开始登录系统
+2025-04-11 10:09:27,564 - automation - INFO - 成功打开登录页面
+2025-04-11 10:09:27,564 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 10:09:27,663 - automation - INFO - 用户名输入完成
+2025-04-11 10:09:27,663 - automation - INFO - 开始输入密码
+2025-04-11 10:09:27,781 - automation - INFO - 密码输入完成
+2025-04-11 10:09:27,799 - automation - INFO - ==================================================
+2025-04-11 10:09:27,799 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 10:09:27,799 - automation - INFO - ==================================================
+2025-04-11 10:09:36,991 - automation - INFO - 验证码已自动填入
+2025-04-11 10:09:38,001 - automation - INFO - 尝试点击登录按钮
+2025-04-11 10:09:38,068 - automation - INFO - 登录按钮点击成功
+2025-04-11 10:09:38,070 - automation - INFO - 登录成功
+2025-04-11 10:09:38,070 - automation - INFO - 登录系统完成
+2025-04-11 10:09:38,070 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 10:09:38,502 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 10:09:40,508 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 10:09:40,554 - automation - INFO - 成功点击判决书
+2025-04-11 10:09:42,569 - automation - INFO - 测试缩小文档视图
+2025-04-11 10:09:42,677 - automation - INFO - 成功点击缩小按钮
+2025-04-11 10:09:43,683 - automation - INFO - 测试放大文档视图
+2025-04-11 10:09:43,778 - automation - INFO - 成功点击放大按钮
+2025-04-11 10:09:44,785 - automation - INFO - 测试文档下载功能
+2025-04-11 10:09:44,838 - automation - INFO - 成功点击下载按钮
+2025-04-11 10:09:45,919 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 10:09:47,925 - automation - INFO - 关闭判决书预览弹框
+2025-04-11 10:09:48,000 - automation - INFO - 成功关闭判决书预览弹框
+2025-04-11 10:09:51,006 - automation - ERROR - 关闭判决书预览失败
+2025-04-11 10:09:51,006 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 10:09:51,099 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 10:09:51,099 - automation - INFO - 正在关闭浏览器...
+2025-04-11 10:09:53,296 - automation - INFO - 浏览器已关闭
+2025-04-11 10:09:53,297 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 10:10:13,516 - automation - INFO - 已关闭浏览器实例
+2025-04-11 10:11:03,144 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 10:11:03,144 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 10:11:03,144 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 10:11:03,144 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 10:11:05,155 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 10:11:05,166 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 10:11:05,167 - automation - INFO - 开始登录系统
+2025-04-11 10:11:07,918 - automation - INFO - 成功打开登录页面
+2025-04-11 10:11:07,918 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 10:11:08,034 - automation - INFO - 用户名输入完成
+2025-04-11 10:11:08,034 - automation - INFO - 开始输入密码
+2025-04-11 10:11:08,154 - automation - INFO - 密码输入完成
+2025-04-11 10:11:08,171 - automation - INFO - ==================================================
+2025-04-11 10:11:08,171 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 10:11:08,172 - automation - INFO - ==================================================
+2025-04-11 10:11:14,678 - automation - INFO - 验证码已自动填入
+2025-04-11 10:11:15,695 - automation - INFO - 尝试点击登录按钮
+2025-04-11 10:11:15,763 - automation - INFO - 登录按钮点击成功
+2025-04-11 10:11:15,763 - automation - INFO - 登录成功
+2025-04-11 10:11:15,763 - automation - INFO - 登录系统完成
+2025-04-11 10:11:15,763 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 10:11:16,149 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 10:11:18,152 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 10:11:18,194 - automation - INFO - 成功点击判决书
+2025-04-11 10:11:20,200 - automation - INFO - 测试缩小文档视图
+2025-04-11 10:11:20,298 - automation - INFO - 成功点击缩小按钮
+2025-04-11 10:11:21,304 - automation - INFO - 测试放大文档视图
+2025-04-11 10:11:21,375 - automation - INFO - 成功点击放大按钮
+2025-04-11 10:11:22,391 - automation - INFO - 测试文档下载功能
+2025-04-11 10:11:22,445 - automation - INFO - 成功点击下载按钮
+2025-04-11 10:11:23,515 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 10:11:25,527 - automation - INFO - 关闭判决书预览弹框
+2025-04-11 10:11:25,597 - automation - INFO - 成功关闭判决书预览弹框
+2025-04-11 10:11:35,644 - automation - INFO - 确认文档查看弹框已关闭
+2025-04-11 10:11:35,644 - automation - INFO - 开始导出和编辑阅卷笔记
+2025-04-11 10:11:35,644 - automation - INFO - 点击导出阅卷笔记按钮
+2025-04-11 10:11:37,728 - automation - INFO - 点击查询和替换按钮
+2025-04-11 10:11:38,829 - automation - INFO - 输入查找内容
+2025-04-11 10:11:39,882 - automation - INFO - 输入替换内容
+2025-04-11 10:11:41,029 - automation - INFO - 点击查找按钮
+2025-04-11 10:11:42,105 - automation - INFO - 点击替换按钮
+2025-04-11 10:11:43,169 - automation - INFO - 点击查找按钮
+2025-04-11 10:11:44,229 - automation - INFO - 点击全部替换按钮
+2025-04-11 10:11:45,299 - automation - INFO - 关闭弹框
+2025-04-11 10:11:46,369 - automation - INFO - 点击保存按钮
+2025-04-11 10:11:48,450 - automation - INFO - 阅卷笔记导出和编辑操作完成
+2025-04-11 10:11:48,450 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 10:11:48,537 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_101148.png
+2025-04-11 10:11:48,538 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 10:11:48,538 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 10:11:48,539 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 10:11:48,540 - automation - INFO - 正在关闭浏览器...
+2025-04-11 10:11:50,726 - automation - INFO - 浏览器已关闭
+2025-04-11 10:11:50,727 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 10:12:10,979 - automation - INFO - 已关闭浏览器实例
+2025-04-11 10:16:17,731 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 10:16:17,731 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 10:16:17,731 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 10:16:17,732 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 10:16:19,681 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 10:16:19,699 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 10:16:19,699 - automation - INFO - 开始登录系统
+2025-04-11 10:16:22,495 - automation - INFO - 成功打开登录页面
+2025-04-11 10:16:22,495 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 10:16:22,608 - automation - INFO - 用户名输入完成
+2025-04-11 10:16:22,608 - automation - INFO - 开始输入密码
+2025-04-11 10:16:22,726 - automation - INFO - 密码输入完成
+2025-04-11 10:16:22,742 - automation - INFO - ==================================================
+2025-04-11 10:16:22,742 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 10:16:22,742 - automation - INFO - ==================================================
+2025-04-11 10:16:29,479 - automation - INFO - 验证码已自动填入
+2025-04-11 10:16:30,490 - automation - INFO - 尝试点击登录按钮
+2025-04-11 10:16:30,564 - automation - INFO - 登录按钮点击成功
+2025-04-11 10:16:30,564 - automation - INFO - 登录成功
+2025-04-11 10:16:30,564 - automation - INFO - 登录系统完成
+2025-04-11 10:16:30,565 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 10:16:31,007 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 10:16:33,013 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 10:16:33,056 - automation - INFO - 成功点击判决书
+2025-04-11 10:16:35,064 - automation - INFO - 测试缩小文档视图
+2025-04-11 10:16:35,151 - automation - INFO - 成功点击缩小按钮
+2025-04-11 10:16:36,164 - automation - INFO - 测试放大文档视图
+2025-04-11 10:16:36,265 - automation - INFO - 成功点击放大按钮
+2025-04-11 10:16:37,279 - automation - INFO - 测试文档下载功能
+2025-04-11 10:16:37,326 - automation - INFO - 成功点击下载按钮
+2025-04-11 10:16:38,390 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 10:16:40,398 - automation - INFO - 关闭判决书预览弹框
+2025-04-11 10:16:40,482 - automation - INFO - 已点击关闭按钮
+2025-04-11 10:16:50,490 - automation - INFO - 确认判决书预览弹框已完全关闭
+2025-04-11 10:16:51,002 - automation - INFO - 开始导出和编辑阅卷笔记
+2025-04-11 10:16:51,002 - automation - INFO - 点击导出阅卷笔记按钮
+2025-04-11 10:16:53,074 - automation - INFO - 点击查询和替换按钮
+2025-04-11 10:16:54,169 - automation - INFO - 输入查找内容
+2025-04-11 10:16:55,227 - automation - INFO - 输入替换内容
+2025-04-11 10:16:56,306 - automation - INFO - 点击查找按钮
+2025-04-11 10:16:57,379 - automation - INFO - 点击替换按钮
+2025-04-11 10:16:58,467 - automation - INFO - 点击查找按钮
+2025-04-11 10:16:59,521 - automation - INFO - 点击全部替换按钮
+2025-04-11 10:17:00,602 - automation - INFO - 关闭弹框
+2025-04-11 10:17:01,670 - automation - INFO - 点击保存按钮
+2025-04-11 10:17:03,747 - automation - INFO - 阅卷笔记导出和编辑操作完成
+2025-04-11 10:17:03,747 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 10:17:03,855 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_101703.png
+2025-04-11 10:17:03,855 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 10:17:03,855 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 10:17:03,857 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 10:17:03,859 - automation - INFO - 正在关闭浏览器...
+2025-04-11 10:17:06,037 - automation - INFO - 浏览器已关闭
+2025-04-11 10:17:06,039 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 10:17:26,248 - automation - INFO - 已关闭浏览器实例
+2025-04-11 10:19:29,511 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 10:19:29,511 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 10:19:29,511 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 10:19:29,512 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 10:19:31,509 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 10:19:31,522 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 10:19:31,523 - automation - INFO - 开始登录系统
+2025-04-11 10:19:34,633 - automation - INFO - 成功打开登录页面
+2025-04-11 10:19:34,633 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 10:19:34,777 - automation - INFO - 用户名输入完成
+2025-04-11 10:19:34,778 - automation - INFO - 开始输入密码
+2025-04-11 10:19:34,918 - automation - INFO - 密码输入完成
+2025-04-11 10:19:34,941 - automation - INFO - ==================================================
+2025-04-11 10:19:34,941 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 10:19:34,941 - automation - INFO - ==================================================
+2025-04-11 10:19:41,372 - automation - INFO - 验证码已自动填入
+2025-04-11 10:19:42,388 - automation - INFO - 尝试点击登录按钮
+2025-04-11 10:19:42,455 - automation - INFO - 登录按钮点击成功
+2025-04-11 10:19:42,455 - automation - INFO - 登录成功
+2025-04-11 10:19:42,455 - automation - INFO - 登录系统完成
+2025-04-11 10:19:42,455 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 10:19:42,866 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 10:19:44,875 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 10:19:44,921 - automation - INFO - 成功点击判决书
+2025-04-11 10:19:46,934 - automation - INFO - 测试缩小文档视图
+2025-04-11 10:19:47,032 - automation - INFO - 成功点击缩小按钮
+2025-04-11 10:19:48,036 - automation - INFO - 测试放大文档视图
+2025-04-11 10:19:48,127 - automation - INFO - 成功点击放大按钮
+2025-04-11 10:19:49,132 - automation - INFO - 测试文档下载功能
+2025-04-11 10:19:49,188 - automation - INFO - 成功点击下载按钮
+2025-04-11 10:19:50,268 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 10:19:52,268 - automation - INFO - 关闭判决书预览弹框
+2025-04-11 10:19:52,383 - automation - INFO - 已点击关闭按钮
+2025-04-11 10:20:02,410 - automation - INFO - 确认判决书预览弹框已完全关闭
+2025-04-11 10:20:02,921 - automation - INFO - 开始导出和编辑阅卷笔记
+2025-04-11 10:20:02,921 - automation - INFO - 点击导出阅卷笔记按钮
+2025-04-11 10:20:04,996 - automation - INFO - 点击查询和替换按钮
+2025-04-11 10:20:06,096 - automation - INFO - 输入查找内容
+2025-04-11 10:20:07,164 - automation - INFO - 输入替换内容
+2025-04-11 10:20:08,228 - automation - INFO - 点击查找按钮
+2025-04-11 10:20:09,313 - automation - INFO - 点击替换按钮
+2025-04-11 10:20:10,388 - automation - INFO - 点击查找按钮
+2025-04-11 10:20:11,450 - automation - INFO - 点击全部替换按钮
+2025-04-11 10:20:12,517 - automation - INFO - 关闭弹框
+2025-04-11 10:20:13,583 - automation - INFO - 点击保存按钮
+2025-04-11 10:20:15,659 - automation - INFO - 阅卷笔记导出和编辑操作完成
+2025-04-11 10:20:15,659 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 10:20:15,747 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_102015.png
+2025-04-11 10:20:15,747 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 10:20:15,747 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 10:20:15,749 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 10:20:15,749 - automation - INFO - 正在关闭浏览器...
+2025-04-11 10:20:17,935 - automation - INFO - 浏览器已关闭
+2025-04-11 10:20:17,936 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 10:20:38,138 - automation - INFO - 已关闭浏览器实例
+2025-04-11 10:21:43,647 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 10:21:43,648 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 10:21:43,648 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 10:21:43,648 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 10:21:46,044 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 10:21:46,059 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 10:21:46,059 - automation - INFO - 开始登录系统
+2025-04-11 10:21:48,869 - automation - INFO - 成功打开登录页面
+2025-04-11 10:21:48,869 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 10:21:48,979 - automation - INFO - 用户名输入完成
+2025-04-11 10:21:48,980 - automation - INFO - 开始输入密码
+2025-04-11 10:21:49,108 - automation - INFO - 密码输入完成
+2025-04-11 10:21:49,124 - automation - INFO - ==================================================
+2025-04-11 10:21:49,124 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 10:21:49,124 - automation - INFO - ==================================================
+2025-04-11 10:22:00,339 - automation - INFO - 验证码已自动填入
+2025-04-11 10:22:01,352 - automation - INFO - 尝试点击登录按钮
+2025-04-11 10:22:01,428 - automation - INFO - 登录按钮点击成功
+2025-04-11 10:22:01,429 - automation - INFO - 登录成功
+2025-04-11 10:22:01,429 - automation - INFO - 登录系统完成
+2025-04-11 10:22:01,429 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 10:22:01,839 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 10:22:03,843 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 10:22:03,886 - automation - INFO - 成功点击判决书
+2025-04-11 10:22:05,897 - automation - INFO - 测试缩小文档视图
+2025-04-11 10:22:05,996 - automation - INFO - 成功点击缩小按钮
+2025-04-11 10:22:06,999 - automation - INFO - 测试放大文档视图
+2025-04-11 10:22:07,126 - automation - INFO - 成功点击放大按钮
+2025-04-11 10:22:08,140 - automation - INFO - 测试文档下载功能
+2025-04-11 10:22:08,194 - automation - INFO - 成功点击下载按钮
+2025-04-11 10:22:09,291 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 10:22:11,294 - automation - INFO - 关闭判决书预览弹框
+2025-04-11 10:22:11,378 - automation - INFO - 已点击关闭按钮
+2025-04-11 10:22:11,378 - automation - ERROR - 关闭判决书预览失败
+2025-04-11 10:22:11,378 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 10:22:11,462 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 10:22:11,464 - automation - INFO - 正在关闭浏览器...
+2025-04-11 10:22:13,762 - automation - INFO - 浏览器已关闭
+2025-04-11 10:22:13,764 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 10:22:34,002 - automation - INFO - 已关闭浏览器实例
+2025-04-11 10:22:39,385 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 10:22:39,386 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 10:22:39,386 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 10:22:39,386 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 10:22:41,349 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 10:22:41,365 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 10:22:41,365 - automation - INFO - 开始登录系统
+2025-04-11 10:22:44,309 - automation - INFO - 成功打开登录页面
+2025-04-11 10:22:44,309 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 10:22:44,416 - automation - INFO - 用户名输入完成
+2025-04-11 10:22:44,416 - automation - INFO - 开始输入密码
+2025-04-11 10:22:44,521 - automation - INFO - 密码输入完成
+2025-04-11 10:22:44,537 - automation - INFO - ==================================================
+2025-04-11 10:22:44,537 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 10:22:44,537 - automation - INFO - ==================================================
+2025-04-11 10:22:51,330 - automation - INFO - 验证码已自动填入
+2025-04-11 10:22:52,335 - automation - INFO - 尝试点击登录按钮
+2025-04-11 10:22:52,410 - automation - INFO - 登录按钮点击成功
+2025-04-11 10:22:52,411 - automation - INFO - 登录成功
+2025-04-11 10:22:52,411 - automation - INFO - 登录系统完成
+2025-04-11 10:22:52,411 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 10:22:52,801 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 10:22:54,805 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 10:22:54,856 - automation - INFO - 成功点击判决书
+2025-04-11 10:22:56,859 - automation - INFO - 测试缩小文档视图
+2025-04-11 10:22:56,946 - automation - INFO - 成功点击缩小按钮
+2025-04-11 10:22:57,954 - automation - INFO - 测试放大文档视图
+2025-04-11 10:22:58,054 - automation - INFO - 成功点击放大按钮
+2025-04-11 10:22:59,061 - automation - INFO - 测试文档下载功能
+2025-04-11 10:22:59,111 - automation - INFO - 成功点击下载按钮
+2025-04-11 10:23:00,177 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 10:23:02,189 - automation - INFO - 关闭判决书预览弹框
+2025-04-11 10:23:02,276 - automation - INFO - 已点击关闭按钮
+2025-04-11 10:23:06,286 - automation - ERROR - 关闭判决书预览失败
+2025-04-11 10:23:06,286 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 10:23:06,407 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 10:23:06,407 - automation - INFO - 正在关闭浏览器...
+2025-04-11 10:23:08,560 - automation - INFO - 浏览器已关闭
+2025-04-11 10:23:08,561 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 10:23:28,781 - automation - INFO - 已关闭浏览器实例
+2025-04-11 11:03:00,904 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 11:03:00,905 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 11:03:00,905 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 11:03:00,905 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 11:03:04,063 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 11:03:04,080 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 11:03:04,080 - automation - INFO - 开始登录系统
+2025-04-11 11:03:06,485 - automation - INFO - 成功打开登录页面
+2025-04-11 11:03:06,485 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 11:03:06,599 - automation - INFO - 用户名输入完成
+2025-04-11 11:03:06,599 - automation - INFO - 开始输入密码
+2025-04-11 11:03:06,701 - automation - INFO - 密码输入完成
+2025-04-11 11:03:06,719 - automation - INFO - ==================================================
+2025-04-11 11:03:06,719 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 11:03:06,719 - automation - INFO - ==================================================
+2025-04-11 11:03:17,959 - automation - INFO - 验证码已自动填入
+2025-04-11 11:03:18,978 - automation - INFO - 尝试点击登录按钮
+2025-04-11 11:03:19,042 - automation - INFO - 登录按钮点击成功
+2025-04-11 11:03:19,042 - automation - INFO - 登录成功
+2025-04-11 11:03:19,043 - automation - INFO - 登录系统完成
+2025-04-11 11:03:19,043 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 11:03:19,466 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 11:03:21,467 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 11:03:21,511 - automation - INFO - 成功点击判决书
+2025-04-11 11:03:23,514 - automation - INFO - 测试缩小文档视图
+2025-04-11 11:03:23,622 - automation - INFO - 成功点击缩小按钮
+2025-04-11 11:03:24,625 - automation - INFO - 测试放大文档视图
+2025-04-11 11:03:24,737 - automation - INFO - 成功点击放大按钮
+2025-04-11 11:03:25,740 - automation - INFO - 测试文档下载功能
+2025-04-11 11:03:25,802 - automation - INFO - 成功点击下载按钮
+2025-04-11 11:03:26,900 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 11:03:28,912 - automation - ERROR - PDF文件下载失败
+2025-04-11 11:03:28,912 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 11:03:29,428 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 11:03:29,428 - automation - INFO - 正在关闭浏览器...
+2025-04-11 11:03:31,643 - automation - INFO - 浏览器已关闭
+2025-04-11 11:03:31,647 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 11:03:51,928 - automation - INFO - 已关闭浏览器实例
+2025-04-11 11:04:00,047 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 11:04:00,047 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 11:04:00,047 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 11:04:00,048 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 11:04:02,095 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 11:04:02,113 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 11:04:02,113 - automation - INFO - 开始登录系统
+2025-04-11 11:04:04,793 - automation - INFO - 成功打开登录页面
+2025-04-11 11:04:04,793 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 11:04:04,906 - automation - INFO - 用户名输入完成
+2025-04-11 11:04:04,906 - automation - INFO - 开始输入密码
+2025-04-11 11:04:05,017 - automation - INFO - 密码输入完成
+2025-04-11 11:04:05,033 - automation - INFO - ==================================================
+2025-04-11 11:04:05,034 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 11:04:05,036 - automation - INFO - ==================================================
+2025-04-11 11:04:12,003 - automation - INFO - 验证码已自动填入
+2025-04-11 11:04:13,016 - automation - INFO - 尝试点击登录按钮
+2025-04-11 11:04:13,091 - automation - INFO - 登录按钮点击成功
+2025-04-11 11:04:13,091 - automation - INFO - 登录成功
+2025-04-11 11:04:13,091 - automation - INFO - 登录系统完成
+2025-04-11 11:04:13,091 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 11:04:13,665 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 11:04:15,677 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 11:04:15,723 - automation - INFO - 成功点击判决书
+2025-04-11 11:04:17,736 - automation - INFO - 测试缩小文档视图
+2025-04-11 11:04:17,842 - automation - INFO - 成功点击缩小按钮
+2025-04-11 11:04:18,845 - automation - INFO - 测试放大文档视图
+2025-04-11 11:04:18,947 - automation - INFO - 成功点击放大按钮
+2025-04-11 11:04:19,954 - automation - INFO - 测试文档下载功能
+2025-04-11 11:04:19,998 - automation - INFO - 成功点击下载按钮
+2025-04-11 11:04:21,077 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 11:04:23,080 - automation - INFO - 关闭判决书预览弹框
+2025-04-11 11:04:23,182 - automation - INFO - 已点击关闭按钮
+2025-04-11 11:04:37,237 - automation - INFO - 确认判决书预览弹框已完全关闭
+2025-04-11 11:04:37,237 - automation - INFO - 开始导出和编辑阅卷笔记
+2025-04-11 11:04:37,237 - automation - INFO - 点击导出阅卷笔记按钮
+2025-04-11 11:04:39,318 - automation - INFO - 点击查询和替换按钮
+2025-04-11 11:04:40,645 - automation - INFO - 输入查找内容
+2025-04-11 11:04:41,729 - automation - INFO - 输入替换内容
+2025-04-11 11:04:42,827 - automation - INFO - 点击查找按钮
+2025-04-11 11:04:43,895 - automation - INFO - 点击替换按钮
+2025-04-11 11:04:44,979 - automation - INFO - 点击查找按钮
+2025-04-11 11:04:46,029 - automation - INFO - 点击全部替换按钮
+2025-04-11 11:04:47,108 - automation - INFO - 关闭弹框
+2025-04-11 11:04:48,176 - automation - INFO - 点击保存按钮
+2025-04-11 11:04:50,247 - automation - INFO - 阅卷笔记导出和编辑操作完成
+2025-04-11 11:04:50,247 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 11:04:50,349 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_110450.png
+2025-04-11 11:04:50,349 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 11:04:50,349 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 11:04:50,351 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 11:04:50,351 - automation - INFO - 正在关闭浏览器...
+2025-04-11 11:04:52,521 - automation - INFO - 浏览器已关闭
+2025-04-11 11:04:52,523 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 11:05:12,717 - automation - INFO - 已关闭浏览器实例
+2025-04-11 13:13:10,942 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 13:13:10,942 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 13:13:10,942 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 13:13:10,942 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 13:13:12,984 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 13:13:13,001 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 13:13:13,003 - automation - INFO - 开始登录系统
+2025-04-11 13:13:15,455 - automation - INFO - 成功打开登录页面
+2025-04-11 13:13:15,455 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 13:13:15,623 - automation - INFO - 用户名输入完成
+2025-04-11 13:13:15,623 - automation - INFO - 开始输入密码
+2025-04-11 13:13:15,727 - automation - INFO - 密码输入完成
+2025-04-11 13:13:15,744 - automation - INFO - ==================================================
+2025-04-11 13:13:15,744 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 13:13:15,744 - automation - INFO - ==================================================
+2025-04-11 13:13:22,511 - automation - INFO - 验证码已自动填入
+2025-04-11 13:13:23,527 - automation - INFO - 尝试点击登录按钮
+2025-04-11 13:13:23,594 - automation - INFO - 登录按钮点击成功
+2025-04-11 13:13:23,594 - automation - INFO - 登录成功
+2025-04-11 13:13:23,594 - automation - INFO - 登录系统完成
+2025-04-11 13:13:23,594 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 13:13:24,002 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 13:13:26,013 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 13:13:26,057 - automation - INFO - 成功点击判决书
+2025-04-11 13:13:28,068 - automation - INFO - 测试缩小文档视图
+2025-04-11 13:13:28,161 - automation - INFO - 成功点击缩小按钮
+2025-04-11 13:13:29,169 - automation - INFO - 测试放大文档视图
+2025-04-11 13:13:29,275 - automation - INFO - 成功点击放大按钮
+2025-04-11 13:13:30,281 - automation - INFO - 测试文档下载功能
+2025-04-11 13:13:30,341 - automation - INFO - 成功点击下载按钮
+2025-04-11 13:13:31,419 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 13:13:33,419 - automation - INFO - 关闭判决书预览弹框
+2025-04-11 13:13:33,516 - automation - INFO - 已点击关闭按钮
+2025-04-11 13:13:47,529 - automation - INFO - 确认判决书预览弹框已完全关闭
+2025-04-11 13:13:47,529 - automation - ERROR - 执行阅卷笔记工作流程时出错: 'ReadingNotesPage' object has no attribute 'export_and_edit_notes'
+2025-04-11 13:13:47,604 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\workflow_error_131347.png
+2025-04-11 13:13:47,605 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 13:13:47,865 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 13:13:47,865 - automation - INFO - 正在关闭浏览器...
+2025-04-11 13:13:50,031 - automation - INFO - 浏览器已关闭
+2025-04-11 13:13:50,032 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 13:14:10,269 - automation - INFO - 已关闭浏览器实例
+2025-04-11 13:15:54,838 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 13:15:54,838 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 13:15:54,838 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 13:15:54,838 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 13:15:56,814 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 13:15:56,831 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 13:15:56,831 - automation - INFO - 开始登录系统
+2025-04-11 13:15:59,426 - automation - INFO - 成功打开登录页面
+2025-04-11 13:15:59,426 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 13:15:59,533 - automation - INFO - 用户名输入完成
+2025-04-11 13:15:59,533 - automation - INFO - 开始输入密码
+2025-04-11 13:15:59,649 - automation - INFO - 密码输入完成
+2025-04-11 13:15:59,665 - automation - INFO - ==================================================
+2025-04-11 13:15:59,665 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 13:15:59,665 - automation - INFO - ==================================================
+2025-04-11 13:16:06,001 - automation - INFO - 验证码已自动填入
+2025-04-11 13:16:07,020 - automation - INFO - 尝试点击登录按钮
+2025-04-11 13:16:07,087 - automation - INFO - 登录按钮点击成功
+2025-04-11 13:16:07,087 - automation - INFO - 登录成功
+2025-04-11 13:16:07,087 - automation - INFO - 登录系统完成
+2025-04-11 13:16:07,087 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 13:16:13,400 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 13:16:15,414 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-11 13:16:15,469 - automation - INFO - 成功点击判决书
+2025-04-11 13:16:17,479 - automation - INFO - 测试缩小文档视图
+2025-04-11 13:16:17,603 - automation - INFO - 成功点击缩小按钮
+2025-04-11 13:16:18,609 - automation - INFO - 测试放大文档视图
+2025-04-11 13:16:18,704 - automation - INFO - 成功点击放大按钮
+2025-04-11 13:16:19,705 - automation - INFO - 测试文档下载功能
+2025-04-11 13:16:19,767 - automation - INFO - 成功点击下载按钮
+2025-04-11 13:16:20,842 - automation - INFO - 成功选择PDF下载选项
+2025-04-11 13:16:22,849 - automation - INFO - 关闭判决书预览弹框
+2025-04-11 13:16:22,922 - automation - INFO - 已点击关闭按钮
+2025-04-11 13:16:36,975 - automation - INFO - 确认判决书预览弹框已完全关闭
+2025-04-11 13:16:36,975 - automation - INFO - 开始选中文本并使用AI智能问答
+2025-04-11 13:16:36,986 - automation - INFO - 找到TinyMCE编辑器区域
+2025-04-11 13:16:37,000 - automation - INFO - 已切换到编辑器iframe
+2025-04-11 13:16:58,964 - automation - WARNING - 搜索方式选择文本失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-11 13:17:00,590 - automation - INFO - 使用三次点击选择了文本
+2025-04-11 13:17:00,595 - automation - WARNING - 切回主文档失败: Message: no such element: element not found
+  (Session info: chrome=134.0.6998.177); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DEF304]
+	(No symbol) [0x00007FF6F5DEDDD3]
+	(No symbol) [0x00007FF6F5DE1869]
+	(No symbol) [0x00007FF6F5DDF632]
+	(No symbol) [0x00007FF6F5DE38FC]
+	(No symbol) [0x00007FF6F5DE39CF]
+	(No symbol) [0x00007FF6F5E296AB]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-11 13:17:00,597 - automation - INFO - 点击AI智能问答按钮
+2025-04-11 13:17:00,680 - automation - INFO - 成功点击AI智能问答按钮
+2025-04-11 13:17:00,680 - automation - INFO - 等待3秒...
+2025-04-11 13:17:03,694 - automation - INFO - 关闭AI智能问答弹框
+2025-04-11 13:17:03,769 - automation - INFO - 成功关闭AI智能问答弹框
+2025-04-11 13:17:04,779 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 13:17:04,889 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_131704.png
+2025-04-11 13:17:04,890 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 13:17:04,890 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 13:17:04,893 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 13:17:04,893 - automation - INFO - 正在关闭浏览器...
+2025-04-11 13:17:07,072 - automation - INFO - 浏览器已关闭
+2025-04-11 13:17:07,073 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 13:17:27,311 - automation - INFO - 已关闭浏览器实例
+2025-04-11 13:23:50,106 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 13:23:50,106 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 13:23:50,106 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 13:23:50,106 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 13:23:52,038 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 13:23:52,050 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 13:23:52,051 - automation - INFO - 开始登录系统
+2025-04-11 13:23:54,576 - automation - INFO - 成功打开登录页面
+2025-04-11 13:23:54,576 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 13:23:54,682 - automation - INFO - 用户名输入完成
+2025-04-11 13:23:54,682 - automation - INFO - 开始输入密码
+2025-04-11 13:23:54,791 - automation - INFO - 密码输入完成
+2025-04-11 13:23:54,808 - automation - INFO - ==================================================
+2025-04-11 13:23:54,808 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 13:23:54,809 - automation - INFO - ==================================================
+2025-04-11 13:24:01,455 - automation - INFO - 验证码已自动填入
+2025-04-11 13:24:02,462 - automation - INFO - 尝试点击登录按钮
+2025-04-11 13:24:02,536 - automation - INFO - 登录按钮点击成功
+2025-04-11 13:24:02,536 - automation - INFO - 登录成功
+2025-04-11 13:24:02,536 - automation - INFO - 登录系统完成
+2025-04-11 13:24:02,536 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 13:24:03,007 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 13:24:05,022 - automation - INFO - 开始选中文本并使用AI智能问答
+2025-04-11 13:24:15,074 - automation - WARNING - 未找到包含目标文本的元素
+2025-04-11 13:24:15,075 - automation - INFO - 点击AI智能问答按钮
+2025-04-11 13:24:15,077 - automation - INFO - 已切换到主文档
+2025-04-11 13:24:25,113 - automation - INFO - 通过通用方式找到并点击AI按钮
+2025-04-11 13:24:25,113 - automation - INFO - 等待3秒...
+2025-04-11 13:24:28,116 - automation - INFO - 关闭AI智能问答弹框
+2025-04-11 13:24:48,222 - automation - INFO - 通过ESC键尝试关闭弹框
+2025-04-11 13:24:49,228 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 13:24:49,312 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_132449.png
+2025-04-11 13:24:49,312 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 13:24:49,313 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 13:24:49,315 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 13:24:49,316 - automation - INFO - 正在关闭浏览器...
+2025-04-11 13:24:51,469 - automation - INFO - 浏览器已关闭
+2025-04-11 13:24:51,471 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 13:25:11,677 - automation - INFO - 已关闭浏览器实例
+2025-04-11 13:32:09,963 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 13:32:09,964 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 13:32:09,964 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 13:32:09,964 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 13:32:11,870 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 13:32:11,878 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 13:32:11,878 - automation - INFO - 开始登录系统
+2025-04-11 13:32:14,324 - automation - INFO - 成功打开登录页面
+2025-04-11 13:32:14,324 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 13:32:14,430 - automation - INFO - 用户名输入完成
+2025-04-11 13:32:14,431 - automation - INFO - 开始输入密码
+2025-04-11 13:32:14,529 - automation - INFO - 密码输入完成
+2025-04-11 13:32:14,543 - automation - INFO - ==================================================
+2025-04-11 13:32:14,543 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 13:32:14,544 - automation - INFO - ==================================================
+2025-04-11 13:32:21,547 - automation - INFO - 验证码已自动填入
+2025-04-11 13:32:22,555 - automation - INFO - 尝试点击登录按钮
+2025-04-11 13:32:22,667 - automation - INFO - 登录按钮点击成功
+2025-04-11 13:32:22,667 - automation - INFO - 登录成功
+2025-04-11 13:32:22,667 - automation - INFO - 登录系统完成
+2025-04-11 13:32:22,667 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 13:32:23,225 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 13:32:25,234 - automation - INFO - 开始选中文本并使用AI智能问答
+2025-04-11 13:32:25,234 - automation - INFO - 尝试查找并切换到iframe
+2025-04-11 13:32:25,244 - automation - INFO - 找到 1 个iframe
+2025-04-11 13:32:25,244 - automation - INFO - 尝试切换到第 1 个iframe
+2025-04-11 13:32:25,257 - automation - INFO - 在第 1 个iframe中找到目标文本
+2025-04-11 13:32:25,264 - automation - INFO - 在iframe中找到包含目标文本的元素
+2025-04-11 13:32:25,268 - automation - INFO - 已使用JavaScript选择iframe中的文本
+2025-04-11 13:32:26,770 - automation - INFO - 切回主文档以访问AI按钮
+2025-04-11 13:32:26,783 - automation - INFO - 点击AI智能问答按钮
+2025-04-11 13:32:47,395 - automation - WARNING - 使用预定义定位器点击AI按钮失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-11 13:32:57,444 - automation - INFO - 通过通用定位找到并点击包含AI的元素
+2025-04-11 13:32:57,444 - automation - INFO - 等待3秒...
+2025-04-11 13:33:00,455 - automation - INFO - 关闭AI智能问答弹框
+2025-04-11 13:33:21,046 - automation - WARNING - 使用预定义定位器关闭AI弹框失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-11 13:33:41,165 - automation - INFO - 通过ESC键尝试关闭弹框
+2025-04-11 13:33:42,172 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 13:33:42,280 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_133342.png
+2025-04-11 13:33:42,281 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 13:33:42,281 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 13:33:42,294 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 13:33:42,294 - automation - INFO - 正在关闭浏览器...
+2025-04-11 13:33:44,505 - automation - INFO - 浏览器已关闭
+2025-04-11 13:33:44,506 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 13:34:04,759 - automation - INFO - 已关闭浏览器实例
+2025-04-11 13:41:12,432 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 13:41:12,434 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 13:41:12,434 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 13:41:12,434 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 13:41:14,883 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 13:41:14,889 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 13:41:14,889 - automation - INFO - 开始登录系统
+2025-04-11 13:41:17,384 - automation - INFO - 成功打开登录页面
+2025-04-11 13:41:17,384 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 13:41:17,496 - automation - INFO - 用户名输入完成
+2025-04-11 13:41:17,497 - automation - INFO - 开始输入密码
+2025-04-11 13:41:17,604 - automation - INFO - 密码输入完成
+2025-04-11 13:41:17,619 - automation - INFO - ==================================================
+2025-04-11 13:41:17,619 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 13:41:17,619 - automation - INFO - ==================================================
+2025-04-11 13:41:23,965 - automation - INFO - 验证码已自动填入
+2025-04-11 13:41:24,982 - automation - INFO - 尝试点击登录按钮
+2025-04-11 13:41:25,051 - automation - INFO - 登录按钮点击成功
+2025-04-11 13:41:25,051 - automation - INFO - 登录成功
+2025-04-11 13:41:25,051 - automation - INFO - 登录系统完成
+2025-04-11 13:41:25,051 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 13:41:25,462 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 13:41:27,469 - automation - INFO - 开始在iframe中选中文本并使用AI智能问答
+2025-04-11 13:41:27,469 - automation - INFO - 切换到iframe
+2025-04-11 13:41:27,496 - automation - INFO - 成功切换到iframe
+2025-04-11 13:41:27,496 - automation - INFO - 在iframe中查找并选择文本
+2025-04-11 13:41:27,504 - automation - INFO - 成功在iframe中选择文本
+2025-04-11 13:41:27,506 - automation - INFO - 切回主文档
+2025-04-11 13:41:27,506 - automation - INFO - 点击AI智能问答按钮
+2025-04-11 13:41:48,114 - automation - ERROR - 选中文本并使用AI智能问答功能失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-11 13:41:48,117 - automation - INFO - 异常处理中切回主文档
+2025-04-11 13:41:48,216 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\ai_qa_failed_134148.png
+2025-04-11 13:41:48,216 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 13:41:48,289 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_134148.png
+2025-04-11 13:41:48,289 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 13:41:48,290 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 13:41:48,294 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 13:41:48,295 - automation - INFO - 正在关闭浏览器...
+2025-04-11 13:41:50,518 - automation - INFO - 浏览器已关闭
+2025-04-11 13:41:50,519 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 13:42:10,741 - automation - INFO - 已关闭浏览器实例
+2025-04-11 13:46:14,541 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 13:46:14,541 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 13:46:14,541 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 13:46:14,542 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 13:46:16,500 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 13:46:16,514 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 13:46:16,514 - automation - INFO - 开始登录系统
+2025-04-11 13:46:19,639 - automation - INFO - 成功打开登录页面
+2025-04-11 13:46:19,639 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 13:46:19,745 - automation - INFO - 用户名输入完成
+2025-04-11 13:46:19,752 - automation - INFO - 开始输入密码
+2025-04-11 13:46:19,854 - automation - INFO - 密码输入完成
+2025-04-11 13:46:19,869 - automation - INFO - ==================================================
+2025-04-11 13:46:19,870 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 13:46:19,958 - automation - INFO - ==================================================
+2025-04-11 13:46:26,393 - automation - INFO - 验证码已自动填入
+2025-04-11 13:46:27,410 - automation - INFO - 尝试点击登录按钮
+2025-04-11 13:46:27,476 - automation - INFO - 登录按钮点击成功
+2025-04-11 13:46:27,476 - automation - INFO - 登录成功
+2025-04-11 13:46:27,476 - automation - INFO - 登录系统完成
+2025-04-11 13:46:27,476 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 13:46:27,894 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 13:46:29,909 - automation - INFO - 开始在iframe中选中精确文本并使用AI智能问答
+2025-04-11 13:46:29,909 - automation - INFO - 切换到iframe
+2025-04-11 13:46:29,932 - automation - INFO - 成功切换到iframe
+2025-04-11 13:46:29,933 - automation - INFO - 在iframe中精确选择指定文本
+2025-04-11 13:46:29,937 - automation - INFO - 成功精确选择文本: '东营区西二路万家新城内'
+2025-04-11 13:46:30,443 - automation - INFO - 切回主文档
+2025-04-11 13:46:30,460 - automation - INFO - 点击AI智能问答按钮
+2025-04-11 13:46:51,060 - automation - ERROR - 选中文本并使用AI智能问答功能失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-11 13:46:51,065 - automation - INFO - 异常处理中切回主文档
+2025-04-11 13:46:51,190 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\ai_qa_failed_134651.png
+2025-04-11 13:46:51,190 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 13:46:51,272 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_134651.png
+2025-04-11 13:46:51,272 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 13:46:51,272 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 13:46:51,273 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 13:46:51,273 - automation - INFO - 正在关闭浏览器...
+2025-04-11 13:46:53,467 - automation - INFO - 浏览器已关闭
+2025-04-11 13:46:53,467 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 13:47:13,738 - automation - INFO - 已关闭浏览器实例
+2025-04-11 13:52:33,266 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 13:52:33,266 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 13:52:33,267 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 13:52:33,267 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 13:52:35,248 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 13:52:35,261 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 13:52:35,261 - automation - INFO - 开始登录系统
+2025-04-11 13:52:37,814 - automation - INFO - 成功打开登录页面
+2025-04-11 13:52:37,814 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 13:52:37,919 - automation - INFO - 用户名输入完成
+2025-04-11 13:52:37,919 - automation - INFO - 开始输入密码
+2025-04-11 13:52:38,023 - automation - INFO - 密码输入完成
+2025-04-11 13:52:38,042 - automation - INFO - ==================================================
+2025-04-11 13:52:38,042 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 13:52:38,042 - automation - INFO - ==================================================
+2025-04-11 13:52:43,799 - automation - INFO - 验证码已自动填入
+2025-04-11 13:52:44,817 - automation - INFO - 尝试点击登录按钮
+2025-04-11 13:52:44,878 - automation - INFO - 登录按钮点击成功
+2025-04-11 13:52:44,878 - automation - INFO - 登录成功
+2025-04-11 13:52:44,878 - automation - INFO - 登录系统完成
+2025-04-11 13:52:44,878 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 13:52:45,300 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 13:52:47,312 - automation - INFO - 开始模拟鼠标滑动选中文本并使用AI智能问答
+2025-04-11 13:52:47,312 - automation - INFO - 切换到iframe
+2025-04-11 13:52:47,337 - automation - INFO - 成功切换到iframe
+2025-04-11 13:52:47,337 - automation - INFO - 在iframe中查找包含目标文本的元素
+2025-04-11 13:52:47,348 - automation - INFO - 找到包含目标文本的元素: p
+2025-04-11 13:52:48,381 - automation - INFO - 元素文本: 原告：东营市东营区先智学校，住所地：东营区西二路万家新城内。统一社会信用代码：52370502MJE279656。
+2025-04-11 13:52:48,381 - automation - INFO - 目标文本确认存在于元素中
+2025-04-11 13:52:49,513 - automation - INFO - 已执行双击操作
+2025-04-11 13:52:52,330 - automation - WARNING - 执行鼠标拖动操作失败: Message: move target out of bounds
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD8FFC]
+	(No symbol) [0x00007FF6F5E8B11F]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-11 13:52:52,332 - automation - INFO - 确保已切回主文档
+2025-04-11 13:52:52,332 - automation - INFO - 查找AI智能问答按钮
+2025-04-11 13:53:12,466 - automation - WARNING - 点击AI按钮失败: Message: element not interactable
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD8FFC]
+	(No symbol) [0x00007FF6F5E30B9D]
+	(No symbol) [0x00007FF6F5E227E4]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-11 13:53:12,467 - automation - INFO - 等待3秒...
+2025-04-11 13:53:15,472 - automation - INFO - 尝试关闭AI弹框
+2025-04-11 13:53:34,303 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 13:53:35,131 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 13:56:27,934 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 13:56:27,934 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 13:56:27,934 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 13:56:27,934 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 13:56:30,644 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 13:56:30,652 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 13:56:30,652 - automation - INFO - 开始登录系统
+2025-04-11 13:56:33,240 - automation - INFO - 成功打开登录页面
+2025-04-11 13:56:33,240 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 13:56:33,379 - automation - INFO - 用户名输入完成
+2025-04-11 13:56:33,379 - automation - INFO - 开始输入密码
+2025-04-11 13:56:33,512 - automation - INFO - 密码输入完成
+2025-04-11 13:56:33,531 - automation - INFO - ==================================================
+2025-04-11 13:56:33,531 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 13:56:33,531 - automation - INFO - ==================================================
+2025-04-11 13:56:43,187 - automation - INFO - 验证码已自动填入
+2025-04-11 13:56:44,199 - automation - INFO - 尝试点击登录按钮
+2025-04-11 13:56:44,266 - automation - INFO - 登录按钮点击成功
+2025-04-11 13:56:44,266 - automation - INFO - 登录成功
+2025-04-11 13:56:44,267 - automation - INFO - 登录系统完成
+2025-04-11 13:56:44,267 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 13:56:44,732 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 13:56:46,735 - automation - INFO - 开始模拟鼠标滑动选中文本并使用AI智能问答
+2025-04-11 13:56:46,735 - automation - INFO - 切换到iframe
+2025-04-11 13:56:46,760 - automation - INFO - 成功切换到iframe
+2025-04-11 13:56:46,776 - automation - INFO - 找到元素: p
+2025-04-11 13:56:48,923 - automation - INFO - 完成文本选择操作
+2025-04-11 13:56:49,433 - automation - INFO - 切回主文档
+2025-04-11 13:56:49,505 - automation - INFO - 查找AI智能问答按钮
+2025-04-11 13:56:59,521 - automation - WARNING - 未找到AI智能问答按钮，尝试查找替代按钮
+2025-04-11 13:57:09,584 - automation - ERROR - 选中文本并使用AI智能问答功能失败: Message: element not interactable
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD8FFC]
+	(No symbol) [0x00007FF6F5E30B9D]
+	(No symbol) [0x00007FF6F5E227E4]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-11 13:57:09,712 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\ai_qa_failed_135709.png
+2025-04-11 13:57:09,739 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 13:57:09,825 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_135709.png
+2025-04-11 13:57:09,825 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 13:57:09,826 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 13:57:09,839 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 13:57:09,839 - automation - INFO - 正在关闭浏览器...
+2025-04-11 13:57:12,120 - automation - INFO - 浏览器已关闭
+2025-04-11 13:57:12,132 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 13:57:32,318 - automation - INFO - 已关闭浏览器实例
+2025-04-11 13:58:21,310 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 13:58:21,311 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 13:58:21,311 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 13:58:21,311 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 13:58:23,325 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 13:58:23,342 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 13:58:23,343 - automation - INFO - 开始登录系统
+2025-04-11 13:58:25,828 - automation - INFO - 成功打开登录页面
+2025-04-11 13:58:25,828 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 13:58:25,935 - automation - INFO - 用户名输入完成
+2025-04-11 13:58:25,935 - automation - INFO - 开始输入密码
+2025-04-11 13:58:26,049 - automation - INFO - 密码输入完成
+2025-04-11 13:58:26,065 - automation - INFO - ==================================================
+2025-04-11 13:58:26,065 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 13:58:26,067 - automation - INFO - ==================================================
+2025-04-11 13:58:32,380 - automation - INFO - 验证码已自动填入
+2025-04-11 13:58:33,394 - automation - INFO - 尝试点击登录按钮
+2025-04-11 13:58:33,461 - automation - INFO - 登录按钮点击成功
+2025-04-11 13:58:33,461 - automation - INFO - 登录成功
+2025-04-11 13:58:33,462 - automation - INFO - 登录系统完成
+2025-04-11 13:58:33,462 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 13:58:33,905 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 13:58:35,912 - automation - INFO - 开始模拟鼠标选中文本并使用AI智能问答
+2025-04-11 13:58:35,912 - automation - INFO - 切换到iframe
+2025-04-11 13:58:35,938 - automation - INFO - 成功切换到iframe
+2025-04-11 13:58:35,938 - automation - INFO - 尝试选择文本: '东营区西二路万家新城内'
+2025-04-11 13:58:35,944 - automation - INFO - JavaScript选择文本成功
+2025-04-11 13:58:36,949 - automation - INFO - 切回主文档
+2025-04-11 13:58:45,023 - automation - WARNING - 未找到标准AI按钮，尝试其他方式
+2025-04-11 14:02:20,184 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 14:02:20,184 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 14:02:20,184 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 14:02:20,185 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 14:02:22,110 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 14:02:22,216 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 14:02:22,216 - automation - INFO - 开始登录系统
+2025-04-11 14:02:24,718 - automation - INFO - 成功打开登录页面
+2025-04-11 14:02:24,718 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 14:02:24,840 - automation - INFO - 用户名输入完成
+2025-04-11 14:02:24,840 - automation - INFO - 开始输入密码
+2025-04-11 14:02:24,956 - automation - INFO - 密码输入完成
+2025-04-11 14:02:24,974 - automation - INFO - ==================================================
+2025-04-11 14:02:24,974 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 14:02:24,976 - automation - INFO - ==================================================
+2025-04-11 14:02:30,145 - automation - INFO - 验证码已自动填入
+2025-04-11 14:02:31,153 - automation - INFO - 尝试点击登录按钮
+2025-04-11 14:02:31,215 - automation - INFO - 登录按钮点击成功
+2025-04-11 14:02:31,215 - automation - INFO - 登录成功
+2025-04-11 14:02:31,215 - automation - INFO - 登录系统完成
+2025-04-11 14:02:31,215 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 14:02:31,675 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 14:02:33,691 - automation - INFO - 开始通过真实鼠标操作选中文本并使用AI智能问答
+2025-04-11 14:02:33,691 - automation - INFO - 切换到iframe
+2025-04-11 14:02:33,712 - automation - INFO - 成功切换到iframe
+2025-04-11 14:02:33,712 - automation - INFO - 查找包含文本'东营区西二路万家新城内'的元素
+2025-04-11 14:02:33,723 - automation - INFO - 找到包含目标文本的元素: p
+2025-04-11 14:02:34,251 - automation - INFO - 起点坐标: (13, 164.5), 终点坐标: (163, 164.5)
+2025-04-11 14:02:36,758 - automation - INFO - 已执行鼠标拖动选择文本操作
+2025-04-11 14:02:37,772 - automation - INFO - 切回主文档
+2025-04-11 14:02:37,772 - automation - INFO - 查找AI智能问答按钮
+2025-04-11 14:02:37,867 - automation - INFO - 成功点击AI智能问答按钮
+2025-04-11 14:02:37,868 - automation - INFO - 等待3秒...
+2025-04-11 14:02:40,876 - automation - INFO - 关闭AI弹框
+2025-04-11 14:02:40,929 - automation - INFO - 成功关闭AI弹框
+2025-04-11 14:02:41,941 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 14:02:42,024 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_140241.png
+2025-04-11 14:02:42,025 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 14:02:42,025 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 14:02:42,026 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 14:02:42,026 - automation - INFO - 正在关闭浏览器...
+2025-04-11 14:02:44,203 - automation - INFO - 浏览器已关闭
+2025-04-11 14:02:44,204 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 14:03:04,437 - automation - INFO - 已关闭浏览器实例
+2025-04-11 14:04:32,952 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 14:04:32,954 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 14:04:32,954 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 14:04:32,954 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 14:04:34,882 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 14:04:34,895 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 14:04:34,896 - automation - INFO - 开始登录系统
+2025-04-11 14:04:37,332 - automation - INFO - 成功打开登录页面
+2025-04-11 14:04:37,332 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 14:04:37,448 - automation - INFO - 用户名输入完成
+2025-04-11 14:04:37,449 - automation - INFO - 开始输入密码
+2025-04-11 14:04:37,582 - automation - INFO - 密码输入完成
+2025-04-11 14:04:37,596 - automation - INFO - ==================================================
+2025-04-11 14:04:37,596 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 14:04:37,597 - automation - INFO - ==================================================
+2025-04-11 14:04:43,206 - automation - INFO - 验证码已自动填入
+2025-04-11 14:04:44,223 - automation - INFO - 尝试点击登录按钮
+2025-04-11 14:04:44,286 - automation - INFO - 登录按钮点击成功
+2025-04-11 14:04:44,286 - automation - INFO - 登录成功
+2025-04-11 14:04:44,286 - automation - INFO - 登录系统完成
+2025-04-11 14:04:44,286 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 14:04:44,670 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 14:04:46,680 - automation - INFO - 开始通过真实鼠标操作选中文本并使用AI智能问答
+2025-04-11 14:04:46,680 - automation - INFO - 切换到iframe
+2025-04-11 14:04:46,702 - automation - INFO - 成功切换到iframe
+2025-04-11 14:04:46,702 - automation - INFO - 查找包含文本'东营区西二路万家新城内'的元素
+2025-04-11 14:04:46,716 - automation - INFO - 找到包含目标文本的元素: p
+2025-04-11 14:04:47,243 - automation - INFO - 起点坐标: (13, 164.5), 终点坐标: (163, 164.5)
+2025-04-11 14:04:49,782 - automation - INFO - 已执行鼠标拖动选择文本操作
+2025-04-11 14:04:50,800 - automation - INFO - 切回主文档
+2025-04-11 14:04:50,801 - automation - INFO - 查找AI智能问答按钮
+2025-04-11 14:04:50,889 - automation - INFO - 成功点击AI智能问答按钮
+2025-04-11 14:04:50,890 - automation - INFO - 等待3秒...
+2025-04-11 14:04:55,902 - automation - INFO - 关闭AI弹框
+2025-04-11 14:04:55,964 - automation - INFO - 成功关闭AI弹框
+2025-04-11 14:04:56,967 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 14:04:57,051 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_140456.png
+2025-04-11 14:04:57,051 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 14:04:57,051 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 14:04:57,053 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 14:04:57,054 - automation - INFO - 正在关闭浏览器...
+2025-04-11 14:04:59,208 - automation - INFO - 浏览器已关闭
+2025-04-11 14:04:59,210 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 14:05:19,449 - automation - INFO - 已关闭浏览器实例
+2025-04-11 14:05:50,126 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 14:05:50,127 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 14:05:50,127 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 14:05:50,127 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 14:05:51,976 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 14:05:51,987 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 14:05:51,987 - automation - INFO - 开始登录系统
+2025-04-11 14:05:54,402 - automation - INFO - 成功打开登录页面
+2025-04-11 14:05:54,402 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 14:05:54,516 - automation - INFO - 用户名输入完成
+2025-04-11 14:05:54,516 - automation - INFO - 开始输入密码
+2025-04-11 14:05:54,634 - automation - INFO - 密码输入完成
+2025-04-11 14:05:54,651 - automation - INFO - ==================================================
+2025-04-11 14:05:54,651 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 14:05:54,651 - automation - INFO - ==================================================
+2025-04-11 14:06:03,597 - automation - INFO - 验证码已自动填入
+2025-04-11 14:06:04,610 - automation - INFO - 尝试点击登录按钮
+2025-04-11 14:06:04,686 - automation - INFO - 登录按钮点击成功
+2025-04-11 14:06:04,686 - automation - INFO - 登录成功
+2025-04-11 14:06:04,686 - automation - INFO - 登录系统完成
+2025-04-11 14:06:04,686 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 14:06:05,114 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 14:06:07,118 - automation - INFO - 开始通过真实鼠标操作选中文本并使用AI智能问答
+2025-04-11 14:06:07,118 - automation - INFO - 切换到iframe
+2025-04-11 14:06:07,148 - automation - INFO - 成功切换到iframe
+2025-04-11 14:06:07,148 - automation - INFO - 查找包含文本'东营区西二路万家新城内'的元素
+2025-04-11 14:06:07,158 - automation - INFO - 找到包含目标文本的元素: p
+2025-04-11 14:06:07,682 - automation - INFO - 起点坐标: (16, 164.5), 终点坐标: (166, 164.5)
+2025-04-11 14:06:10,225 - automation - INFO - 已执行鼠标拖动选择文本操作
+2025-04-11 14:06:11,240 - automation - INFO - 切回主文档
+2025-04-11 14:06:11,240 - automation - INFO - 查找AI智能问答按钮
+2025-04-11 14:06:11,314 - automation - INFO - 成功点击AI智能问答按钮
+2025-04-11 14:06:11,315 - automation - INFO - 等待3秒...
+2025-04-11 14:06:16,323 - automation - INFO - 关闭AI弹框
+2025-04-11 14:06:16,389 - automation - INFO - 成功关闭AI弹框
+2025-04-11 14:06:17,392 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 14:06:17,469 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_140617.png
+2025-04-11 14:06:17,469 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 14:06:17,469 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 14:06:17,472 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 14:06:17,472 - automation - INFO - 正在关闭浏览器...
+2025-04-11 14:06:19,624 - automation - INFO - 浏览器已关闭
+2025-04-11 14:06:19,626 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 14:06:39,846 - automation - INFO - 已关闭浏览器实例
+2025-04-11 14:10:12,263 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 14:10:12,264 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 14:10:12,264 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 14:10:12,264 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 14:10:14,181 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 14:10:14,211 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 14:10:14,211 - automation - INFO - 开始登录系统
+2025-04-11 14:10:16,693 - automation - INFO - 成功打开登录页面
+2025-04-11 14:10:16,693 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 14:10:16,812 - automation - INFO - 用户名输入完成
+2025-04-11 14:10:16,812 - automation - INFO - 开始输入密码
+2025-04-11 14:10:16,912 - automation - INFO - 密码输入完成
+2025-04-11 14:10:16,927 - automation - INFO - ==================================================
+2025-04-11 14:10:16,927 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 14:10:16,927 - automation - INFO - ==================================================
+2025-04-11 14:10:22,252 - automation - INFO - 验证码已自动填入
+2025-04-11 14:10:23,265 - automation - INFO - 尝试点击登录按钮
+2025-04-11 14:10:23,333 - automation - INFO - 登录按钮点击成功
+2025-04-11 14:10:23,334 - automation - INFO - 登录成功
+2025-04-11 14:10:23,334 - automation - INFO - 登录系统完成
+2025-04-11 14:10:23,334 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 14:10:23,730 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 14:10:25,733 - automation - INFO - 开始通过精确鼠标操作选中文本并使用AI智能问答
+2025-04-11 14:10:25,733 - automation - INFO - 切换到iframe
+2025-04-11 14:10:25,751 - automation - INFO - 成功切换到iframe
+2025-04-11 14:10:25,751 - automation - INFO - 查找包含文本'东营区西二路万家新城内'的元素
+2025-04-11 14:10:25,762 - automation - INFO - 找到包含目标文本的元素: p
+2025-04-11 14:10:25,785 - automation - INFO - 元素文本内容: 原告：东营市东营区先智学校，住所地：东营区西二路万家新城内。统一社会信用代码：52370502MJE279656。
+2025-04-11 14:10:25,785 - automation - INFO - 目标文本在元素内容中的起始位置: 18
+2025-04-11 14:10:26,330 - automation - INFO - 找到文本起始标记
+2025-04-11 14:10:26,339 - automation - INFO - 文本精确坐标: 起点(440, 144.5), 终点(675, 144.5)
+2025-04-11 14:10:26,339 - automation - ERROR - 选中文本并使用AI智能问答失败: 'ActionChains' object has no attribute 'move_to_location'
+2025-04-11 14:10:26,435 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\ai_qa_failed_141026.png
+2025-04-11 14:10:26,437 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 14:10:26,536 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_141026.png
+2025-04-11 14:10:26,536 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 14:10:26,536 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 14:10:26,538 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 14:10:26,538 - automation - INFO - 正在关闭浏览器...
+2025-04-11 14:10:28,731 - automation - INFO - 浏览器已关闭
+2025-04-11 14:10:28,733 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 14:10:48,837 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 14:10:48,838 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 14:10:48,838 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 14:10:48,838 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 14:10:48,944 - automation - INFO - 已关闭浏览器实例
+2025-04-11 14:10:50,757 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 14:10:50,781 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 14:10:50,781 - automation - INFO - 开始登录系统
+2025-04-11 14:10:54,867 - automation - INFO - 成功打开登录页面
+2025-04-11 14:10:54,867 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 14:10:54,976 - automation - INFO - 用户名输入完成
+2025-04-11 14:10:54,976 - automation - INFO - 开始输入密码
+2025-04-11 14:10:55,092 - automation - INFO - 密码输入完成
+2025-04-11 14:10:55,110 - automation - INFO - ==================================================
+2025-04-11 14:10:55,110 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 14:10:55,111 - automation - INFO - ==================================================
+2025-04-11 14:11:01,478 - automation - INFO - 验证码已自动填入
+2025-04-11 14:11:02,492 - automation - INFO - 尝试点击登录按钮
+2025-04-11 14:11:02,562 - automation - INFO - 登录按钮点击成功
+2025-04-11 14:11:02,562 - automation - INFO - 登录成功
+2025-04-11 14:11:02,562 - automation - INFO - 登录系统完成
+2025-04-11 14:11:02,564 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 14:11:03,759 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 14:11:05,769 - automation - INFO - 开始通过真实鼠标操作选中文本并使用AI智能问答
+2025-04-11 14:11:05,769 - automation - INFO - 切换到iframe
+2025-04-11 14:11:05,794 - automation - INFO - 成功切换到iframe
+2025-04-11 14:11:05,795 - automation - INFO - 查找包含文本'东营区西二路万家新城内'的元素
+2025-04-11 14:11:05,810 - automation - INFO - 找到包含目标文本的元素: p
+2025-04-11 14:11:06,342 - automation - INFO - 起点坐标: (13, 164.5), 终点坐标: (163, 164.5)
+2025-04-11 14:11:08,906 - automation - INFO - 已执行鼠标拖动选择文本操作
+2025-04-11 14:11:09,926 - automation - INFO - 切回主文档
+2025-04-11 14:11:09,926 - automation - INFO - 查找AI智能问答按钮
+2025-04-11 14:11:10,018 - automation - INFO - 成功点击AI智能问答按钮
+2025-04-11 14:11:10,018 - automation - INFO - 等待3秒...
+2025-04-11 14:11:15,028 - automation - INFO - 关闭AI弹框
+2025-04-11 14:11:15,105 - automation - INFO - 成功关闭AI弹框
+2025-04-11 14:11:16,107 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 14:11:16,193 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_141116.png
+2025-04-11 14:11:16,193 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 14:11:16,193 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 14:11:16,193 - automation - INFO - 正在关闭浏览器...
+2025-04-11 14:11:18,436 - automation - INFO - 浏览器已关闭
+2025-04-11 14:11:18,438 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 14:11:18,439 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 14:11:18,439 - automation - WARNING - 关闭浏览器实例时出错: 'DriverManager' object has no attribute 'quit_all_drivers'
+2025-04-11 15:10:26,416 - automation - INFO - 开始测试用例执行
+2025-04-11 15:14:52,543 - automation - INFO - 开始测试用例执行
+2025-04-11 15:17:00,324 - automation - INFO - 开始测试用例执行
+2025-04-11 15:17:05,717 - automation - INFO - 成功打开登录页面
+2025-04-11 15:17:05,717 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 15:17:05,914 - automation - INFO - 用户名输入完成
+2025-04-11 15:17:05,914 - automation - INFO - 开始输入密码
+2025-04-11 15:17:06,074 - automation - INFO - 密码输入完成
+2025-04-11 15:17:06,095 - automation - INFO - ==================================================
+2025-04-11 15:17:06,095 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 15:17:06,095 - automation - INFO - ==================================================
+2025-04-11 15:17:19,196 - automation - INFO - 验证码已自动填入
+2025-04-11 15:17:20,206 - automation - INFO - 尝试点击登录按钮
+2025-04-11 15:17:20,312 - automation - INFO - 登录按钮点击成功
+2025-04-11 15:17:20,313 - automation - INFO - 登录成功
+2025-04-11 15:17:20,313 - automation - INFO - 登录成功
+2025-04-11 15:17:21,066 - automation - INFO - 点击元素: ('xpath', "//span[@class='ant-dropdown-link user-dropdown-menu ant-dropdown-trigger']")
+2025-04-11 15:17:21,691 - automation - INFO - 点击元素: ('xpath', "//li[contains(text(),'报表统计')]")
+2025-04-11 15:17:22,793 - automation - INFO - 点击元素: ('xpath', "//div[@title='按承办部门']")
+2025-04-11 15:17:23,869 - automation - INFO - 点击元素: ('xpath', "//li[contains(text(),'按承办人')]")
+2025-04-11 15:17:24,961 - automation - INFO - 点击元素: ('xpath', '//body//div//button[1]')
+2025-04-11 15:17:27,023 - automation - INFO - 点击元素: ('xpath', '//body//div//button[3]')
+2025-04-11 15:17:30,027 - automation - INFO - 报表统计操作完成
+2025-04-11 15:17:30,108 - automation - INFO - 点击元素: ('xpath', "//span[@class='ant-dropdown-link user-dropdown-menu ant-dropdown-trigger']")
+2025-04-11 15:17:30,695 - automation - INFO - 点击元素: ('xpath', "//li[contains(text(),'字体下载')]")
+2025-04-11 15:17:31,774 - automation - INFO - 点击元素: ('xpath', "//div[@class='ant-modal-body']//button[2]")
+2025-04-11 15:17:33,845 - automation - INFO - 点击元素: ('xpath', "//span[@class='ant-modal-close-x']")
+2025-04-11 15:17:34,860 - automation - INFO - 字体下载操作完成
+2025-04-11 15:17:34,926 - automation - INFO - 点击元素: ('xpath', "//span[@class='ant-dropdown-link user-dropdown-menu ant-dropdown-trigger']")
+2025-04-11 15:17:35,541 - automation - INFO - 点击元素: ('xpath', "//li[contains(text(),'修改密码')]")
+2025-04-11 15:17:36,697 - automation - INFO - 输入文本: wxd341134@, 元素: ('xpath', "//input[@placeholder='请输入原密码']")
+2025-04-11 15:17:36,835 - automation - INFO - 输入文本: wxd341134@, 元素: ('xpath', "//input[@placeholder='请输入新密码']")
+2025-04-11 15:17:36,963 - automation - INFO - 输入文本: wxd341134@, 元素: ('xpath', "//input[@placeholder='请再次输入新密码']")
+2025-04-11 15:17:37,044 - automation - INFO - 点击元素: ('xpath', "//div[@class='ant-modal-footer']//button[2]")
+2025-04-11 15:17:39,050 - automation - INFO - 密码修改操作完成
+2025-04-11 15:17:39,055 - automation - INFO - 测试用例执行完成

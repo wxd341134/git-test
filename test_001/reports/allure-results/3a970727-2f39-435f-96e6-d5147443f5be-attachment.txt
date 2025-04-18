@@ -1,0 +1,11 @@
+2025-03-25 18:19:05,534 - automation - INFO - 开始登录系统，用户名: wxdfg
+2025-03-25 18:19:07,159 - automation - INFO - 截图已添加到Allure报告: login_page
+2025-03-25 18:19:07,159 - automation - INFO - 开始输入用户名...
+2025-03-25 18:19:08,862 - automation - INFO - 开始输入密码...
+2025-03-25 18:19:11,712 - automation - INFO - 请查看浏览器中的验证码图片
+2025-03-25 18:19:11,990 - automation - INFO - 截图已添加到Allure报告: captcha_image
+2025-03-25 18:19:21,805 - automation - INFO - 验证码已输入: 5859
+2025-03-25 18:19:21,806 - automation - INFO - 点击登录按钮...
+2025-03-25 18:19:21,878 - automation - INFO - 点击元素: ('xpath', "//button[@type='button']")
+2025-03-25 18:19:23,965 - automation - INFO - 截图已添加到Allure报告: login_success
+2025-03-25 18:19:23,965 - automation - INFO - 登录系统成功

@@ -1,0 +1,66 @@
+INFO     automation:conftest.py:55 开始初始化WebDriver...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     automation:conftest.py:61 WebDriver实例验证成功
+INFO     automation:test_UserCenter.py:40 开始执行个人中心测试
+INFO     automation:login_page.py:178 成功打开登录页面
+INFO     automation:login_page.py:118 开始输入用户名: wxdfg
+INFO     automation:login_page.py:125 用户名输入完成
+INFO     automation:login_page.py:130 开始输入密码
+INFO     automation:login_page.py:137 密码输入完成
+INFO     automation:login_page.py:79 ==================================================
+INFO     automation:login_page.py:80 请在弹出窗口中输入验证码
+INFO     automation:login_page.py:81 ==================================================
+INFO     automation:login_page.py:93 验证码已自动填入
+INFO     automation:login_page.py:146 尝试点击登录按钮
+INFO     automation:login_page.py:157 登录按钮点击成功
+INFO     automation:login_page.py:162 等待用户信息元素出现
+ERROR    automation:login_page.py:28 登录过程失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF663CBDF85+26693]
+	(No symbol) [0x00007FF663C1EAD0]
+	(No symbol) [0x00007FF663AA91CA]
+	(No symbol) [0x00007FF663AFF747]
+	(No symbol) [0x00007FF663AFF97C]
+	(No symbol) [0x00007FF663B533C7]
+	(No symbol) [0x00007FF663B2792F]
+	(No symbol) [0x00007FF663B500B8]
+	(No symbol) [0x00007FF663B276C3]
+	(No symbol) [0x00007FF663AF0490]
+	(No symbol) [0x00007FF663AF1743]
+	GetHandleVerifier [0x00007FF66401436D+3525677]
+	GetHandleVerifier [0x00007FF664027F3B+3606523]
+	GetHandleVerifier [0x00007FF66401CEE3+3561379]
+	GetHandleVerifier [0x00007FF663D87C0A+853194]
+	(No symbol) [0x00007FF663C2990F]
+	(No symbol) [0x00007FF663C25674]
+	(No symbol) [0x00007FF663C25816]
+	(No symbol) [0x00007FF663C14D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+ERROR    automation:test_UserCenter.py:66 个人中心测试流程失败: 登录过程失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF663CBDF85+26693]
+	(No symbol) [0x00007FF663C1EAD0]
+	(No symbol) [0x00007FF663AA91CA]
+	(No symbol) [0x00007FF663AFF747]
+	(No symbol) [0x00007FF663AFF97C]
+	(No symbol) [0x00007FF663B533C7]
+	(No symbol) [0x00007FF663B2792F]
+	(No symbol) [0x00007FF663B500B8]
+	(No symbol) [0x00007FF663B276C3]
+	(No symbol) [0x00007FF663AF0490]
+	(No symbol) [0x00007FF663AF1743]
+	GetHandleVerifier [0x00007FF66401436D+3525677]
+	GetHandleVerifier [0x00007FF664027F3B+3606523]
+	GetHandleVerifier [0x00007FF66401CEE3+3561379]
+	GetHandleVerifier [0x00007FF663D87C0A+853194]
+	(No symbol) [0x00007FF663C2990F]
+	(No symbol) [0x00007FF663C25674]
+	(No symbol) [0x00007FF663C25816]
+	(No symbol) [0x00007FF663C14D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+INFO     automation:test_UserCenter.py:42 个人中心测试执行完成

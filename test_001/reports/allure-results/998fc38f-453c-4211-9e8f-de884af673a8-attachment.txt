@@ -1,0 +1,44 @@
+2025-04-11 14:02:20,184 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 14:02:20,184 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 14:02:20,184 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 14:02:20,185 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 14:02:22,110 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 14:02:22,216 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 14:02:22,216 - automation - INFO - 开始登录系统
+2025-04-11 14:02:24,718 - automation - INFO - 成功打开登录页面
+2025-04-11 14:02:24,718 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 14:02:24,840 - automation - INFO - 用户名输入完成
+2025-04-11 14:02:24,840 - automation - INFO - 开始输入密码
+2025-04-11 14:02:24,956 - automation - INFO - 密码输入完成
+2025-04-11 14:02:24,974 - automation - INFO - ==================================================
+2025-04-11 14:02:24,974 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 14:02:24,976 - automation - INFO - ==================================================
+2025-04-11 14:02:30,145 - automation - INFO - 验证码已自动填入
+2025-04-11 14:02:31,153 - automation - INFO - 尝试点击登录按钮
+2025-04-11 14:02:31,215 - automation - INFO - 登录按钮点击成功
+2025-04-11 14:02:31,215 - automation - INFO - 登录成功
+2025-04-11 14:02:31,215 - automation - INFO - 登录系统完成
+2025-04-11 14:02:31,215 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 14:02:31,675 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 14:02:33,691 - automation - INFO - 开始通过真实鼠标操作选中文本并使用AI智能问答
+2025-04-11 14:02:33,691 - automation - INFO - 切换到iframe
+2025-04-11 14:02:33,712 - automation - INFO - 成功切换到iframe
+2025-04-11 14:02:33,712 - automation - INFO - 查找包含文本'东营区西二路万家新城内'的元素
+2025-04-11 14:02:33,723 - automation - INFO - 找到包含目标文本的元素: p
+2025-04-11 14:02:34,251 - automation - INFO - 起点坐标: (13, 164.5), 终点坐标: (163, 164.5)
+2025-04-11 14:02:36,758 - automation - INFO - 已执行鼠标拖动选择文本操作
+2025-04-11 14:02:37,772 - automation - INFO - 切回主文档
+2025-04-11 14:02:37,772 - automation - INFO - 查找AI智能问答按钮
+2025-04-11 14:02:37,867 - automation - INFO - 成功点击AI智能问答按钮
+2025-04-11 14:02:37,868 - automation - INFO - 等待3秒...
+2025-04-11 14:02:40,876 - automation - INFO - 关闭AI弹框
+2025-04-11 14:02:40,929 - automation - INFO - 成功关闭AI弹框
+2025-04-11 14:02:41,941 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 14:02:42,024 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_140241.png
+2025-04-11 14:02:42,025 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 14:02:42,025 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 14:02:42,026 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 14:02:42,026 - automation - INFO - 正在关闭浏览器...
+2025-04-11 14:02:44,203 - automation - INFO - 浏览器已关闭
+2025-04-11 14:02:44,204 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 14:03:04,437 - automation - INFO - 已关闭浏览器实例

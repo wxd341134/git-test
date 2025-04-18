@@ -1,0 +1,14 @@
+2025-04-14 15:23:09,079 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 15:23:09,080 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 15:23:10,524 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 15:23:19,582 - automation - INFO - ========== 开始执行测试方法: test_dossier_upload ==========
+2025-04-14 15:23:19,583 - automation - INFO - 开始卷宗上传测试
+2025-04-14 15:23:20,011 - automation - INFO - 点击上传卷宗按钮成功
+2025-04-14 15:23:22,014 - automation - WARNING - 未找到可用的ZIP文件
+2025-04-14 15:23:22,015 - automation - WARNING - 未找到可用的DOCX文件
+2025-04-14 15:23:22,075 - automation - INFO - 点击刷新按钮成功
+2025-04-14 15:23:23,124 - automation - INFO - 点击展开按钮成功
+2025-04-14 15:23:24,206 - automation - INFO - 关闭上传窗口成功
+2025-04-14 15:23:26,215 - automation - INFO - 卷宗上传流程执行完成
+2025-04-14 15:23:26,215 - automation - INFO - 卷宗上传测试完成
+2025-04-14 15:23:26,216 - automation - INFO - ========== 结束执行测试方法: test_dossier_upload ==========

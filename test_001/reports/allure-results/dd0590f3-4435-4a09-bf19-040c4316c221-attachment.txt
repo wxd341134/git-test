@@ -1,0 +1,28 @@
+2025-04-14 10:55:43,442 - automation - INFO - ========== 开始执行测试: test_case_management_workflow ==========
+2025-04-14 10:55:46,821 - automation - ERROR - 测试方法初始化失败: Message: session not created: This version of ChromeDriver only supports Chrome version 113
+Current browser version is 135.0.7049.85 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00438893+48451]
+	(No symbol) [0x003CB8A1]
+	(No symbol) [0x002D5058]
+	(No symbol) [0x002F5D9C]
+	(No symbol) [0x002F1AA3]
+	(No symbol) [0x002F0019]
+	(No symbol) [0x00320798]
+	(No symbol) [0x0032047C]
+	(No symbol) [0x0031A0B6]
+	(No symbol) [0x002F7E08]
+	(No symbol) [0x002F8F2D]
+	GetHandleVerifier [0x00698E3A+2540266]
+	GetHandleVerifier [0x006D8959+2801161]
+	GetHandleVerifier [0x006D295C+2776588]
+	GetHandleVerifier [0x004C2280+612144]
+	(No symbol) [0x003D4F6C]
+	(No symbol) [0x003D11D8]
+	(No symbol) [0x003D12BB]
+	(No symbol) [0x003C4857]
+	BaseThreadInitThunk [0x758E5D49+25]
+	RtlInitializeExceptionChain [0x773BCF0B+107]
+	RtlGetAppContainerNamedObjectPath [0x773BCE91+561]
+

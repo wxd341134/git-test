@@ -1,0 +1,59 @@
+2025-03-27 10:32:58,106 - automation - INFO - 初始化测试类...
+2025-03-27 10:32:58,106 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-27 10:32:58,106 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-27 10:33:00,174 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-27 10:33:00,175 - automation - INFO - 开始登录系统
+2025-03-27 10:33:02,529 - automation - INFO - 成功打开登录页面
+2025-03-27 10:33:02,529 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-27 10:33:02,719 - automation - INFO - 用户名输入完成
+2025-03-27 10:33:02,719 - automation - INFO - 开始输入密码
+2025-03-27 10:33:02,818 - automation - INFO - 密码输入完成
+2025-03-27 10:33:02,832 - automation - INFO - ==================================================
+2025-03-27 10:33:02,832 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-27 10:33:02,832 - automation - INFO - ==================================================
+2025-03-27 10:33:09,087 - automation - INFO - 验证码已自动填入
+2025-03-27 10:33:10,095 - automation - INFO - 尝试点击登录按钮
+2025-03-27 10:33:10,160 - automation - INFO - 登录按钮点击成功
+2025-03-27 10:33:10,160 - automation - INFO - 登录成功
+2025-03-27 10:33:12,164 - automation - INFO - 登录成功
+2025-03-27 10:33:12,257 - automation - INFO - 点击辅助阅卷
+2025-03-27 10:33:14,321 - automation - INFO - 步骤1执行成功：点击辅助阅卷
+2025-03-27 10:33:14,410 - automation - INFO - 点击庭审笔录1
+2025-03-27 10:33:15,492 - automation - INFO - 步骤2执行成功：点击庭审笔录1
+2025-03-27 10:33:15,492 - automation - INFO - 点击设为庭审笔录
+2025-03-27 10:33:16,622 - automation - INFO - 步骤3执行成功：点击设为庭审笔录
+2025-03-27 10:33:16,623 - automation - INFO - 输入原告处理意见1
+2025-03-27 10:33:17,736 - automation - INFO - 步骤4执行成功：输入原告处理意见1
+2025-03-27 10:33:17,736 - automation - INFO - 输入原告处理意见2
+2025-03-27 10:33:18,833 - automation - INFO - 步骤5执行成功：输入原告处理意见2
+2025-03-27 10:33:18,834 - automation - INFO - 点击确定按钮
+2025-03-27 10:33:20,923 - automation - INFO - 步骤6执行成功：点击确定按钮
+2025-03-27 10:33:21,163 - automation - INFO - 点击取消设置庭审笔录
+2025-03-27 10:33:32,290 - automation - WARNING - 无法使用SVG/use定位方式，尝试备用定位
+2025-03-27 10:33:33,395 - automation - INFO - 点击确定取消设置
+2025-03-27 10:33:43,410 - automation - ERROR - 辅助阅卷测试失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6234ADF85+26693]
+	(No symbol) [0x00007FF62340EAD0]
+	(No symbol) [0x00007FF6232991CA]
+	(No symbol) [0x00007FF6232EF747]
+	(No symbol) [0x00007FF6232EF97C]
+	(No symbol) [0x00007FF6233433C7]
+	(No symbol) [0x00007FF62331792F]
+	(No symbol) [0x00007FF6233400B8]
+	(No symbol) [0x00007FF6233176C3]
+	(No symbol) [0x00007FF6232E0490]
+	(No symbol) [0x00007FF6232E1743]
+	GetHandleVerifier [0x00007FF62380436D+3525677]
+	GetHandleVerifier [0x00007FF623817F3B+3606523]
+	GetHandleVerifier [0x00007FF62380CEE3+3561379]
+	GetHandleVerifier [0x00007FF623577C0A+853194]
+	(No symbol) [0x00007FF62341990F]
+	(No symbol) [0x00007FF623415674]
+	(No symbol) [0x00007FF623415816]
+	(No symbol) [0x00007FF623404D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-27 10:33:43,846 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-27 10:33:46,023 - automation - INFO - 浏览器已关闭

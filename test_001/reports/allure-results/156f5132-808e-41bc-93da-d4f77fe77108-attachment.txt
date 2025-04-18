@@ -1,0 +1,51 @@
+2025-03-25 15:46:31,348 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-25 15:46:31,348 - automation - INFO - Chrome选项配置完成
+2025-03-25 15:46:33,182 - automation - INFO - ChromeDriver 安装/更新成功
+2025-03-25 15:46:34,286 - automation - INFO - Chrome版本: 134.0.6998.118
+2025-03-25 15:46:34,286 - automation - INFO - ChromeDriver版本: 134.0.6998.165 (fd886e2cb29dd984c13deec032832dee68d8abe3-refs/branch-heads/6998@{#2122})
+2025-03-25 15:46:34,286 - automation - INFO - 成功创建Chrome WebDriver实例
+2025-03-25 15:46:34,287 - automation - INFO - 开始执行个人中心测试
+2025-03-25 15:46:34,288 - automation - INFO - 开始登录系统，用户名: wxdfg
+2025-03-25 15:46:35,794 - automation - INFO - 截图已添加到Allure报告: login_page
+2025-03-25 15:46:35,795 - automation - INFO - 开始输入用户名...
+2025-03-25 15:46:37,492 - automation - INFO - 开始输入密码...
+2025-03-25 15:46:40,357 - automation - INFO - 请查看浏览器中的验证码图片
+2025-03-25 15:46:40,545 - automation - INFO - 截图已添加到Allure报告: captcha_image
+2025-03-25 15:46:47,627 - automation - INFO - 验证码已输入: 5536
+2025-03-25 15:46:47,627 - automation - INFO - 点击登录按钮...
+2025-03-25 15:46:47,698 - automation - INFO - 点击元素: ('xpath', "//button[@type='button']")
+2025-03-25 15:46:49,791 - automation - INFO - 截图已添加到Allure报告: login_success
+2025-03-25 15:46:49,791 - automation - INFO - 登录系统成功
+2025-03-25 15:46:49,791 - automation - INFO - 完成登录
+2025-03-25 15:46:51,850 - automation - INFO - 成功点击右上角用户菜单
+2025-03-25 15:46:52,923 - automation - INFO - 点击报表统计选项
+2025-03-25 15:46:54,012 - automation - INFO - 点击承办部门
+2025-03-25 15:46:55,091 - automation - INFO - 选择承办人
+2025-03-25 15:46:56,153 - automation - INFO - 点击查询按钮
+2025-03-25 15:46:58,230 - automation - INFO - 点击导出按钮
+2025-03-25 15:47:01,286 - automation - INFO - 成功点击右上角用户菜单
+2025-03-25 15:47:02,357 - automation - INFO - 点击字体下载选项
+2025-03-25 15:47:03,425 - automation - INFO - 点击方正小标简体按钮
+2025-03-25 15:47:05,482 - automation - INFO - 点击关闭弹框
+2025-03-25 15:47:06,534 - automation - INFO - 成功点击右上角用户菜单
+2025-03-25 15:47:07,633 - automation - INFO - 点击修改密码选项
+2025-03-25 15:47:08,750 - automation - INFO - 输入原密码
+2025-03-25 15:47:08,870 - automation - INFO - 输入新密码
+2025-03-25 15:47:08,974 - automation - INFO - 确认新密码
+2025-03-25 15:47:09,033 - automation - INFO - 点击确定按钮
+2025-03-25 15:47:12,058 - automation - INFO - 开始登录系统，用户名: wxdfg
+2025-03-25 15:47:13,274 - automation - INFO - 截图已添加到Allure报告: login_page
+2025-03-25 15:47:13,275 - automation - INFO - 开始输入用户名...
+2025-03-25 15:47:14,961 - automation - INFO - 开始输入密码...
+2025-03-25 15:47:17,841 - automation - INFO - 请查看浏览器中的验证码图片
+2025-03-25 15:47:18,023 - automation - INFO - 截图已添加到Allure报告: captcha_image
+2025-03-25 15:47:25,920 - automation - INFO - 验证码已输入: 9298
+2025-03-25 15:47:25,920 - automation - INFO - 点击登录按钮...
+2025-03-25 15:47:25,978 - automation - INFO - 点击元素: ('xpath', "//button[@type='button']")
+2025-03-25 15:47:28,075 - automation - INFO - 截图已添加到Allure报告: login_success
+2025-03-25 15:47:28,075 - automation - INFO - 登录系统成功
+2025-03-25 15:47:28,075 - automation - INFO - 完成新密码登录
+2025-03-25 15:47:30,098 - automation - INFO - 使用新密码登录成功
+2025-03-25 15:47:30,177 - automation - INFO - 个人中心测试执行完成
+2025-03-25 15:47:30,178 - automation - INFO - 正在关闭WebDriver实例...
+2025-03-25 15:47:32,340 - automation - INFO - 成功关闭WebDriver实例

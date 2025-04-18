@@ -1,0 +1,1 @@
+ERROR    automation:test_UserCenter.py:66 个人中心测试流程失败: 'TestPersonalCenter' object has no attribute 'driver'

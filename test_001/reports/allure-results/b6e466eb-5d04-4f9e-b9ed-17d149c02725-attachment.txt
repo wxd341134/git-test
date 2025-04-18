@@ -1,0 +1,42 @@
+2025-04-11 14:10:12,263 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 14:10:12,264 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 14:10:12,264 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 14:10:12,264 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 14:10:14,181 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 14:10:14,211 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 14:10:14,211 - automation - INFO - 开始登录系统
+2025-04-11 14:10:16,693 - automation - INFO - 成功打开登录页面
+2025-04-11 14:10:16,693 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 14:10:16,812 - automation - INFO - 用户名输入完成
+2025-04-11 14:10:16,812 - automation - INFO - 开始输入密码
+2025-04-11 14:10:16,912 - automation - INFO - 密码输入完成
+2025-04-11 14:10:16,927 - automation - INFO - ==================================================
+2025-04-11 14:10:16,927 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 14:10:16,927 - automation - INFO - ==================================================
+2025-04-11 14:10:22,252 - automation - INFO - 验证码已自动填入
+2025-04-11 14:10:23,265 - automation - INFO - 尝试点击登录按钮
+2025-04-11 14:10:23,333 - automation - INFO - 登录按钮点击成功
+2025-04-11 14:10:23,334 - automation - INFO - 登录成功
+2025-04-11 14:10:23,334 - automation - INFO - 登录系统完成
+2025-04-11 14:10:23,334 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 14:10:23,730 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 14:10:25,733 - automation - INFO - 开始通过精确鼠标操作选中文本并使用AI智能问答
+2025-04-11 14:10:25,733 - automation - INFO - 切换到iframe
+2025-04-11 14:10:25,751 - automation - INFO - 成功切换到iframe
+2025-04-11 14:10:25,751 - automation - INFO - 查找包含文本'东营区西二路万家新城内'的元素
+2025-04-11 14:10:25,762 - automation - INFO - 找到包含目标文本的元素: p
+2025-04-11 14:10:25,785 - automation - INFO - 元素文本内容: 原告：东营市东营区先智学校，住所地：东营区西二路万家新城内。统一社会信用代码：52370502MJE279656。
+2025-04-11 14:10:25,785 - automation - INFO - 目标文本在元素内容中的起始位置: 18
+2025-04-11 14:10:26,330 - automation - INFO - 找到文本起始标记
+2025-04-11 14:10:26,339 - automation - INFO - 文本精确坐标: 起点(440, 144.5), 终点(675, 144.5)
+2025-04-11 14:10:26,339 - automation - ERROR - 选中文本并使用AI智能问答失败: 'ActionChains' object has no attribute 'move_to_location'
+2025-04-11 14:10:26,435 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\ai_qa_failed_141026.png
+2025-04-11 14:10:26,437 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 14:10:26,536 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_141026.png
+2025-04-11 14:10:26,536 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 14:10:26,536 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 14:10:26,538 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 14:10:26,538 - automation - INFO - 正在关闭浏览器...
+2025-04-11 14:10:28,731 - automation - INFO - 浏览器已关闭
+2025-04-11 14:10:28,733 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 14:10:48,944 - automation - INFO - 已关闭浏览器实例

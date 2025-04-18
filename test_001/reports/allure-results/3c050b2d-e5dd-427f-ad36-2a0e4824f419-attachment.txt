@@ -1,0 +1,78 @@
+2025-03-26 14:38:12,923 - automation - INFO - 开始初始化WebDriver...
+2025-03-26 14:38:12,924 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-26 14:38:12,924 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-26 14:38:14,072 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-26 14:38:14,076 - automation - INFO - WebDriver实例验证成功
+2025-03-26 14:38:14,076 - automation - INFO - 开始执行个人中心测试
+2025-03-26 14:38:14,078 - automation - INFO - 开始执行登录...
+2025-03-26 14:38:16,446 - automation - INFO - 成功打开登录页面
+2025-03-26 14:38:16,446 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-26 14:38:16,561 - automation - INFO - 用户名输入完成
+2025-03-26 14:38:16,561 - automation - INFO - 开始输入密码
+2025-03-26 14:38:16,662 - automation - INFO - 密码输入完成
+2025-03-26 14:38:16,674 - automation - INFO - ==================================================
+2025-03-26 14:38:16,675 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-26 14:38:16,675 - automation - INFO - ==================================================
+2025-03-26 14:38:21,238 - automation - INFO - 验证码已自动填入
+2025-03-26 14:38:22,255 - automation - INFO - 尝试点击登录按钮
+2025-03-26 14:38:22,331 - automation - INFO - 登录按钮点击成功
+2025-03-26 14:38:22,331 - automation - INFO - 登录成功
+2025-03-26 14:38:23,338 - automation - INFO - 等待用户菜单元素可见...
+2025-03-26 14:38:23,359 - automation - INFO - 等待用户菜单元素可点击...
+2025-03-26 14:38:23,370 - automation - INFO - 尝试点击用户菜单...
+2025-03-26 14:38:25,374 - automation - INFO - 成功点击右上角用户菜单
+2025-03-26 14:38:25,374 - automation - INFO - 开始执行报表统计...
+2025-03-26 14:38:25,374 - automation - INFO - 等待用户菜单元素可见...
+2025-03-26 14:38:25,403 - automation - INFO - 等待用户菜单元素可点击...
+2025-03-26 14:38:25,423 - automation - INFO - 尝试点击用户菜单...
+2025-03-26 14:38:27,438 - automation - INFO - 成功点击右上角用户菜单
+2025-03-26 14:38:37,470 - automation - ERROR - 报表统计测试失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF663CBDF85+26693]
+	(No symbol) [0x00007FF663C1EAD0]
+	(No symbol) [0x00007FF663AA91CA]
+	(No symbol) [0x00007FF663AFF747]
+	(No symbol) [0x00007FF663AFF97C]
+	(No symbol) [0x00007FF663B533C7]
+	(No symbol) [0x00007FF663B2792F]
+	(No symbol) [0x00007FF663B500B8]
+	(No symbol) [0x00007FF663B276C3]
+	(No symbol) [0x00007FF663AF0490]
+	(No symbol) [0x00007FF663AF1743]
+	GetHandleVerifier [0x00007FF66401436D+3525677]
+	GetHandleVerifier [0x00007FF664027F3B+3606523]
+	GetHandleVerifier [0x00007FF66401CEE3+3561379]
+	GetHandleVerifier [0x00007FF663D87C0A+853194]
+	(No symbol) [0x00007FF663C2990F]
+	(No symbol) [0x00007FF663C25674]
+	(No symbol) [0x00007FF663C25816]
+	(No symbol) [0x00007FF663C14D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-26 14:38:37,545 - automation - WARNING - 操作失败，正在重试: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF663CBDF85+26693]
+	(No symbol) [0x00007FF663C1EAD0]
+	(No symbol) [0x00007FF663AA91CA]
+	(No symbol) [0x00007FF663AFF747]
+	(No symbol) [0x00007FF663AFF97C]
+	(No symbol) [0x00007FF663B533C7]
+	(No symbol) [0x00007FF663B2792F]
+	(No symbol) [0x00007FF663B500B8]
+	(No symbol) [0x00007FF663B276C3]
+	(No symbol) [0x00007FF663AF0490]
+	(No symbol) [0x00007FF663AF1743]
+	GetHandleVerifier [0x00007FF66401436D+3525677]
+	GetHandleVerifier [0x00007FF664027F3B+3606523]
+	GetHandleVerifier [0x00007FF66401CEE3+3561379]
+	GetHandleVerifier [0x00007FF663D87C0A+853194]
+	(No symbol) [0x00007FF663C2990F]
+	(No symbol) [0x00007FF663C25674]
+	(No symbol) [0x00007FF663C25816]
+	(No symbol) [0x00007FF663C14D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-26 14:38:37,546 - automation - ERROR - 个人中心测试流程失败: type object 'DriverManager' has no attribute 'check_driver_health'
+2025-03-26 14:38:39,878 - automation - INFO - 个人中心测试执行完成

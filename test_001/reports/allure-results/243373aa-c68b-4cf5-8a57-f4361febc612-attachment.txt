@@ -1,0 +1,10 @@
+2025-03-25 16:20:43,206 - automation - INFO - 开始执行个人中心测试
+2025-03-25 16:20:43,207 - automation - INFO - 开始登录系统，用户名: wxdfg
+2025-03-25 16:20:44,944 - automation - INFO - 截图已添加到Allure报告: login_page
+2025-03-25 16:20:44,944 - automation - INFO - 开始输入用户名...
+2025-03-25 16:20:46,648 - automation - INFO - 开始输入密码...
+2025-03-25 16:20:49,480 - automation - INFO - 请查看浏览器中的验证码图片
+2025-03-25 16:20:49,785 - automation - INFO - 截图已添加到Allure报告: captcha_image
+2025-03-25 16:21:50,190 - automation - ERROR - 未输入验证码，登录失败
+2025-03-25 16:21:50,191 - automation - ERROR - 个人中心测试流程失败: 未输入验证码
+2025-03-25 16:21:50,310 - automation - INFO - 个人中心测试执行完成

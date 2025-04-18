@@ -1,0 +1,93 @@
+2025-03-26 13:23:20,472 - automation - INFO - 开始初始化WebDriver...
+2025-03-26 13:23:20,472 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-26 13:23:20,472 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-26 13:23:21,768 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-26 13:23:21,778 - automation - INFO - WebDriver实例验证成功
+2025-03-26 13:23:21,778 - automation - INFO - 开始执行个人中心测试
+2025-03-26 13:23:21,782 - automation - INFO - 导航到登录页面: http://192.168.2.176:86/#/case/index
+2025-03-26 13:23:24,290 - automation - INFO - 登录页面加载完成
+2025-03-26 13:23:24,498 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-26 13:23:25,116 - automation - INFO - 用户名输入完成
+2025-03-26 13:23:25,116 - automation - INFO - 开始输入密码
+2025-03-26 13:23:25,743 - automation - INFO - 密码输入完成
+2025-03-26 13:23:25,743 - automation - INFO - ==================================================
+2025-03-26 13:23:25,743 - automation - INFO - 请注意：需要手动输入验证码
+2025-03-26 13:23:25,744 - automation - INFO - 系统已暂停，等待验证码输入...
+2025-03-26 13:23:25,744 - automation - INFO - ==================================================
+2025-03-26 13:23:25,744 - automation - INFO - 请在60秒内手动输入验证码...
+2025-03-26 13:23:32,539 - automation - INFO - 验证码输入完成
+2025-03-26 13:23:33,047 - automation - INFO - 验证码输入成功，继续执行程序...
+2025-03-26 13:23:33,047 - automation - INFO - 尝试点击登录按钮
+2025-03-26 13:23:43,072 - automation - ERROR - 点击登录按钮失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF663CBDF85+26693]
+	(No symbol) [0x00007FF663C1EAD0]
+	(No symbol) [0x00007FF663AA91CA]
+	(No symbol) [0x00007FF663AFF747]
+	(No symbol) [0x00007FF663AFF97C]
+	(No symbol) [0x00007FF663B533C7]
+	(No symbol) [0x00007FF663B2792F]
+	(No symbol) [0x00007FF663B500B8]
+	(No symbol) [0x00007FF663B276C3]
+	(No symbol) [0x00007FF663AF0490]
+	(No symbol) [0x00007FF663AF1743]
+	GetHandleVerifier [0x00007FF66401436D+3525677]
+	GetHandleVerifier [0x00007FF664027F3B+3606523]
+	GetHandleVerifier [0x00007FF66401CEE3+3561379]
+	GetHandleVerifier [0x00007FF663D87C0A+853194]
+	(No symbol) [0x00007FF663C2990F]
+	(No symbol) [0x00007FF663C25674]
+	(No symbol) [0x00007FF663C25816]
+	(No symbol) [0x00007FF663C14D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-26 13:23:43,072 - automation - ERROR - 登录过程失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF663CBDF85+26693]
+	(No symbol) [0x00007FF663C1EAD0]
+	(No symbol) [0x00007FF663AA91CA]
+	(No symbol) [0x00007FF663AFF747]
+	(No symbol) [0x00007FF663AFF97C]
+	(No symbol) [0x00007FF663B533C7]
+	(No symbol) [0x00007FF663B2792F]
+	(No symbol) [0x00007FF663B500B8]
+	(No symbol) [0x00007FF663B276C3]
+	(No symbol) [0x00007FF663AF0490]
+	(No symbol) [0x00007FF663AF1743]
+	GetHandleVerifier [0x00007FF66401436D+3525677]
+	GetHandleVerifier [0x00007FF664027F3B+3606523]
+	GetHandleVerifier [0x00007FF66401CEE3+3561379]
+	GetHandleVerifier [0x00007FF663D87C0A+853194]
+	(No symbol) [0x00007FF663C2990F]
+	(No symbol) [0x00007FF663C25674]
+	(No symbol) [0x00007FF663C25816]
+	(No symbol) [0x00007FF663C14D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-26 13:23:43,278 - automation - ERROR - 个人中心测试流程失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF663CBDF85+26693]
+	(No symbol) [0x00007FF663C1EAD0]
+	(No symbol) [0x00007FF663AA91CA]
+	(No symbol) [0x00007FF663AFF747]
+	(No symbol) [0x00007FF663AFF97C]
+	(No symbol) [0x00007FF663B533C7]
+	(No symbol) [0x00007FF663B2792F]
+	(No symbol) [0x00007FF663B500B8]
+	(No symbol) [0x00007FF663B276C3]
+	(No symbol) [0x00007FF663AF0490]
+	(No symbol) [0x00007FF663AF1743]
+	GetHandleVerifier [0x00007FF66401436D+3525677]
+	GetHandleVerifier [0x00007FF664027F3B+3606523]
+	GetHandleVerifier [0x00007FF66401CEE3+3561379]
+	GetHandleVerifier [0x00007FF663D87C0A+853194]
+	(No symbol) [0x00007FF663C2990F]
+	(No symbol) [0x00007FF663C25674]
+	(No symbol) [0x00007FF663C25816]
+	(No symbol) [0x00007FF663C14D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-26 13:23:43,643 - automation - INFO - 个人中心测试执行完成

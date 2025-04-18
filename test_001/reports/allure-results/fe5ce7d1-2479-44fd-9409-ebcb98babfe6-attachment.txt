@@ -1,0 +1,10 @@
+2025-04-14 10:41:24,233 - automation - INFO - ========== 开始执行案例管理测试 ==========
+2025-04-14 10:41:24,235 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 10:41:24,235 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 10:41:25,362 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 10:41:25,366 - automation - INFO - 开始打开案例管理页面
+2025-04-14 10:41:25,366 - automation - ERROR - 打开案例管理页面失败: 'CasePage' object has no attribute 'navigate_to_case_management'
+2025-04-14 10:41:25,449 - automation - ERROR - 案例管理流程执行失败: 'CasePage' object has no attribute 'navigate_to_case_management'
+2025-04-14 10:41:25,450 - automation - ERROR - 测试过程中出现错误: 'CasePage' object has no attribute 'navigate_to_case_management'
+2025-04-14 10:41:25,620 - automation - INFO - ========== 案例管理测试执行完成 ==========
+2025-04-14 10:41:27,731 - automation - INFO - 已关闭浏览器

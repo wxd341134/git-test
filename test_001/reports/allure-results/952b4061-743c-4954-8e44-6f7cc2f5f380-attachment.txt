@@ -1,0 +1,10 @@
+2025-04-14 16:15:45,718 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-14 16:15:45,718 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-14 16:15:47,030 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-14 16:15:56,689 - automation - INFO - ========== 开始执行测试方法: test_assisted_reading ==========
+2025-04-14 16:15:56,689 - automation - INFO - 开始辅助阅读测试
+2025-04-14 16:15:59,701 - automation - INFO - 点击辅助阅卷
+2025-04-14 16:16:01,750 - automation - INFO - 成功点击辅助阅卷
+2025-04-14 16:16:01,750 - automation - ERROR - 辅助阅读测试失败: 辅助阅读流程失败
+assert False
+2025-04-14 16:16:01,955 - automation - INFO - ========== 结束执行测试方法: test_assisted_reading ==========

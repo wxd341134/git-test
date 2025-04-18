@@ -1,0 +1,79 @@
+INFO     automation:AssistedG2.py:22 初始化测试类...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     automation:AssistedG2.py:48 开始登录系统
+INFO     MessageTest:login_page.py:190 成功打开登录页面
+INFO     MessageTest:login_page.py:134 开始输入用户名: wxdfg
+INFO     MessageTest:login_page.py:141 用户名输入完成
+INFO     MessageTest:login_page.py:146 开始输入密码
+INFO     MessageTest:login_page.py:153 密码输入完成
+INFO     MessageTest:login_page.py:95 ==================================================
+INFO     MessageTest:login_page.py:96 请在弹出窗口中输入验证码
+INFO     MessageTest:login_page.py:97 ==================================================
+INFO     MessageTest:login_page.py:109 验证码已自动填入
+INFO     MessageTest:login_page.py:162 尝试点击登录按钮
+INFO     MessageTest:login_page.py:173 登录按钮点击成功
+INFO     MessageTest:login_page.py:178 登录成功
+INFO     automation:AssistedG2.py:51 登录成功
+INFO     automation:assisted_reading_page2.py:93 点击辅助阅卷
+INFO     automation:assisted_reading_page2.py:99 成功点击辅助阅卷
+INFO     automation:assisted_reading_page2.py:104 点击庭审笔录1
+INFO     automation:assisted_reading_page2.py:110 成功点击庭审笔录1
+INFO     automation:assisted_reading_page2.py:115 点击设为庭审笔录
+INFO     automation:assisted_reading_page2.py:121 成功点击设为庭审笔录
+INFO     automation:assisted_reading_page2.py:126 输入原告处理意见1
+INFO     automation:assisted_reading_page2.py:133 成功输入原告处理意见1
+INFO     automation:assisted_reading_page2.py:135 输入原告处理意见2
+INFO     automation:assisted_reading_page2.py:142 成功输入原告处理意见2
+INFO     automation:assisted_reading_page2.py:147 点击确定按钮
+INFO     automation:assisted_reading_page2.py:153 成功点击确定按钮
+INFO     automation:assisted_reading_page2.py:158 点击取消设置庭审笔录
+INFO     automation:assisted_reading_page2.py:104 点击庭审笔录1
+INFO     automation:assisted_reading_page2.py:110 成功点击庭审笔录1
+INFO     automation:assisted_reading_page2.py:184 点击确定取消设置
+INFO     automation:assisted_reading_page2.py:468 尝试标准点击确认按钮
+INFO     automation:assisted_reading_page2.py:186 成功取消设置庭审笔录
+INFO     automation:assisted_reading_page2.py:191 点击下载按钮
+INFO     automation:assisted_reading_page2.py:198 选择PDF下载
+INFO     automation:assisted_reading_page2.py:204 成功下载笔录PDF
+INFO     automation:assisted_reading_page2.py:209 点击庭审笔录2
+INFO     automation:assisted_reading_page2.py:216 点击添加为证据按钮
+INFO     automation:assisted_reading_page2.py:223 点击目录下拉框
+INFO     automation:assisted_reading_page2.py:230 选择法院材料选项
+INFO     automation:assisted_reading_page2.py:237 点击确定按钮
+INFO     automation:assisted_reading_page2.py:243 成功添加庭审笔录2为证据
+INFO     automation:assisted_reading_page2.py:248 选择庭审笔录3
+INFO     automation:assisted_reading_page2.py:255 点击证据添加按钮
+INFO     automation:assisted_reading_page2.py:262 点击目录下拉框
+INFO     automation:assisted_reading_page2.py:269 选择上诉人选项
+INFO     automation:assisted_reading_page2.py:276 点击确定按钮
+INFO     automation:assisted_reading_page2.py:282 成功将庭审笔录3添加为证据
+INFO     automation:assisted_reading_page2.py:287 点击证据引用标签页
+INFO     automation:assisted_reading_page2.py:294 点击刷新按钮
+INFO     automation:assisted_reading_page2.py:301 点击查看庭审笔录2详情
+ERROR    automation:AssistedG2.py:120 辅助阅卷测试失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF60FFEDF85+26693]
+	(No symbol) [0x00007FF60FF4EAD0]
+	(No symbol) [0x00007FF60FDD91CA]
+	(No symbol) [0x00007FF60FE2F747]
+	(No symbol) [0x00007FF60FE2F97C]
+	(No symbol) [0x00007FF60FE833C7]
+	(No symbol) [0x00007FF60FE5792F]
+	(No symbol) [0x00007FF60FE800B8]
+	(No symbol) [0x00007FF60FE576C3]
+	(No symbol) [0x00007FF60FE20490]
+	(No symbol) [0x00007FF60FE21743]
+	GetHandleVerifier [0x00007FF61034436D+3525677]
+	GetHandleVerifier [0x00007FF610357F3B+3606523]
+	GetHandleVerifier [0x00007FF61034CEE3+3561379]
+	GetHandleVerifier [0x00007FF6100B7C0A+853194]
+	(No symbol) [0x00007FF60FF5990F]
+	(No symbol) [0x00007FF60FF55674]
+	(No symbol) [0x00007FF60FF55816]
+	(No symbol) [0x00007FF60FF44D89]
+	BaseThreadInitThunk [0x00007FF98108E8D7+23]
+	RtlUserThreadStart [0x00007FF9825514FC+44]
+INFO     automation:AssistedG2.py:32 测试类执行完成，进行清理...
+INFO     automation:AssistedG2.py:36 浏览器已关闭

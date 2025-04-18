@@ -1,0 +1,33 @@
+2025-03-27 09:43:35,716 - automation - INFO - 初始化测试类...
+2025-03-27 09:43:35,716 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-27 09:43:35,716 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-27 09:43:36,843 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-27 09:43:36,844 - automation - INFO - 开始登录系统
+2025-03-27 09:43:39,238 - automation - INFO - 成功打开登录页面
+2025-03-27 09:43:39,238 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-27 09:43:39,336 - automation - INFO - 用户名输入完成
+2025-03-27 09:43:39,336 - automation - INFO - 开始输入密码
+2025-03-27 09:43:39,439 - automation - INFO - 密码输入完成
+2025-03-27 09:43:39,454 - automation - INFO - ==================================================
+2025-03-27 09:43:39,454 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-27 09:43:39,454 - automation - INFO - ==================================================
+2025-03-27 09:43:46,237 - automation - INFO - 验证码已自动填入
+2025-03-27 09:43:47,254 - automation - INFO - 尝试点击登录按钮
+2025-03-27 09:43:47,317 - automation - INFO - 登录按钮点击成功
+2025-03-27 09:43:47,317 - automation - INFO - 登录成功
+2025-03-27 09:43:49,330 - automation - INFO - 登录成功
+2025-03-27 09:43:49,420 - automation - INFO - 点击辅助阅卷
+2025-03-27 09:43:51,484 - automation - INFO - 步骤1执行成功：点击辅助阅卷
+2025-03-27 09:43:51,585 - automation - INFO - 点击庭审笔录1
+2025-03-27 09:43:52,644 - automation - INFO - 步骤2执行成功：点击庭审笔录1
+2025-03-27 09:43:52,644 - automation - INFO - 点击设为庭审笔录
+2025-03-27 09:43:53,780 - automation - INFO - 步骤3执行成功：点击设为庭审笔录
+2025-03-27 09:43:53,780 - automation - INFO - 输入原告处理意见1
+2025-03-27 09:43:54,880 - automation - INFO - 步骤4执行成功：输入原告处理意见1
+2025-03-27 09:43:54,880 - automation - INFO - 输入原告处理意见2
+2025-03-27 09:43:55,980 - automation - INFO - 步骤5执行成功：输入原告处理意见2
+2025-03-27 09:43:55,980 - automation - INFO - 点击确定按钮
+2025-03-27 09:43:58,055 - automation - INFO - 步骤6执行成功：点击确定按钮
+2025-03-27 09:43:58,288 - automation - INFO - 辅助阅卷测试完成
+2025-03-27 09:43:58,291 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-27 09:44:00,570 - automation - INFO - 浏览器已关闭

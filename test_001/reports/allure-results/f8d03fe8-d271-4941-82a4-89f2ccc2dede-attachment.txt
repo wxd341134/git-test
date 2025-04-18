@@ -1,0 +1,2 @@
+INFO     automation:test_DossierU.py:180 开始单文件上传测试
+ERROR    automation:test_DossierU.py:201 单文件上传测试失败: 'TestDossierUpload' object has no attribute 'wait'

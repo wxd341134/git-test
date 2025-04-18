@@ -1,0 +1,38 @@
+INFO     MessageTest:base_test.py:18 初始化测试类...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     MessageTest:login_page.py:190 成功打开登录页面
+INFO     MessageTest:login_page.py:134 开始输入用户名: wxdfg
+INFO     MessageTest:login_page.py:141 用户名输入完成
+INFO     MessageTest:login_page.py:146 开始输入密码
+INFO     MessageTest:login_page.py:153 密码输入完成
+INFO     MessageTest:login_page.py:95 ==================================================
+INFO     MessageTest:login_page.py:96 请在弹出窗口中输入验证码
+INFO     MessageTest:login_page.py:97 ==================================================
+INFO     MessageTest:login_page.py:109 验证码已自动填入
+INFO     MessageTest:login_page.py:162 尝试点击登录按钮
+INFO     MessageTest:login_page.py:173 登录按钮点击成功
+INFO     MessageTest:login_page.py:178 登录成功
+INFO     MessageTest:base_test.py:26 登录成功
+INFO     MessageTest:test_case_search.py:28 ==================================================
+INFO     MessageTest:test_case_search.py:29 开始执行案件查询测试
+INFO     MessageTest:test_case_search.py:30 测试开始时间: 2025-04-15 06:24:01
+INFO     MessageTest:test_case_search.py:31 执行用户: wxd341134
+INFO     MessageTest:test_case_search.py:32 ==================================================
+INFO     MessageTest:test_case_search.py:36 页面对象初始化完成
+INFO     MessageTest:test_case_search.py:70 开始案件查询流程
+INFO     MessageTest:test_case_search.py:58 截图成功: before_search
+INFO     MessageTest:assisted_read_utils.py:667 开始执行案件查询
+INFO     MessageTest:assisted_read_utils.py:671 输入案件编号: 2025
+INFO     MessageTest:assisted_read_utils.py:680 输入案件名称: (2025)苏0105民初0001号
+INFO     MessageTest:assisted_read_utils.py:689 点击判决书状态下拉框
+INFO     MessageTest:assisted_read_utils.py:697 选择未生成状态
+INFO     MessageTest:assisted_read_utils.py:705 点击承办人/助理下拉框
+INFO     MessageTest:assisted_read_utils.py:724 选择全部选项
+INFO     MessageTest:assisted_read_utils.py:737 直接点击失败，使用JavaScript点击
+INFO     MessageTest:test_case_search.py:58 截图成功: search_failed
+ERROR    MessageTest:test_case_search.py:100 案件查询测试失败: 案件查询执行失败
+INFO     MessageTest:test_case_search.py:58 截图成功: test_failed
+INFO     MessageTest:base_test.py:40 清理测试类...
+INFO     MessageTest:base_test.py:44 浏览器已关闭

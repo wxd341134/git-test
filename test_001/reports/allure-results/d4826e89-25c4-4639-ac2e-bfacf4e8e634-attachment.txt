@@ -1,0 +1,3 @@
+2025-03-25 20:09:36,014 - automation - INFO - 开始执行个人中心测试
+2025-03-25 20:09:36,015 - automation - INFO - 开始ZIP文件上传测试
+2025-03-25 20:09:36,015 - automation - ERROR - ZIP文件上传测试失败: 'TestDossierUpload' object has no attribute 'wait'

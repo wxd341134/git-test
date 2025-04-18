@@ -1,0 +1,33 @@
+2025-03-27 14:22:06,610 - automation - INFO - 初始化测试类...
+2025-03-27 14:22:06,610 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-27 14:22:06,611 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-27 14:22:09,085 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-27 14:22:09,087 - automation - INFO - 开始登录系统
+2025-03-27 14:22:11,547 - automation - INFO - 成功打开登录页面
+2025-03-27 14:22:11,547 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-27 14:22:11,673 - automation - INFO - 用户名输入完成
+2025-03-27 14:22:11,673 - automation - INFO - 开始输入密码
+2025-03-27 14:22:11,769 - automation - INFO - 密码输入完成
+2025-03-27 14:22:11,783 - automation - INFO - ==================================================
+2025-03-27 14:22:11,783 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-27 14:22:11,783 - automation - INFO - ==================================================
+2025-03-27 14:22:18,309 - automation - INFO - 验证码已自动填入
+2025-03-27 14:22:19,322 - automation - INFO - 尝试点击登录按钮
+2025-03-27 14:22:19,392 - automation - INFO - 登录按钮点击成功
+2025-03-27 14:22:19,392 - automation - INFO - 登录成功
+2025-03-27 14:22:21,400 - automation - INFO - 登录成功
+2025-03-27 14:22:21,476 - automation - INFO - 点击辅助阅卷
+2025-03-27 14:22:23,538 - automation - INFO - 步骤1执行成功：点击辅助阅卷
+2025-03-27 14:22:23,623 - automation - INFO - 点击庭审笔录1
+2025-03-27 14:22:24,697 - automation - INFO - 步骤2执行成功：点击庭审笔录1
+2025-03-27 14:22:24,698 - automation - INFO - 点击设为庭审笔录
+2025-03-27 14:22:25,824 - automation - INFO - 步骤3执行成功：点击设为庭审笔录
+2025-03-27 14:22:25,824 - automation - INFO - 输入原告处理意见1
+2025-03-27 14:22:26,917 - automation - INFO - 步骤4执行成功：输入原告处理意见1
+2025-03-27 14:22:26,917 - automation - INFO - 输入原告处理意见2
+2025-03-27 14:22:28,003 - automation - INFO - 步骤5执行成功：输入原告处理意见2
+2025-03-27 14:22:28,003 - automation - INFO - 点击确定按钮
+2025-03-27 14:22:30,090 - automation - INFO - 步骤6执行成功：点击确定按钮
+2025-03-27 14:22:30,294 - automation - INFO - 辅助阅卷测试完成
+2025-03-27 14:22:30,296 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-27 14:22:32,456 - automation - INFO - 浏览器已关闭

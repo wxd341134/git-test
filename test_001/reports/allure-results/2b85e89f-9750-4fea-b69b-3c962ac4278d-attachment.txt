@@ -1,0 +1,2 @@
+2025-04-14 16:19:21,334 - automation - INFO - 执行测试类前置操作：登录系统
+2025-04-14 16:19:21,334 - automation - ERROR - 登录失败: 'TestAssistedRead' object has no attribute 'login'

@@ -1,0 +1,7 @@
+2025-03-25 16:06:16,241 - INFO - 开始创建Chrome WebDriver实例...
+2025-03-25 16:06:16,241 - INFO - Chrome选项配置完成
+2025-03-25 16:06:16,241 - ERROR - 创建WebDriver实例失败: __init__() got an unexpected keyword argument 'path'
+2025-03-25 16:06:16,241 - ERROR - 系统信息:
+2025-03-25 16:06:16,241 - ERROR - Python版本: 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]
+2025-03-25 16:06:16,241 - ERROR - Selenium版本: 4.30.0
+2025-03-25 16:06:16,242 - ERROR - 操作系统: nt

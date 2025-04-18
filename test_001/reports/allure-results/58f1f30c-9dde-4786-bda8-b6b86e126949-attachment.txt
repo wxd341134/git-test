@@ -1,0 +1,51 @@
+2025-03-27 11:22:36,258 - automation - INFO - 初始化测试类...
+2025-03-27 11:22:36,258 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-27 11:22:36,258 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-27 11:22:38,908 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-27 11:22:38,909 - automation - INFO - 开始登录系统
+2025-03-27 11:22:41,303 - automation - INFO - 成功打开登录页面
+2025-03-27 11:22:41,303 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-27 11:22:41,464 - automation - INFO - 用户名输入完成
+2025-03-27 11:22:41,464 - automation - INFO - 开始输入密码
+2025-03-27 11:22:41,572 - automation - INFO - 密码输入完成
+2025-03-27 11:22:41,586 - automation - INFO - ==================================================
+2025-03-27 11:22:41,586 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-27 11:22:41,586 - automation - INFO - ==================================================
+2025-03-27 11:22:47,608 - automation - INFO - 验证码已自动填入
+2025-03-27 11:22:48,625 - automation - INFO - 尝试点击登录按钮
+2025-03-27 11:22:48,683 - automation - INFO - 登录按钮点击成功
+2025-03-27 11:22:48,683 - automation - INFO - 登录成功
+2025-03-27 11:22:50,691 - automation - INFO - 登录成功
+2025-03-27 11:22:50,789 - automation - INFO - 点击辅助阅卷
+2025-03-27 11:22:52,855 - automation - INFO - 步骤1执行成功：点击辅助阅卷
+2025-03-27 11:22:52,940 - automation - INFO - 点击庭审笔录1
+2025-03-27 11:22:55,010 - automation - INFO - 步骤2执行成功：点击庭审笔录1
+2025-03-27 11:22:55,010 - automation - INFO - 点击设为庭审笔录
+2025-03-27 11:22:56,104 - automation - INFO - 步骤3执行成功：点击设为庭审笔录
+2025-03-27 11:22:56,104 - automation - INFO - 输入原告处理意见1
+2025-03-27 11:23:06,169 - automation - ERROR - 辅助阅卷测试失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6234ADF85+26693]
+	(No symbol) [0x00007FF62340EAD0]
+	(No symbol) [0x00007FF6232991CA]
+	(No symbol) [0x00007FF6232EF747]
+	(No symbol) [0x00007FF6232EF97C]
+	(No symbol) [0x00007FF6233433C7]
+	(No symbol) [0x00007FF62331792F]
+	(No symbol) [0x00007FF6233400B8]
+	(No symbol) [0x00007FF6233176C3]
+	(No symbol) [0x00007FF6232E0490]
+	(No symbol) [0x00007FF6232E1743]
+	GetHandleVerifier [0x00007FF62380436D+3525677]
+	GetHandleVerifier [0x00007FF623817F3B+3606523]
+	GetHandleVerifier [0x00007FF62380CEE3+3561379]
+	GetHandleVerifier [0x00007FF623577C0A+853194]
+	(No symbol) [0x00007FF62341990F]
+	(No symbol) [0x00007FF623415674]
+	(No symbol) [0x00007FF623415816]
+	(No symbol) [0x00007FF623404D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-03-27 11:23:06,456 - automation - INFO - 测试类执行完成，进行清理...
+2025-03-27 11:23:08,600 - automation - INFO - 浏览器已关闭

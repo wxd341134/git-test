@@ -1,0 +1,4 @@
+INFO     automation:AssistedG2.py:46 开始登录系统
+ERROR    automation:AssistedG2.py:118 辅助阅卷测试失败: 'TestAssistedReading' object has no attribute 'login_page'
+WARNING  automation:AssistedG2.py:131 无法获取test_failed截图
+INFO     automation:AssistedG2.py:30 测试类执行完成，进行清理...

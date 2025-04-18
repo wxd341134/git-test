@@ -1,0 +1,20 @@
+2025-03-26 14:19:27,167 - automation - INFO - 开始初始化WebDriver...
+2025-03-26 14:19:27,167 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-03-26 14:19:27,167 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-03-26 14:19:28,530 - automation - INFO - Chrome WebDriver 创建成功
+2025-03-26 14:19:29,115 - automation - INFO - WebDriver实例验证成功
+2025-03-26 14:19:29,115 - automation - INFO - 开始执行个人中心测试
+2025-03-26 14:19:29,116 - automation - INFO - 开始执行登录...
+2025-03-26 14:19:33,478 - automation - INFO - 成功打开登录页面
+2025-03-26 14:19:33,478 - automation - INFO - 开始输入用户名: wxdfg
+2025-03-26 14:19:33,580 - automation - INFO - 用户名输入完成
+2025-03-26 14:19:33,580 - automation - INFO - 开始输入密码
+2025-03-26 14:19:33,670 - automation - INFO - 密码输入完成
+2025-03-26 14:19:33,684 - automation - INFO - ==================================================
+2025-03-26 14:19:33,684 - automation - INFO - 请在弹出窗口中输入验证码
+2025-03-26 14:19:33,684 - automation - INFO - ==================================================
+2025-03-26 14:20:48,269 - automation - ERROR - 验证码输入为空
+2025-03-26 14:20:48,386 - automation - ERROR - 验证码处理失败: 验证码输入为空
+2025-03-26 14:20:48,481 - automation - ERROR - 登录过程失败: 验证码处理失败: 验证码输入为空
+2025-03-26 14:20:48,562 - automation - ERROR - 个人中心测试流程失败: 登录过程失败: 验证码处理失败: 验证码输入为空
+2025-03-26 14:20:48,741 - automation - INFO - 个人中心测试执行完成

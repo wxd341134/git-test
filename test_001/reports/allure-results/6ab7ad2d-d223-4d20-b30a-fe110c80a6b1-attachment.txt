@@ -1,0 +1,92 @@
+2025-04-11 13:32:09,963 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-11 13:32:09,964 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-11 13:32:09,964 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-11 13:32:09,964 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-11 13:32:11,870 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-11 13:32:11,878 - automation - INFO - 开始阅卷笔记测试
+2025-04-11 13:32:11,878 - automation - INFO - 开始登录系统
+2025-04-11 13:32:14,324 - automation - INFO - 成功打开登录页面
+2025-04-11 13:32:14,324 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-11 13:32:14,430 - automation - INFO - 用户名输入完成
+2025-04-11 13:32:14,431 - automation - INFO - 开始输入密码
+2025-04-11 13:32:14,529 - automation - INFO - 密码输入完成
+2025-04-11 13:32:14,543 - automation - INFO - ==================================================
+2025-04-11 13:32:14,543 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-11 13:32:14,544 - automation - INFO - ==================================================
+2025-04-11 13:32:21,547 - automation - INFO - 验证码已自动填入
+2025-04-11 13:32:22,555 - automation - INFO - 尝试点击登录按钮
+2025-04-11 13:32:22,667 - automation - INFO - 登录按钮点击成功
+2025-04-11 13:32:22,667 - automation - INFO - 登录成功
+2025-04-11 13:32:22,667 - automation - INFO - 登录系统完成
+2025-04-11 13:32:22,667 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-11 13:32:23,225 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-11 13:32:25,234 - automation - INFO - 开始选中文本并使用AI智能问答
+2025-04-11 13:32:25,234 - automation - INFO - 尝试查找并切换到iframe
+2025-04-11 13:32:25,244 - automation - INFO - 找到 1 个iframe
+2025-04-11 13:32:25,244 - automation - INFO - 尝试切换到第 1 个iframe
+2025-04-11 13:32:25,257 - automation - INFO - 在第 1 个iframe中找到目标文本
+2025-04-11 13:32:25,264 - automation - INFO - 在iframe中找到包含目标文本的元素
+2025-04-11 13:32:25,268 - automation - INFO - 已使用JavaScript选择iframe中的文本
+2025-04-11 13:32:26,770 - automation - INFO - 切回主文档以访问AI按钮
+2025-04-11 13:32:26,783 - automation - INFO - 点击AI智能问答按钮
+2025-04-11 13:32:47,395 - automation - WARNING - 使用预定义定位器点击AI按钮失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-11 13:32:57,444 - automation - INFO - 通过通用定位找到并点击包含AI的元素
+2025-04-11 13:32:57,444 - automation - INFO - 等待3秒...
+2025-04-11 13:33:00,455 - automation - INFO - 关闭AI智能问答弹框
+2025-04-11 13:33:21,046 - automation - WARNING - 使用预定义定位器关闭AI弹框失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-11 13:33:41,165 - automation - INFO - 通过ESC键尝试关闭弹框
+2025-04-11 13:33:42,172 - automation - INFO - 阅卷笔记工作流程执行完成
+2025-04-11 13:33:42,280 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250411\test_complete_133342.png
+2025-04-11 13:33:42,281 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-11 13:33:42,281 - automation - INFO - 阅卷笔记测试结束
+2025-04-11 13:33:42,294 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-11 13:33:42,294 - automation - INFO - 正在关闭浏览器...
+2025-04-11 13:33:44,505 - automation - INFO - 浏览器已关闭
+2025-04-11 13:33:44,506 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-11 13:34:04,759 - automation - INFO - 已关闭浏览器实例

@@ -1,0 +1,62 @@
+INFO     automation:AssistedG.py:22 初始化测试类...
+INFO     automation:driver_manager.py:30 开始创建Chrome WebDriver实例...
+INFO     automation:driver_manager.py:52 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+INFO     automation:driver_manager.py:61 Chrome WebDriver 创建成功
+INFO     automation:AssistedG.py:229 开始登录系统
+INFO     automation:login_page.py:174 成功打开登录页面
+INFO     automation:login_page.py:118 开始输入用户名: wxdfg
+INFO     automation:login_page.py:125 用户名输入完成
+INFO     automation:login_page.py:130 开始输入密码
+INFO     automation:login_page.py:137 密码输入完成
+INFO     automation:login_page.py:79 ==================================================
+INFO     automation:login_page.py:80 请在弹出窗口中输入验证码
+INFO     automation:login_page.py:81 ==================================================
+INFO     automation:login_page.py:93 验证码已自动填入
+INFO     automation:login_page.py:146 尝试点击登录按钮
+INFO     automation:login_page.py:157 登录按钮点击成功
+INFO     automation:login_page.py:162 登录成功
+INFO     automation:AssistedG.py:232 登录成功
+INFO     automation:AssistedG.py:244 点击辅助阅卷
+INFO     automation:AssistedG.py:250 步骤1执行成功：点击辅助阅卷
+INFO     automation:AssistedG.py:262 点击庭审笔录1
+INFO     automation:AssistedG.py:268 步骤2执行成功：点击庭审笔录1
+INFO     automation:AssistedG.py:272 点击设为庭审笔录
+INFO     automation:AssistedG.py:278 步骤3执行成功：点击设为庭审笔录
+INFO     automation:AssistedG.py:282 输入原告处理意见1
+INFO     automation:AssistedG.py:289 步骤4执行成功：输入原告处理意见1
+INFO     automation:AssistedG.py:293 输入原告处理意见2
+INFO     automation:AssistedG.py:300 步骤5执行成功：输入原告处理意见2
+INFO     automation:AssistedG.py:304 点击确定按钮
+INFO     automation:AssistedG.py:310 步骤6执行成功：点击确定按钮
+INFO     automation:AssistedG.py:322 点击取消设置庭审笔录
+INFO     automation:AssistedG.py:354 点击确定取消设置
+ERROR    automation:AssistedG.py:1164 辅助阅卷测试失败: Message: element click intercepted: Element <button type="button" class="ant-btn ant-btn-primary ant-btn-sm">...</button> is not clickable at point (414, 274). Other element would receive the click: <div role="tooltip" class="ant-tooltip-inner">...</div>
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E375E9]
+	(No symbol) [0x00007FF6F5E34FA2]
+	(No symbol) [0x00007FF6F5E32051]
+	(No symbol) [0x00007FF6F5E30F76]
+	(No symbol) [0x00007FF6F5E227E4]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E22096]
+	(No symbol) [0x00007FF6F5E57B00]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+INFO     automation:AssistedG.py:213 测试类执行完成，进行清理...
+INFO     automation:AssistedG.py:217 浏览器已关闭

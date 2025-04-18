@@ -1,0 +1,10 @@
+INFO     MessageTest:test_CaseMg.py:78 开始执行测试方法: test_case_search_and_detail
+INFO     MessageTest:test_CaseMg.py:120 开始测试案例查询与详情查看功能
+INFO     MessageTest:case_utils.py:200 开始执行案例管理工作流
+INFO     MessageTest:case_utils.py:17 开始导航到案例管理页面
+ERROR    MessageTest:case_utils.py:30 导航到案例管理页面失败: 'CasePage' object has no attribute 'navigate_to_case_management'
+ERROR    MessageTest:case_utils.py:235 执行案例管理工作流失败: 'CasePage' object has no attribute 'navigate_to_case_management'
+ERROR    MessageTest:test_CaseMg.py:127 测试过程中出现错误: 'CasePage' object has no attribute 'navigate_to_case_management'
+INFO     MessageTest:test_CaseMg.py:84 测试方法执行完成: test_case_search_and_detail
+INFO     MessageTest:base_test.py:40 清理测试类...
+INFO     MessageTest:base_test.py:44 浏览器已关闭

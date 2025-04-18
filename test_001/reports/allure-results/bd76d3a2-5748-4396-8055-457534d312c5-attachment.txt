@@ -1,0 +1,4 @@
+assert False
+ +  where False = <function AssistedReadUtils.enter_opinions at 0x000001CA81438160>(<pages.assisted_read_page.AssistedReadPage object at 0x000001CA81C72A60>, '无意见1', '无意见2')
+ +    where <function AssistedReadUtils.enter_opinions at 0x000001CA81438160> = AssistedReadUtils.enter_opinions
+ +    and   <pages.assisted_read_page.AssistedReadPage object at 0x000001CA81C72A60> = <FgAI.test_001.test_assisted_read.TestAssistedReading object at 0x000001CA814396D0>.assisted_page

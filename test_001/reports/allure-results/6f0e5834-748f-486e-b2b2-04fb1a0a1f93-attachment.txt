@@ -1,0 +1,9 @@
+2025-04-17 14:12:29,749 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-17 14:12:29,749 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-17 14:12:30,974 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-17 14:12:41,348 - automation - INFO - 开始添加案件: (2025)苏0105民初0001号
+2025-04-17 14:12:53,741 - automation - INFO - 案件添加成功: (2025)苏0105民初0001号
+2025-04-17 14:12:53,822 - automation - INFO - 开始编辑案件: (2025)苏0105民初0001号
+2025-04-17 14:12:59,878 - automation - INFO - 案件修改成功: (2025)苏0105民初0001号修改
+2025-04-17 14:12:59,957 - automation - INFO - 开始删除案件: (2025)苏0105民初0001号
+2025-04-17 14:13:03,255 - automation - INFO - 案件删除成功: (2025)苏0105民初0001号

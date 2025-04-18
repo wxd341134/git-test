@@ -1,0 +1,560 @@
+2025-04-07 09:21:27,407 - automation - INFO - 开始初始化WebDriver...
+2025-04-07 09:21:27,407 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-07 09:21:27,407 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-07 09:21:30,661 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-07 09:21:30,669 - automation - INFO - WebDriver实例验证成功
+2025-04-07 09:21:30,669 - automation - INFO - 开始执行个人中心测试
+2025-04-07 09:21:33,256 - automation - INFO - 成功打开登录页面
+2025-04-07 09:21:33,256 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-07 09:21:33,459 - automation - INFO - 用户名输入完成
+2025-04-07 09:21:33,459 - automation - INFO - 开始输入密码
+2025-04-07 09:21:33,558 - automation - INFO - 密码输入完成
+2025-04-07 09:21:33,573 - automation - INFO - ==================================================
+2025-04-07 09:21:33,573 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-07 09:21:33,573 - automation - INFO - ==================================================
+2025-04-07 09:21:40,901 - automation - INFO - 验证码已自动填入
+2025-04-07 09:21:41,921 - automation - INFO - 尝试点击登录按钮
+2025-04-07 09:21:41,997 - automation - INFO - 登录按钮点击成功
+2025-04-07 09:21:41,997 - automation - INFO - 登录成功
+2025-04-07 09:21:41,997 - automation - INFO - 完成登录
+2025-04-07 09:21:44,060 - automation - INFO - 成功点击右上角用户菜单
+2025-04-07 09:21:45,152 - automation - INFO - 点击报表统计选项
+2025-04-07 09:21:46,216 - automation - INFO - 点击承办部门
+2025-04-07 09:21:47,287 - automation - INFO - 选择承办人
+2025-04-07 09:21:48,338 - automation - INFO - 点击查询按钮
+2025-04-07 09:21:50,399 - automation - INFO - 点击导出按钮
+2025-04-07 09:21:53,462 - automation - INFO - 成功点击右上角用户菜单
+2025-04-07 09:21:54,544 - automation - INFO - 点击字体下载选项
+2025-04-07 09:21:55,616 - automation - INFO - 点击方正小标简体按钮
+2025-04-07 09:21:57,699 - automation - INFO - 点击关闭弹框
+2025-04-07 09:21:58,751 - automation - INFO - 成功点击右上角用户菜单
+2025-04-07 09:21:59,860 - automation - INFO - 点击修改密码选项
+2025-04-07 09:22:00,988 - automation - INFO - 输入原密码
+2025-04-07 09:22:01,099 - automation - INFO - 输入新密码
+2025-04-07 09:22:01,202 - automation - INFO - 确认新密码
+2025-04-07 09:22:01,267 - automation - INFO - 点击确定按钮
+2025-04-07 09:22:06,302 - automation - INFO - 成功打开登录页面
+2025-04-07 09:22:06,302 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-07 09:22:06,407 - automation - INFO - 用户名输入完成
+2025-04-07 09:22:06,407 - automation - INFO - 开始输入密码
+2025-04-07 09:22:06,507 - automation - INFO - 密码输入完成
+2025-04-07 09:22:06,516 - automation - INFO - ==================================================
+2025-04-07 09:22:06,516 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-07 09:22:06,517 - automation - INFO - ==================================================
+2025-04-07 09:22:12,676 - automation - INFO - 验证码已自动填入
+2025-04-07 09:22:13,687 - automation - INFO - 尝试点击登录按钮
+2025-04-07 09:22:13,751 - automation - INFO - 登录按钮点击成功
+2025-04-07 09:22:13,751 - automation - INFO - 登录成功
+2025-04-07 09:22:13,751 - automation - INFO - 完成新密码登录
+2025-04-07 09:22:15,768 - automation - INFO - 使用新密码登录成功
+2025-04-07 09:22:15,835 - automation - INFO - 个人中心测试执行完成
+2025-04-07 09:22:15,863 - automation - WARNING - 未在test_data目录中找到ZIP文件
+2025-04-07 09:22:15,864 - automation - WARNING - 未在test_data目录中找到DOCX文件
+2025-04-07 09:22:15,864 - automation - INFO - 开始登录系统
+2025-04-07 09:22:17,869 - automation - INFO - 成功打开登录页面
+2025-04-07 09:22:17,869 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-07 09:22:27,908 - automation - ERROR - 用户名输入失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-07 09:22:30,170 - automation - ERROR - 登录过程失败: 用户名输入失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-07 09:22:46,402 - automation - ERROR - 无法截图
+2025-04-07 09:22:46,404 - automation - ERROR - 卷宗上传测试失败: 登录过程失败: 用户名输入失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-07 09:23:02,607 - automation - INFO - 测试结束，关闭浏览器
+2025-04-07 09:23:02,914 - automation - INFO - 测试方法结束，确保浏览器已关闭
+2025-04-07 09:23:02,915 - automation - INFO - 测试结束，关闭浏览器
+2025-04-07 09:23:02,918 - automation - INFO - 初始化测试方法...
+2025-04-07 09:23:19,174 - automation - WARNING - 登录检查或自动登录失败: HTTPConnectionPool(host='localhost', port=51566): Max retries exceeded with url: /session/be5a9ccbb74a9687ac4904bbc97ebf50/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F6DDE568E0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-04-07 09:23:19,176 - automation - INFO - 点击辅助阅卷
+2025-04-07 09:23:35,428 - automation - ERROR - 辅助阅卷测试失败: HTTPConnectionPool(host='localhost', port=51566): Max retries exceeded with url: /session/be5a9ccbb74a9687ac4904bbc97ebf50/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F6DDE56B50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-04-07 09:23:51,665 - automation - WARNING - 无法获取test_failed截图
+2025-04-07 09:23:51,775 - automation - INFO - 测试方法执行完毕
+2025-04-07 09:43:00,852 - automation - WARNING - 未在test_data目录中找到ZIP文件
+2025-04-07 09:43:00,852 - automation - WARNING - 未在test_data目录中找到DOCX文件
+2025-04-07 09:43:01,171 - automation - INFO - 测试执行完成
+2025-04-07 09:43:52,778 - automation - INFO - 使用本地ChromeDriver: chromedriver-win64/chromedriver.exe
+2025-04-07 09:43:58,385 - automation - ERROR - 设置WebDriver失败: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DD5BC2]
+	(No symbol) [0x00007FF6F5DC6919]
+	(No symbol) [0x00007FF6F5DC8688]
+	(No symbol) [0x00007FF6F5DC6C26]
+	(No symbol) [0x00007FF6F5DC66A6]
+	(No symbol) [0x00007FF6F5DC636A]
+	(No symbol) [0x00007FF6F5DC3EF2]
+	(No symbol) [0x00007FF6F5DC47DC]
+	(No symbol) [0x00007FF6F5DDD01A]
+	(No symbol) [0x00007FF6F5E80F4E]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-07 09:44:26,084 - automation - INFO - 开始初始化WebDriver...
+2025-04-07 09:44:26,084 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-07 09:44:26,084 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-07 09:44:27,672 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-07 09:44:27,696 - automation - INFO - WebDriver实例验证成功
+2025-04-07 09:44:27,697 - automation - INFO - 开始执行个人中心测试
+2025-04-07 09:44:30,301 - automation - INFO - 成功打开登录页面
+2025-04-07 09:44:30,301 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-07 09:44:30,501 - automation - INFO - 用户名输入完成
+2025-04-07 09:44:30,501 - automation - INFO - 开始输入密码
+2025-04-07 09:44:30,640 - automation - INFO - 密码输入完成
+2025-04-07 09:44:30,659 - automation - INFO - ==================================================
+2025-04-07 09:44:30,659 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-07 09:44:30,659 - automation - INFO - ==================================================
+2025-04-07 09:44:41,914 - automation - ERROR - 验证码输入为空
+2025-04-07 09:44:41,916 - automation - ERROR - 无法截图
+2025-04-07 19:28:31,421 - automation - INFO - 开始初始化WebDriver...
+2025-04-07 19:28:31,421 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-07 19:28:31,422 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-07 19:28:34,520 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-07 19:28:34,556 - automation - INFO - WebDriver实例验证成功
+2025-04-07 19:28:34,556 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-07 19:28:34,585 - automation - INFO - 开始阅卷笔记测试
+2025-04-07 19:28:34,588 - automation - INFO - 当前页面URL: data:,
+2025-04-07 19:28:34,591 - automation - INFO - 检测到已登录状态，继续执行测试
+2025-04-07 19:28:34,591 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-07 19:28:57,226 - automation - ERROR - 点击阅卷笔记按钮失败: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-07 19:28:57,317 - automation - INFO - 已保存截图: error_click_notes_button_failed_20250407_192857.png
+2025-04-07 19:28:57,318 - automation - ERROR - 阅卷笔记测试过程中出现错误: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5E2F747]
+	(No symbol) [0x00007FF6F5E2F97C]
+	(No symbol) [0x00007FF6F5E833C7]
+	(No symbol) [0x00007FF6F5E5792F]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-07 19:28:57,383 - automation - INFO - 已保存截图: error_test_error_20250407_192857.png
+2025-04-07 19:28:57,383 - automation - INFO - 阅卷笔记测试结束
+2025-04-07 19:28:57,491 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-07 19:31:07,188 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-07 19:31:07,188 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-07 19:31:07,188 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-07 19:31:07,188 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-07 19:31:08,974 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-07 19:31:08,989 - automation - INFO - 开始阅卷笔记测试
+2025-04-07 19:31:08,992 - automation - INFO - 开始登录系统
+2025-04-07 19:31:08,993 - automation - ERROR - 阅卷笔记测试过程中出现错误: 'LoginPage' object has no attribute 'open'
+2025-04-07 19:31:09,110 - automation - INFO - 已保存截图: error_test_error_20250407_193108.png
+2025-04-07 19:31:09,110 - automation - INFO - 阅卷笔记测试结束
+2025-04-07 19:31:09,208 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-07 19:31:09,209 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-07 19:31:24,992 - automation - INFO - 初始化测试类...
+2025-04-07 19:31:24,992 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-07 19:31:24,992 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-07 19:31:26,739 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-07 19:31:26,740 - automation - INFO - 开始登录系统
+2025-04-07 19:31:29,354 - automation - INFO - 成功打开登录页面
+2025-04-07 19:31:29,354 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-07 19:31:29,354 - automation - ERROR - 用户名输入失败: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DC4FB5]
+	(No symbol) [0x00007FF6F5DE9CD4]
+	(No symbol) [0x00007FF6F5E5F78F]
+	(No symbol) [0x00007FF6F5E7F975]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-07 19:31:29,378 - automation - ERROR - 无法截图
+2025-04-07 19:31:31,402 - automation - ERROR - 登录过程失败: 用户名输入失败: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DC4FB5]
+	(No symbol) [0x00007FF6F5DE9CD4]
+	(No symbol) [0x00007FF6F5E5F78F]
+	(No symbol) [0x00007FF6F5E7F975]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-07 19:31:54,244 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-07 19:31:54,244 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-07 19:31:54,244 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-07 19:31:54,244 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-07 19:31:55,931 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-07 19:31:55,969 - automation - INFO - 开始阅卷笔记测试
+2025-04-07 19:31:55,969 - automation - INFO - 开始登录系统
+2025-04-07 19:31:55,969 - automation - ERROR - 阅卷笔记测试过程中出现错误: 'LoginPage' object has no attribute 'open'
+2025-04-07 19:31:56,067 - automation - INFO - 已保存截图: error_test_error_20250407_193155.png
+2025-04-07 19:31:56,068 - automation - INFO - 阅卷笔记测试结束
+2025-04-07 19:31:56,160 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-07 19:31:56,161 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-07 19:33:57,118 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-07 19:33:57,119 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-07 19:33:57,119 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-07 19:33:57,119 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-07 19:33:58,778 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-07 19:33:58,797 - automation - INFO - 开始阅卷笔记测试
+2025-04-07 19:33:58,797 - automation - INFO - 开始登录系统
+2025-04-07 19:34:01,552 - automation - INFO - 成功打开登录页面
+2025-04-07 19:34:01,552 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-07 19:34:01,778 - automation - INFO - 用户名输入完成
+2025-04-07 19:34:01,778 - automation - INFO - 开始输入密码
+2025-04-07 19:34:01,883 - automation - INFO - 密码输入完成
+2025-04-07 19:34:01,898 - automation - INFO - ==================================================
+2025-04-07 19:34:01,898 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-07 19:34:01,907 - automation - INFO - ==================================================
+2025-04-07 19:34:08,418 - automation - INFO - 验证码已自动填入
+2025-04-07 19:34:09,434 - automation - INFO - 尝试点击登录按钮
+2025-04-07 19:34:09,500 - automation - INFO - 登录按钮点击成功
+2025-04-07 19:34:09,500 - automation - INFO - 登录成功
+2025-04-07 19:34:09,500 - automation - INFO - 登录系统完成
+2025-04-07 19:34:09,501 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-07 19:34:09,901 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-07 19:34:11,907 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-07 19:34:11,948 - automation - INFO - 成功点击判决书
+2025-04-07 19:34:13,955 - automation - INFO - 测试缩小文档视图
+2025-04-07 19:34:14,009 - automation - ERROR - 点击缩小按钮失败: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DE0B2C]
+	(No symbol) [0x00007FF6F5DE3C8C]
+	(No symbol) [0x00007FF6F5E813F2]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-07 19:34:14,177 - automation - INFO - 已保存截图: error_zoom_out_failed_20250407_193414.png
+2025-04-07 19:34:14,177 - automation - INFO - 测试放大文档视图
+2025-04-07 19:34:14,203 - automation - ERROR - 点击放大按钮失败: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DE0B2C]
+	(No symbol) [0x00007FF6F5DE3C8C]
+	(No symbol) [0x00007FF6F5E813F2]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-07 19:34:14,349 - automation - INFO - 已保存截图: error_zoom_in_failed_20250407_193414.png
+2025-04-07 19:34:14,349 - automation - INFO - 测试文档下载功能
+2025-04-07 19:34:14,378 - automation - ERROR - 文档下载操作失败: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DE0B2C]
+	(No symbol) [0x00007FF6F5DE3C8C]
+	(No symbol) [0x00007FF6F5E813F2]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-07 19:34:14,526 - automation - INFO - 已保存截图: error_download_failed_20250407_193414.png
+2025-04-07 19:34:14,526 - automation - INFO - 关闭文档查看弹框
+2025-04-07 19:34:14,571 - automation - INFO - 成功关闭文档查看弹框
+2025-04-07 19:34:26,637 - automation - INFO - 确认文档查看弹框已关闭
+2025-04-07 19:34:26,637 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-07 19:34:26,637 - automation - INFO - 阅卷笔记测试结束
+2025-04-07 19:34:26,648 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-07 19:34:26,649 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
+2025-04-07 19:41:15,270 - automation - INFO - ========== 开始执行阅卷笔记测试 ==========
+2025-04-07 19:41:15,270 - automation - INFO - 开始执行测试方法: test_document_notes
+2025-04-07 19:41:15,270 - automation - INFO - 开始创建Chrome WebDriver实例...
+2025-04-07 19:41:15,270 - automation - INFO - 使用本地 ChromeDriver: E:\AutoTest\FgAI\chromedriver-win64\chromedriver.exe
+2025-04-07 19:41:17,047 - automation - INFO - Chrome WebDriver 创建成功
+2025-04-07 19:41:17,059 - automation - INFO - 创建当天截图子目录: E:\AutoTest\FgAI\screenshots\20250407
+2025-04-07 19:41:17,063 - automation - INFO - 开始阅卷笔记测试
+2025-04-07 19:41:17,063 - automation - INFO - 开始登录系统
+2025-04-07 19:41:19,523 - automation - INFO - 成功打开登录页面
+2025-04-07 19:41:21,543 - automation - INFO - 成功打开登录页面
+2025-04-07 19:41:21,543 - automation - INFO - 开始输入用户名: wxdfg
+2025-04-07 19:41:21,644 - automation - INFO - 用户名输入完成
+2025-04-07 19:41:21,644 - automation - INFO - 开始输入密码
+2025-04-07 19:41:21,765 - automation - INFO - 密码输入完成
+2025-04-07 19:41:21,778 - automation - INFO - ==================================================
+2025-04-07 19:41:21,779 - automation - INFO - 请在弹出窗口中输入验证码
+2025-04-07 19:41:21,779 - automation - INFO - ==================================================
+2025-04-07 19:41:28,973 - automation - INFO - 验证码已自动填入
+2025-04-07 19:41:29,993 - automation - INFO - 尝试点击登录按钮
+2025-04-07 19:41:30,065 - automation - INFO - 登录按钮点击成功
+2025-04-07 19:41:30,065 - automation - INFO - 登录成功
+2025-04-07 19:41:30,065 - automation - INFO - 登录系统完成
+2025-04-07 19:41:30,065 - automation - INFO - 点击案件的阅卷笔记按钮
+2025-04-07 19:41:43,163 - automation - INFO - 成功点击阅卷笔记按钮
+2025-04-07 19:41:45,165 - automation - INFO - 点击左侧文档树中的判决书
+2025-04-07 19:41:45,203 - automation - INFO - 成功点击判决书
+2025-04-07 19:41:47,208 - automation - INFO - 测试缩小文档视图
+2025-04-07 19:41:47,238 - automation - ERROR - 点击缩小按钮失败: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DE0B2C]
+	(No symbol) [0x00007FF6F5DE3C8C]
+	(No symbol) [0x00007FF6F5E813F2]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-07 19:41:47,389 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250407\zoom_out_failed_194147.png
+2025-04-07 19:41:47,391 - automation - INFO - 测试放大文档视图
+2025-04-07 19:41:47,428 - automation - ERROR - 点击放大按钮失败: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DE0B2C]
+	(No symbol) [0x00007FF6F5DE3C8C]
+	(No symbol) [0x00007FF6F5E813F2]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-07 19:41:47,568 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250407\zoom_in_failed_194147.png
+2025-04-07 19:41:47,568 - automation - INFO - 测试文档下载功能
+2025-04-07 19:41:47,593 - automation - ERROR - 文档下载操作失败: Message: javascript error: arguments[0].click is not a function
+  (Session info: chrome=134.0.6998.177)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F5FEDF85+26693]
+	(No symbol) [0x00007FF6F5F4EAD0]
+	(No symbol) [0x00007FF6F5DD91CA]
+	(No symbol) [0x00007FF6F5DE0B2C]
+	(No symbol) [0x00007FF6F5DE3C8C]
+	(No symbol) [0x00007FF6F5E813F2]
+	(No symbol) [0x00007FF6F5E578EA]
+	(No symbol) [0x00007FF6F5E800B8]
+	(No symbol) [0x00007FF6F5E576C3]
+	(No symbol) [0x00007FF6F5E20490]
+	(No symbol) [0x00007FF6F5E21743]
+	GetHandleVerifier [0x00007FF6F634436D+3525677]
+	GetHandleVerifier [0x00007FF6F6357F3B+3606523]
+	GetHandleVerifier [0x00007FF6F634CEE3+3561379]
+	GetHandleVerifier [0x00007FF6F60B7C0A+853194]
+	(No symbol) [0x00007FF6F5F5990F]
+	(No symbol) [0x00007FF6F5F55674]
+	(No symbol) [0x00007FF6F5F55816]
+	(No symbol) [0x00007FF6F5F44D89]
+	BaseThreadInitThunk [0x00007FF8EA71E8D7+23]
+	RtlUserThreadStart [0x00007FF8EC15BF6C+44]
+
+2025-04-07 19:41:47,751 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250407\download_failed_194147.png
+2025-04-07 19:41:47,751 - automation - INFO - 关闭文档查看弹框
+2025-04-07 19:41:47,795 - automation - INFO - 成功关闭文档查看弹框
+2025-04-07 19:41:59,823 - automation - INFO - 确认文档查看弹框已关闭
+2025-04-07 19:41:59,928 - automation - INFO - 已保存截图: E:\AutoTest\FgAI\screenshots\20250407\test_complete_194159.png
+2025-04-07 19:41:59,929 - automation - INFO - 阅卷笔记功能测试完成
+2025-04-07 19:41:59,929 - automation - INFO - 阅卷笔记测试结束
+2025-04-07 19:41:59,939 - automation - INFO - 测试方法执行完成: test_document_notes
+2025-04-07 19:41:59,941 - automation - INFO - ========== 阅卷笔记测试执行完成 ==========
