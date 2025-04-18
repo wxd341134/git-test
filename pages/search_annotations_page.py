@@ -45,3 +45,41 @@ class SearchAnnotationsPage:
         By.XPATH,
         "//button[@class='ant-btn ant-btn-primary']"
     )
+
+    # 编辑批注相关的元素定位器
+    EDIT_ANNOTATION_BUTTON = (
+        By.XPATH,
+        "//p[text()=' 如下文档 ']/ancestor::div[1]/div/span/i[@class='anticon anticon-edit']"
+    )
+
+    EDIT_TEXTAREA = (
+        By.XPATH,
+        "//textarea[@placeholder='请输入内容']"
+    )
+
+    EDIT_LABEL_DROPDOWN = (
+        By.XPATH,
+        "//div[@class='ant-select-selection__rendered']"
+    )
+
+    LEGAL_REGULATIONS_LABEL = (
+        By.XPATH,
+        "//li[contains(text(),'法律法规')]"
+    )
+
+    CONFIRM_BUTTON = (
+        By.XPATH,
+        "//button[@class='ant-btn ant-btn-primary ant-btn-sm']"
+    )
+
+    # 删除批注相关的元素定位器
+    DELETE_ANNOTATION_BUTTON = (
+        By.XPATH,
+        "//p[text()=' 如下文档 ']/ancestor::div[1]/div/span/i[@class='anticon anticon-delete']"
+    )
+
+    DELETE_CONFIRM_BUTTON = (
+        By.XPATH,
+        "//button[@class='ant-btn ant-btn-primary']"
+    )
+
