@@ -16,13 +16,13 @@ class AssistedReadingPage:
     # 主要操作区域
     AUXILIARY_READING = (
         By.XPATH,
-        "//td[@title='(2025)苏0105民初0001号'][1]/ancestor::div[contains(@class, 'ant-table-content')]/div[3]/div[2]/div/table/tbody/tr[2]/td[1]/div/i[1]"
+        "//div[@class='ant-table-fixed-right']/div[2]//tbody/tr[1]/td[1]/div/i[1]"
     )
 
     # 庭审笔录相关元素
     COURT_RECORD = (By.XPATH, "//span[@class='ant-tree-title']/span[text()='庭审笔录1']")
     SET_RECORD = (By.XPATH, "//span[@class='ant-tree-title']/span[text()='庭审笔录1']/following-sibling::i[2]")
-    CANCEL_SET_RECORD = (By.CSS_SELECTOR, "svg[data-v-19fbe780][data-v-2fe3671f].plusType.svg-icon")
+    CANCEL_SET_RECORD = (By.CSS_SELECTOR, "svg[data-v-19fbe780][data-v-3f752b24].plusType.svg-icon")
     CONFIRM_CANCEL_BUTTON = (By.CSS_SELECTOR, "button.ant-btn.ant-btn-primary.ant-btn-sm")
 
     # 处理意见相关元素
