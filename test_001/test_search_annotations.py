@@ -2,14 +2,14 @@ import time
 
 import allure
 import pytest
-from common.annotations_utils import SearchAnnotationsUtils
+from common.search_annotations_utils import SearchAnnotationsUtils
 from test_001.base_test import BaseTest
 from utils.logger import Logger
 
 logger = Logger().get_logger()
 
 
-@allure.epic("案件管理系统")
+@allure.epic("法官AI助手")
 @allure.feature("检索批注功能")
 class TestSearchAnnotations(BaseTest):
     """检索批注测试类"""
@@ -137,6 +137,20 @@ class TestSearchAnnotations(BaseTest):
 
         except Exception as e:
             logger.error(f"法条生命周期测试失败: {str(e)}")
+            raise
+
+    @allure.story("页面跳转功能")
+    @allure.title("测试页面跳转")
+    def test_page_navigation(self, driver):
+        """测试页面跳转功能"""
+        try:
+            with allure.step("执行页面跳转操作"):
+                self.annotations.page_navigation()
+
+
+        except Exception as e:
+            logger.error(f"页面跳转测试失败: {str(e)}")
+
             raise
 
 

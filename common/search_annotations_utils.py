@@ -1,10 +1,11 @@
 import time
 import allure
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
-from pages.annotations_page import SearchAnnotationsPage
+from pages.search_annotations_page import SearchAnnotationsPage
 from utils.logger import Logger
 from utils.JStextSelection import JSTextSelector
 
@@ -458,3 +459,72 @@ class SearchAnnotationsUtils:
                 allure.attachment_type.PNG
             )
             raise
+
+    @allure.step("页面跳转操作")
+    def page_navigation(self):
+        """执行页面跳转和文本操作"""
+        try:
+            logger.info("开始执行页面跳转流程...")
+
+            # 1. 点击打开侧边栏
+            with allure.step("打开侧边栏"):
+                self.click_element(
+                    SearchAnnotationsPage.SIDEBAR_TOGGLE,
+                    "侧边栏切换按钮"
+                )
+                time.sleep(1)
+
+            # 2. 点击选中第3页
+            with allure.step("选择第3页"):
+                self.click_element(
+                    SearchAnnotationsPage.PAGE_THREE,
+                    "第3页缩略图"
+                )
+                time.sleep(2)  # 等待页面加载
+
+            # 3. 选择文本"导入镜像"
+            with allure.step("选中文本'导入镜像'"):
+                JSTextSelector.select_text(self.driver, "导入镜像")
+                time.sleep(1)
+
+            # 4. 点击复制文本
+            with allure.step("点击复制文本"):
+                self.click_element(
+                    SearchAnnotationsPage.COPY_TEXT_BUTTON,
+                    "复制文本按钮"
+                )
+                time.sleep(1)
+
+            # 5. 跳转到第10页
+            with allure.step("跳转到第10页"):
+                # 点击页数输入框
+                page_input = self.wait.until(
+                    EC.presence_of_element_located(SearchAnnotationsPage.PAGE_INPUT)
+                )
+                page_input.click()
+                time.sleep(1)
+
+                # 清除现有内容并输入10
+                page_input.clear()
+                page_input.send_keys("10")
+                page_input.send_keys(Keys.RETURN)
+                time.sleep(3)  # 等待页面加载
+
+            # 6. 关闭侧边栏
+            with allure.step("关闭侧边栏"):
+                self.click_element(
+                    SearchAnnotationsPage.SIDEBAR_TOGGLE,
+                    "侧边栏切换按钮"
+                )
+
+            logger.info("页面跳转流程执行完成")
+
+        except Exception as e:
+            logger.error(f"页面跳转操作失败: {str(e)}")
+            allure.attach(
+                self.driver.get_screenshot_as_png(),
+                "页面跳转失败截图",
+                allure.attachment_type.PNG
+            )
+            raise
+

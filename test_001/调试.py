@@ -14,5 +14,5 @@ user_login = "wxd341134"
 
 
 WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "svg[data-v-19fbe780][data-v-3f752b24].plusType.svg-icon"))).click()
-WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//span[@class='ant-tree-title']/span[text()='庭审笔录1']/following-sibling::i[2]"))).click()
+WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='page-control']//*[name()='svg']"))).click()
 WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//li[contains(text(),'全部')]"))).click()

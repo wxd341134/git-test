@@ -61,3 +61,9 @@ class SearchAnnotationsPage:
     DELETE_LAW_BUTTON = (By.XPATH, "//i[@aria-label='图标: delete']//*[name()='svg']")
     CONFIRM_DELETE = (By.XPATH, "//button[@class='ant-btn ant-btn-primary']")
 
+    # 页面跳转相关的元素定位器
+    SIDEBAR_TOGGLE = (By.XPATH, "//div[@class='page-control']//*[name()='svg']")
+    PAGE_THREE = (By.XPATH, "//div[(@class='pdf-thumbnail')]/div/div[text()=' 3 ']")
+    COPY_TEXT_BUTTON = (By.XPATH, "//div[@class='tip__compact']/a[text()='复制文本']")
+    PAGE_INPUT = (By.XPATH, "//div[@class='page-control']//input")
+
