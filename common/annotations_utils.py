@@ -375,3 +375,183 @@ class SearchAnnotationsUtils:
                 allure.attachment_type.PNG
             )
             raise
+
+    @allure.step("引用法条")
+    def cite_law(self, text_to_select="服务器", search_keyword="诉讼法"):
+        """
+        引用法条
+        Args:
+            text_to_select: 要选中的文本
+            search_keyword: 搜索关键词
+        """
+        try:
+            logger.info("开始执行引用法条流程...")
+
+            # 1. 选中文本 - 直接使用原有的select_text_by_js方法
+            with allure.step(f"选中文本: {text_to_select}"):
+                self.select_text_by_js(text_to_select)
+                time.sleep(1)  # 等待选中效果稳定
+
+            # 2. 点击检索
+            with allure.step("点击检索"):
+                self.click_element(
+                    SearchAnnotationsPage.SEARCH_LINK,
+                    "检索链接"
+                )
+                time.sleep(1)
+
+            # 3. 输入搜索内容
+            with allure.step(f"输入搜索内容: {search_keyword}"):
+                self.input_text(
+                    SearchAnnotationsPage.SEARCH_INPUT,
+                    search_keyword,
+                    "搜索输入框"
+                )
+
+            # 4. 点击搜索按钮
+            with allure.step("点击搜索"):
+                self.click_element(
+                    SearchAnnotationsPage.SEARCH_BUTTON,
+                    "搜索按钮"
+                )
+
+            # 5. 引用法条
+            with allure.step("引用指定法条"):
+                self.click_element(
+                    SearchAnnotationsPage.LAW_REFERENCE,
+                    "法条引用按钮"
+                )
+
+            logger.info("引用法条流程执行完成")
+
+        except Exception as e:
+            logger.error(f"引用法条失败: {str(e)}")
+            allure.attach(
+                self.driver.get_screenshot_as_png(),
+                "引用法条失败截图",
+                allure.attachment_type.PNG
+            )
+            raise
+
+    @allure.step("预览法条")
+    def preview_law(self):
+        """预览法条"""
+        try:
+            logger.info("开始执行预览法条流程...")
+
+            # 1. 点击预览
+            with allure.step("点击预览"):
+                self.click_element(
+                    SearchAnnotationsPage.PREVIEW_LAW,
+                    "法条预览链接"
+                )
+                time.sleep(1)
+
+            # 2. 关闭预览
+            with allure.step("关闭预览"):
+                self.click_element(
+                    SearchAnnotationsPage.CLOSE_PREVIEW,
+                    "关闭预览按钮"
+                )
+
+            logger.info("预览法条流程执行完成")
+
+        except Exception as e:
+            logger.error(f"预览法条失败: {str(e)}")
+            allure.attach(
+                self.driver.get_screenshot_as_png(),
+                "预览法条失败截图",
+                allure.attachment_type.PNG
+            )
+            raise
+
+    @allure.step("编辑法条")
+    def edit_law(self, new_text="中华人民共和国民事诉讼法修改"):
+        """
+        编辑法条
+        Args:
+            new_text: 新的法条内容
+        """
+        try:
+            logger.info("开始执行编辑法条流程...")
+
+            # 1. 点击编辑按钮
+            with allure.step("点击编辑按钮"):
+                self.click_element(
+                    SearchAnnotationsPage.EDIT_LAW_BUTTON,
+                    "编辑法条按钮"
+                )
+                time.sleep(1)
+
+            # 2. 输入新内容
+            with allure.step(f"输入新内容: {new_text}"):
+                self.input_text(
+                    SearchAnnotationsPage.EDIT_LAW_INPUT,
+                    new_text,
+                    "法条编辑框"
+                )
+
+            # 3. 点击标签下拉框
+            with allure.step("点击标签下拉框"):
+                self.click_element(
+                    SearchAnnotationsPage.TAG_DROPDOWN,
+                    "标签下拉框"
+                )
+                time.sleep(0.5)
+
+            # 4. 选择争议焦点标签
+            with allure.step("选择争议焦点标签"):
+                self.click_element(
+                    SearchAnnotationsPage.DISPUTE_FOCUS_OPTION,
+                    "争议焦点选项"
+                )
+
+            # 5. 点击确定
+            with allure.step("确认编辑"):
+                self.click_element(
+                    SearchAnnotationsPage.CONFIRM_BUTTON,
+                    "确认按钮"
+                )
+
+            logger.info("编辑法条流程执行完成")
+
+        except Exception as e:
+            logger.error(f"编辑法条失败: {str(e)}")
+            allure.attach(
+                self.driver.get_screenshot_as_png(),
+                "编辑法条失败截图",
+                allure.attachment_type.PNG
+            )
+            raise
+
+    @allure.step("删除法条")
+    def delete_law(self):
+        """删除法条"""
+        try:
+            logger.info("开始执行删除法条流程...")
+
+            # 1. 点击删除按钮
+            with allure.step("点击删除按钮"):
+                self.click_element(
+                    SearchAnnotationsPage.DELETE_LAW_BUTTON,
+                    "删除法条按钮"
+                )
+                time.sleep(0.5)
+
+            # 2. 确认删除
+            with allure.step("确认删除"):
+                self.click_element(
+                    SearchAnnotationsPage.CONFIRM_DELETE,
+                    "确认删除按钮"
+                )
+
+            logger.info("删除法条流程执行完成")
+
+        except Exception as e:
+            logger.error(f"删除法条失败: {str(e)}")
+            allure.attach(
+                self.driver.get_screenshot_as_png(),
+                "删除法条失败截图",
+                allure.attachment_type.PNG
+            )
+            raise

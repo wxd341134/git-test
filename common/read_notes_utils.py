@@ -8,7 +8,7 @@ from selenium.common.exceptions import TimeoutException, ElementClickIntercepted
 
 from pages.read_notes_page import ReadNotesPage
 from utils.TextSelection import TextSelectionUtils
-from utils.TextSelection2 import TextSelection2
+from utils.JStextSelection import TextSelection2
 from utils.logger import Logger
 
 logger = Logger().get_logger()

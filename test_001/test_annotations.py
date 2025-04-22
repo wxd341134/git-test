@@ -1,3 +1,5 @@
+import time
+
 import allure
 import pytest
 from common.annotations_utils import SearchAnnotationsUtils
@@ -90,6 +92,51 @@ class TestSearchAnnotations(BaseTest):
 
         except Exception as e:
             logger.error(f"批注删除测试失败: {str(e)}")
+            raise
+
+    @allure.story("法条管理完整流程")
+    @allure.title("测试法条完整生命周期")
+    def test_law_lifecycle(self, driver):
+        """
+        测试法条的完整生命周期：
+        1. 引用法条
+        2. 预览法条
+        3. 编辑法条
+        4. 删除法条
+        """
+        try:
+            # 1. 引用法条
+            with allure.step("步骤1：引用法条"):
+                self.annotations.cite_law(
+                    text_to_select="服务器",
+                    search_keyword="诉讼法"
+                )
+
+                time.sleep(1)
+
+            # 2. 预览法条
+            with allure.step("步骤2：预览法条"):
+                self.annotations.preview_law()
+
+                time.sleep(1)
+
+            # 3. 编辑法条
+            with allure.step("步骤3：编辑法条"):
+                self.annotations.edit_law(
+                    new_text="中华人民共和国民事诉讼法修改"
+                )
+
+                time.sleep(1)
+
+            # 4. 删除法条
+            with allure.step("步骤4：删除法条"):
+                self.annotations.delete_law()
+
+
+            logger.info("法条完整生命周期测试完成")
+
+        except Exception as e:
+            logger.error(f"法条生命周期测试失败: {str(e)}")
             raise
 
 
