@@ -6,9 +6,9 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from pages.annotations_page import SearchAnnotationsPage
 from utils.logger import Logger
+from utils.JStextSelection import JSTextSelector
 
 logger = Logger().get_logger()
-
 
 class SearchAnnotationsUtils:
     """检索批注工具类"""
@@ -104,76 +104,7 @@ class SearchAnnotationsUtils:
         Args:
             text: 要选中的文本
         """
-        try:
-            logger.info(f"尝试使用JS选中文本: {text}")
-
-            js_script = """
-            function selectText(searchText) {
-                const textNodes = [];
-
-                // 递归查找文本节点
-                function findTextNodes(node) {
-                    if (node.nodeType === 3) {
-                        if (node.textContent.includes(searchText)) {
-                            textNodes.push(node);
-                        }
-                    } else {
-                        for (let child of node.childNodes) {
-                            findTextNodes(child);
-                        }
-                    }
-                }
-
-                findTextNodes(document.body);
-
-                if (textNodes.length === 0) {
-                    return false;
-                }
-
-                // 使用第一个匹配的文本节点
-                const textNode = textNodes[0];
-                const range = document.createRange();
-                const content = textNode.textContent;
-                const startIndex = content.indexOf(searchText);
-
-                // 设置选区
-                range.setStart(textNode, startIndex);
-                range.setEnd(textNode, startIndex + searchText.length);
-
-                // 应用选区
-                const selection = window.getSelection();
-                selection.removeAllRanges();
-                selection.addRange(range);
-
-                // 滚动到选区
-                const element = textNode.parentElement;
-                element.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'center'
-                });
-
-                return true;
-            }
-
-            return selectText(arguments[0]);
-            """
-
-            result = self.driver.execute_script(js_script, text)
-
-            if not result:
-                raise Exception(f"未找到文本: {text}")
-
-            time.sleep(1)  # 等待选中效果
-            logger.info(f"成功选中文本: {text}")
-
-        except Exception as e:
-            logger.error(f"选中文本失败: {str(e)}")
-            allure.attach(
-                self.driver.get_screenshot_as_png(),
-                "选中文本失败截图",
-                allure.attachment_type.PNG
-            )
-            raise
+        return JSTextSelector.select_text(self.driver, text)
 
     @allure.step("执行检索批注")
     def add_annotation(self, text_to_select="如下文档", annotation_text="123456"):
@@ -202,7 +133,7 @@ class SearchAnnotationsUtils:
 
             # 3. 使用JS选中文本
             with allure.step(f"选中文本: {text_to_select}"):
-                self.select_text_by_js(text_to_select)
+                JSTextSelector.select_text(self.driver, text_to_select)
                 time.sleep(1)
 
             # 4. 点击批注按钮
@@ -348,34 +279,6 @@ class SearchAnnotationsUtils:
             )
             raise
 
-    @allure.step("添加并编辑批注")
-    def add_and_edit_annotation(self, text_to_select="如下文档", initial_text="123456", edited_text="123456修改"):
-        """
-        添加批注并编辑
-        Args:
-            text_to_select: 要选中的文本
-            initial_text: 初始批注内容
-            edited_text: 编辑后的批注内容
-        """
-        try:
-            # 先添加批注
-            self.add_annotation(text_to_select, initial_text)
-            time.sleep(1)  # 等待添加完成
-
-            # 然后编辑批注
-            self.edit_annotation(edited_text)
-
-            logger.info("添加并编辑批注流程执行完成")
-
-        except Exception as e:
-            logger.error(f"添加并编辑批注失败: {str(e)}")
-            allure.attach(
-                self.driver.get_screenshot_as_png(),
-                "添加并编辑批注失败截图",
-                allure.attachment_type.PNG
-            )
-            raise
-
     @allure.step("引用法条")
     def cite_law(self, text_to_select="服务器", search_keyword="诉讼法"):
         """
@@ -387,10 +290,10 @@ class SearchAnnotationsUtils:
         try:
             logger.info("开始执行引用法条流程...")
 
-            # 1. 选中文本 - 直接使用原有的select_text_by_js方法
+            # 1. 选中文本
             with allure.step(f"选中文本: {text_to_select}"):
-                self.select_text_by_js(text_to_select)
-                time.sleep(1)  # 等待选中效果稳定
+                JSTextSelector.select_text(self.driver, text_to_select)
+                time.sleep(1)
 
             # 2. 点击检索
             with allure.step("点击检索"):
