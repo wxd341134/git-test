@@ -4,7 +4,7 @@ import allure
 from datetime import datetime
 
 from common.assisted_read_utils import AssistedReadUtils
-from test_001.base_test import BaseTest
+from tests.base_test import BaseTest
 from pages.assisted_read_page import AssistedReadPage
 from utils.logger import Logger
 

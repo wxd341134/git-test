@@ -1,7 +1,7 @@
 import os
 import pytest
 import allure
-from test_001.base_test import BaseTest
+from tests.base_test import BaseTest
 from pages.DossierUp_page import DossierUpPage
 from common.DossierUp_utils import DossierUpUtils
 from utils.common import get_project_root

@@ -1,6 +1,6 @@
 import pytest
 import allure
-from test_001.base_test import BaseTest
+from tests.base_test import BaseTest
 from pages.usercenter_page import UserCenterPage
 from common.usercenter_utils import UserCenterUtils
 from utils.logger2 import Logger

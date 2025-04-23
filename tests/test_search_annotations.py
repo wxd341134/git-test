@@ -3,7 +3,7 @@ import time
 import allure
 import pytest
 from common.search_annotations_utils import SearchAnnotationsUtils
-from test_001.base_test import BaseTest
+from tests.base_test import BaseTest
 from utils.logger import Logger
 
 logger = Logger().get_logger()

@@ -8,7 +8,6 @@ from selenium.common.exceptions import TimeoutException, ElementClickIntercepted
 
 from pages.read_notes_page import ReadNotesPage
 from utils.TextSelection import TextSelectionUtils
-from utils.JStextSelection import TextSelection2
 from utils.logger import Logger
 
 logger = Logger().get_logger()
@@ -168,23 +167,23 @@ class ReadNotesUtils:
             find_input.send_keys(search_text)
             time.sleep(1)
 
+            # 执行查找
+            self.safe_click(ReadNotesPage.FIND_BUTTON, "查找按钮")
+            time.sleep(1)
+
             # 输入替换内容
             replace_input = self.wait_for_element_clickable(ReadNotesPage.REPLACE_INPUT, 10, "替换输入框")
             replace_input.clear()
             replace_input.send_keys(replace_text)
             time.sleep(1)
 
-            # 执行查找
-            self.safe_click(ReadNotesPage.FIND_BUTTON, "查找按钮")
-            time.sleep(1)
-
             # 执行替换
             self.safe_click(ReadNotesPage.REPLACE_BUTTON, "替换按钮")
             time.sleep(1)
 
-            # 执行全部替换
-            self.safe_click(ReadNotesPage.REPLACE_ALL_BUTTON, "全部替换按钮")
-            time.sleep(2)
+            # # 执行全部替换
+            # self.safe_click(ReadNotesPage.REPLACE_ALL_BUTTON, "全部替换按钮")
+            # time.sleep(2)
 
             # 关闭对话框
             self.safe_click(ReadNotesPage.CLOSE_DIALOG, "关闭对话框")
@@ -248,7 +247,7 @@ class ReadNotesUtils:
             raise
 
     @allure.step("执行文本格式化操作")
-    def format_selected_text(self, text_to_select="原告欠款560000元"):
+    def format_selected_text(self, text_to_select="原告借款本金"):
         """对选中文本执行一系列格式化操作"""
         try:
             logger.info(f"开始执行文本格式化操作: {text_to_select}")
@@ -338,7 +337,7 @@ class ReadNotesUtils:
             raise
 
     @allure.step("选中文本并选择AI智能问答和构成要件")
-    def select_text_and_use_ai_qa(self, text_to_select="全国银行间同业拆借"):
+    def select_text_and_use_ai_qa(self, text_to_select="万家新城内"):   #注意阅卷笔记内容生成的不一样，可能导致搜索的内容找不到
         """
         模拟鼠标滑动选中文本并使用AI智能问答功能
         Args:

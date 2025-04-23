@@ -1,16 +1,16 @@
 import allure
 import pytest
-from common.statute_search_utils import StatuteSearchUtils
-from test_001.base_test import BaseTest
+from common.archives_search_utils import ArchivesSearchUtils
+from tests.base_test import BaseTest
 from utils.logger import Logger
 
 logger = Logger().get_logger()
 
 
 @allure.epic("案件管理系统")
-@allure.feature("法条检索模块")
-class TestStatuteSearch(BaseTest):
-    """法条检索测试类"""
+@allure.feature("卷宗检索模块")
+class TestArchivesSearch(BaseTest):
+    """卷宗检索测试类"""
 
     @pytest.fixture(autouse=True)
     def setup_teardown(self, driver):
@@ -20,9 +20,9 @@ class TestStatuteSearch(BaseTest):
         """
         logger.info("开始测试前置操作...")
         try:
-            # 初始化法条检索工具类
-            self.statute_search = StatuteSearchUtils(driver)
-            logger.info("法条检索工具类初始化完成")
+            # 初始化卷宗检索工具类
+            self.archives_search = ArchivesSearchUtils(driver)
+            logger.info("卷宗检索工具类初始化完成")
 
             # 执行测试
             yield
@@ -49,27 +49,27 @@ class TestStatuteSearch(BaseTest):
         except Exception as e:
             logger.error(f"截图失败: {str(e)}")
 
-    @allure.story("法条检索功能")
-    @allure.title("测试法条检索基本流程")
+    @allure.story("卷宗检索功能")
+    @allure.title("测试卷宗检索基本流程")
     @allure.severity(allure.severity_level.NORMAL)
     @pytest.mark.flaky(reruns=2, reruns_delay=2)
-    def test_basic_statute_search(self, driver):
+    def test_basic_archives_search(self, driver):
         """
-        测试法条检索基本流程：
-        1. 点击辅助阅卷
-        2. 点击法条检索
-        3. 输入搜索内容
-        4. 点击搜索
-        5. 预览法条
-        6. 关闭预览
+        测试卷宗检索基本流程：
+        1. 点击卷宗检索
+        2. 输入搜索内容
+        3. 点击搜索
+        4. 预览卷宗
+        5. 关闭预览
+        6. 勾选仅显示文件名
         7. 关闭搜索
         """
         try:
-            with allure.step("执行法条检索基本流程"):
-                self.statute_search.perform_statute_search("身份证")
+            with allure.step("执行卷宗检索基本流程"):
+                self.archives_search.perform_archives_search("判决")
                 self.take_screenshot("基本流程完成")
 
         except Exception as e:
-            logger.error(f"法条检索测试失败: {str(e)}")
+            logger.error(f"卷宗检索测试失败: {str(e)}")
             self.take_screenshot("基本流程失败")
             raise

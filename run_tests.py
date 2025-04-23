@@ -24,7 +24,7 @@ def run_tests():
         pytest.main([
             f'test_001/test_UserCenter.py',
             f'test_001/test_DossierUp.py',
-            # f'test_001/test_CaseMg.py',
+            # f'tests/test_CaseMg.py',
             f'test_001/test_AssistedG.py',
             '-v',
             '--alluredir', results_dir

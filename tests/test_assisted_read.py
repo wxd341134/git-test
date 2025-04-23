@@ -2,7 +2,7 @@ import time
 import pytest
 import allure
 from datetime import datetime
-from test_001.base_test import BaseTest
+from tests.base_test import BaseTest
 from pages.assisted_read_page import AssistedReadPage
 from common.assisted_read_utils import AssistedReadUtils
 from utils.logger import Logger
