@@ -100,7 +100,7 @@ class DossierUpPage(BasePage):
             # 点击刷新按钮
             self.wait.until(EC.element_to_be_clickable(self.refresh_button)).click()
             logger.info("点击刷新按钮成功")
-            time.sleep(1)
+            time.sleep(2)
 
             # 尝试点击展开按钮
             try:

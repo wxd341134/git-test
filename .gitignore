@@ -6,6 +6,7 @@
 *.iml
 out
 gen
+.png
 allure-report/*
 allure-results/*
-tests/allure-results/*
+tests/reports/allure-results/*
