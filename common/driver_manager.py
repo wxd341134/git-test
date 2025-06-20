@@ -44,7 +44,7 @@ class DriverManager:
             # 使用项目中的 chromedriver-win64 文件夹中的 chromedriver.exe
             driver_path = os.path.join(
                 os.path.dirname(os.path.dirname(__file__)), 
-                'chromedriver-win64', 
+                'chromedriver-win64',
                 'chromedriver.exe'
             )
             
