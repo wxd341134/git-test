@@ -1,6 +1,6 @@
 import pytest
 from pages.login_page import LoginPage
-from pages.case_page import CasePage
+from pages.caseMg_page import CasePage
 import yaml
 import time
 

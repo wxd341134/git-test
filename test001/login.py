@@ -23,7 +23,7 @@ def initialize_driver():
 
 def login(driver, username, password):
     try:
-        driver.get("http://192.168.2.176:86/#/case/index")
+        driver.get("http://192.168.2.76:86/#/case/index")
         print(driver.title)
 
         wait = WebDriverWait(driver, 10)

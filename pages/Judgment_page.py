@@ -86,7 +86,7 @@ class JudgmentPage:
     ARROW_LEFT = (By.XPATH, "//i[@aria-label='图标: arrow-left']//*[name()='svg']")  # 左箭头
     HIGHLIGHT_CHECKBOX = (By.XPATH, "//span[text()=' 高亮全部']")  # 高亮复选框
     CLOSE_SEARCH = (By.XPATH, "//i[@class='ant-dropdown-link anticon anticon-search ant-dropdown-trigger ant-dropdown-open']//*[name()='svg']")  # 关闭搜索按钮
-    # BACK_BUTTON = (By.XPATH, "//div[@class='header fluid']//div[3]//*[name()='svg']")  # 返回上一层按钮
+    BACK_BUTTON = (By.CSS_SELECTOR, ".container_box .svg-icon")  # 返回上一层按钮
 
     # 法条检索相关元素
     LAW_SEARCH = (By.XPATH, "//i[@class='side-icon-ftjs']")  # 法条检索按钮
@@ -120,6 +120,27 @@ class JudgmentPage:
 
     # 智能问答结果验证相关元素
     QA_RESPONSE = (By.XPATH, "//div[contains(@class, 'qa-response')]")  # 问答响应内容区域
+
+    # 计算器相关元素
+    CALCULATOR = (By.XPATH, "//i[contains(@class, 'side-icon-jsq')]")  # 计算器按钮
+    DAMAGE_CALCULATOR = (By.CSS_SELECTOR, ".calculator-icon.icon-general")  # 损害赔偿计算器按钮
+
+    # 医疗费相关元素
+    MEDICAL_FEE_TITLE = (By.XPATH, "//span[contains(text(),'医疗费')]")  # 医疗费大标题
+    HOSPITAL_NAME_INPUT = (By.XPATH, "//input[@placeholder='请输入名称']")  # 医院名称输入框
+    MEDICAL_FEE_INPUT = (By.XPATH, "//input[@placeholder='请输入医疗费']")  # 医疗费输入框
+    HOSPITALIZATION_FEE_INPUT = (By.XPATH, "//input[@placeholder='请输入住院费']")  # 住院费输入框
+    ADD_BUTTON = (By.CSS_SELECTOR, "button[class='ant-btn ant-btn-primary ant-btn-sm']")  # 新增按钮
+    DELETE_BUTTON = (
+    By.CSS_SELECTOR, "button[class='ant-btn ant-btn-danger ant-btn-sm ant-btn-background-ghost']")  # 删除按钮
+
+    # 住宿费相关元素
+    ACCOMMODATION_TITLE = (By.XPATH, "//span[contains(text(),'住宿费')]")  # 住宿费大标题
+    ACCOMMODATION_FEE_INPUT = (By.XPATH, "//input[@placeholder='请输入住宿费']")  # 住宿费输入框
+    ACCOMMODATION_DAYS_INPUT = (By.XPATH, "//input[@placeholder='请输入住宿天数']")  # 住宿天数输入框
+
+    # 关闭按钮
+    CLOSE_CALCULATOR = (By.XPATH, "//i[2]//img[1]")  # 关闭计算器按钮
 
 
 

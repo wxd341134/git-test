@@ -4,6 +4,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+
+from pages.assisted_read_page import AssistedReadPage
 from utils.logger import Logger
 from datetime import datetime
 
@@ -12,6 +14,12 @@ logger = Logger().get_logger()
 
 class AssistedReadUtils:
     """辅助阅卷工具类"""
+
+    def __init__(self, driver):
+        self.driver = driver
+        self.wait = WebDriverWait(driver, 10)
+        self.current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        self.current_user = "wxd341134"
 
     @staticmethod
     def execute_assisted_read_workflow(page):
@@ -49,7 +57,7 @@ class AssistedReadUtils:
             logger.info("点击辅助阅卷按钮")
             wait = WebDriverWait(page.driver, 10)
             auxiliary_reading = wait.until(
-                EC.element_to_be_clickable(page.locators.AUXILIARY_READING)
+                EC.element_to_be_clickable(AssistedReadPage.AUXILIARY_READING)
             )
             auxiliary_reading.click()
             time.sleep(2)
@@ -63,17 +71,17 @@ class AssistedReadUtils:
     def click_court_record1(page):
         """点击庭审笔录1"""
         try:
-            logger.info("点击庭审笔录1")
+            logger.info("点击庭审笔录2")
             wait = WebDriverWait(page.driver, 10)
             court_record = wait.until(
-                EC.element_to_be_clickable(page.locators.COURT_RECORD)
+                EC.element_to_be_clickable(AssistedReadPage.COURT_RECORD)
             )
             court_record.click()
             time.sleep(2)
-            logger.info("成功点击庭审笔录1")
+            logger.info("成功点击庭审笔录2")
             return True
         except Exception as e:
-            logger.error(f"点击庭审笔录1失败: {str(e)}")
+            logger.error(f"点击庭审笔录2失败: {str(e)}")
             return False
 
     @staticmethod
@@ -83,7 +91,7 @@ class AssistedReadUtils:
             logger.info("设置为庭审笔录")
             wait = WebDriverWait(page.driver, 10)
             set_record = wait.until(
-                EC.element_to_be_clickable(page.locators.SET_RECORD)
+                EC.element_to_be_clickable(AssistedReadPage.SET_RECORD)
             )
             set_record.click()
             time.sleep(1)
@@ -102,7 +110,7 @@ class AssistedReadUtils:
 
             # 输入第一个意见
             opinion1_elem = wait.until(
-                EC.presence_of_element_located(page.locators.OPINION1)
+                EC.presence_of_element_located(AssistedReadPage.OPINION1)
             )
             opinion1_elem.clear()
             opinion1_elem.send_keys(opinion1)
@@ -110,7 +118,7 @@ class AssistedReadUtils:
 
             # 输入第二个意见
             opinion2_elem = wait.until(
-                EC.presence_of_element_located(page.locators.OPINION2)
+                EC.presence_of_element_located(AssistedReadPage.OPINION2)
             )
             opinion2_elem.clear()
             opinion2_elem.send_keys(opinion2)
@@ -129,7 +137,7 @@ class AssistedReadUtils:
             logger.info("确认设置")
             wait = WebDriverWait(page.driver, 10)
             confirm_button = wait.until(
-                EC.element_to_be_clickable(page.locators.CONFIRM_BUTTON)
+                EC.element_to_be_clickable(AssistedReadPage.CONFIRM_BUTTON)
             )
             confirm_button.click()
             time.sleep(2)
@@ -151,7 +159,7 @@ class AssistedReadUtils:
             # 先点击庭审笔录1
             logger.info("点击庭审笔录1")
             court_record = wait.until(
-                EC.element_to_be_clickable(page.locators.COURT_RECORD)
+                EC.element_to_be_clickable(AssistedReadPage.COURT_RECORD)
             )
             court_record.click()
             time.sleep(2)
@@ -160,13 +168,13 @@ class AssistedReadUtils:
                 # 尝试直接点击
                 logger.info("尝试点击取消设置按钮")
                 cancel_button = wait.until(
-                    EC.element_to_be_clickable(page.locators.CANCEL_SET_RECORD)
+                    EC.element_to_be_clickable(AssistedReadPage.CANCEL_SET_RECORD)
                 )
                 cancel_button.click()
             except:
                 logger.warning("直接点击取消按钮失败，尝试JavaScript点击")
                 # 如果直接点击失败，尝试使用JavaScript点击
-                cancel_button = page.driver.find_element(*page.locators.CANCEL_SET_RECORD)
+                cancel_button = page.driver.find_element(*AssistedReadPage.CANCEL_SET_RECORD)
                 page.driver.execute_script("arguments[0].click();", cancel_button)
 
             time.sleep(2)
@@ -174,7 +182,7 @@ class AssistedReadUtils:
             # 确认取消设置
             logger.info("点击确认取消按钮")
             confirm_button = wait.until(
-                EC.element_to_be_clickable(page.locators.CONFIRM_CANCEL_BUTTON)
+                EC.element_to_be_clickable(AssistedReadPage.CONFIRM_CANCEL_BUTTON)
             )
             # 尝试两种方式点击确认按钮
             try:
@@ -211,14 +219,14 @@ class AssistedReadUtils:
 
             # 点击下载按钮
             download_button = wait.until(
-                EC.element_to_be_clickable(page.locators.DOWNLOAD_BUTTON)
+                EC.element_to_be_clickable(AssistedReadPage.DOWNLOAD_BUTTON)
             )
             download_button.click()
             time.sleep(1)
 
             # 选择PDF下载选项
             pdf_option = wait.until(
-                EC.element_to_be_clickable(page.locators.PDF_DOWNLOAD_OPTION)
+                EC.element_to_be_clickable(AssistedReadPage.PDF_DOWNLOAD_OPTION)
             )
             pdf_option.click()
             time.sleep(3)
@@ -238,34 +246,34 @@ class AssistedReadUtils:
 
             # 点击庭审笔录2
             court_record2 = wait.until(
-                EC.element_to_be_clickable(page.locators.COURT_RECORD2)
+                EC.element_to_be_clickable(AssistedReadPage.COURT_RECORD2)
             )
             court_record2.click()
             time.sleep(2)
 
             # 点击添加为证据按钮
             add_evidence = wait.until(
-                EC.element_to_be_clickable(page.locators.ADD_EVIDENCE_BUTTON)
+                EC.element_to_be_clickable(AssistedReadPage.ADD_EVIDENCE_BUTTON)
             )
             add_evidence.click()
             time.sleep(2)
 
             # 选择目录
             dropdown = wait.until(
-                EC.element_to_be_clickable(page.locators.DIRECTORY_DROPDOWN)
+                EC.element_to_be_clickable(AssistedReadPage.DIRECTORY_DROPDOWN)
             )
             dropdown.click()
             time.sleep(1)
 
             court_materials = wait.until(
-                EC.element_to_be_clickable(page.locators.COURT_MATERIALS_OPTION)
+                EC.element_to_be_clickable(AssistedReadPage.COURT_MATERIALS_OPTION)
             )
             court_materials.click()
             time.sleep(1)
 
             # 确认添加
             confirm = wait.until(
-                EC.element_to_be_clickable(page.locators.CONFIRM_ADD_EVIDENCE)
+                EC.element_to_be_clickable(AssistedReadPage.CONFIRM_ADD_EVIDENCE)
             )
             confirm.click()
             time.sleep(2)
@@ -285,34 +293,34 @@ class AssistedReadUtils:
 
             # 选择庭审笔录3
             checkbox = wait.until(
-                EC.element_to_be_clickable(page.locators.COURT_RECORD3_CHECKBOX)
+                EC.element_to_be_clickable(AssistedReadPage.COURT_RECORD3_CHECKBOX)
             )
             checkbox.click()
             time.sleep(1)
 
             # 点击证据添加按钮
             add_button = wait.until(
-                EC.element_to_be_clickable(page.locators.EVIDENCE_ADD_BUTTON)
+                EC.element_to_be_clickable(AssistedReadPage.EVIDENCE_ADD_BUTTON)
             )
             add_button.click()
             time.sleep(1)
 
             # 选择目录
             dropdown = wait.until(
-                EC.element_to_be_clickable(page.locators.DIRECTORY_DROPDOWN2)
+                EC.element_to_be_clickable(AssistedReadPage.DIRECTORY_DROPDOWN2)
             )
             dropdown.click()
             time.sleep(1)
 
             appellant = wait.until(
-                EC.element_to_be_clickable(page.locators.APPELLANT_OPTION)
+                EC.element_to_be_clickable(AssistedReadPage.APPELLANT_OPTION)
             )
             appellant.click()
             time.sleep(1)
 
             # 确认添加
             confirm = wait.until(
-                EC.element_to_be_clickable(page.locators.CONFIRM_EVIDENCE_BUTTON)
+                EC.element_to_be_clickable(AssistedReadPage.CONFIRM_EVIDENCE_BUTTON)
             )
             confirm.click()
             time.sleep(2)
@@ -332,28 +340,28 @@ class AssistedReadUtils:
 
             # 点击证据引用标签页
             tab = wait.until(
-                EC.element_to_be_clickable(page.locators.EVIDENCE_REFERENCE_TAB)
+                EC.element_to_be_clickable(AssistedReadPage.EVIDENCE_REFERENCE_TAB)
             )
             tab.click()
             time.sleep(2)
 
             # 点击刷新按钮
             refresh = wait.until(
-                EC.element_to_be_clickable(page.locators.REFRESH_BUTTON)
+                EC.element_to_be_clickable(AssistedReadPage.REFRESH_BUTTON)
             )
             refresh.click()
             time.sleep(2)
 
             # 查看详情
             detail = wait.until(
-                EC.element_to_be_clickable(page.locators.EVIDENCE_RECORD_DETAIL)
+                EC.element_to_be_clickable(AssistedReadPage.EVIDENCE_RECORD_DETAIL)
             )
             detail.click()
             time.sleep(2)
 
             # 关闭详情
             close = wait.until(
-                EC.element_to_be_clickable(page.locators.CLOSE_DETAIL_BUTTON)
+                EC.element_to_be_clickable(AssistedReadPage.CLOSE_DETAIL_BUTTON)
             )
             close.click()
             time.sleep(2)
@@ -373,27 +381,27 @@ class AssistedReadUtils:
 
             # 选择庭审笔录2和3
             record2 = wait.until(
-                EC.element_to_be_clickable(page.locators.RECORD2_CHECKBOX)
+                EC.element_to_be_clickable(AssistedReadPage.RECORD2_CHECKBOX)
             )
             record2.click()
             time.sleep(1)
 
             record3 = wait.until(
-                EC.element_to_be_clickable(page.locators.RECORD3_CHECKBOX)
+                EC.element_to_be_clickable(AssistedReadPage.RECORD3_CHECKBOX)
             )
             record3.click()
             time.sleep(1)
 
             # 点击双屏阅卷按钮
             dual_screen = wait.until(
-                EC.element_to_be_clickable(page.locators.DUAL_SCREEN_READING_BUTTON)
+                EC.element_to_be_clickable(AssistedReadPage.DUAL_SCREEN_READING_BUTTON)
             )
             dual_screen.click()
             time.sleep(3)
 
             # 关闭双屏阅卷
             close = wait.until(
-                EC.element_to_be_clickable(page.locators.CLOSE_DUAL_SCREEN_BUTTON)
+                EC.element_to_be_clickable(AssistedReadPage.CLOSE_DUAL_SCREEN_BUTTON)
             )
             close.click()
             time.sleep(2)
@@ -413,7 +421,7 @@ class AssistedReadUtils:
 
             wait = WebDriverWait(page.driver, 10)
             selector = wait.until(
-                EC.element_to_be_clickable(page.locators.APPELLANT_SELECTOR)
+                EC.element_to_be_clickable(AssistedReadPage.APPELLANT_SELECTOR)
             )
 
             # 滚动到元素位置
@@ -434,7 +442,7 @@ class AssistedReadUtils:
             # 选择第三人选项
             try:
                 third_party = wait.until(
-                    EC.element_to_be_clickable(page.locators.THIRD_PARTY_OPTION)
+                    EC.element_to_be_clickable(AssistedReadPage.THIRD_PARTY_OPTION)
                 )
                 third_party.click()
             except:
@@ -464,14 +472,14 @@ class AssistedReadUtils:
 
             # 点击刷新按钮
             refresh = wait.until(
-                EC.element_to_be_clickable(page.locators.REFRESH_BUTTON)
+                EC.element_to_be_clickable(AssistedReadPage.REFRESH_BUTTON)
             )
             refresh.click()
             time.sleep(2)
 
             # 取消选中庭审笔录3
             record3 = wait.until(
-                EC.element_to_be_clickable(page.locators.RECORD4_CHECKBOX)
+                EC.element_to_be_clickable(AssistedReadPage.RECORD4_CHECKBOX)
             )
             record3.click()
             time.sleep(1)
@@ -491,7 +499,7 @@ class AssistedReadUtils:
 
             # 点击批量修改按钮
             batch_edit = wait.until(
-                EC.element_to_be_clickable(page.locators.BATCH_EDIT_BUTTON)
+                EC.element_to_be_clickable(AssistedReadPage.BATCH_EDIT_BUTTON)
             )
             batch_edit.click()
             time.sleep(2)
@@ -499,7 +507,7 @@ class AssistedReadUtils:
             # 修改证据名称
             AssistedReadUtils._fill_cell_value(
                 page,
-                page.locators.EVIDENCE_NAME_CELL,
+                AssistedReadPage.EVIDENCE_NAME_CELL,
                 "庭审笔录2修改",
                 "证据名称"
             )
@@ -507,14 +515,14 @@ class AssistedReadUtils:
             # 选择质证类型
             AssistedReadUtils._select_dropdown_option(
                 page,
-                page.locators.EVIDENCE_TYPE_CELL,
-                page.locators.NO_OBJECTION_OPTION
+                AssistedReadPage.EVIDENCE_TYPE_CELL,
+                AssistedReadPage.NO_OBJECTION_OPTION
             )
 
             # 填写质证意见 - 使用特殊处理方法
             AssistedReadUtils._fill_cell_js(
                 page,
-                page.locators.EVIDENCE_OPINION_CELL,
+                AssistedReadPage.EVIDENCE_OPINION_CELL,
                 "无意见",
                 "质证意见"
             )
@@ -522,7 +530,7 @@ class AssistedReadUtils:
             # 填写证明目的 - 使用特殊处理方法
             AssistedReadUtils._fill_cell_js(
                 page,
-                page.locators.EVIDENCE_PURPOSE_CELL,
+                AssistedReadPage.EVIDENCE_PURPOSE_CELL,
                 "无目的",
                 "证明目的"
             )
@@ -530,20 +538,20 @@ class AssistedReadUtils:
             # 选择证件类型
             AssistedReadUtils._select_dropdown_option(
                 page,
-                page.locators.EVIDENCE_DOCUMENT_TYPE_CELL,
-                page.locators.PHYSICAL_EVIDENCE_OPTION
+                AssistedReadPage.EVIDENCE_DOCUMENT_TYPE_CELL,
+                AssistedReadPage.PHYSICAL_EVIDENCE_OPTION
             )
 
             # 选择证据形式
             AssistedReadUtils._select_dropdown_option(
                 page,
-                page.locators.EVIDENCE_FORM_CELL,
-                page.locators.PHOTO_EVIDENCE_OPTION
+                AssistedReadPage.EVIDENCE_FORM_CELL,
+                AssistedReadPage.PHOTO_EVIDENCE_OPTION
             )
 
             # 确认修改
             confirm = wait.until(
-                EC.element_to_be_clickable(page.locators.CONFIRM_BATCH_EDIT_BUTTON)
+                EC.element_to_be_clickable(AssistedReadPage.CONFIRM_BATCH_EDIT_BUTTON)
             )
             page.driver.execute_script("arguments[0].click();", confirm)
             time.sleep(2)
@@ -670,7 +678,7 @@ class AssistedReadUtils:
             # 1. 点击承办人/助理下拉框
             logger.info("点击承办人/助理下拉框")
             handler_dropdown = wait.until(
-                EC.element_to_be_clickable(page.locators.HANDLER_DROPDOWN)
+                EC.element_to_be_clickable(AssistedReadPage.HANDLER_DROPDOWN)
             )
             handler_dropdown.click()
             time.sleep(1)
@@ -678,7 +686,7 @@ class AssistedReadUtils:
             # 2. 选择全部
             logger.info("选择全部")
             all_option = wait.until(
-                EC.element_to_be_clickable(page.locators.HANDLER_ALL_OPTION)
+                EC.element_to_be_clickable(AssistedReadPage.HANDLER_ALL_OPTION)
             )
             all_option.click()
             time.sleep(2)
@@ -686,7 +694,7 @@ class AssistedReadUtils:
             # 3. 输入案件编号
             logger.info(f"输入案件编号: {case_number}")
             case_number_input = wait.until(
-                EC.element_to_be_clickable(page.locators.CASE_NUMBER_INPUT)
+                EC.element_to_be_clickable(AssistedReadPage.CASE_NUMBER_INPUT)
             )
             case_number_input.clear()
             case_number_input.send_keys(case_number)
@@ -695,7 +703,7 @@ class AssistedReadUtils:
             # 4. 输入案件名称
             logger.info(f"输入案件名称: {case_name}")
             case_name_input = wait.until(
-                EC.element_to_be_clickable(page.locators.CASE_NAME_INPUT)
+                EC.element_to_be_clickable(AssistedReadPage.CASE_NAME_INPUT)
             )
             case_name_input.clear()
             case_name_input.send_keys(case_name)
@@ -704,7 +712,7 @@ class AssistedReadUtils:
             # 5. 点击判决书状态下拉框
             logger.info("点击判决书状态下拉框")
             judgment_status = wait.until(
-                EC.element_to_be_clickable(page.locators.JUDGMENT_STATUS_DROPDOWN)
+                EC.element_to_be_clickable(AssistedReadPage.JUDGMENT_STATUS_DROPDOWN)
             )
             judgment_status.click()
             time.sleep(1)
@@ -712,7 +720,7 @@ class AssistedReadUtils:
             # 6. 选择未生成状态
             logger.info("选择未生成状态")
             not_generated = wait.until(
-                EC.element_to_be_clickable(page.locators.JUDGMENT_STATUS_NOT_GENERATED)
+                EC.element_to_be_clickable(AssistedReadPage.JUDGMENT_STATUS_NOT_GENERATED)
             )
             not_generated.click()
             time.sleep(1)
@@ -720,7 +728,7 @@ class AssistedReadUtils:
             # 7. 点击查询按钮
             logger.info("点击查询按钮")
             search_button = wait.until(
-                EC.element_to_be_clickable(page.locators.SEARCH_BUTTON)
+                EC.element_to_be_clickable(AssistedReadPage.SEARCH_BUTTON)
             )
             search_button.click()
             time.sleep(2)
@@ -741,7 +749,7 @@ class AssistedReadUtils:
 
             # 点击重置按钮
             reset_button = wait.until(
-                EC.element_to_be_clickable(page.locators.RESET_BUTTON)
+                EC.element_to_be_clickable(AssistedReadPage.RESET_BUTTON)
             )
             reset_button.click()
             time.sleep(2)

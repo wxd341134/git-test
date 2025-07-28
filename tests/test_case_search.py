@@ -74,7 +74,7 @@ class TestCaseSearch(BaseTest):
                 result = AssistedReadUtils.perform_case_search(
                     self.assisted_page,
                     case_number="2025",
-                    case_name="(2025)苏0105民初0001号"
+                    case_name="2024苏1003民初5832号"
                 )
 
                 if not result:

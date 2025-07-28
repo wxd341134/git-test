@@ -5,11 +5,12 @@ from tests.base_test import BaseTest
 from pages.DossierUp_page import DossierUpPage
 from common.DossierUp_utils import DossierUpUtils
 from utils.common import get_project_root
-from utils.logger2 import Logger
+from utils.logger import Logger
 
 logger = Logger().get_logger()
 
-@allure.epic("法官AI系统测试")
+
+@allure.epic("案件列表")
 @allure.feature("卷宗管理")
 class TestDossierUpload(BaseTest):
     """卷宗上传测试类"""
@@ -33,15 +34,15 @@ class TestDossierUpload(BaseTest):
         """测试卷宗上传流程"""
         try:
             logger.info("开始卷宗上传测试")
-            
+
             # 执行完整的上传流程
             result = DossierUpUtils.execute_upload_workflow(self.dossier_page, self.test_data_dir)
-            
+
             # 断言测试结果
             assert result, "卷宗上传流程失败"
-            
+
             logger.info("卷宗上传测试完成")
-            
+
         except Exception as e:
             logger.error(f"卷宗上传测试失败: {str(e)}")
             allure.attach(

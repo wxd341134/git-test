@@ -4,8 +4,8 @@ import os
 import allure
 from datetime import datetime
 from pages.login_page import LoginPage
-from pages.case_page import CasePage
-from common.case_utils import CaseUtils
+from pages.caseMg_page import CasePage
+from common.caseMg_utils import CaseUtils
 from tests.base_test import BaseTest
 from utils.common import load_json_data, get_project_root
 from utils.logger import Logger

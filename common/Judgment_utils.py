@@ -384,10 +384,10 @@ class JudgmentUtils:
                     time.sleep(1)
 
                 # 5. 返回上一层
-                # with allure.step("返回上一层"):
-                #     logger.info("点击返回上一层")
-                #     self.click_element(JudgmentPage.BACK_BUTTON, "返回上一层按钮")
-                #     time.sleep(1)
+                with allure.step("返回上一层"):
+                    logger.info("点击返回上一层")
+                    self.click_element(JudgmentPage.BACK_BUTTON, "返回上一层按钮")
+                    time.sleep(1)
 
                 logger.info("辅助阅卷操作完成")
                 return True
@@ -610,6 +610,112 @@ class JudgmentUtils:
                     allure.attachment_type.PNG
                 )
                 raise
+
+    def damage_calculator_operations(self):
+        """执行损害赔偿计算器相关操作"""
+        with allure.step("执行损害赔偿计算器操作"):
+            try:
+                # 1. 打开计算器
+                with allure.step("打开损害赔偿计算器"):
+                    logger.info("点击计算器按钮")
+                    self.click_element(JudgmentPage.CALCULATOR, "计算器按钮")
+                    time.sleep(1)
+
+                    logger.info("选择损害赔偿计算器")
+                    self.click_element(JudgmentPage.DAMAGE_CALCULATOR, "损害赔偿计算器")
+                    time.sleep(1)
+
+                # 2. 医疗费用设置
+                with allure.step("设置医疗费用"):
+                    # 点击医疗费标题
+                    logger.info("展开医疗费项目")
+                    self.click_element(JudgmentPage.MEDICAL_FEE_TITLE, "医疗费标题")
+                    time.sleep(1)
+
+                    # 输入医院名称
+                    logger.info("输入医院名称")
+                    hospital_input = self.wait.until(
+                        EC.presence_of_element_located(JudgmentPage.HOSPITAL_NAME_INPUT)
+                    )
+                    hospital_input.clear()
+                    hospital_input.send_keys("江宁医院")
+                    time.sleep(1)
+
+                    # 输入医疗费
+                    logger.info("输入医疗费")
+                    self.click_element(JudgmentPage.MEDICAL_FEE_INPUT, "医疗费输入框")
+                    medical_fee_input = self.driver.switch_to.active_element
+                    medical_fee_input.send_keys("1000")
+                    time.sleep(1)
+
+                    # 输入住院费
+                    logger.info("输入住院费")
+                    self.click_element(JudgmentPage.HOSPITALIZATION_FEE_INPUT, "住院费输入框")
+                    hospitalization_input = self.driver.switch_to.active_element
+                    hospitalization_input.send_keys("2000")
+                    time.sleep(1)
+
+                    # 点击新增和删除按钮
+                    logger.info("测试新增和删除功能")
+                    self.click_element(JudgmentPage.ADD_BUTTON, "新增按钮")
+                    time.sleep(1)
+                    self.click_element(JudgmentPage.DELETE_BUTTON, "删除按钮")
+                    time.sleep(1)
+
+                # 3. 住宿费用设置
+                with allure.step("设置住宿费用"):
+                    # 点击住宿费标题
+                    logger.info("展开住宿费项目")
+                    self.click_element(JudgmentPage.ACCOMMODATION_TITLE, "住宿费标题")
+                    time.sleep(1)
+
+                    # 输入住宿费
+                    logger.info("输入住宿费")
+                    accommodation_fee = self.wait.until(
+                        EC.presence_of_element_located(JudgmentPage.ACCOMMODATION_FEE_INPUT)
+                    )
+                    accommodation_fee.clear()
+                    accommodation_fee.send_keys("200")
+                    time.sleep(1)
+
+                    # 输入住宿天数
+                    logger.info("输入住宿天数")
+                    accommodation_days = self.wait.until(
+                        EC.presence_of_element_located(JudgmentPage.ACCOMMODATION_DAYS_INPUT)
+                    )
+                    accommodation_days.clear()
+                    accommodation_days.send_keys("7")
+                    time.sleep(3)
+
+                # 4. 取消选中项目
+                with allure.step("取消选中项目"):
+                    logger.info("取消选中医疗费")
+                    self.click_element(JudgmentPage.MEDICAL_FEE_TITLE, "医疗费标题")
+                    time.sleep(1.5)
+
+                    logger.info("取消选中住宿费")
+                    self.click_element(JudgmentPage.ACCOMMODATION_TITLE, "住宿费标题")
+                    time.sleep(1.5)
+
+                # 5. 关闭计算器
+                with allure.step("关闭计算器"):
+                    logger.info("关闭计算器")
+                    self.click_element(JudgmentPage.CLOSE_CALCULATOR, "关闭按钮")
+                    time.sleep(1.5)
+
+                logger.info("损害赔偿计算器操作完成")
+                return True
+
+            except Exception as e:
+                logger.error(f"损害赔偿计算器操作失败: {str(e)}")
+                allure.attach(
+                    self.driver.get_screenshot_as_png(),
+                    "计算器操作失败截图",
+                    allure.attachment_type.PNG
+                )
+                raise
+
+
 
 
 

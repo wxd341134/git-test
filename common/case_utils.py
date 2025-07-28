@@ -2,208 +2,235 @@ import time
 import allure
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+from pages.caseMg_page import CasePage
 from utils.logger import Logger
 
 logger = Logger().get_logger()
 
+
 class CaseUtils:
-    """案件操作工具类"""
+    """案件管理工具类"""
 
-    def __init__(self, page):
-        """
-        初始化
-        :param page: CasePage实例
-        """
-        self.page = page
-        self.logger = logger
+    def __init__(self, driver):
+        self.driver = driver
+        self.wait = WebDriverWait(driver, 10)
+        self.current_time = "2025-07-18 07:11:55"
+        self.current_user = "wxd341134"
 
-
-    @allure.step("添加案件")
-    def add_case(self, case_name, case_number):
-        """
-        添加案件的业务流程
-        :param case_name: 案件名称
-        :param case_number: 案件编号
-        """
+    def _click_element(self, locator, element_name):
+        """通用点击元素方法"""
         try:
-            self.logger.info(f"开始添加案件: {case_name}")
+            element = self.wait.until(EC.element_to_be_clickable(locator))
+            element.click()
+            logger.info(f"{self.current_time} - {self.current_user} - 点击 {element_name} 成功")
+            time.sleep(1)
+            return True
+        except Exception as e:
+            logger.error(f"{self.current_time} - {self.current_user} - 点击 {element_name} 失败: {str(e)}")
+            self._take_screenshot(f"{element_name}点击失败")
+            return False
 
-            # 打开添加表单
+    def _input_text(self, locator, text, element_name):
+        """通用文本输入方法"""
+        try:
+            element = self.wait.until(EC.presence_of_element_located(locator))
+            element.clear()
+            element.send_keys(text)
+            logger.info(f"{self.current_time} - {self.current_user} - 在 {element_name} 中输入文本 '{text}' 成功")
+            return True
+        except Exception as e:
+            logger.error(f"{self.current_time} - {self.current_user} - 文本输入失败: {str(e)}")
+            self._take_screenshot(f"{element_name}输入失败")
+            return False
+
+    def _take_screenshot(self, name):
+        """统一的截图方法"""
+        allure.attach(
+            self.driver.get_screenshot_as_png(),
+            name=name,
+            attachment_type=allure.attachment_type.PNG
+        )
+
+    @allure.step("添加案件: {case_name}")
+    def add_case(self, case_name, case_number):
+        """添加案件流程"""
+        try:
+            # 点击添加按钮
             with allure.step("点击添加按钮"):
-                self.page.click_element(self.page.add_button)
-                time.sleep(1)
-                self.page.take_screenshot("add_case_form")
+                if not self._click_element(CasePage.add_button, "添加按钮"):
+                    return False
 
             # 填写基本信息
-            with allure.step(f"输入案件基本信息"):
-                self._fill_case_basic_info(case_name, case_number)
+            with allure.step("填写案件信息"):
+                if not self._input_text(CasePage.case_name_input, case_name, "案件名称"):
+                    return False
+                if not self._input_text(CasePage.case_number_input, case_number, "案件编号"):
+                    return False
 
             # 选择案件类型
             with allure.step("选择案件类型"):
-                self._select_case_type()
+                if not self._select_case_type():
+                    return False
 
-            # 选择案由类型
+            # 选择案由
             with allure.step("选择案由类型"):
-                self._select_case_reason()
+                if not self._select_case_reason():
+                    return False
 
             # 填写原审案号
-            with allure.step(f"输入原审案号: {case_number}"):
-                self._fill_original_case_number(case_number)
+            with allure.step("填写原审案号"):
+                if not self._input_original_case_number(case_number):
+                    return False
 
-            # 选择立案日期
+            # 选择日期
             with allure.step("选择立案日期"):
-                self._select_filing_date()
+                if not self._select_filing_date():
+                    return False
 
             # 提交表单
             with allure.step("提交案件信息"):
-                self._submit_form()
+                if not self._click_element(CasePage.confirm_button, "确认按钮"):
+                    return False
 
-            self.logger.info(f"案件添加成功: {case_name}")
+            logger.info(f"{self.current_time} - {self.current_user} - 案件添加成功: {case_name}")
             return True
 
         except Exception as e:
-            self.logger.error(f"添加案件失败: {str(e)}")
-            allure.attach(
-                self.page.driver.get_screenshot_as_png(),
-                "添加案件失败截图",
-                allure.attachment_type.PNG
-            )
-            raise
-
-    @allure.step("编辑案件")
-    def edit_case(self, case_name):
-        """
-        编辑案件的业务流程
-        :param case_name: 要编辑的案件名称
-        """
-        try:
-            self.logger.info(f"开始编辑案件: {case_name}")
-
-            # 打开编辑表单
-            with allure.step(f"定位并打开编辑表单"):
-                self._open_edit_form(case_name)
-
-            # 修改案件名称
-            with allure.step(f"修改案件名称为: {case_name}修改"):
-                self._modify_case_name(case_name)
-
-            # 提交修改
-            with allure.step("提交修改"):
-                self._submit_form()
-
-            self.logger.info(f"案件修改成功: {case_name}修改")
-            return True
-
-        except Exception as e:
-            self.logger.error(f"编辑案件失败: {str(e)}")
-            allure.attach(
-                self.page.driver.get_screenshot_as_png(),
-                "编辑案件失败截图",
-                allure.attachment_type.PNG
-            )
-            raise
-
-    @allure.step("删除案件")
-    def delete_case(self, case_number):
-        """
-        删除案件的业务流程
-        :param case_number: 要删除的案件编号
-        """
-        try:
-            self.logger.info(f"开始删除案件: {case_number}")
-
-            # 点击删除按钮
-            with allure.step("定位到删除按钮"):
-                self._click_delete_button(case_number)
-
-            # 确认删除
-            with allure.step("确认删除"):
-                self._confirm_delete()
-
-            self.logger.info(f"案件删除成功: {case_number}")
-            return True
-
-        except Exception as e:
-            self.logger.error(f"删除案件失败: {str(e)}")
-            allure.attach(
-                self.page.driver.get_screenshot_as_png(),
-                "删除案件失败截图",
-                allure.attachment_type.PNG
-            )
-            raise
-
-    # 私有辅助方法
-    def _fill_case_basic_info(self, case_name, case_number):
-        """填写案件基本信息"""
-        self.page.input_text(self.page.case_name_input, case_name)
-        self.page.input_text(self.page.case_number_input, case_number)
-        time.sleep(1)
-        self.page.take_screenshot("basic_info_filled")
+            logger.error(f"{self.current_time} - {self.current_user} - 案件添加失败: {str(e)}")
+            self._take_screenshot("add_case_failed")
+            return False
 
     def _select_case_type(self):
         """选择案件类型"""
-        self.page.click_element(self.page.case_type_dropdown)
-        self.page.click_element(self.page.civil_case_option)
-        self.page.click_element(self.page.civil_case_option2)
-        time.sleep(1)
-        self.page.take_screenshot("case_type_selected")
+        try:
+            # 点击案件类型下拉框
+            if not self._click_element(CasePage.case_type_dropdown, "案件类型下拉框"):
+                return False
+
+            # 选择民事案件
+            if not self._click_element(CasePage.civil_case_option, "民事案件选项"):
+                return False
+
+            # 选择民事一审
+            if not self._click_element(CasePage.civil_case_option2, "民事一审选项"):
+                return False
+
+            logger.info(f"{self.current_time} - {self.current_user} - 选择案件类型成功")
+            return True
+        except Exception as e:
+            logger.error(f"{self.current_time} - {self.current_user} - 选择案件类型失败: {str(e)}")
+            self._take_screenshot("select_case_type_failed")
+            return False
 
     def _select_case_reason(self):
         """选择案由类型"""
-        self.page.click_element(self.page.reason_select)
-        self.page.click_element(self.page.admin_case_option)
-        time.sleep(1)
-        self.page.take_screenshot("reason_type_selected")
+        try:
+            # 点击案由选择框
+            if not self._click_element(CasePage.reason_select, "案由选择框"):
+                return False
 
-    def _fill_original_case_number(self, case_number):
-        """填写原审案号"""
-        self.page.click_element(self.page.original_case_input)
-        time.sleep(1)
-        element = self.page.find_element(self.page.original_case_field)
-        element.send_keys(case_number)
-        time.sleep(1)
+            # 选择行政案由
+            if not self._click_element(CasePage.admin_case_option, "行政案由选项"):
+                return False
+
+            logger.info(f"{self.current_time} - {self.current_user} - 选择案由类型成功")
+            return True
+        except Exception as e:
+            logger.error(f"{self.current_time} - {self.current_user} - 选择案由类型失败: {str(e)}")
+            self._take_screenshot("select_case_reason_failed")
+            return False
+
+    def _input_original_case_number(self, case_number):
+        """输入原审案号"""
+        try:
+            # 点击原审案号输入框
+            if not self._click_element(CasePage.original_case_input, "原审案号输入框"):
+                return False
+
+            # 输入原审案号
+            if not self._input_text(CasePage.original_case_field, case_number, "原审案号"):
+                return False
+
+            logger.info(f"{self.current_time} - {self.current_user} - 输入原审案号成功")
+            return True
+        except Exception as e:
+            logger.error(f"{self.current_time} - {self.current_user} - 输入原审案号失败: {str(e)}")
+            self._take_screenshot("input_original_case_number_failed")
+            return False
 
     def _select_filing_date(self):
         """选择立案日期"""
-        self.page.click_element(self.page.date_input)
-        self.page.click_element(self.page.today_option)
-        time.sleep(1)
-        self.page.take_screenshot("date_selected")
+        try:
+            # 点击日期输入框
+            if not self._click_element(CasePage.date_input, "日期输入框"):
+                return False
 
-    def _submit_form(self):
-        """提交表单"""
-        self.page.click_element(self.page.confirm_button)
-        time.sleep(2)
-        self.page.take_screenshot("form_submitted")
+            # 选择今天
+            if not self._click_element(CasePage.today_option, "今天选项"):
+                return False
 
-    def _open_edit_form(self, case_name):
-        """打开编辑表单"""
-        edit_xpath = f"//td[@title='{case_name}'][1]/ancestor::div[contains(@class, 'ant-table-content')]/div[3]/div[2]/div/table/tbody/tr/td[3]/div/div[3]"
-        self.page.click_element((By.XPATH, edit_xpath))
-        time.sleep(1)
-        self.page.take_screenshot("edit_form_opened")
+            logger.info(f"{self.current_time} - {self.current_user} - 选择立案日期成功")
+            return True
+        except Exception as e:
+            logger.error(f"{self.current_time} - {self.current_user} - 选择立案日期失败: {str(e)}")
+            self._take_screenshot("select_filing_date_failed")
+            return False
 
-    def _modify_case_name(self, case_name):
-        """修改案件名称"""
-        case_name_field = self.page.find_element(self.page.case_name_input)
-        case_name_field.send_keys(Keys.CONTROL + "a")
-        case_name_field.send_keys(Keys.BACKSPACE)
-        time.sleep(1)
-        case_name_field.send_keys(f'{case_name}修改')
-        time.sleep(1)
-        self.page.take_screenshot("case_name_modified")
+    @allure.step("编辑案件: {case_name}")
+    def edit_case(self, case_name):
+        """编辑案件流程"""
+        try:
+            # 定位编辑按钮
+            edit_locator = (By.XPATH, f"//td[@title='{case_name}']/ancestor::tr/td[11]/div/div[3]//*[name()='svg']")
 
-    def _click_delete_button(self, case_number):
-        """点击删除按钮"""
-        delete_xpath = f"//td[@title='{case_number}'][1]/ancestor::div[contains(@class, 'ant-table-content')]/div[3]/div[2]/div/table/tbody/tr/td[3]/div/div[4]"
-        self.page.click_element((By.XPATH, delete_xpath))
-        time.sleep(1)
-        self.page.take_screenshot("delete_button_clicked")
+            # 点击编辑按钮
+            with allure.step("点击编辑按钮"):
+                if not self._click_element(edit_locator, "编辑按钮"):
+                    return False
 
-    def _confirm_delete(self):
-        """确认删除"""
-        confirm_delete_button = (By.XPATH, "//div[@class='ant-modal-body']//button[2]")
-        self.page.click_element(confirm_delete_button)
-        time.sleep(2)
-        self.page.take_screenshot("delete_confirmed")
+            # 修改案件名称
+            with allure.step("修改案件名称"):
+                new_name = f"{case_name}修改"
+                if not self._input_text(CasePage.case_name_input, new_name, "案件名称"):
+                    return False
 
+            # 提交修改
+            with allure.step("提交修改"):
+                if not self._click_element(CasePage.confirm_button, "确认按钮"):
+                    return False
+
+            logger.info(f"{self.current_time} - {self.current_user} - 案件编辑成功: {new_name}")
+            return True
+
+        except Exception as e:
+            logger.error(f"{self.current_time} - {self.current_user} - 案件编辑失败: {str(e)}")
+            self._take_screenshot("edit_case_failed")
+            return False
+
+    @allure.step("删除案件: {case_number}")
+    def delete_case(self, case_number):
+        """删除案件流程"""
+        try:
+            # 定位删除按钮
+            delete_locator = (By.XPATH, f"//td[@title='{case_number}']/ancestor::tr/td[11]/div/div[4]//*[name()='svg']")
+
+            # 点击删除按钮
+            with allure.step("点击删除按钮"):
+                if not self._click_element(delete_locator, "删除按钮"):
+                    return False
+
+            # 确认删除
+            with allure.step("确认删除"):
+                if not self._click_element(CasePage.confirm_button, "确认删除"):
+                    return False
+
+            logger.info(f"{self.current_time} - {self.current_user} - 案件删除成功: {case_number}")
+            return True
+
+        except Exception as e:
+            logger.error(f"{self.current_time} - {self.current_user} - 案件删除失败: {str(e)}")
+            self._take_screenshot("delete_case_failed")
+            return False

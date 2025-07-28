@@ -7,17 +7,17 @@ import time
 
 logger = Logger().get_logger()
 
-class AssistedReadLocators:
+class AssistedReadPage:
     """辅助阅卷页面元素定位器"""
 
     # 主要操作区域
     AUXILIARY_READING = (
         By.XPATH,
-        "//div[@class='ant-table-fixed-right']/div[2]//tbody/tr[1]/td[1]/div/i[1]"
+        "//div[@class='ant-table-fixed-right']/div[2]//tbody/tr[1]/td[1]/div/i[1]"             #第一个案件
     )
 
     # 庭审笔录相关元素
-    COURT_RECORD = (By.XPATH, "//span[@class='ant-tree-title']/span[text()='庭审笔录1']")
+    COURT_RECORD = (By.XPATH, "//span[@class='ant-tree-title']/span[text()='庭审笔录2']")
     SET_RECORD = (By.XPATH, "//span[@class='ant-tree-title']/span[text()='庭审笔录1']/following-sibling::i[2]")
     CANCEL_SET_RECORD = (By.CSS_SELECTOR, "svg[data-v-19fbe780][data-v-3f752b24].plusType.svg-icon")
     CONFIRM_CANCEL_BUTTON = (By.CSS_SELECTOR, "button.ant-btn.ant-btn-primary.ant-btn-sm")
@@ -90,19 +90,3 @@ class AssistedReadLocators:
     SEARCH_BUTTON = (By.XPATH, "//body//div//button[1]")
     RESET_BUTTON = (By.XPATH, "//body//div//button[3]")
 
-
-
-
-
-
-class AssistedReadPage:
-    """辅助阅卷页面类"""
-
-    def __init__(self, driver):
-        """初始化页面对象"""
-        self.driver = driver
-        self.locators = AssistedReadLocators()
-
-    def get_locator(self, locator_name):
-        """获取元素定位器"""
-        return getattr(self.locators, locator_name)
